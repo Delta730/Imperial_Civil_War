@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Campaign: Rim World Conflict (Rebel)	******-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+<Event Name="Faction_Intro">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Republic_Intro</Reward_Param1>
+	</Event>
+	
+	
+		<Event Name="Faction_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Faction_Intro</Prereq>
+		</Event>	
+
+<Event Name="Long_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Star_Wars_Intro</Reward_Param1>
+		<Prereq>Faction_Fin</Prereq>
+	</Event>
+	
+	
+	
+		<Event Name="Long_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Long_Text</Prereq>
+		</Event>	
+
+		
+	<Event Name="Zsinj_Text_Crawl">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Zsinj_Campaign_Intro</Reward_Param1>
+		<Prereq>Long_Text_Fin</Prereq>
+	</Event>
+	
+	
+		<Event Name="Zsinj_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Zsinj_Text_Crawl</Prereq>
+		</Event>	
+				<Event Name="Thrawn_Text_Fin2">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+				<Reward_Param1>BlahBlah</Reward_Param1>
+				<Prereq>Zsinj_Text_Fin</Prereq>
+			</Event> 
+			
+			
+						<Event Name="Pause_For_Movie">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+	
+	<Event Name="UnPause_For_Game">
+					<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+	</Event>
+			
+	 <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+
+ </Event>
+
+<!-- Force Rebels to get X-wing instead of Z-95 to start -->
+	<Event Name="Unlock_X_wings">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_X-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Z95_Headhunter_Rebel_Squadron</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_Star_Destroyer_Two">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Star_Destroyer_Two</Reward_Param1>
+		<Reward_Param2>Calamari_Cruiser</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_AMM_Interdictor_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Interdictor_Cruiser</Reward_Param1>
+		<Reward_Param2>CC7700</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_AMM_Carrack_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Carrack_Cruiser</Reward_Param1>
+		<Reward_Param2>Nebulon_B_Cruiser</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_AMM_Dominator_Star_Destroyer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Dominator_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Nebulon_B-2_Cruiser</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_AMM_BattleDragon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_BattleDragon</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_AMM_Nova_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Nova_Cruiser</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	<Event Name="Unlock_AMM_Century_Brigade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Century_Brigade</Reward_Param1>
+		<Reward_Param2>Rebel_Light_Tank_Brigade</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_AMM_Heavy_Scout_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Century_Brigade</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Lock_MC90">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MC90</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<Event Name="Lock_Vwing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Speeder_Wing</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+			<Event Name="Lock_Sacheen">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Sacheen</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+			<Event Name="Lock_Endurance">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Endurance</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+				<Event Name="Lock_Neb">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Neb</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+				<Event Name="Lock_Republic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+				<Event Name="Lock_Maj">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Majestic</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+				<Event Name="Lock_Viscount">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Viscount</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<Event Name="Lock_Corona">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Corona</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Lock_BAC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>BAC</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<Event Name="Lock_E-Wing_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>E-Wing_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<Event Name="Lock_K-Wing_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>K-Wing_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+<!-- Rebel Hero Release -->
+
+
+	<!-- Spawn Tech 1 Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Isolder">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Song_of_War</Reward_Param1>
+		<Reward_Param2>Hapes</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Rogriss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Agonizer</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Han">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Remonda</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+			  <Event Name="Intro_Welcome">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_ZSINJ_NR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+    <Reward_Param8 />
+    <Reward_Param9>Han_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Universal_Story_Start</Prereq>
+  </Event>
+	
+</Story>

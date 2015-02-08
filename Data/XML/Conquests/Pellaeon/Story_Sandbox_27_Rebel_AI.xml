@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+
+
+
+<!--***************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Rebel Version) *****-->
+<!--***************************************************-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+<!-- Rebel Hero Release -->
+
+
+	<Event Name="R_Lock_Neb2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nebulon_B-2_Frigate</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="R_Lock_Neb">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nebulon_B_Frigate</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_MC80">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_WinglessMC80">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Wingless_Calamari_Cruiser</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_Snowspeeder">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Snowspeeder_Wing</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_YWing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_Quaser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Quaser</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<!-- Spawn Starting Heroes -->
+
+	<Event Name="Spawn_Gavrisom">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Gavrisom_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Galactic_Voyager</Reward_Param1>
+        	<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Spawn_Lando">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Lando_Calrissian_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Rogue_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Mara_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mara_Saber_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Corran">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corran_Horn_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Cilghal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Cilghal_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Iillor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corusca_Rainbow</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Wedge">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Lusankya_Wedge</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Katarn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Katarn_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_BelIblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Peregrine</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+
+	<Event Name="Spawn_Karrde">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Wild_karrde</Reward_Param1>
+		<Reward_Param2>Myrkr</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+
+</Story>

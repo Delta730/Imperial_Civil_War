@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+
+
+    
+<!-- ******************************************************************** -->
+<!-- ******************* SANDBOX CAMPAIGN "Tutorial" ************* -->
+<!-- ******************************************************************** -->
+
+
+
+
+	
+
+	
+
+	<Campaign Name="Sandbox_Tutorial_Rebels">
+
+		<Campaign_Set> Sandbox_Tutorial </Campaign_Set>
+		<Sort_Order>1</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_TUTORIAL</Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_TUTORIAL </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Coruscant,
+				Bastion,
+				MonCalimari,
+				Nzoth,
+			</Locations>
+
+        	<Trade_Routes> 
+			T_Coruscant_Bastion,
+			T_Coruscant_MonCalimari,
+			T_Coruscant_Nzoth,
+		</Trade_Routes>
+		
+        <Home_Location> Rebel, Coruscant </Home_Location>
+        <Home_Location> Empire, Bastion </Home_Location>
+        
+	
+
+        <Starting_Active_Player> Rebel </Starting_Active_Player>
+
+	<Rebel_Story_Name>Tutorial_Story_Plots.xml</Rebel_Story_Name>
+        	
+		<AI_Player_Control> Rebel, SandBoxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Yevetha, None </AI_Player_Control>
+		
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 2 </Max_Tech_Level>
+		
+		<!-- MonCalimari Space Forces -->
+		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Rebel_X-Wing_Squadron </Starting_Forces>
+		<!-- MonCalimari Land Forces -->
+		<Starting_Forces> Rebel, MonCalimari, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, MCS_HQ </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
+
+		
+		<!-- Coruscant Space Forces -->
+		<Starting_Forces> Rebel, Coruscant, Rebel_Star_Base_1 </Starting_Forces>
+		<!-- Coruscant Land Forces -->
+		<Starting_Forces> Rebel, Coruscant, R_Ground_Barracks </Starting_Forces>
+		
+		
+	
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  12000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 3 </Max_Tech_Level>
+		
+		
+		<!-- Coruscant Space Forces -->
+		<Starting_Forces> Empire, Bastion, Chimera </Starting_Forces>
+		<!-- Coruscant Land Forces -->
+		<Starting_Forces> Empire, Bastion, E_Ground_Barracks </Starting_Forces>
+
+
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+	</Campaign>			
+		
+    
+    
+
+
+
+ </Campaigns>

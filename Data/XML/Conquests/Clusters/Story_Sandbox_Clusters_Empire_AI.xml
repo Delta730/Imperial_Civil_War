@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Campaign: Rim World Conflict (Empire)	******-->
+<!--******************************************************-->
+
+
+
+<Story>
+	
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+<!-- Empire Hero Release -->
+
+	<Event Name="Unlock_Star_Destroyer_Two_Raptor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Star_Destroyer_Two_Raptor</Reward_Param1>
+		<Reward_Param2>Imperial_Star_Destroyer_Two</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_Star_Destroyer_Raptor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Generic_Star_Destroyer_Raptor</Reward_Param1>
+		<Reward_Param2>Star_Destroyer</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_Neb">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>E_Nebulon_B_Frigate</Reward_Param1>
+		<Reward_Param2>Carrack_Cruiser</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+<Event Name="CommanderLock">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Com_Rebel_Team</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Unlock_Neb2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>E_Nebulon_B-2_Frigate</Reward_Param1>
+		<Reward_Param2>Strike_Cruiser</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_CR90">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>E_Corellian_Corvette</Reward_Param1>
+		<Reward_Param2>Lancer_Frigate</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_Night">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Night_Sister_Company</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+						<Event Name="E_Lock_Nova">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Novatrooper_Squad</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<!-- Spawn Tech Level 1 Heroes -->
+
+<Event Name="Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Zsinj">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Iron_Fist</Reward_Param1>
+        <Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Trigit">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Implaccable_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Spawn_Gethzerion">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Gethzerion_Team</Reward_Param1>
+		<Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<Event Name="Spawn_Melvar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Melvar_Team</Reward_Param1>
+		<Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+</Story>

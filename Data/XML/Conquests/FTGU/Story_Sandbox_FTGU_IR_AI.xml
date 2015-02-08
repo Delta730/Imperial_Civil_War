@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****************************************************-->
+<!--***** CAMPAIGN: Shadow Hand (Empire Version) *****-->
+<!--****************************************************-->
+
+
+
+<Story>
+	
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+<!-- Empire Hero Release -->
+
+ 
+		<Event Name="E_Lock_Scimmy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Scimmy_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="E_Lock_Executor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Generic_Executor</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="E_Lock_Nebulon_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nebulon_B-2_Frigate_Empire</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="CommanderLock">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Com_Empire_Team</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="E_Lock_Star_Galleon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Star_Galleon</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+</Story>

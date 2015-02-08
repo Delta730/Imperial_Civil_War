@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+
+
+
+<!--********************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Underworld Version) *****-->
+<!--********************************************************-->
+
+
+
+<Story>
+	
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+
+
+	<Event Name="Underworld_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Grey_Wolf</Reward_Param1>
+		<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Soontir">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Soontir_Fel_Squadron</Reward_Param1>
+		<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	
+	<Event Name="Spawn_Niriz">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
+        	<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Voss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Strikefast_Star_Destroyer</Reward_Param1>
+        	<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Aralani">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Frontier</Reward_Param1>
+        	<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Stent">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Thrawns_Hand</Reward_Param1>
+        	<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_HoJ">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Hand_of_Judgement_Team</Reward_Param1>
+		<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="U_Level_Two">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Lusankya</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Underworld</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		
+	 </Event>
+	
+	
+
+	<!-- Move to higher tech, lock units not available to thrawn -->
+	<Event Name="Underworld_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+		
+		<Event Name="U_Destroy_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Grey_Wolf</Reward_Param1>
+		<Prereq>Underworld_Enter_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="U_Level_Three">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Chimera</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Underworld</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>
+		
+	 </Event>
+
+	<!-- Destroy Thrawn & Co -->
+	<Event Name="Underworld_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+			<Event Name="U_Destroy_Aralani">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Frontier</Reward_Param1>
+		<Prereq>Underworld_Enters_Tech_03</Prereq>
+	</Event>
+		
+	<Event Name="Spawn_Siath">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Battlehammer</Reward_Param1>
+        	<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Underworld_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="U_Level_Four">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Underworld</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+		
+	 </Event>
+
+	
+
+	<!-- Spawn Time Era 4 Heroes Daala -->
+	<Event Name="Underworld_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Chak">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Chak_Fel_Krsiss_Squadron_Association</Reward_Param1>
+		<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Underworld_Enters_Tech_04</Prereq>
+	</Event>
+
+		<Event Name="Spawn_Ashik">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Ashik_Team</Reward_Param1>
+		<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Underworld_Enters_Tech_04</Prereq>
+	</Event>
+
+
+	<Event Name="U_Level_Five">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Knight_Hammer</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Underworld</Reward_Param1>
+		<Reward_Param2>5</Reward_Param2>
+		
+	 </Event>
+	
+
+
+	<!-- Spawn Time Era 5 Heroes Pellaeon -->
+	<Event Name="Underworld_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+	
+			<Event Name="Spawn_Aurek">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Aurek_Seven_Team</Reward_Param1>
+		<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Underworld_Enters_Tech_05</Prereq>
+	</Event>
+
+		<Event Name="Spawn_Clone">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Eviscerator</Reward_Param1>
+        	<Reward_Param2>Nirauan</Reward_Param2>
+		<Prereq>Underworld_Enters_Tech_05</Prereq>
+	</Event>
+
+</Story>

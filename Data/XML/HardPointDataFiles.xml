@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<Hard_Point_Files>
+	<File>HardPoints_Old.xml</File>
+	<File>HardPoints_EotH.xml</File>
+	<File>CIN_HardPoints.xml</File>
+	<File>HardPoints_IR.xml</File>
+	<File>HardPoints_NR.xml</File>
+	<File>HardPoints_Other.xml</File>
+	<File>HardPoints_Viscount.xml</File>
+	<File>HardPoints_Executor_Imperial.xml</File>
+</Hard_Point_Files>

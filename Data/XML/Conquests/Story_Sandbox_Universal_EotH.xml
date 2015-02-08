@@ -1,0 +1,665 @@
+<?xml version="1.0" ?>
+
+
+
+<!--********************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Underworld Version) *****-->
+<!--********************************************************-->
+
+
+
+<Story>
+
+	<Event Name="Background_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	<!--<Event Name="Easy_Mode_Activate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Background_Start</Prereq>
+	</Event>-->
+	<!--******************************************************************************-->
+	<!--******************************************************************************-->
+	<!--*************** Empire of the Hand (Sidescript Version) **********************-->
+	<!--******************************************************************************-->
+	<!--******************************************************************************-->
+
+	<!--Populous Barracks-->
+	<Event Name="EotH_Capture_Coruscant_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Coruscant</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+		<Event Name="EotH_Capture_Coruscant_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Coruscant</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Coruscant_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Coruscant</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_URBAN_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Coruscant</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+
+	<Event Name="EotH_Capture_Bastion_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Bastion</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+		<Event Name="EotH_Capture_Bastion_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Bastion</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Bastion_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Bastion</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_URBAN_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Bastion</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+
+	<Event Name="EotH_Capture_Garos_IV_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Garos_IV</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Garos_IV</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+		<Event Name="EotH_Capture_Garos_IV_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Garos_IV</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Reward_Param2>Garos_IV</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Garos_IV_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Garos_IV</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_URBAN_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Garos_IV</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+
+	<Event Name="EotH_Capture_Brentaal_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Brentaal</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Brentaal</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+		<Event Name="EotH_Capture_Brentaal_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Brentaal</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Reward_Param2>Brentaal</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Brentaal_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Brentaal</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_URBAN_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Brentaal</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+	<Event Name="EotH_Capture_Denon_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Denon</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Denon</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+		<Event Name="EotH_Capture_Denon_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Denon</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Reward_Param2>Denon</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Denon_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Denon</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_URBAN_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Denon</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+	<Event Name="EotH_Capture_Muunilinst_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Muunilinst</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Muunilinst</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+		<Event Name="EotH_Capture_Muunilinst_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Muunilinst</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Reward_Param2>Muunilinst</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Muunilinst_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Muunilinst</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_URBAN_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Muunilinst</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	
+	
+	<Event Name="EotH_Capture_Carida_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Carida</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Carida</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+		<Event Name="EotH_Capture_Carida_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Carida</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Reward_Param2>Carida</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Carida_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Carida</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_URBAN_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Carida</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+	<Event Name="EotH_Capture_Commenor_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Commenor</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Commenor</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+		<Event Name="EotH_Capture_Commenor_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Commenor</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Reward_Param2>Commenor</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Commenor_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Commenor</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_URBAN_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Commenor</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+	<Event Name="EotH_Capture_Telos_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Telos</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Telos</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+		<Event Name="EotH_Capture_Telos_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Telos</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Reward_Param2>Telos</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Telos_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Telos</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_URBAN_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Telos</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+	
+	
+	<!--Factories-->
+	<Event Name="EotH_Capture_Corulag_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Corulag</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Vehicle_Factory</Reward_Param1>
+		<Reward_Param2>Corulag</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Corulag_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Corulag</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_FACTORY_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Corulag</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	
+	<Event Name="EotH_Capture_Ession_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Ession</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Vehicle_Factory</Reward_Param1>
+		<Reward_Param2>Ession</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Ession_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Ession</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_FACTORY_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Ession</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+	<Event Name="EotH_Capture_Duro_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Duro</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Vehicle_Factory</Reward_Param1>
+		<Reward_Param2>Duro</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Duro_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Duro</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_FACTORY_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Duro</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+	<Event Name="EotH_Capture_Gravan_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Gravan</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Vehicle_Factory</Reward_Param1>
+		<Reward_Param2>Gravan</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Gravan_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Gravan</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_FACTORY_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Gravan</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+	<Event Name="EotH_Capture_Abregado_Rae_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Abregado_Rae</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Vehicle_Factory</Reward_Param1>
+		<Reward_Param2>Abregado_Rae</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Abregado_Rae_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Abregado_Rae</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_FACTORY_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Abregado_Rae</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	
+
+	<Event Name="EotH_Capture_YagDhul_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>YagDhul</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Vehicle_Factory</Reward_Param1>
+		<Reward_Param2>YagDhul</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_YagDhul_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>YagDhul</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_FACTORY_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>YagDhul</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="EotH_Capture_Adumar_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Adumar</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>U_Ground_Vehicle_Factory</Reward_Param1>
+		<Reward_Param2>Adumar</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Adumar_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Adumar</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_FACTORY_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Adumar</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	<!--Shipyards -->
+	<Event Name="EotH_Capture_Kuat_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Kuat</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param2>Kuat</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Kuat_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Kuat</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_SHIPYARD_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Kuat</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	<Event Name="EotH_Capture_Syca_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Syca</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param2>Syca</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Syca_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Syca</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_SHIPYARD_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Syca</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	<Event Name="EotH_Capture_Fondor_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Fondor</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param2>Fondor</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Fondor_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Fondor</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_SHIPYARD_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Fondor</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	<Event Name="EotH_Capture_Moncalimari_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Moncalimari</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param2>Moncalimari</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Moncalimari_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Moncalimari</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_SHIPYARD_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>MonCalimari</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	<Event Name="EotH_Capture_Byss_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Byss</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Byss_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Byss</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_SHIPYARD_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Byss</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	<Event Name="EotH_Capture_Trasi_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Trasi</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param2>Trasi</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Trasi_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Trasi</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_SHIPYARD_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Trasi</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	<Event Name="EotH_Capture_Sluis_Van_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Sluis_Van</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Star_base_3</Reward_Param1>
+		<Reward_Param2>Sluis_Van</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Sluis_Van_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Sluis_Van</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_SHIPYARD_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Sluis_Van</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	<Event Name="EotH_Capture_Corellia_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Corellia</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_1</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Corellia_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Corellia</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_SHIPYARD_EMPIRE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Corellia</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+
+	<!-- Unique Planetary Units-->
+	<Event Name="EotH_Capture_Hapes_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Hapes</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>BattleDragon</Reward_Param1>
+		<Reward_Param2>Hapes</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Hapes_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Hapes</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>BattleDragon</Reward_Param1>
+		<Reward_Param2>Hapes</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Hapes_Reward_3">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Hapes</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>BattleDragon</Reward_Param1>
+		<Reward_Param2>Hapes</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Hapes_Reward_4">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Hapes</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Nova_Cruiser</Reward_Param1>
+		<Reward_Param2>Hapes</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Hapes_Reward_5">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Hapes</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Nova_Cruiser</Reward_Param1>
+		<Reward_Param2>Hapes</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Hapes_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Hapes</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_HAPES</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Hapes</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+	<Event Name="EotH_Capture_Nzoth_Reward_1">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Nzoth</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Armadia</Reward_Param1>
+		<Reward_Param2>Nzoth</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Nzoth_Reward_2">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Nzoth</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Armadia</Reward_Param1>
+		<Reward_Param2>Nzoth</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Nzoth_Reward_3">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Nzoth</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Armadia</Reward_Param1>
+		<Reward_Param2>Nzoth</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Nzoth_Reward_4">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Nzoth</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Armadia</Reward_Param1>
+		<Reward_Param2>Nzoth</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Nzoth_Reward_5">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Nzoth</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Armadia</Reward_Param1>
+		<Reward_Param2>Nzoth</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Nzoth_Reward_6">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Nzoth</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Armadia</Reward_Param1>
+		<Reward_Param2>Nzoth</Reward_Param2>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+	<Event Name="EotH_Capture_Nzoth_Text">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Nzoth</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_REWARD_CAPTURE_NZOTH</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3>Nzoth</Reward_Param3>
+		<Prereq>Background_Start</Prereq>
+	</Event>
+
+</Story>

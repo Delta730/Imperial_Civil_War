@@ -1,0 +1,3494 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+
+
+    
+<!-- *********************************************************************** -->
+<!-- ******************* SANDBOX CAMPAIGN "From The Ground Up" ************* -->
+<!-- *********************************************************************** -->
+
+
+
+
+	
+
+		   <Campaign Name="Sandbox_FTGU_Rebel">
+
+		<Campaign_Set> Sandbox_FTGU </Campaign_Set>
+		<Sort_Order>16</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_FTGU </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+      <Locations> 
+		Galaxy_Core_Art_Model, 
+		Adumar,
+		Bilbringi,
+		Bimmisaari,
+		Bothawui,
+		Borleais,
+		Borosk,
+		Byss,
+		Carida,
+		Cejansij,
+		Champala,
+		Charubah,
+		Comkin,
+		Corulag,
+		Crustai,
+		Dathomir,
+		Denon,
+		Duro,
+		Farrfin,
+		Fondor,
+		Galantos,
+		Garos_IV,
+		Garqi,
+		Gravan,
+		Hakassi,
+		ILC905,
+		Ilum,
+		Jtptan,
+		Kariek,
+		Kashyyyk,
+		Mantell,
+		MistOne,
+		MistThree,
+		Morishim,
+		NalHutta,
+		NespisVIII,
+		NewAlderaan,
+		NewCov,
+		Nirauan,
+		Noquivzor,
+		ObroaSkai,
+		Oristrom,
+		Quethold,
+		Selaggis,
+		Syca,
+		Terephon,
+		Thyferra,
+		Tsoss,
+		Wayland,
+		Wistril,
+		Ylesia,
+		</Locations>
+		
+		<Trade_Routes>
+			Adumar_Nirauan,
+			Bilbringi_Noquivzor,
+			Bimmisaari_Cejansij,
+			Bimmisaari_Nespis,
+			Borleais_Corulag,
+			Borleais_Farrfin,
+			Borleais_ILC905,
+			Borosk_Morishim,
+			Borosk_Nirauan,
+			Bothawui_NalHutta,
+			Bothawui_NewCov,
+			Carida_Champala,
+			Carida_Farrfin,
+			Cejansij_Kashyyyk,
+			Cejansij_MistThree,
+			Champala_Farrfin,
+			Champala_Obroa,
+			Charubah_Hapes,
+			Charubah_MistOne,
+			Comkin_Selaggis,
+			Corulag_Hakassi,
+			Corulag_MistOne,
+			Crustai_Ilum,
+			Crustai_Oristrom,
+			Crustai_Syca,
+			Dathomir_Selaggis,
+			Denon_Duro,
+			Denon_NalHutta,
+			Denon_NewCov,
+			Duro_Fondor,
+			Duro_Hakassi,
+			Farrfin_Noquivzor,
+			Fondor_Thyferra,
+			Galantos_Byss,
+			Galantos_Jtptan,
+			Garos_Gravan,
+			Garos_IV_Nespis,
+			Garos_Wayland,
+			Garqi_Comkin,
+			Garqi_Mantell,
+			Garqi_Morishim,
+			Gravan_Obroa,
+			Hakassi_Tsoss,
+			Hapes_Terephon,
+			ILC905_Jtptan,
+			Ilum_Adumar,
+			Ilum_Quethold,
+			Kariek_Nirauan,
+			Kariek_Quethold,
+			Kashyyyk_Duro,
+			Kashyyyk_MistOne,
+			MistThree_Terephon,
+			MonCal_Nespis,
+			NewAlderaan_Gravan,
+			NewAlderaan_MistThree,
+			NewAlderaan_Nespis,
+			Quethold_Syca,
+			Thyferra_NewCov,
+			Tsoss_Byss,
+			Wayland_Comkin,
+			Wistril_Mantell,
+			Wistril_Adumar,
+			Ylesia_Kashyyyk,
+			Ylesia_NalHutta,
+		</Trade_Routes>
+		
+        <Home_Location> Rebel, Bothawui </Home_Location>
+        <Home_Location> Underworld, Nirauan </Home_Location>
+		 <Home_Location> Underworld, Empire </Home_Location>
+		 <Home_Location> Yevetha, Jtptan </Home_Location>
+
+        <Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_NR.xml</Rebel_Story_Name>
+		<Empire_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_IR_AI.xml</Empire_Story_Name>
+		<Underworld_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_EotH_AI.xml</Underworld_Story_Name>
+
+		
+		<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Underworld, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Empire, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Yevetha, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+		<AI_Player_Control> Sarlacc, None </AI_Player_Control>
+
+		
+		<Markup_Filename>Yevetha, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>	
+		<Markup_Filename>Sarlacc, DefaultGalacticHints </Markup_Filename>	
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		
+		<Special_Case_Production> Empire, Abregado_Rae, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Abregado_Rae, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Galantos, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Galantos, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, E-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, B-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Alliance_Assault_Frigate </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Rebel, Bothawui, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Light_Tank_Brigade </Starting_Forces>
+
+			<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Underworld,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Syca_Bomber_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Nuruodo </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Underworld, Nirauan, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, RFT_Brigade </Starting_Forces>
+		
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 3 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Empire, Carida, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Escort_Carrier </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Dreadnaught_Empire </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Empire, Carida, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_EWEB_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		
+		<Starting_Credits> Pirates,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Pirates, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Pirates, 5 </Max_Tech_Level>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Ilum, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Lancer_Frigate</Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Ilum, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Mantell, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Lancer_Frigate</Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Mantell, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Selaggis, Strike_Cruiser  </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Carrack_Cruiser </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Tsoss, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Carrack_Cruiser </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Underworld, Quethold, Nuruodo </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Auriette_Carrier </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Asdoni</Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Underworld, Quethold, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, RFT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Underworld, Oristrom, Warlord </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Auriette_Carrier </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Asdoni</Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Underworld, Oristrom, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, MMT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Underworld, Kariek, Warlord </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Asdoni</Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Underworld, Kariek, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, RFT_Brigade </Starting_Forces>
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Wayland, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Carrack_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Wayland, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Thyferra, Vindiactor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Carrack_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Thyferra, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, ObroaSkai, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, ObroaSkai, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Morishim, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Morishim, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		<Starting_Forces> Pirates, Kashyyyk, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Kashyyyk, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Pirates, Kashyyyk, Quaser </Starting_Forces>
+		<Starting_Forces> Pirates, Kashyyyk, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Pirates, Kashyyyk, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Kashyyyk, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Noquivzor, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Noquivzor, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Pirates, Noquivzor, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Noquivzor, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Wistril, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Wistril, BAC </Starting_Forces>
+		<Starting_Forces> Pirates, Wistril, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Wistril, Quaser </Starting_Forces>
+		<Starting_Forces> Pirates, Wistril, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Wistril, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Wistril, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Wistril, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, NewCov, BAC </Starting_Forces>
+		<Starting_Forces> Pirates, NewCov, BAC </Starting_Forces>
+		<Starting_Forces> Pirates, NewCov, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, NewCov, Quaser </Starting_Forces>
+		<Starting_Forces> Pirates, NewCov, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, NewCov, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NewCov, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NewCov, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		
+				<Starting_Forces> Pirates, NEspisVIII, Mon_Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, NEspisVIII, BAC </Starting_Forces>
+		<Starting_Forces> Pirates, NEspisVIII, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, NEspisVIII, Quaser </Starting_Forces>
+		<Starting_Forces> Pirates, NEspisVIII, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, NEspisVIII, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, NEspisVIII, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NEspisVIII, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NEspisVIII, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				
+		<Starting_Forces> Pirates, NewAlderaan, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Pirates, NewAlderaan, BAC </Starting_Forces>
+		<Starting_Forces> Pirates, NewAlderaan, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, NewAlderaan, Quaser </Starting_Forces>
+		<Starting_Forces> Pirates, NewAlderaan, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, NewAlderaan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NewAlderaan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NewAlderaan, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		
+		<!-- Adumar Space Forces -->
+<Starting_Forces> Pirates, Adumar, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Adumar, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Adumar, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Adumar, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Adumar Land Forces -->
+<Starting_Forces> Pirates, Adumar, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Adumar, Rebel_Infantry_Squad </Starting_Forces>
+
+
+<!-- Bimmisaari Space Forces -->
+<Starting_Forces> Pirates, Bimmisaari, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Bimmisaari, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Bimmisaari, Corona </Starting_Forces>
+<Starting_Forces> Pirates, Bimmisaari, Dreadnaught_Rebel </Starting_Forces>
+<!-- Bimmisaari Land Forces -->
+<Starting_Forces> Pirates, Bimmisaari, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Bimmisaari, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Borleais Space Forces -->
+<Starting_Forces> Pirates, Borleais, Vindicator </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Carrack_Cruiser </Starting_Forces>
+<!-- Borleais Land Forces -->
+<Starting_Forces> Pirates, Borleais, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Borosk Space Forces -->
+<Starting_Forces> Pirates, Borosk, Victory_Destroyer_Mark_2 </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Escort_Carrier, </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Carrack_Cruiser </Starting_Forces>
+<!-- Borosk Land FOrces -->
+<Starting_Forces> Pirates, Borosk, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Imperial_EWEB_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Cejansij Space Forces -->
+<Starting_Forces> Pirates, Cejansij, Corona </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Corona </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<!-- Cejansij Land Forces -->
+<Starting_Forces> Pirates, Cejansij, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Rebel_Tank_Buster_Squad </Starting_Forces>
+
+<!-- Champala Space Forces -->
+<Starting_Forces> Pirates, Champala, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Champala Land Forces -->
+<Starting_Forces> Pirates, Champala, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Comkin Space Forces -->
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<!-- Comkin Land Forces -->
+<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Corulag Space Forces -->
+<Starting_Forces> Pirates, Corulag, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<!-- Corulag Land Forces -->
+<Starting_Forces> Pirates, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Crustai Space Forces -->
+<Starting_Forces> Pirates, Crustai, Chaf_Destroyer </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Kariek_Shieldship </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Kariek_Shieldship </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Decimator </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Decimator </Starting_Forces>
+<!-- Crustai Land Forces -->
+<Starting_Forces> Pirates, Crustai, Phalanx_Trooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Phalanx_Trooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, EotH_Kirov_Brigade </Starting_Forces>
+
+<!-- Denon Space Forces -->
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<!-- Denon Land Forces -->
+<Starting_Forces> Pirates, Denon, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Duro Space Forces -->
+<Starting_Forces> Pirates, Duro, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<!-- Duro Land Forces -->
+<Starting_Forces> Pirates, Duro, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Farrfin Space Forces -->
+<Starting_Forces> Pirates, Farrfin, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Corona </Starting_Forces>
+<!-- Farrfin Land Forces -->
+<Starting_Forces> Pirates, Farrfin, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Galantos Space Forces -->
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<!-- Galantos Land Forces -->
+<Starting_Forces> Pirates, Galantos, Yevetha_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Yevetha_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Y_Ground_Barracks </Starting_Forces>
+
+<!-- Garos_IV Space Forces -->
+<Starting_Forces> Pirates, Garos_IV, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Garos_IV Land Forces -->
+<Starting_Forces> Pirates, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Garqi Space Forces -->
+<Starting_Forces> Pirates, Garqi, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<!-- Garqi Land Forces -->
+<Starting_Forces> Pirates, Garqi, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Gravan Space Forces -->
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<!-- Gravan Land Forces -->
+<Starting_Forces> Pirates, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Hakassi Space Forces -->
+<Starting_Forces> Pirates, Hakassi, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<!-- Hakassi Land Forces -->
+<Starting_Forces> Pirates, Hakassi, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Imperial_EWEB_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, NalHutta, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Quaser </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, NalHutta, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Ylesia, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Ylesia, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Fondor, Rebel_Golan_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Nebula </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Nebula </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Majestic </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Fondor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Tracker_Company </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Rebel_Light_Tank_Brigade </Starting_Forces>
+
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, MonCalamari, Viscount </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC90 </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC90 </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC80B </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC80B </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Tracker_Company </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Syca, Phalanx_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Syndic </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Syndic </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Asdoni </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Auriette_Carrier </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Syca, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, MMT_Brigade </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, RFT_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Empire_Golan_Three </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Empire_Golan_Three </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser</Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Bilbringi, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Dathomir, Generic_Executor </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser</Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Byss, Sovereign </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Praetor </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor</Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+		<Starting_Credits> Yevetha,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Yevetha, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Yevetha, 5 </Max_Tech_Level>
+
+		<!-- Jtptan Space Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_2 </Starting_Forces>	
+		<!-- Jtptan Land Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+			<!-- ILC905 Space Forces -->
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_2 </Starting_Forces>	
+		
+		
+				  <!-- Hapes Space Forces -->
+	
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<!-- Hapans Land Forces -->
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+
+		<!-- Hapans Space Forces -->
+		
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<!-- Hapans Land Forces -->
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+	
+		  <!-- Mists Space Forces -->
+	
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		
+	
+
+		  <!-- Mists Space Forces -->
+		<Starting_Forces> Sarlacc, MistThree, Hapan_Star_Base </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+	</Campaign>	
+
+	
+		   <Campaign Name="Sandbox_FTGU_Empire">
+
+		<Campaign_Set> Sandbox_FTGU </Campaign_Set>
+		<Sort_Order>16</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_FTGU </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+      <Locations> 
+		Galaxy_Core_Art_Model, 
+		Adumar,
+		Bilbringi,
+		Bimmisaari,
+		Bothawui,
+		Borleais,
+		Borosk,
+		Byss,
+		Carida,
+		Cejansij,
+		Champala,
+		Charubah,
+		Comkin,
+		Corulag,
+		Crustai,
+		Dathomir,
+		Denon,
+		Duro,
+		Farrfin,
+		Fondor,
+		Galantos,
+		Garos_IV,
+		Garqi,
+		Gravan,
+		Hakassi,
+		ILC905,
+		Ilum,
+		Jtptan,
+		Kariek,
+		Kashyyyk,
+		Mantell,
+		MistOne,
+		MistThree,
+		Morishim,
+		NalHutta,
+		NespisVIII,
+		NewAlderaan,
+		NewCov,
+		Nirauan,
+		Noquivzor,
+		ObroaSkai,
+		Oristrom,
+		Quethold,
+		Selaggis,
+		Syca,
+		Terephon,
+		Thyferra,
+		Tsoss,
+		Wayland,
+		Wistril,
+		Ylesia,
+		</Locations>
+		
+		<Trade_Routes>
+		Adumar_Nirauan,
+			Bilbringi_Noquivzor,
+			Bimmisaari_Cejansij,
+			Bimmisaari_Nespis,
+			Borleais_Corulag,
+			Borleais_Farrfin,
+			Borleais_ILC905,
+			Borosk_Morishim,
+			Borosk_Nirauan,
+			Bothawui_NalHutta,
+			Bothawui_NewCov,
+			Carida_Champala,
+			Carida_Farrfin,
+			Cejansij_Kashyyyk,
+			Cejansij_MistThree,
+			Champala_Farrfin,
+			Champala_Obroa,
+			Charubah_Hapes,
+			Charubah_MistOne,
+			Comkin_Selaggis,
+			Corulag_Hakassi,
+			Corulag_MistOne,
+			Crustai_Ilum,
+			Crustai_Oristrom,
+			Crustai_Syca,
+			Dathomir_Selaggis,
+			Denon_Duro,
+			Denon_NalHutta,
+			Denon_NewCov,
+			Duro_Fondor,
+			Duro_Hakassi,
+			Farrfin_Noquivzor,
+			Fondor_Thyferra,
+			Galantos_Byss,
+			Galantos_Jtptan,
+			Garos_Gravan,
+			Garos_IV_Nespis,
+			Garos_Wayland,
+			Garqi_Comkin,
+			Garqi_Mantell,
+			Garqi_Morishim,
+			Gravan_Obroa,
+			Hakassi_Tsoss,
+			Hapes_Terephon,
+			ILC905_Jtptan,
+			Ilum_Adumar,
+			Ilum_Quethold,
+			Kariek_Nirauan,
+			Kariek_Quethold,
+			Kashyyyk_Duro,
+			Kashyyyk_MistOne,
+			MistThree_Terephon,
+			MonCal_Nespis,
+			NewAlderaan_Gravan,
+			NewAlderaan_MistThree,
+			NewAlderaan_Nespis,
+			Quethold_Syca,
+			Thyferra_NewCov,
+			Tsoss_Byss,
+			Wayland_Comkin,
+			Wistril_Mantell,
+			Wistril_Adumar,
+			Ylesia_Kashyyyk,
+			Ylesia_NalHutta,
+		</Trade_Routes>
+		
+        <Home_Location> Rebel, Bothawui </Home_Location>
+        <Home_Location> Underworld, Nirauan </Home_Location>
+		 <Home_Location> Underworld, Empire </Home_Location>
+		 <Home_Location> Yevetha, Jtptan </Home_Location>
+
+        <Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_NR_AI.xml</Rebel_Story_Name>
+		<Empire_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_IR.xml</Empire_Story_Name>
+		<Underworld_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_EotH_AI.xml</Underworld_Story_Name>
+
+		
+		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Underworld, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Yevetha, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+		<AI_Player_Control> Sarlacc, None </AI_Player_Control>
+
+		
+		<Markup_Filename>Yevetha, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>	
+		<Markup_Filename>Sarlacc, DefaultGalacticHints </Markup_Filename>	
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		
+		<Special_Case_Production> Empire, Abregado_Rae, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Abregado_Rae, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Galantos, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Galantos, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, E-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, B-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Alliance_Assault_Frigate </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Rebel, Bothawui, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Light_Tank_Brigade </Starting_Forces>
+
+			<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Underworld,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Syca_Bomber_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Nuruodo </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Underworld, Nirauan, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, RFT_Brigade </Starting_Forces>
+		
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 3 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Empire, Carida, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Escort_Carrier </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Vindicator_Cruiser </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Empire, Carida, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_EWEB_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		
+		<Starting_Credits> Pirates,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Pirates, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Pirates, 5 </Max_Tech_Level>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Ilum, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Ilum, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Ilum, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Ilum, Lancer_Frigate</Starting_Forces>
+		<Starting_Forces> Pirates, Ilum, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Mantell, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<Starting_Forces> Pirates, Mantell, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Mantell, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Mantell, Lancer_Frigate</Starting_Forces>
+		<Starting_Forces> Pirates, Mantell, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Mantell, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Mantell, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Selaggis, Strike_Cruiser  </Starting_Forces>
+		<Starting_Forces> Pirates, Selaggis, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Selaggis, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Selaggis, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Pirates, Selaggis, Carrack_Cruiser </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Tsoss, Venator </Starting_Forces>
+		<Starting_Forces> Pirates, Tsoss, Venator </Starting_Forces>
+		<Starting_Forces> Pirates, Tsoss, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tsoss, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Pirates, Tsoss, Carrack_Cruiser </Starting_Forces>
+		
+							<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Underworld, Quethold, Nuruodo </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Auriette_Carrier </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Asdoni</Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Underworld, Quethold, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, RFT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Underworld, Oristrom, Warlord </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Auriette_Carrier </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Asdoni</Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Underworld, Oristrom, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, MMT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Underworld, Kariek, Warlord </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Asdoni</Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Underworld, Kariek, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, RFT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Wayland, Venator </Starting_Forces>
+		<Starting_Forces> Pirates, Wayland, Venator </Starting_Forces>
+		<Starting_Forces> Pirates, Wayland, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Wayland, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Pirates, Wayland, Carrack_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Thyferra, Vindiactor_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Carrack_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, ObroaSkai, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, ObroaSkai, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, ObroaSkai, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, ObroaSkai, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Pirates, ObroaSkai, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, ObroaSkai, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, ObroaSkai, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Morishim, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Morishim, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Morishim, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Morishim, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Pirates, Morishim, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Morishim, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Morishim, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kashyyyk, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, Kashyyyk, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Rebel, Noquivzor, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, Noquivzor, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Rebel, Wistril, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, Wistril, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Rebel, NewCov, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, NewCov, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		
+				<Starting_Forces> Rebel, NEspisVIII, Mon_Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, NEspisVIII, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				
+		<Starting_Forces> Rebel, NewAlderaan, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, NewAlderaan, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		
+		<!-- Adumar Space Forces -->
+<Starting_Forces> Rebel, Adumar, Sacheen </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Sacheen </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Quaser </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Adumar Land Forces -->
+<Starting_Forces> Rebel, Adumar, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, R_Ground_Barracks </Starting_Forces>
+
+<!-- Bimmisaari Space Forces -->
+<Starting_Forces> Rebel, Bimmisaari, Quaser </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, Quaser </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, Corona </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, Dreadnaught_Rebel </Starting_Forces>
+<!-- Bimmisaari Land Forces -->
+<Starting_Forces> Rebel, Bimmisaari, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, R_Ground_Barracks </Starting_Forces>
+
+<!-- Borleais Space Forces -->
+<Starting_Forces> Pirates, Borleais, Vindicator </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Carrack_Cruiser </Starting_Forces>
+<!-- Borleais Land Forces -->
+<Starting_Forces> Pirates, Borleais, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Borosk Space Forces -->
+<Starting_Forces> Pirates, Borosk, Victory_Destroyer_Mark_2 </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Escort_Carrier, </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Carrack_Cruiser </Starting_Forces>
+<!-- Borosk Land FOrces -->
+<Starting_Forces> Pirates, Borosk, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Imperial_EWEB_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Cejansij Space Forces -->
+<Starting_Forces> Pirates, Cejansij, Corona </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Corona </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<!-- Cejansij Land Forces -->
+<Starting_Forces> Pirates, Cejansij, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Rebel_Tank_Buster_Squad </Starting_Forces>
+
+<!-- Champala Space Forces -->
+<Starting_Forces> Pirates, Champala, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Champala Land Forces -->
+<Starting_Forces> Pirates, Champala, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Comkin Space Forces -->
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<!-- Comkin Land Forces -->
+<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Corulag Space Forces -->
+<Starting_Forces> Pirates, Corulag, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<!-- Corulag Land Forces -->
+<Starting_Forces> Pirates, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Crustai Space Forces -->
+<Starting_Forces> Pirates, Crustai, Chaf_Destroyer </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Kariek_Shieldship </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Kariek_Shieldship </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Decimator </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Decimator </Starting_Forces>
+<!-- Crustai Land Forces -->
+<Starting_Forces> Pirates, Crustai, Phalanx_Trooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Phalanx_Trooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, EotH_Kirov_Brigade </Starting_Forces>
+
+<!-- Denon Space Forces -->
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<!-- Denon Land Forces -->
+<Starting_Forces> Pirates, Denon, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Duro Space Forces -->
+<Starting_Forces> Pirates, Duro, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<!-- Duro Land Forces -->
+<Starting_Forces> Pirates, Duro, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Duro, E_Ground_Barracks </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Farrfin Space Forces -->
+<Starting_Forces> Pirates, Farrfin, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Corona </Starting_Forces>
+<!-- Farrfin Land Forces -->
+<Starting_Forces> Pirates, Farrfin, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Galantos Space Forces -->
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<!-- Galantos Land Forces -->
+<Starting_Forces> Pirates, Galantos, Yevetha_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Yevetha_Infantry_Squad </Starting_Forces>
+
+<!-- Garos_IV Space Forces -->
+<Starting_Forces> Pirates, Garos_IV, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Garos_IV Land Forces -->
+<Starting_Forces> Pirates, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Garqi Space Forces -->
+<Starting_Forces> Pirates, Garqi, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<!-- Garqi Land Forces -->
+<Starting_Forces> Pirates, Garqi, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Gravan Space Forces -->
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<!-- Gravan Land Forces -->
+<Starting_Forces> Pirates, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Hakassi Space Forces -->
+<Starting_Forces> Pirates, Hakassi, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<!-- Hakassi Land Forces -->
+<Starting_Forces> Pirates, Hakassi, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Imperial_EWEB_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, NalHutta, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Quaser </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, NalHutta, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Ylesia, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Ylesia, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Fondor, Rebel_Golan_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Nebula </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Nebula </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Majestic </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Fondor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Tracker_Company </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Rebel_Light_Tank_Brigade </Starting_Forces>
+
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, MonCalamari, Viscount </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC90 </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC90 </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC80B </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC80B </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Tracker_Company </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Syca, Phalanx_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Syndic </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Syndic </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Asdoni </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Auriette_Carrier </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Syca, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, MMT_Brigade </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, RFT_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Empire_Golan_Three </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Empire_Golan_Three </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser</Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Dathomir, Generic_Executor </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser</Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Byss, Sovereign </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Praetor </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor</Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+		<Starting_Credits> Yevetha,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Yevetha, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Yevetha, 5 </Max_Tech_Level>
+
+		<!-- Jtptan Space Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_2 </Starting_Forces>	
+		<!-- Jtptan Land Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+			<!-- ILC905 Space Forces -->
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_2 </Starting_Forces>	
+		
+		
+				  <!-- Hapes Space Forces -->
+	
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<!-- Hapans Land Forces -->
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+
+		<!-- Hapans Space Forces -->
+		
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<!-- Hapans Land Forces -->
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+	
+		  <!-- Mists Space Forces -->
+	
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		
+	
+
+		  <!-- Mists Space Forces -->
+		<Starting_Forces> Sarlacc, MistThree, Hapan_Star_Base </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+	</Campaign>	
+
+	
+		   <Campaign Name="Sandbox_FTGU_Underworld">
+
+		<Campaign_Set> Sandbox_FTGU </Campaign_Set>
+		<Sort_Order>16</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_FTGU </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+      <Locations> 
+		Galaxy_Core_Art_Model, 
+		Adumar,
+		Bilbringi,
+		Bimmisaari,
+		Bothawui,
+		Borleais,
+		Borosk,
+		Byss,
+		Carida,
+		Cejansij,
+		Champala,
+		Charubah,
+		Comkin,
+		Corulag,
+		Crustai,
+		Dathomir,
+		Denon,
+		Duro,
+		Farrfin,
+		Fondor,
+		Galantos,
+		Garos_IV,
+		Garqi,
+		Gravan,
+		Hakassi,
+		ILC905,
+		Ilum,
+		Jtptan,
+		Kariek,
+		Kashyyyk,
+		Mantell,
+		MistOne,
+		MistThree,
+		Morishim,
+		NalHutta,
+		NespisVIII,
+		NewAlderaan,
+		NewCov,
+		Nirauan,
+		Noquivzor,
+		ObroaSkai,
+		Oristrom,
+		Quethold,
+		Selaggis,
+		Syca,
+		Terephon,
+		Thyferra,
+		Tsoss,
+		Wayland,
+		Wistril,
+		Ylesia,
+		</Locations>
+		
+		<Trade_Routes>
+		Adumar_Nirauan,
+			Bilbringi_Noquivzor,
+			Bimmisaari_Cejansij,
+			Bimmisaari_Nespis,
+			Borleais_Corulag,
+			Borleais_Farrfin,
+			Borleais_ILC905,
+			Borosk_Morishim,
+			Borosk_Nirauan,
+			Bothawui_NalHutta,
+			Bothawui_NewCov,
+			Carida_Champala,
+			Carida_Farrfin,
+			Cejansij_Kashyyyk,
+			Cejansij_MistThree,
+			Champala_Farrfin,
+			Champala_Obroa,
+			Charubah_Hapes,
+			Charubah_MistOne,
+			Comkin_Selaggis,
+			Corulag_Hakassi,
+			Corulag_MistOne,
+			Crustai_Ilum,
+			Crustai_Oristrom,
+			Crustai_Syca,
+			Dathomir_Selaggis,
+			Denon_Duro,
+			Denon_NalHutta,
+			Denon_NewCov,
+			Duro_Fondor,
+			Duro_Hakassi,
+			Farrfin_Noquivzor,
+			Fondor_Thyferra,
+			Galantos_Byss,
+			Galantos_Jtptan,
+			Garos_Gravan,
+			Garos_IV_Nespis,
+			Garos_Wayland,
+			Garqi_Comkin,
+			Garqi_Mantell,
+			Garqi_Morishim,
+			Gravan_Obroa,
+			Hakassi_Tsoss,
+			Hapes_Terephon,
+			ILC905_Jtptan,
+			Ilum_Adumar,
+			Ilum_Quethold,
+			Kariek_Nirauan,
+			Kariek_Quethold,
+			Kashyyyk_Duro,
+			Kashyyyk_MistOne,
+			MistThree_Terephon,
+			MonCal_Nespis,
+			NewAlderaan_Gravan,
+			NewAlderaan_MistThree,
+			NewAlderaan_Nespis,
+			Quethold_Syca,
+			Thyferra_NewCov,
+			Tsoss_Byss,
+			Wayland_Comkin,
+			Wistril_Mantell,
+			Wistril_Adumar,
+			Ylesia_Kashyyyk,
+			Ylesia_NalHutta,
+		</Trade_Routes>
+		
+        <Home_Location> Rebel, Bothawui </Home_Location>
+        <Home_Location> Underworld, Nirauan </Home_Location>
+		 <Home_Location> Underworld, Empire </Home_Location>
+		 <Home_Location> Yevetha, Jtptan </Home_Location>
+
+        <Starting_Active_Player> Underworld </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_NR_AI.xml</Rebel_Story_Name>
+		<Empire_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_IR_AI.xml</Empire_Story_Name>
+		<Underworld_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_EotH.xml</Underworld_Story_Name>
+
+		
+		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Underworld, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Yevetha, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+		<AI_Player_Control> Sarlacc, None </AI_Player_Control>
+
+		
+		<Markup_Filename>Yevetha, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>	
+		<Markup_Filename>Sarlacc, DefaultGalacticHints </Markup_Filename>	
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		
+		<Special_Case_Production> Empire, Abregado_Rae, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Abregado_Rae, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Galantos, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Galantos, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, E-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, B-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Alliance_Assault_Frigate </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Rebel, Bothawui, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Light_Tank_Brigade </Starting_Forces>
+
+			<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Underworld,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Syca_Bomber_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Nuruodo </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Underworld, Nirauan, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, RFT_Brigade </Starting_Forces>
+		
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 3 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Empire, Carida, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Escort_Carrier </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Vindicator_Cruiser </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Empire, Carida, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_EWEB_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		
+		<Starting_Credits> Pirates,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Pirates, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Pirates, 5 </Max_Tech_Level>
+		
+	<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Ilum, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Lancer_Frigate</Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Ilum, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Mantell, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Lancer_Frigate</Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Mantell, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Selaggis, Strike_Cruiser  </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Carrack_Cruiser </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Tsoss, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Carrack_Cruiser </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Quethold, Nuruodo </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Auriette_Carrier </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Quethold, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, RFT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Oristrom, Warlord </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Auriette_Carrier </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Oristrom, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, MMT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Kariek, Warlord </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+	<Starting_Forces> Pirates, Kariek, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, RFT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+			<Starting_Forces> Empire, Wayland, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Carrack_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Wayland, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Thyferra, Vindiactor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Carrack_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Thyferra, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, ObroaSkai, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, ObroaSkai, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Morishim, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Morishim, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Kashyyyk, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, Kashyyyk, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Rebel, Noquivzor, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, Noquivzor, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Rebel, Wistril, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, Wistril, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Rebel, NewCov, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, NewCov, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		
+				<Starting_Forces> Rebel, NEspisVIII, Mon_Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, NEspisVIII, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NEspisVIII, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				
+		<Starting_Forces> Rebel, NewAlderaan, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, NewAlderaan, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		
+		<!-- Adumar Space Forces -->
+<Starting_Forces> Rebel, Adumar, Sacheen </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Sacheen </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Quaser </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Adumar Land Forces -->
+<Starting_Forces> Rebel, Adumar, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, R_Ground_Barracks </Starting_Forces>
+
+<!-- Bimmisaari Space Forces -->
+<Starting_Forces> Rebel, Bimmisaari, Quaser </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, Quaser </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, Corona </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, Dreadnaught_Rebel </Starting_Forces>
+<!-- Bimmisaari Land Forces -->
+<Starting_Forces> Rebel, Bimmisaari, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Bimmisaari, R_Ground_Barracks </Starting_Forces>
+
+<!-- Borleais Space Forces -->
+<Starting_Forces> Pirates, Borleais, Vindicator </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Carrack_Cruiser </Starting_Forces>
+<!-- Borleais Land Forces -->
+<Starting_Forces> Pirates, Borleais, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Borosk Space Forces -->
+<Starting_Forces> Pirates, Borosk, Victory_Destroyer_Mark_2 </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Escort_Carrier, </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Carrack_Cruiser </Starting_Forces>
+<!-- Borosk Land FOrces -->
+<Starting_Forces> Pirates, Borosk, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Imperial_EWEB_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Cejansij Space Forces -->
+<Starting_Forces> Pirates, Cejansij, Corona </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Corona </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<!-- Cejansij Land Forces -->
+<Starting_Forces> Pirates, Cejansij, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Rebel_Tank_Buster_Squad </Starting_Forces>
+
+<!-- Champala Space Forces -->
+<Starting_Forces> Pirates, Champala, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Champala Land Forces -->
+<Starting_Forces> Pirates, Champala, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Comkin Space Forces -->
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<!-- Comkin Land Forces -->
+<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, E_Ground_Barracks </Starting_Forces>
+
+<!-- Corulag Space Forces -->
+<Starting_Forces> Pirates, Corulag, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<!-- Corulag Land Forces -->
+<Starting_Forces> Pirates, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Crustai Space Forces -->
+<Starting_Forces> Pirates, Crustai, Chaf_Destroyer </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Kariek_Shieldship </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Kariek_Shieldship </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Decimator </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Decimator </Starting_Forces>
+<!-- Crustai Land Forces -->
+<Starting_Forces> Pirates, Crustai, Phalanx_Trooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Phalanx_Trooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, EotH_Kirov_Brigade </Starting_Forces>
+
+<!-- Denon Space Forces -->
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<!-- Denon Land Forces -->
+<Starting_Forces> Pirates, Denon, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Duro Space Forces -->
+<Starting_Forces> Pirates, Duro, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<!-- Duro Land Forces -->
+<Starting_Forces> Pirates, Duro, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Farrfin Space Forces -->
+<Starting_Forces> Pirates, Farrfin, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Corona </Starting_Forces>
+<!-- Farrfin Land Forces -->
+<Starting_Forces> Pirates, Farrfin, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Galantos Space Forces -->
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<!-- Galantos Land Forces -->
+<Starting_Forces> Pirates, Galantos, Yevetha_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Yevetha_Infantry_Squad </Starting_Forces>
+
+<!-- Garos_IV Space Forces -->
+<Starting_Forces> Pirates, Garos_IV, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Garos_IV Land Forces -->
+<Starting_Forces> Pirates, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Garqi Space Forces -->
+<Starting_Forces> Pirates, Garqi, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<!-- Garqi Land Forces -->
+<Starting_Forces> Pirates, Garqi, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Gravan Space Forces -->
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<!-- Gravan Land Forces -->
+<Starting_Forces> Pirates, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Hakassi Space Forces -->
+<Starting_Forces> Pirates, Hakassi, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<!-- Hakassi Land Forces -->
+<Starting_Forces> Pirates, Hakassi, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Imperial_EWEB_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, NalHutta, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Quaser </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, NalHutta, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Ylesia, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Ylesia, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Ylesia, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Fondor, Rebel_Golan_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Nebula </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Nebula </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Majestic </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Fondor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Tracker_Company </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Rebel_Light_Tank_Brigade </Starting_Forces>
+
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, MonCalamari, Viscount </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC90 </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC90 </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC80B </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC80B </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Tracker_Company </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Syca, Phalanx_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Syndic </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Syndic </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Asdoni </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Auriette_Carrier </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Syca, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, MMT_Brigade </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, RFT_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Empire_Golan_Three </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Empire_Golan_Three </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser</Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Dathomir, Generic_Executor </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser</Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Byss, Sovereign </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Praetor </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor</Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+		<Starting_Credits> Yevetha,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Yevetha, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Yevetha, 5 </Max_Tech_Level>
+
+		<!-- Jtptan Space Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_2 </Starting_Forces>	
+		<!-- Jtptan Land Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+			<!-- ILC905 Space Forces -->
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_2 </Starting_Forces>	
+		
+		
+				  <!-- Hapes Space Forces -->
+	
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, BattleDragon </Starting_Forces>
+		<!-- Hapans Land Forces -->
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Charubah, Hapan_Infantry_Squad</Starting_Forces>
+
+		<!-- Hapans Space Forces -->
+		
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, BattleDragon </Starting_Forces>
+		<!-- Hapans Land Forces -->
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+		<Starting_Forces> Sarlacc, Terephon, Hapan_Infantry_Squad</Starting_Forces>
+	
+		  <!-- Mists Space Forces -->
+	
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistOne, BattleDragon </Starting_Forces>
+		
+	
+
+		  <!-- Mists Space Forces -->
+		<Starting_Forces> Sarlacc, MistThree, Hapan_Star_Base </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, Nova_Cruiser </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+		<Starting_Forces> Sarlacc, MistThree, BattleDragon </Starting_Forces>
+	</Campaign>	
+	
+			   <Campaign Name="Sandbox_FTGU_Pentastar">
+
+		<Campaign_Set> Sandbox_FTGU </Campaign_Set>
+		<Sort_Order>16</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_FTGU </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+      <Locations> 
+		Galaxy_Core_Art_Model, 
+		Adumar,
+		Bilbringi,
+		Borleais,
+		Borosk,
+		Byss,
+		Carida,
+		Champala,
+		Comkin,
+		Corulag,
+		Crustai,
+		Dathomir,
+		Denon,
+		Duro,
+		Farrfin,
+		Fondor,
+		Galantos,
+		Garos_IV,
+		Garqi,
+		Gravan,
+		Hakassi,
+		ILC905,
+		Ilum,
+		Jtptan,
+		Kariek,
+		Mantell,
+		Morishim,
+		NewAlderaan,
+		NewCov,
+		Nirauan,
+		Noquivzor,
+		ObroaSkai,
+		Oristrom,
+		Quethold,
+		Selaggis,
+		Syca,
+		Thyferra,
+		Tsoss,
+		Wayland,
+		Wistril,
+		Bastion,
+		Dubrillion,
+		Gravlex_Med,
+		Muunilinst,
+		Yaga_Minor,
+		Sernpidal,
+		Kauron,
+		Etti_IV,
+		Bonadan
+		</Locations>
+		
+		<Trade_Routes>
+			Bastion_Dubrillion,
+			Dubrillion_Gravlex,
+			Gravlex_Muunilinst,
+			Dubrillion_Sernpidal,
+			Selaggis_Sernpidal,
+			Morishim_Yaga,
+			Gravlex_Yaga,
+			Adumar_Nirauan,
+			Bilbringi_Noquivzor,
+			Borleais_Corulag,
+			Borleais_Farrfin,
+			Borleais_ILC905,
+			Borosk_Morishim,
+			Borosk_Nirauan,
+			Carida_Champala,
+			Carida_Farrfin,
+			Champala_Farrfin,
+			Champala_Obroa,
+			Comkin_Selaggis,
+			Corulag_Hakassi,
+			Crustai_Ilum,
+			Crustai_Oristrom,
+			Crustai_Syca,
+			Dathomir_Selaggis,
+			Denon_Duro,
+			Denon_NalHutta,
+			Denon_NewCov,
+			Duro_Fondor,
+			Duro_Hakassi,
+			Farrfin_Noquivzor,
+			Fondor_Thyferra,
+			Galantos_Byss,
+			Galantos_Jtptan,
+			Garos_Gravan,
+			Garos_IV_Nespis,
+			Garos_Wayland,
+			Garqi_Comkin,
+			Garqi_Mantell,
+			Garqi_Morishim,
+			Gravan_Obroa,
+			Hakassi_Tsoss,
+			ILC905_Jtptan,
+			Ilum_Adumar,
+			Ilum_Quethold,
+			Kariek_Nirauan,
+			Kariek_Quethold,
+			MonCal_Nespis,
+			NewAlderaan_Gravan,
+			NewAlderaan_MistThree,
+			NewAlderaan_Nespis,
+			Quethold_Syca,
+			Thyferra_NewCov,
+			Tsoss_Byss,
+			Wayland_Comkin,
+			Wistril_Mantell,
+			Wistril_Adumar,
+			Ylesia_Kashyyyk,
+			Ylesia_NalHutta,
+			Bonadan_Etti,
+			Etti_Kauron,
+			Dathomir_Kauron
+		</Trade_Routes>
+		
+        <Home_Location> Rebel, Bothawui </Home_Location>
+        <Home_Location> Underworld, Nirauan </Home_Location>
+		 <Home_Location> Underworld, Empire </Home_Location>
+		 <Home_Location> Yevetha, Jtptan </Home_Location>
+		 <Home_Location> Pentastar, Bastion </Home_Location>
+
+		 
+        <Starting_Active_Player> Pentastar </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_NR_Pentastar.xml</Rebel_Story_Name>
+		<Empire_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_IR_AI.xml</Empire_Story_Name>
+		<Underworld_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_AI.xml</Underworld_Story_Name>
+
+		
+		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Underworld, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Empire, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Yevetha, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+		<AI_Player_Control> Sarlacc, None </AI_Player_Control>
+		<AI_Player_Control> Pentastar, SandBoxHuman </AI_Player_Control>
+		
+		<Markup_Filename>Yevetha, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>	
+		<Markup_Filename>Sarlacc, DefaultGalacticHints </Markup_Filename>	
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+			<Markup_Filename>Pentastar, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Pentastar,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Pentastar, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Pentastar, 4 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Pentastar, Bastion, Pentastar_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Munificent</Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Munificent </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, IPV1_Pentastar </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, IPV1_Pentastar </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Pentastar, Bastion, P_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
+		
+		<Starting_Forces> Pirates, Dubrillion, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Dubrillion, Enforcer </Starting_Forces>
+		<Starting_Forces> Pirates, Dubrillion, Munificent </Starting_Forces>
+		<Starting_Forces> Pirates, Dubrillion, IPV1_Pentastar</Starting_Forces>
+		<Starting_Forces> Pirates, Dubrillion, IPV1_Pentastar </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Dubrillion, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dubrillion, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<Starting_Forces> Pirates, Gravlex_Med, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Gravlex_Med, Enforcer </Starting_Forces>
+		<Starting_Forces> Pirates, Gravlex_Med, Munificent </Starting_Forces>
+		<Starting_Forces> Pirates, Gravlex_Med, IPV1_Pentastar</Starting_Forces>
+		<Starting_Forces> Pirates, Gravlex_Med, IPV1_Pentastar </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Gravlex_Med, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Gravlex_Med, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<Starting_Forces> Pirates, Sernpidal, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Sernpidal, Venator_Pentastar </Starting_Forces>
+		<Starting_Forces> Pirates, Sernpidal, Munificent </Starting_Forces>
+		<Starting_Forces> Pirates, Sernpidal, Vindicator_Pentastar</Starting_Forces>
+		<Starting_Forces> Pirates, Sernpidal, IPV1_Pentastar </Starting_Forces>
+		<Starting_Forces> Pirates, Sernpidal, IPV1_Pentastar </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Sernpidal, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Sernpidal, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Sernpidal, TIE_Crawler_Company_Pentastar </Starting_Forces>
+		
+		<Starting_Forces> Pirates, Bonadan, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, Providence </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, Munificent </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, Munificent </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, Munificent </Starting_Forces>		
+		<Starting_Forces> Pirates, Bonadan, Providence </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, IPV1_Pentastar </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, IPV1_Pentastar </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Bonadan, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, Fortress_Company </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, TIE_Crawler_Company_Pentastar </Starting_Forces>
+		
+		<Starting_Forces> Pirates, Etti_IV, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Providence </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Munificent </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Munificent </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Munificent </Starting_Forces>		
+		<Starting_Forces> Pirates, Etti_IV, Providence </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Providence </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Lucrehulk </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, IPV1_Pentastar </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, IPV1_Pentastar </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Etti_IV, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Fortress_Company </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, TIE_Crawler_Company_Pentastar </Starting_Forces>
+
+			<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Underworld,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Syca_Bomber_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Nuruodo </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Underworld, Nirauan, U_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, RFT_Brigade </Starting_Forces>
+		
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 3 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Empire, Carida, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Escort_Carrier </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Vindicator_Cruiser </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Empire, Carida, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_EWEB_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		
+		<Starting_Credits> Pirates,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Pirates, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Pirates, 5 </Max_Tech_Level>
+		
+	<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Ilum, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Lancer_Frigate</Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Ilum, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Mantell, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Lancer_Frigate</Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Mantell, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Selaggis, Strike_Cruiser  </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Selaggis, Carrack_Cruiser </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Tsoss, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Carrack_Cruiser </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Quethold, Nuruodo </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Auriette_Carrier </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Quethold, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Quethold, RFT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Oristrom, Warlord </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Auriette_Carrier </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Oristrom, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Oristrom, MMT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Pirates, Kariek, Warlord </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Asdoni </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Kariek, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, Phalanx_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Kariek, RFT_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+			<Starting_Forces> Empire, Wayland, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Carrack_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Wayland, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Thyferra, Vindiactor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Carrack_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Thyferra, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, ObroaSkai, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, ObroaSkai, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, ObroaSkai, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Empire, Morishim, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Strike_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Escort_Carrier</Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Lancer_Frigate </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Empire, Morishim, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Rebel, Noquivzor, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Corellian_Gunship</Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, Noquivzor, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Rebel, Wistril, Alliance_Assault_frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, Wistril, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Wistril, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		
+		<Starting_Forces> Rebel, NewCov, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, NewCov, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+				
+		<Starting_Forces> Rebel, NewAlderaan, Dreadnaught_Rebel </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, BAC </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Quaser </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Corellian_Corvette </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Rebel, NewAlderaan, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NewAlderaan, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		
+		<!-- Adumar Space Forces -->
+<Starting_Forces> Rebel, Adumar, Sacheen </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Sacheen </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Quaser </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Adumar Land Forces -->
+<Starting_Forces> Rebel, Adumar, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Rebel, Adumar, R_Ground_Barracks </Starting_Forces>
+
+<!-- Borleais Space Forces -->
+<Starting_Forces> Pirates, Borleais, Vindicator </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Carrack_Cruiser </Starting_Forces>
+<!-- Borleais Land Forces -->
+<Starting_Forces> Pirates, Borleais, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borleais, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Borosk Space Forces -->
+<Starting_Forces> Pirates, Borosk, Victory_Destroyer_Mark_2 </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Escort_Carrier, </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Carrack_Cruiser </Starting_Forces>
+<!-- Borosk Land FOrces -->
+<Starting_Forces> Pirates, Borosk, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Imperial_EWEB_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Borosk, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Cejansij Space Forces -->
+<Starting_Forces> Pirates, Cejansij, Corona </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Corona </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Sacheen </Starting_Forces>
+<!-- Cejansij Land Forces -->
+<Starting_Forces> Pirates, Cejansij, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Cejansij, Rebel_Tank_Buster_Squad </Starting_Forces>
+
+<!-- Champala Space Forces -->
+<Starting_Forces> Pirates, Champala, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Champala Land Forces -->
+<Starting_Forces> Pirates, Champala, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Champala, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Comkin Space Forces -->
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Carrack_Cruiser </Starting_Forces>
+<!-- Comkin Land Forces -->
+<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Corulag Space Forces -->
+<Starting_Forces> Pirates, Corulag, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Carrack_Cruiser </Starting_Forces>
+<!-- Corulag Land Forces -->
+<Starting_Forces> Pirates, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+
+<!-- Crustai Space Forces -->
+<Starting_Forces> Pirates, Crustai, Chaf_Destroyer </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Kariek_Shieldship </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Kariek_Shieldship </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Decimator </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Decimator </Starting_Forces>
+<!-- Crustai Land Forces -->
+<Starting_Forces> Pirates, Crustai, Phalanx_Trooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, Phalanx_Trooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Crustai, EotH_Kirov_Brigade </Starting_Forces>
+
+<!-- Denon Space Forces -->
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Carrack_Cruiser </Starting_Forces>
+<!-- Denon Land Forces -->
+<Starting_Forces> Pirates, Denon, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Denon, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Duro Space Forces -->
+<Starting_Forces> Pirates, Duro, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Escort_Carrier </Starting_Forces>
+<!-- Duro Land Forces -->
+<Starting_Forces> Pirates, Duro, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Duro, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Farrfin Space Forces -->
+<Starting_Forces> Pirates, Farrfin, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Corona </Starting_Forces>
+<!-- Farrfin Land Forces -->
+<Starting_Forces> Pirates, Farrfin, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Farrfin, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Galantos Space Forces -->
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Armadia </Starting_Forces>
+<!-- Galantos Land Forces -->
+<Starting_Forces> Pirates, Galantos, Yevetha_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Yevetha_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Galantos, Y_Ground_Barracks </Starting_Forces>
+
+<!-- Garos_IV Space Forces -->
+<Starting_Forces> Pirates, Garos_IV, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Sacheen </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Quaser </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Alliance_Assault_Frigate </Starting_Forces>
+<!-- Garos_IV Land Forces -->
+<Starting_Forces> Pirates, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
+
+<!-- Garqi Space Forces -->
+<Starting_Forces> Pirates, Garqi, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Escort_Carrier </Starting_Forces>
+<!-- Garqi Land Forces -->
+<Starting_Forces> Pirates, Garqi, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Garqi, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Gravan Space Forces -->
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Strike_Cruiser  </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Carrack_Cruiser </Starting_Forces>
+<!-- Gravan Land Forces -->
+<Starting_Forces> Pirates, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+<!-- Hakassi Space Forces -->
+<Starting_Forces> Pirates, Hakassi, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Escort_Carrier </Starting_Forces>
+<!-- Hakassi Land Forces -->
+<Starting_Forces> Pirates, Hakassi, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Imperial_EWEB_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Hakassi, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+
+<!-- Muunilinst Space Forces -->
+<Starting_Forces> Pirates, Muunilinst, Victory_Destroyer_Mark_1 </Starting_Forces>
+<Starting_Forces> Pirates, Muunilinst, Vindicator_Cruiser </Starting_Forces>
+<Starting_Forces> Pirates, Muunilinst, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Muunilinst, Escort_Carrier </Starting_Forces>
+<Starting_Forces> Pirates, Muunilinst, Escort_Carrier </Starting_Forces>
+<!-- Muunilinst Land Forces -->
+<Starting_Forces> Pirates, Muunilinst, Imperial_Stormtrooper_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Muunilinst, Imperial_EWEB_Squad </Starting_Forces>
+<Starting_Forces> Pirates, Muunilinst, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Fondor, Rebel_Golan_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Nebula </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Nebula </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Majestic </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Corona </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Sacheen </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Fondor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Tracker_Company </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Rebel_Light_Tank_Brigade </Starting_Forces>
+
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, MonCalamari, Viscount </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC90 </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC90 </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Endurance </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC80B </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC80B </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, MC40a </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Sacheen </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Tracker_Company </Starting_Forces>
+		<Starting_Forces> Pirates, MonCalamari, Rebel_Light_Tank_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Syca, Phalanx_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Syndic </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Syndic </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Kariek_Shieldship </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Asdoni</Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Asdoni </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Auriette_Carrier </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Syca, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, Phalanx_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, MMT_Brigade </Starting_Forces>
+		<Starting_Forces> Pirates, Syca, RFT_Brigade </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Empire_Golan_Three </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Empire_Golan_Three </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Katana_Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser</Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Vindicator_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Yaga_Minor, Empire_Golan_Three </Starting_Forces>
+		<Starting_Forces> Pirates, Yaga_Minor, Praetor </Starting_Forces>
+		<Starting_Forces> Pirates, Yaga_Minor, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Yaga_Minor, Providence </Starting_Forces>
+		<Starting_Forces> Pirates, Yaga_Minor, Enforce </Starting_Forces>
+		<Starting_Forces> Pirates, Yaga_Minor, Enforcer</Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Yaga_Minor, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Yaga_Minor, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Yaga_Minor, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Yaga_Minor, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+		<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Dathomir, Generic_Executor </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser</Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Vindicator_Cruiser </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+				<!-- AnxMinor Space Forces -->
+		<Starting_Forces> Pirates, Byss, Sovereign </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Praetor </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Dominator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor</Starting_Forces>
+		<Starting_Forces> Pirates, Byss, MTC_Sensor </Starting_Forces>
+		<!-- AnxMinor Land Forces -->
+		<Starting_Forces> Pirates, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Imperial_Heavy_Assault_Squad </Starting_Forces>
+		
+		<Starting_Credits> Yevetha,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Yevetha, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Yevetha, 5 </Max_Tech_Level>
+
+		<!-- Jtptan Space Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Victory_Destroyer_Mark_2 </Starting_Forces>	
+		<!-- Jtptan Land Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+			<!-- ILC905 Space Forces -->
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Victory_Destroyer_Mark_2 </Starting_Forces>	
+		
+		
+
+	</Campaign>	
+	
+ </Campaigns>

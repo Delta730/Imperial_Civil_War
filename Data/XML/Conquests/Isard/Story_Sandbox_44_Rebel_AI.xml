@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--***************************************************-->
+<!--***** CAMPAIGN: Fractured Empire (Rebel Version) *****-->
+<!--***************************************************-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<!-- Spawn Starting Heroes -->
+
+	<Event Name="Spawn_Mon_mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Salm">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Guardian_Squadron</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Spawn_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Iillor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corusca_Rainbow</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Home_One</Reward_Param1>
+        	<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Rogue_Squadron_Space">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Airen">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Airen_Cracken_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Katarn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Katarn_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+
+</Story>

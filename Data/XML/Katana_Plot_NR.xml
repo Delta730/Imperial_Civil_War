@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+ <Lua_Script>Katana_Story</Lua_Script>
+ <Active_Plot>Tactical_Katana_NR.XML</Active_Plot>
+
+ 
+</Story_Mode_Plots>

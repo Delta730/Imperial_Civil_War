@@ -1,0 +1,677 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Empire Version) *****-->
+<!--****************************************************-->
+
+
+
+<Story>
+	
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	
+		<!-- <Event Name="Lock_Byss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Byss</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>-->
+
+<!-- Empire Hero Release -->
+
+<Event Name="CommanderLock">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Com_Empire_Team</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+		
+
+	<!-- Spawn Tech Level 1 Heroes Isard -->
+
+	<Event Name="Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Isard">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Lusankya</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Dlarit">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Elite_Squadron</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+
+		<Event Name="Spawn_Harrsk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Shockwave_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Krennal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Reckoning_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+	
+		<Event Name="Spawn_Convarion">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corrupter_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+		<Event Name="Spawn_Brashin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Brashin_Team</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+		<Event Name="Spawn_Loor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Loor_Team</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+		<Event Name="Spawn_Derricote">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Derricote_Team</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+
+	<Event Name="E_Level_Two">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Lusankya</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		
+	 </Event>
+	 
+	 	<Event Name="P_Level_Two">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Lusankya</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Pentastar</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		
+	 </Event>
+
+	<!-- Move to higher tech, lock units not available to thrawn -->
+	<Event Name="Empire_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+
+	<Event Name="E_Lock_Executor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Generic_Executor</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<!-- Needed to clean up heroes between Isard and Thrawn -->
+	<Event Name="E_Destroy_Isard">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Lusankya</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+		<Event Name="Destroy_Dlarit">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Elite_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+		<Event Name="Destroy_Harrsk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Shockwave_Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="Destroy_Krennal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Reckoning_Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	
+		<Event Name="Destroy_Convarion">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Corrupter_Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	
+		<Event Name="Destroy_Trigit">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Implacable_Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+		<Event Name="Destroy_Brashin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Brashin_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+		<Event Name="Destroy_Loor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Loor_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+		<Event Name="Destroy_Derricote">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Derricote_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+
+	<!-- Spawn Thrawn Heroes -->
+	<Event Name="Spawn_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Chimera</Reward_Param1>
+		<Reward_Param2>ObroaSkai</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Phennir">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>181st_TIE_Interceptor_Squadron</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Covell">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Covell_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Brandei">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Judicator_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Dorja">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Relentless_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Jorus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Joruus_Cboath_Team</Reward_Param1>
+		<Reward_Param2>Jomark</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Rukh">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Rukh_Team</Reward_Param1>
+		<Reward_Param2>Honoghr</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Ferrier">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corellian_Gunboat_Ferrier</Reward_Param1>
+		<Reward_Param2>NewCov</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="E_Level_Three">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Chimera</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+	<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>
+		
+	 </Event>
+	 
+
+	<!-- Destroy Thrawn & Co -->
+	<Event Name="Empire_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+	 <!--<Event Name="UnLock_Byss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Byss</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	
+	 <Event Name="Empire_Byss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>Byss</Reward_Param1>
+		<Reward_Param2>Empire</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>-->
+
+		<Event Name="E_Destroy_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Chimera</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+		<Event Name="E_Destroy_Phennir">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>181st_TIE_Interceptor_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+		<Event Name="E_Destroy_Covell">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>General_Covell_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+		<Event Name="E_Destroy_Brandei">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Judicator_Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+		<Event Name="E_Destroy_Dorja">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Relentless_Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	
+	<Event Name="E_Destroy_Jorus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Joruus_Cboath_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="E_Destroy_Rukh">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rukh_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="E_Destroy_Ferrier">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Corellian_Gunboat_Ferrier</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="E_Lock_Scimmy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Scimmy_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="E_Lock_Nebulon_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nebulon_B-2_Frigate_Empire</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+			<Event Name="E_Lock_Noghri">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Noghri_Assassin_Squad</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="E_Lock_Star_Galleon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Star_Galleon</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	
+
+	<!-- Spawn the Palpateam -->
+	<Event Name="Spawn_Emperor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Sedriss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sedriss_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Veers">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Veers_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Pellaeon_Palpateam">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Chimera_Pellaeon_Vice</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+		<Event Name="Spawn_Harrsk_Palpateam">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Shockwave_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Delvardus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Thalassa</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Spawn_Teradoc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>CrimsonSunrise_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Spawn_Kanos">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kanos_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="E_Level_Four">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+		
+	 </Event>
+	
+	<!-- Destroy the Palpateam -->
+	<Event Name="E_Destroy_Sedriss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Sedriss_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+	<Event Name="E_Destroy_Veers">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>General_Veers_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+			<Event Name="Remove_Harrsk_Palpateam">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Shockwave_Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	<Event Name="Remove_Delvardus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Thalassa</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	<Event Name="Remove_Teradoc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>CrimsonSunrise_Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	<Event Name="Remove_Kanos">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Kanos_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	
+	<!-- Lock time -->
+
+	<Event Name="E_Lock_Sovereign">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Sovereign</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	
+				<Event Name="E_Lock_MTC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MTC_Sensor</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+	<Event Name="E_Lock_Droid">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>TIE_Droid_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	<!-- Unlock time -->
+	<Event Name="Unlock_Star_Galleon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Star_Galleon</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+	<Event Name="Unlock_Executor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Generic_Executor</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+
+	<!-- Spawn Time Era 4 Heroes Daala -->
+	<Event Name="Empire_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Daala">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Knight_Hammer</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Cronus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>13X</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Phennir_Again">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>181st_TIE_Interceptor_Squadron</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	<Event Name="Spawn_Brakiss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Brakiss_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	<Event Name="E_Level_Five">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Knight_Hammer</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>5</Reward_Param2>
+		
+	 </Event>
+	 
+	<!-- destroy Daala & co -->
+	<Event Name="E_Destroy_Daala">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Knight_Hammer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="E_Destroy_Phennir_Again">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>181st_TIE_Interceptor_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+
+	<Event Name="E_Destroy_Pellaeon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Chimera_Pellaeon_Vice</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	<!--Lock Executor -->
+
+
+	<!-- Spawn Time Era 5 Heroes Pellaeon -->
+	<Event Name="Empire_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Gilad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Chimera_Pellaeon_Grand</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+
+	
+	
+	<Event Name="Spawn_Disra">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Disra_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Tierce">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Tierce_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+
+	
+	
+	<Event Name="Spawn_Meizh_Vermel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Ascian</Reward_Param1>
+		<Reward_Param2>Morishim</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+		<Event Name="Spawn_Navett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Navett_Team</Reward_Param1>
+		<Reward_Param2>Morishim</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+			<Event Name="Spawn_Scylla">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Scylla</Reward_Param1>
+		<Reward_Param2>Orinda</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+		<Event Name="Spawn_Stele">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>181st_Stele</Reward_Param1>
+		<Reward_Param2>Orinda</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+
+	
+</Story>

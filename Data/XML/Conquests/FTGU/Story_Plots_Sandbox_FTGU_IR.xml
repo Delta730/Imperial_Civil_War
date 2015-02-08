@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+		<Lua_Script>Display_Structures</Lua_Script>
+	<Active_Plot>Display_Structures.xml</Active_Plot>
+	<Active_Plot>Conquests\FTGU\Story_Sandbox_FTGU_IR.XML</Active_Plot>
+		<Active_Plot>Conquests\Story_Sandbox_Universal_Empire.XML</Active_Plot>
+						<Active_Plot>Conquests\Story_Sandbox_Zsinj_Lock_Universal_IR.xml</Active_Plot>
+
+								<Active_Plot>Conquests\Story_Sandbox_Raids.xml</Active_Plot>
+	<Suspended_Plot>Conquests\Tactical_Raids.xml</Suspended_Plot>
+	<Active_Plot>Prison_Tactical.xml</Active_Plot>
+	
+
+</Story_Mode_Plots>

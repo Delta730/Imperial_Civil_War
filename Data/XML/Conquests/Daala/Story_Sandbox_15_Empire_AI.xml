@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Empire Version) *****-->
+<!--****************************************************-->
+
+
+
+<Story>
+	
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+	<!-- Zsinj -->
+
+<Event Name="E_Lock_Scimmy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Scimmy_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="E_Lock_Raptor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Zsinj_Raptor_Squad</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="E_Lock_Raptor_Scout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Zsinj_Light_Scout_Squad</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+			<Event Name="E_Lock_MTC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MTC_Sensor</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+		<Event Name="E_Lock_Praetor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Praetor_Empire</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+<!-- Empire Hero Release -->
+
+	<Event Name="E_Level_Four">
+  		<Event_Type>Story_Trigger</Event_Type>
+  		<Event_Param1>Universal_Story_Start</Event_Param1>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+		
+	 </Event>
+<Event Name="CommanderLock">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Com_Empire_Team</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<!-- Spawn Time Era 4 Heroes Daala -->
+	<Event Name="Empire_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+		
+	<!-- Lock building for some units -->
+	<Event Name="E_Lock_Nebulon_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nebulon_B-2_Frigate_Empire</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="E_Lock_Tector">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Generic_Executor</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="E_Lock_Sovereign">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Sovereign</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<Event Name="E_Lock_Praetor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Praetor_Empire</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	
+
+	<Event Name="Spawn_Daala">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Knight_Hammer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Cronus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>13X</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Phennir_Again">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>181st_TIE_Interceptor_Squadron</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Spawn_Pellaeon_Palpateam">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Chimera_Pellaeon_Vice</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+		<Event Name="Spawn_Brakiss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Brakiss_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+</Story>

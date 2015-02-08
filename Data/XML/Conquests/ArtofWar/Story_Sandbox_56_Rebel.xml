@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--***************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Rebel Version) *****-->
+<!--***************************************************-->
+
+
+
+<Story>
+
+
+<!--<Event Name="Byss_Bounces">
+		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+		<Event_Param1>Byss</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_BOUNCY_BYSS</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3></Reward_Param3>
+		<Prereq>Universal_Story_start</Prereq>
+		<Perpetual>true</Perpetual>
+
+	</Event>-->
+<Event Name="Faction_Intro">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Republic_Intro</Reward_Param1>
+	</Event>
+	
+	
+		<Event Name="Faction_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Faction_Intro</Prereq>
+		</Event>	
+
+<Event Name="Long_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Star_Wars_Intro</Reward_Param1>
+		<Prereq>Faction_Fin</Prereq>
+	</Event>
+	
+	
+		<Event Name="Long_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Long_Text</Prereq>
+		</Event>	
+
+		
+	<Event Name="AoW_Text_Crawl">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>AoW_Campaign_Intro</Reward_Param1>
+		<Prereq>Long_Text_Fin</Prereq>
+	</Event>
+	
+	
+		<Event Name="AoW_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>AoW_Text_Crawl</Prereq>
+		</Event>	
+				<Event Name="AoW_Text_Fin2">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+				<Reward_Param1>BlahBlah</Reward_Param1>
+				<Prereq>AoW_Text_Fin</Prereq>
+			</Event> 
+			
+						<Event Name="Pause_For_Movie">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+	
+	<Event Name="UnPause_For_Game">
+					<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+	</Event>
+			
+	 <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+
+ </Event>
+
+
+ <!-- Rebel Hero Release -->
+
+
+
+
+	
+	
+
+	<!-- Spawn Starting Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Mon_mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Leia">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corusca_Rainbow</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Home_One</Reward_Param1>
+        	<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Spawn_Lando">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Lando_Calrissian_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Airen">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Airen_Cracken_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Katarn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Katarn_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	
+		<Event Name="Isard_Welcome_Mon">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_ISARD_NR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+    <Reward_Param8 />
+    <Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Universal_Story_Start</Prereq>
+  </Event>
+
+	<Event Name="R_Level_Two">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Lusankya</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		
+	 </Event>
+
+	<!-- Move to higher tech, lock units not available to thrawn -->
+	<Event Name="Rebels_Enter_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+	 <Event Name="Thrawn_Welcome_Mon">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_THRAWN_NR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+    <Reward_Param8 />
+    <Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Rebels_Enter_Tech_02</Prereq>
+  </Event>
+
+	<Event Name="Spawn_Rogue_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Drayson">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Allegiance</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_BelIblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Peregrine</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Mara_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mara_Saber_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Booster">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Errant_Venture</Reward_Param1>
+		<Reward_Param2>Myrkr</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Karrde">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Wild_karrde</Reward_Param1>
+		<Reward_Param2>Myrkr</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="R_Level_Three">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Chimera</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		
+	 </Event>
+
+	<!-- Destroy Thrawn & Co -->
+	<Event Name="Rebels_Enter_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	 <Event Name="Palpatine_Welcome_Mon">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_PALPATINE_NR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+    <Reward_Param8 />
+    <Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Rebels_Enter_Tech_03</Prereq>
+  </Event>
+	
+	<Event Name="R_Destroy_Mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="R_Destroy_Leia">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Princess_Leia_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+				<Event Name="R_Lock_Snowspeeder">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Snowspeeder_Wing</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="R_Lock_YWing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Corran">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corran_Horn_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Leia_Noghri">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Princess_Leia_Team_Noghri</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+		<Event Name="R_Destroy_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Home_One</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Ackbar_Voyager">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Galactic_Voyager</Reward_Param1>
+        	<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="R_Lock_Neb2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nebulon_B-2_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="R_Lock_Neb">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nebulon_B_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="R_Lock_MC80">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="R_Lock_Snowspeeder">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Snowspeeder_Wing</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="R_Lock_YWing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Wedge">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Lusankya_Wedge</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Level_Four">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>
+		
+	 </Event>
+
+	<!-- Spawn Time Era 4 Heroes Daala -->
+	<Event Name="Rebels_Enter_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	  <Event Name="Daala_Welcome_Leia">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_DAALA_NR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+    <Reward_Param8 />
+    <Reward_Param9>Leia_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Rebels_Enter_Tech_04</Prereq>
+  </Event>
+
+
+	<Event Name="Spawn_Cilghal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Cilghal_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+
+		<Event Name="R_Lock_Quaser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Quaser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+
+	<Event Name="R_Level_Five">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Knight_Hammer</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Rebel, Pirates, Underworld, Sarlacc, Hapans, Hutts</Event_Param4>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+		
+	 </Event>
+	
+
+
+	<!-- Spawn Time Era 5 Heroes Pellaeon -->
+	<Event Name="Rebels_Enter_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+		<Event Name="Spawn_Gavrisom">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Gavrisom_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_05</Prereq>
+	</Event>
+
+			  <Event Name="Pellaeon_Welcome_Leia">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_PELLAEON_NR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+    <Reward_Param8 />
+    <Reward_Param9>Leia_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Rebels_Enter_Tech_05</Prereq>
+  </Event>
+  
+  <Event Name="R_Destroy_Terrik">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Errant_Venture</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_05</Prereq>
+	</Event>
+  
+   <Event Name="Terrik_Welcome">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+	<Event_Param1>30</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_TERRIK_VENTURE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+     <Reward_Param8>Karrde_Terrik_Speech</Reward_Param8>
+    <Reward_Param9>Karrde_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Rebels_Enter_Tech_05</Prereq>
+  </Event>
+	
+
+</Story>

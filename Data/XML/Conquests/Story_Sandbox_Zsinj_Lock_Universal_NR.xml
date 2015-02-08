@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Campaign: Origin of Corruption (Rebel)	******-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+			
+	 <Event Name="Zsinj_Lock_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+
+ </Event>
+<!-- Force Rebels to get X-wing instead of Z-95 to start -->
+	<Event Name="Unlock_X_wings">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_X-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Z95_Headhunter_Rebel_Squadron</Reward_Param2>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+
+		<!-- Zsinj -->
+	<Event Name="R_Lock_AMM_Star_Destroyer_Two">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Star_Destroyer_Two</Reward_Param1>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_AMM_Interdictor_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Interdictor_Cruiser</Reward_Param1>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_AMM_Carrack_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Carrack_Cruiser</Reward_Param1>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_AMM_Dominator_Star_Destroyer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Dominator_Star_Destroyer</Reward_Param1>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_AMM_BattleDragon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_BattleDragon</Reward_Param1>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_AMM_Nova_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Nova_Cruiser</Reward_Param1>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_AMM_Century_Brigade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Century_Brigade</Reward_Param1>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_AMM_Heavy_Scout_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Heavy_Scout_Squad</Reward_Param1>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_YWing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Prereq>Zsinj_Lock_Start</Prereq>
+	</Event>
+	
+<!-- Rebel Hero Release -->
+
+
+
+ 
+</Story>

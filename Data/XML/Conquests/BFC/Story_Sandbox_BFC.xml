@@ -1,0 +1,259 @@
+<?xml version="1.0" ?>
+
+
+
+<!--***************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Rebel Version) *****-->
+<!--***************************************************-->
+
+
+
+<Story>
+
+<Event Name="Faction_Intro">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Republic_Intro</Reward_Param1>
+	</Event>
+	
+	
+		<Event Name="Faction_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Faction_Intro</Prereq>
+		</Event>	
+
+<Event Name="Long_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Star_Wars_Intro</Reward_Param1>
+		<Prereq>Faction_Fin</Prereq>
+	</Event>
+	
+	
+	
+		<Event Name="Long_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Long_Text</Prereq>
+		</Event>	
+
+		
+	<Event Name="Yevetha_Text_Crawl">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>BFC_Campaign_Intro</Reward_Param1>
+		<Prereq>Long_Text_Fin</Prereq>
+	</Event>
+	
+	
+		<Event Name="Yevetha_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Yevetha_Text_Crawl</Prereq>
+		</Event>	
+				<Event Name="Yevetha_Text_Fin2">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+				<Reward_Param1>BlahBlah</Reward_Param1>
+				<Prereq>Yevetha_Text_Fin</Prereq>
+			</Event>
+
+			<Event Name="Pause_For_Movie">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+	
+	<Event Name="UnPause_For_Game">
+					<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+	</Event>			
+			
+	 <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+
+ </Event>
+
+
+<!-- Rebel Hero Release -->
+
+	<!-- Zsinj -->
+<Event Name="CommanderLock">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Com_Rebel_Team</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="DISABLE_BUILDABLE_Fleet_Com">
+<Event_Type>STORY_TRIGGER</Event_Type>
+<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+<Reward_Param1>Fleet_Com_Rebel_Team</Reward_Param1>
+<Prereq>Universal_Story_Start</Prereq>
+</Event>
+<Event Name="Remove_Fleet_Coms">
+<Event_Type>STORY_CONSTRUCT</Event_Type>
+<Event_Param1>Fleet_Com_Rebel_Team</Event_Param1>
+<Event_Param2>1</Event_Param2>
+<Event_Param3>FILTER_FRIENDLY_AND_ENEMY</Event_Param3>
+<Reward_Type>REMOVE_UNIT</Reward_Type>
+<Reward_Param1>Fleet_Com_Rebel_Team</Reward_Param1>
+<Prereq>Universal_Story_Start</Prereq>
+<Perpetual>true</Perpetual>
+</Event>
+	<Event Name="R_Lock_Neb2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nebulon_B-2_Frigate</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_Neb">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nebulon_B_Frigate</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_MC80">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_WinglessMC80">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Wingless_Calamari_Cruiser</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_Snowspeeder">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Snowspeeder_Wing</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_YWing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_Quaser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Quaser</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="R_Lock_Snowspeeder">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Snowspeeder_Wing</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+			<Event Name="R_Lock_Viscount">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Viscount</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+		<Event Name="R_Lock_BAC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>BAC</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+				<Event Name="R_Lock_Terrik">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Errant_Venture_Two</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<!-- Spawn Starting Heroes -->
+
+	<Event Name="Spawn_Leia">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Princess_Leia_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Galactic_Voyager</Reward_Param1>
+        	<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Spawn_Abaht">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Intrepid</Reward_Param1>
+		<Reward_Param2>Pantolomin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Spawn_Iillor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corusca_Rainbow</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Katarn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Katarn_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_BelIblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Peregrine</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_BFC_NR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+    <Reward_Param8 />
+    <Reward_Param9>Leia_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Universal_Story_Start</Prereq>
+  </Event>
+	
+
+</Story>

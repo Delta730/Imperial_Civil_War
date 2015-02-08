@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+
+<Game_Object_Files>
+
+	
+	<File>TransportUnits.xml</File>
+
+	<File>TechBuilding.xml</File>	<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
+	<File>GroundBases.xml</File>
+	<File>GroundStructures.xml</File>
+	<File>GroundTurrets.xml</File>
+	<File>GroundInfantry.xml</File>
+	<File>GroundInfantryEoTH.xml</File>
+	<File>GroundVehicles.xml</File>
+	<File>GroundCompaniesRebel.xml</File>
+	<File>GroundCompaniesEmpire.xml</File>
+	<File>GroundIndigenous.xml</File>
+	<File>GroundCompaniesIndigenous.xml</File>
+	<File>GroundBuildablesRebel.xml</File>
+	<File>GroundBuildablesEmpire.xml</File>
+	<File>GroundBuildablesPirate.xml</File>
+	<File>GroundBuildablesSkirmish.xml</File>
+	<File>Dominator.xml</File>
+	<File>EotH_Vehicles.xml</File>
+
+	<File>GalacticCompanies.xml</File>
+	<File>TechTreeUnits.xml</File>
+
+	<File>Aurek_Seven_Hand_of_Judgement.xml</File>
+	
+	<File>Imperial_Remnant_Heroes.xml</File>
+	<File>Remnant_Space_Units.xml</File>
+	<File>Grand_Admiral_Thrawn.xml</File>
+
+	<File>New_Republic_Heroes.xml</File>
+	<File>New_Republic_Space_Units.xml</File>
+
+	<File>Zsinj_Campaign_Units.xml</File>
+	
+	<File>Yevetha.xml</File>
+	<File>Zsinj.xml</File>			
+	<File>Hapes.xml</File>	
+	<File>Hutts.xml</File>	
+
+
+	<File>SpaceProps.xml</File>
+	<File>EotH_Space_Units.xml</File>
+	<File>EotH_Heroes.xml</File>
+
+	<File>SpaceUnitsCorvettes.xml</File>
+	
+	<File>SpaceUnitsCapital.xml</File>
+	<File>SpaceUnitsSuperCapital.xml</File>
+	<File>SpacePrimarySkydomes.xml</File>
+	<File>SpaceSecondarySkydomes.xml</File>
+	<File>SpaceBuildablesSkirmish.xml</File>
+	<File>Props_ThrRev.xml</File> 
+
+	<File>NamedHeroUnits.xml</File>
+	<File>GenericHeroUnits.xml</File>
+	<File>HeroCompanies.xml</File>
+
+	<File>LandPrimarySkydomes.xml</File>
+	<File>LandSecondarySkydomes.xml</File>
+
+	<File>LandBombingRunUnits.xml</File>
+
+	<File>SpecialStructures.xml</File>
+	<File>StarBases.xml</File>
+
+	<File>Squadrons.xml</File>
+
+	<File>Planets.xml</File>
+	<File>Planets_Regions.xml</File>
+
+	<File>Projectiles.xml</File>
+	<File>Turbolasers.xml</File>
+	<File>IonCannons.xml</File>
+	<File>Lasers.xml</File>
+	<File>Masers.xml</File>
+	<File>Missiles.xml</File>
+
+	<File>SpecialEffects.xml</File>
+	<File>Particles.xml</File>
+	<File>Markers.xml</File>
+	<File>UniqueUnits.xml</File>
+	<File>Containers.xml</File>
+	<File>ScriptMarkers.xml</File>
+
+	<File>MiscObjects.xml</File>
+	<File>UpgradeObjects.xml</File>
+	<File>SecondaryStructures.xml</File>
+
+	<File>Props_Temperate.xml</File>
+	<File>Props_Swamp.xml</File>
+	<File>Props_Volcanic.xml</File>
+	<File>Props_Forest.xml</File>
+	<File>Props_Snow.xml</File>
+	<File>Props_Desert.xml</File>
+	<File>Props_Urban.xml</File>
+	<File>Props_Generic.xml</File>
+	<File>Props_Story.xml</File>	
+
+	<File>CIN_SpaceUnitsCapital.xml</File>
+	<File>CIN_SpaceUnitsFighters.xml</File>
+	<File>CIN_SpaceUnitsCorvettes.xml</File>
+	<File>CIN_SpaceUnitsFrigates.xml</File>
+	<File>CIN_GroundInfantry.xml</File>
+	<File>CIN_GroundVehicles.xml</File>
+	<File>CIN_SpaceProps.xml</File>
+	<File>CIN_TransportUnits.xml</File>
+	<File>CIN_Projectiles.xml</File>
+	<File>CIN_GroundProps.xml</File>
+	<File>CIN_GroundTurrets.xml</File>
+
+	<File>MOV_Cinematics.xml</File>
+
+
+
+
+
+
+	<!-- Expansion Units: Empire -->
+
+	<File>Units_Space_Empire_TIE_Defender.xml</File>
+	<File>Units_Land_Empire_Juggernaut.xml</File>
+		
+	<File>Units_Land_Empire_Noghri.xml</File>
+		
+	<!-- Expansion Units: Rebel -->
+	
+	<File>Units_Hero_Rebel_LukeSkywalker.xml</File>
+	<File>Units_Hero_Rebel_Rogue_Squadron.xml</File>
+	<File>Units_Land_Rebel_Gallofree_HTT.xml</File>
+
+	
+
+
+
+	<!-- Expansion Units: Underworld -->
+
+	<File>SpecialStructures_Underworld.xml</File>
+	<File>StarBases_Underworld.xml</File>
+
+
+	<!-- Expansion Units: Neutral -->
+
+	<File>Hutt_Faction_Units.xml</File>
+	<File>GroundBuildablesHutts.xml</File>
+
+
+	<!-- Expansion General Files -->
+	
+	<File>SpaceProps_Underworld.xml</File>
+	<File>Props_Felucia.xml</File>
+	<File>GroundBuildablesUnderworld.xml</File>
+	<File>GroundStructures_Underworld.xml</File>
+	<File>Multiplayer_Structure_Markers.XML</File>
+	<File>UpgradeObjects_Underworld.XML</File>
+	
+	<File>Pentastar_Heroes.xml</File>
+	<File>Pentastar_Space.xml</File>
+	<File>Pentastar_Ground.xml</File>
+		
+		<File>Survival_Units.xml</File>
+		<File>Survival_Upgrades.xml</File>
+</Game_Object_Files>

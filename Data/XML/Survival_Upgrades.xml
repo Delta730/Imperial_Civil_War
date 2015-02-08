@@ -1,0 +1,1034 @@
+<?xml version="1.0"?>
+<UpgradeObjects>
+
+		<UpgradeObject Name="RS_Corellian_Corvette">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_CORELLIAN_CORVETTE</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CORELLIAN_CORVETTE</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+
+
+
+	<UpgradeObject Name="RS_Nebulon_B_Frigate">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_escort_frigate.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_NEBULON_B</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_NEBULON_FRIGATE </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+
+
+
+	<UpgradeObject Name="RS_Calamari_Cruiser">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 180 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_MON_CALAMARI_CRUISER  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="RS_CORELLIAN_GUNBOAT">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>200</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_corellian_gunship.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_CORELLIAN_GUNBOAT  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_CORELLIAN_GUNBOAT </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+	
+		<UpgradeObject Name="RS_Sacheen">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>200</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_sacheen.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_SACHEEN  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_SACHEEN </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+
+		<UpgradeObject Name="RS_MC90">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_mc90.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_MC90  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_MC90 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+		
+
+	<UpgradeObject Name="RS_Endurance">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_endurance.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_ENDURANCE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_ENDURANCE </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+
+<UpgradeObject Name="RS_Nebula">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_nebula.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_NEBULA  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_NEBULA </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="RS_MC80B">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>750</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_monremonda.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_MC80B  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID> TEXT_UNIT_MC80_B </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+
+	
+	<UpgradeObject Name="RS_BAC">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_bac.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_BAC  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_BAC </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+
+	<UpgradeObject Name="RS_Quaser">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>250</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_quaser.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_QUASAR  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_QUASAR </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+	
+		<UpgradeObject Name="RS_MC40A">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_mc40.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_MC40A  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_MC40A </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+	
+		<UpgradeObject Name="RS_Majestic">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_majestic.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_MAJESTIC  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_MAJESTIC </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+	
+		<UpgradeObject Name="RS_Corona">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_corona.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_CORONA  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_CORONA </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements</Lua_Script>
+	</UpgradeObject>
+	
+	    
+<!-- *********************************************************************** -->
+<!-- *******************   EMPIRE UNIT SET FOR SURVIVAL MODE   ************* -->
+<!-- *********************************************************************** -->
+
+	<UpgradeObject Name="ES_Lancer_Frigate">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_lancer.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_LANCER  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_LANCER </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="ES_Carrack_Cruiser">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_crack.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_CARRACK  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_CARRACK </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+		<UpgradeObject Name="ES_Imperial_Star_Destroyer_Two">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_ISD_TWO.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER_TWO  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER_TWO </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+
+			<UpgradeObject Name="ES_Tector_Star_Destroyer">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_tector.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECTOR  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_TECTOR </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+				<UpgradeObject Name="ES_Star_Destroyer">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_imperator.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+					<UpgradeObject Name="ES_Acclamator_Daala">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>350</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_acclimator_cruiser.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_ACCLAMATOR  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_ACCLAMATOR </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="ES_Strike_CRuiser">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>250</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_strike.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_STRIKE_CRUISER  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_STRIKE_CRUISER </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+						<UpgradeObject Name="ES_Victory_Destroyer_Mark_1">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>550</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_victory_class.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_VICTORY1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID> TEXT_UNIT_VICTORY_DESTROYER_MK1 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="ES_Venator">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>450</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_jedi_Cruiser.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_VENATOR  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_VENTATOR </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="ES_Victory_Destroyer_Mark_2">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>650</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_victory_ii.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_VICTORY2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER_MK2 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+		
+	<UpgradeObject Name="ES_MTC_Sensor">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_mtc_sensor.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_MTC_SENSOR  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_MTC_SENSOR </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="ES_Dreadnaught_Empire">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>450</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_dreadnaught.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_DREADNAUGHT  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_DREADNAUGHT </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="ES_Vindicator_Cruiser">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>250</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_vindicator.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATOR  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_VINDICATOR_CRUISER </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_Remnant</Lua_Script>
+	</UpgradeObject>
+	
+	
+<!-- *********************************************************************** -->
+<!-- *******************   EMPIRE UNIT SET FOR SURVIVAL MODE   ************* -->
+<!-- *********************************************************************** -->
+	
+			<UpgradeObject Name="US_Asdoni">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_asdoni.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_ASDONI</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ASDONI</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+				<UpgradeObject Name="US_Nuruodo">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>370</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_nuruodo.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_NURUODO</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ASDONI</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+
+	<UpgradeObject Name="US_KARIEK_SHIELDSHIP">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_kariek.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_KARIEK_SHIELDSHIP</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_KARIEK_SHIELDSHIP</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="US_Auriette_Carrier">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_auriette.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_AURIETTE</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_AURIETTE</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="US_Warlord">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_warlord.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_WARLORD</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_WARLORD</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="US_Decimator">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>250</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_decimator.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_DECIMATOR</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_DECIMATOR</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="US_Vigilance_Gunship">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_vigilance.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_VIGILANCE_GUNSHIP</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_VIGILANCE_GUNSHIP</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="US_CHAF_DESTROYER">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_chaf.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_CHAF_DESTROYER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CHAF_DESTROYER</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+		<UpgradeObject Name="US_BUDIRECH">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_budirech.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_BUDIRECH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_BUDIRECH</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="US_Phalanx_Destroyer">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_phalanx_Cruiser.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_PHALANX_DESTROYER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PHALANX</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="US_Syndic_Destroyer">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>850</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_syndic_cruiser.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_SYNDIC_DESTROYER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SYNDIC</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+	
+		<UpgradeObject Name="US_Chiss_Star_Destroyer">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+		
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_ascendancy_destroyer.tga</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_ASCENDANCY_SD</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ASCENDANCY_SD</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Add_Reinforcements_EotH</Lua_Script>
+	</UpgradeObject>
+</UpgradeObjects>

@@ -1,0 +1,3300 @@
+<?xml version="1.0" ?>
+<New_Republic_Heroes>
+
+		<UniqueUnit Name="Intrepid">
+		<Variant_Of_Existing_Type>Endurance</Variant_Of_Existing_Type>
+				
+        <Ranking_In_Category>3</Ranking_In_Category>
+		
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Select>Unit_Select_Han_Solo</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Han_Solo</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Han_Solo</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Han_Solo</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Han_Solo</SFXEvent_Guard>
+		<SFXEvent_Deploy>Unit_Deploy_Han_Solo</SFXEvent_Deploy>
+		
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Calamari_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+        <SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Unit_Select_Ackbar</SFXEvent_Build_Complete>
+
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+
+		<Neutralization_Cost>3000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+					
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+		
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+					
+			<Combat_Bonus_Ability Name="Etahn_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+		</Abilities>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+      	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+
+		<Text_ID>TEXT_HERO_ABAHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ABAHT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> Acclamator_Assault_Ship Tartan_Patrol_Cruiser Interceptor4_Frigate </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> TIE_Bomber Skipray_Blastboat</Encyclopedia_Vulnerable_To>-->
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>i_button_abaht.tga</Icon_Name>
+		
+	</UniqueUnit>
+
+	<SpaceUnit Name="Corusca_Rainbow">
+		<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_IILLOOR</Text_ID>
+		<!--<Encyclopedia_Good_Against> Marauder_Missile_Cruiser </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Calamari_Cruiser Y-wing </Encyclopedia_Vulnerable_To>-->
+		
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		
+		<Icon_Name>i_button_Illior.tga</Icon_Name>
+		
+		<SFXEvent_Select>Unit_Select_Illor</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Illor</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Illor</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Illor</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Attack_Illor</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Move_Illor</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Interdictor</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Attack_Illor </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Illor </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>INTERDICT</Type>
+				<Disable_Movement>Yes</Disable_Movement>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+			
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>MISSILE_SHIELD</Type>
+				<Disable_Movement>Yes</Disable_Movement>
+
+				<Effective_Radius>450</Effective_Radius>
+				<Recharge_Seconds>0</Recharge_Seconds>
+				<Expiration_Seconds>0</Expiration_Seconds>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+		</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_IILLOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 3000</Score_Cost_Credits>
+
+		
+	</SpaceUnit>
+
+	
+	<SpaceUnit Name="Wild_Karrde">
+		<Text_ID>TEXT_HERO_KARRDE</Text_ID>
+		<!--<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Acclamator_Assault_Ship Broadside_Class_Cruiser </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer </Encyclopedia_Vulnerable_To>-->
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>RV_WildKarrde.ALO</Space_Model_Name>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Mass>0.9995</Mass>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		<Death_Clone>Damage_Normal, Wild_Karrde_Death_Clone</Death_Clone>
+		<Ranking_In_Category>6</Ranking_In_Category>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Max_Speed>6.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
+		
+		<Max_Thrust>1.5</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.2</Maintenance_Cost>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
+	        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Damage>40</Damage>
+		<Autoresolve_Health>3500</Autoresolve_Health>
+		<Shield_Points>740</Shield_Points>
+		<Tactical_Health>750</Tactical_Health> 
+		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> 
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Ship_Class>frigate</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Transport_Capacity>12</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Build_Cost_Credits>2500</Build_Cost_Credits>
+		<AI_Combat_Power>2500</AI_Combat_Power>
+		<Build_Time_Seconds>45</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<HardPoints>
+			HP_Karrde_01, HP_Karrde_02, HP_Karrde_03
+		</HardPoints>
+
+		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
+		<Icon_Name>i_button_talon_karrde.tga</Icon_Name>
+		<GUI_Model_Name>RV_WildKarrde.ALO</GUI_Model_Name>
+		<GUI_Distance>1200</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Assault_Frigate</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Select>Unit_Select_Karrde</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Karrde</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Karrde</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Karrde</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Karrde</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Attack_Karrde</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Attack_Karrde</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Karrde </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Karrde </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+	
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+
+
+		
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_KARRDE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMUGGLER </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+		
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		
+		<Population_Value>1</Population_Value>
+		
+				<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Lando_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_KARRDE</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>2</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies>
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</SpaceUnit> 
+
+
+	
+	
+	<UniqueUnit Name="Wild_Karrde_Death_Clone">
+		<Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
+		<Space_Model_Name> RV_WildKarrde_Die.ALO </Space_Model_Name>
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard </Death_SFXEvent_Start_Die>
+		<Scale_Factor> 12.0 </Scale_Factor>
+		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
+		<Max_Speed> 0.25 </Max_Speed>
+		<Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn>
+		<Max_Thrust> 0.05 </Max_Thrust>
+		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+		<Affiliation> Rebel </Affiliation>
+		<Ship_Class> capital_ship </Ship_Class>
+		<Glory_Cinematics> CAM_HomeOne_Die.tec </Glory_Cinematics>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</UniqueUnit>
+
+
+
+	<!-- Airen Cracken -->
+	<HeroUnit Name="Airen_Cracken">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_AIREN_CRACKEN</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_AIREN_CRACKEN </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
+		<SFXEvent_Fleet_Move>Unit_Cracken</SFXEvent_Fleet_Move>
+		
+		<Icon_Name>i_button_cracken.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Rebel</Affiliation>
+		<!-- must use a special ability to modify political control in order to stack correctly -->
+		<Political_Control>0</Political_Control>
+		<Political_Faction>Empire</Political_Faction>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Alderaan</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+		<Damage>100</Damage>
+		<Autoresolve_Health>500</Autoresolve_Health>
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>50.0</Hyperspace_Fleet_Reveal_Range>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Mothma_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Mothma_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+
+
+			
+			<System_Spy_Ability Name="Cracken_Access">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>Yes</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>No</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Most_Powerful_Ship>Yes</See_Most_Powerful_Ship>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>Yes</See_Current_Production>
+				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+
+			<Battlefield_Modifier_Ability Name="Cracken_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>30</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Battlefield_Modifier_Ability Name="Thrawn_FOW_Increase2">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>30</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Galactic_Stealth_Ability Name="Cracken_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+	
+		</Abilities>
+		
+	</HeroUnit>
+
+	<HeroCompany Name="Airen_Cracken_Team">
+		<Text_ID>TEXT_HERO_AIREN_CRACKEN</Text_ID>
+		<Icon_Name>i_button_cracken.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets>Coruscant</Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
+		<Company_Units>Airen_Cracken</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Encyclopedia_Text>TEXT_TOOLTIP_AIREN_CRACKEN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Mothma</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Mothma</SFXEvent_Hero_Respawned>
+	<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		
+
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<Population_Value>1</Population_Value>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Cracken_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+		</Abilities>
+	</HeroCompany>
+
+
+	<!-- Garm Bel Iblis -->
+	<UniqueUnit Name="Peregrine">
+		<Text_ID>TEXT_HERO_GARM</Text_ID>
+		<!--<Encyclopedia_Good_Against> Alliance_Assault_Frigate Calamari_Cruiser MC40a </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> B-wing Y-wing K-Wing </Encyclopedia_Vulnerable_To>-->
+		<GUI_Row> 2 </GUI_Row>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_GARM </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+		<Icon_Name>i_button_RI_garm_bel.tga</Icon_Name>
+		<Variant_Of_Existing_Type>Katana_Dreadnaught_Rebel</Variant_Of_Existing_Type>
+		
+		<SFXEvent_Select>Unit_Select_Garm</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Garm</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Garm</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Garm</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Garm</SFXEvent_Guard>
+
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>2</Population_Value>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Iblis_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.2</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.2</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+		</Abilities>
+
+	
+	</UniqueUnit>
+
+	<!-- Admiral Ackbar -->
+
+	<!-- Home One is used by Admiral Ackbar (Rebel Major Hero) during space battles - released during story arc -->
+	<UniqueUnit Name="Home_One">
+		<Text_ID>TEXT_UNIT_HOME_ONE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HOME_ONE_01 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> Acclamator_Assault_Ship Tartan_Patrol_Cruiser Interceptor4_Frigate </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> TIE_Bomber Skipray_Blastboat</Encyclopedia_Vulnerable_To>-->
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>i_button_admiral_akbar.tga</Icon_Name>
+		<Space_Model_Name>RV_HOMEONE.ALO</Space_Model_Name>
+		<Mass>0.995</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>3</Ranking_In_Category>
+		<Select_Box_Scale>860</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<GUI_Bracket_Width>500</GUI_Bracket_Width>
+		<GUI_Bracket_Height>500</GUI_Bracket_Height>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Capital </Space_Layer>
+		<Max_Speed>1.5</Max_Speed>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>0.2</Max_Thrust>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Space_Full_Stop_Command>yes</Space_Full_Stop_Command>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<Layer_Z_Adjust> -290 </Layer_Z_Adjust>
+
+		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
+
+		<Death_Clone>Damage_Normal, Home_One_Death_Clone</Death_Clone>
+
+		<Damage>80</Damage>
+		<Autoresolve_Health>3000</Autoresolve_Health>
+		<Tactical_Health>8000</Tactical_Health>
+		<Shield_Points>5000</Shield_Points>
+		<Tactical_Health>10000</Tactical_Health>
+		
+		<Shield_Refresh_Rate>80</Shield_Refresh_Rate>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>900</Energy_Refresh_Rate>
+
+		<Affiliation>Rebel</Affiliation>
+		<Ship_Class>capital</Ship_Class>
+		<Formation_Priority>5</Formation_Priority>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<!--<Political_Control>1</Political_Control>-->
+		<Political_Faction>Rebel</Political_Faction>
+		<Squadron_Capacity>50</Squadron_Capacity>
+		<Transport_Capacity>30</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Size_Value>360</Size_Value>
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, DAMAGE_TRACKING, SPAWN_SQUADRON </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<HardPoints>
+				HP_HomeOne_Shield_Generator, Home_Fighter_Bay, HP_HomeOne_Engines, HP_HomeOne_TBL_BL, HP_HomeOne_TBL_BR, HP_HomeOne_TBL_FL, HP_HomeOne_TBL_FR, HP_HomeOne_IC_BL, HP_HomeOne_IC_BR, HP_HomeOne_IC_FL, HP_HomeOne_IC_FR
+		</HardPoints>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Score_Cost_Credits> 55000 </Score_Cost_Credits>
+
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+				<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>A_Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+		
+		<SFXEvent_Select>Unit_Select_Ackbar</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Ackbar</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ackbar</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Ackbar</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Ackbar</SFXEvent_Guard>
+		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Calamari_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+        <SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Unit_Select_Ackbar</SFXEvent_Build_Complete>
+
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+
+		<Population_Value>4</Population_Value>
+
+		<Neutralization_Cost>3000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>CONCENTRATE_FIRE</Type>
+				<Effective_Radius>6000</Effective_Radius>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
+				<GUI_Activated_Ability_Name>Akbar_Home_One_Ability</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Barrage_Ackbar </SFXEvent_Target_Ability>
+			</Unit_Ability>
+			
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+		
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		<!-- Hero abilities moved to ship; Ackbar "movable" unit removed -->
+		<Abilities SubObjectList="Yes">
+			<Concentrate_Fire_Attack_Ability Name="Akbar_Home_One_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital | Structure </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Damage_Increase_Percent>0.5</Target_Damage_Increase_Percent>
+				<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
+				<Stacking_Category>0</Stacking_Category>
+			</Concentrate_Fire_Attack_Ability>
+		
+			<Combat_Bonus_Ability Name="Akbar_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Reduce_Production_Price_Ability Name="Akbar_Reduce_Production_Price">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<!-- Price reduced by 25% -->
+				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<!--<Cancel_Special_Ability Name="Akbar_Cancel_Special_Ability">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+			</Cancel_Special_Ability>-->
+		</Abilities>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.1</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_homeone.tga</Radar_Icon_Name>
+      <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Home_One_Death_Clone">
+		<Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
+		<Space_Model_Name> RV_HOMEONE_D.ALO </Space_Model_Name>
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard </Death_SFXEvent_Start_Die>
+		<Scale_Factor> 1.80 </Scale_Factor>
+		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
+		<Max_Speed> 0.25 </Max_Speed>
+		<Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn>
+		<Max_Thrust> 0.05 </Max_Thrust>
+		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+		<Affiliation> Rebel </Affiliation>
+		<Ship_Class> capital_ship </Ship_Class>
+		<Glory_Cinematics> CAM_HomeOne_Die.tec </Glory_Cinematics>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</UniqueUnit>
+
+	<UniqueUnit Name="Galactic_Voyager">
+		<Variant_Of_Existing_Type>MC90</Variant_Of_Existing_Type>
+				
+        <Ranking_In_Category>3</Ranking_In_Category>
+		
+		<Tech_Level>99</Tech_Level>
+
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		
+		<SFXEvent_Select>Unit_Select_Ackbar</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Ackbar</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ackbar</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Ackbar</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Ackbar</SFXEvent_Guard>
+		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Calamari_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+        <SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Unit_Select_Ackbar</SFXEvent_Build_Complete>
+
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+
+
+		<Neutralization_Cost>3000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+	
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>CONCENTRATE_FIRE</Type>
+				<Effective_Radius>6000</Effective_Radius>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
+				<GUI_Activated_Ability_Name>Akbar_Home_One_Ability</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Barrage_Ackbar </SFXEvent_Target_Ability>
+			</Unit_Ability>
+			
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+		
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		<!-- Hero abilities moved to ship; Ackbar "movable" unit removed -->
+		<Abilities SubObjectList="Yes">
+			<Concentrate_Fire_Attack_Ability Name="Akbar_Home_One_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Damage_Increase_Percent>0.5</Target_Damage_Increase_Percent>
+				<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
+				<Stacking_Category>0</Stacking_Category>
+			</Concentrate_Fire_Attack_Ability>
+		
+			<Combat_Bonus_Ability Name="Akbar_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Reduce_Production_Price_Ability Name="Akbar_Reduce_Production_Price">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<!-- Price reduced by 25% -->
+				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<!--<Cancel_Special_Ability Name="Akbar_Cancel_Special_Ability">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+			</Cancel_Special_Ability>-->
+		</Abilities>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+			<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.5</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.5</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_mc90.tga</Radar_Icon_Name>
+      	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+
+		<Text_ID>TEXT_UNIT_GALACTIC_VOYAGER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HOME_ONE_01 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> Carrack_Cruiser Victory_Destroyer_Mark_2 </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> TIE_Bomber Tector_Star_Destroyer Star_Destroyer </Encyclopedia_Vulnerable_To>-->
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>i_button_admiral_akbar.tga</Icon_Name>
+		
+	</UniqueUnit>
+
+	<UniqueUnit Name="Mon_Remonda">
+		<Variant_Of_Existing_Type>MC80b</Variant_Of_Existing_Type>
+				
+        <Ranking_In_Category>3</Ranking_In_Category>
+		
+		<Tech_Level>99</Tech_Level>
+
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<SFXEvent_Select>Unit_Select_Han_Solo</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Han_Solo</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Han_Solo</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Han_Solo</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Han_Solo</SFXEvent_Guard>
+		<SFXEvent_Deploy>Unit_Deploy_Han_Solo</SFXEvent_Deploy>
+		
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Calamari_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+        <SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Unit_Select_Ackbar</SFXEvent_Build_Complete>
+
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Millenium_Falcon, 1</Starting_Spawned_Units_Tech_0>
+	<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Neutralization_Cost>3000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+					
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+		
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		<!-- Hero abilities moved to ship; Ackbar "movable" unit removed -->
+		<Abilities SubObjectList="Yes">
+					
+			<Combat_Bonus_Ability Name="Han_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+		</Abilities>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+			<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.5</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.5</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_monremonda.tga</Radar_Icon_Name>
+		
+      	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+
+		<Text_ID>TEXT_HERO_HAN_SOLO</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HAN_SOLO </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> Acclamator_Assault_Ship Tartan_Patrol_Cruiser Interceptor4_Frigate </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> TIE_Bomber Skipray_Blastboat</Encyclopedia_Vulnerable_To>-->
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>i_button_han_solo.tga</Icon_Name>
+		
+	</UniqueUnit>
+
+	<!-- Lando Calrissian -->
+
+	<UniqueUnit Name="Lady_Luck">
+		<Text_ID>TEXT_HERO_LANDO</Text_ID>
+		<!--<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout Skipray_Blastboat</Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Lancer_Frigate Carrack_Cruiser</Encyclopedia_Vulnerable_To>-->
+		<Encyclopedia_Text> TEXT_TOOLTIP_LANDO </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GAMBLER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_lando.tga</Icon_Name>
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<Land_Model_Name>RV_LADYLUCK.ALO</Land_Model_Name>
+		<Space_Model_Name>RV_LADYLUCK.ALO</Space_Model_Name>
+		<Scale_Factor>0.14</Scale_Factor>
+		<Select_Box_Scale>150</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+		<Mass>0.98</Mass>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>2</Ranking_In_Category>
+		<MovementClass> Space </MovementClass>
+		<Ship_Class>fighter</Ship_Class>
+		<Mass>0.98</Mass>
+		<Max_Speed>3.5</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>50</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>1.5</Max_Lift>
+
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+
+		<AI_Combat_Power>1500</AI_Combat_Power>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<OverrideAcceleration> .3 </OverrideAcceleration>
+		<OverrideDeceleration> .3 </OverrideDeceleration>
+		<Layer_Z_Adjust> -20 </Layer_Z_Adjust>
+		
+		<Armor_Type> Armor_Hero_Transport </Armor_Type>
+
+		<Affiliation>Rebel</Affiliation>
+		<Shield_Points>400</Shield_Points>
+		<Tactical_Health>700</Tactical_Health>
+		<Autoresolve_Health>400</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+		<Energy_Capacity>99999</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Size_Value>8</Size_Value>
+		<Behavior>TRANSPORT</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, UNIT_AI, NEBULA </SpaceBehavior>
+		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+	
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Turret_Rotate_Extent_Degrees>180</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Deploy></SFXEvent_Deploy>
+		<SFXEvent_Fire>Unit_Falcon_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Ambient_Moving> Unit_Falcon_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Falcon_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Falcon_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Falcon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Score_Cost_Credits> 15000 </Score_Cost_Credits>
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>200.0, 100.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Fire_Category_Restrictions> Infantry, Vehicle, Structure, Air, Transport </Fire_Category_Restrictions>
+
+		<Ranged_Target_Z_Adjust>-3.0</Ranged_Target_Z_Adjust>
+
+		<MovementClass> Space </MovementClass>
+		<CategoryMask> Fighter | SpaceHero </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Hover_Offset>5</Hover_Offset>
+		<Landing_Transport_Variant>Lady_Luck_Landing</Landing_Transport_Variant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>400.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+				
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>INVULNERABILITY</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>6</Expiration_Seconds>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.0f</Mod_Multiplier> <!-- completely invulnerabe -->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Invulnerable_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+ 		</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Death_Clone>Damage_Normal, Millennium_Falcon_Death_Clone</Death_Clone>
+		<Space_Override_Population_Value>1</Space_Override_Population_Value>
+
+	</UniqueUnit>
+
+	<UniqueUnit Name="Lady_Luck_Landing">
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Variant_Of_Existing_Type>Lady_Luck</Variant_Of_Existing_Type>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
+		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.7</Scale_Factor>
+	</UniqueUnit>
+
+	<HeroUnit Name="Lando_Calrissian">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_LANDO</Text_ID>
+		<Land_Model_Name>RI_LANDO.ALO</Land_Model_Name>
+		<Icon_Name>i_button_lando.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Type>Walk</Type>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Timeline>4</Required_Timeline>
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>NalHutta</Spawn_Planet>
+		<Size_Value>10</Size_Value>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<Land_Model_Anim_Override_Name>RI_Kylekatarn.ALO</Land_Model_Anim_Override_Name>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Unique_Space_Unit>Lady_Luck</Unique_Space_Unit>
+
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Max_Speed> 1.6 </Max_Speed>
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 5.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing> <!-- Temp scale change for scale test - change back once models resized -->
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .25 </OverrideDeceleration>
+		
+		<Deploys>No</Deploys>
+		<Affiliation>Rebel</Affiliation>
+
+		<Armor_Type> Armor_Hero </Armor_Type>
+		<Damage>50</Damage>
+		<Autoresolve_Health>400</Autoresolve_Health>
+		<Tactical_Health>400</Tactical_Health>
+
+		<GalacticBehavior>SELECTABLE</GalacticBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT</LandBehavior>
+		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Garrison_Category> Infantry </Garrison_Category>
+		
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+        <Damage_Type>Damage_Wookiee</Damage_Type>
+		<Projectile_Damage>25.0</Projectile_Damage>
+		<Projectile_Fire_Recharge_Seconds>0.8</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<FormationRaggedness> 1.0 </FormationRaggedness>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> No </Is_Squashable>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Deploy></SFXEvent_Deploy>
+		<SFXEvent_Fire>Unit_Han_Blaster_Fire</SFXEvent_Fire>
+		<SFXEvent_Group_Move></SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> </Death_SFXEvent_Start_Die>
+		
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<AI_Combat_Power>250</AI_Combat_Power>
+
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_LANDO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GAMBLER </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Lando_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_LANDO</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>2</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies>
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+		
+	</HeroUnit>
+
+	<HeroCompany Name="Lando_Calrissian_Team">
+	<Text_ID>TEXT_HERO_LANDO</Text_ID>
+		<Icon_Name>i_button_lando.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<Required_Planets>Bespin</Required_Planets>
+		<Is_Buildable>Yes</Is_Buildable>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Lady_Luck</Company_Transport_Unit>
+		<Company_Units>Lando_Calrissian</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<!-- <Build_Cost_Credits>10000</Build_Cost_Credits> -->
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+
+
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+		
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<Population_Value>1</Population_Value>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_LANDO </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GAMBLER </Encyclopedia_Unit_Class>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		
+	</HeroCompany>
+
+	<HeroUnit Name="Princess_Leia">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_LEIA</Text_ID>
+		<Land_Model_Name>RI_LEIA_INF.ALO</Land_Model_Name>
+		<Icon_Name>i_button_leia.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Type>Walk</Type>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Timeline>4</Required_Timeline>
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>NalHutta</Spawn_Planet>
+		<Size_Value>10</Size_Value>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Max_Speed> 1.6 </Max_Speed>
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 5.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing> <!-- Temp scale change for scale test - change back once models resized -->
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .25 </OverrideDeceleration>
+		
+		<Deploys>No</Deploys>
+		<Affiliation>Rebel</Affiliation>
+
+		<Armor_Type> Armor_Hero </Armor_Type>
+		<Damage>50</Damage>
+		<Autoresolve_Health>400</Autoresolve_Health>
+		<Tactical_Health>200</Tactical_Health>
+
+		<GalacticBehavior>SELECTABLE</GalacticBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI</LandBehavior>
+		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+        <Damage_Type>Damage_Wookiee</Damage_Type>
+		<Projectile_Damage>25.0</Projectile_Damage>
+		<Projectile_Fire_Recharge_Seconds>01.2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<FormationRaggedness> 1.0 </FormationRaggedness>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> No </Is_Squashable>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Deploy></SFXEvent_Deploy>
+		<SFXEvent_Fire>Unit_Han_Blaster_Fire</SFXEvent_Fire>
+		<SFXEvent_Group_Move></SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack></SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> </Death_SFXEvent_Start_Die>
+		
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<AI_Combat_Power>250</AI_Combat_Power>
+
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_LEIA TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_POLITICIAN </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		
+		<Abilities SubObjectList="Yes">
+						
+			<Reduce_Production_Price_Ability Name="Leia_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			
+		</Abilities>
+		
+	</HeroUnit>
+
+	
+	<HeroCompany Name="Princess_Leia_Team_Noghri">
+	<Text_ID>TEXT_HERO_LEIA</Text_ID>
+		<Icon_Name>i_button_leia.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Rebel</Affiliation>
+	
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Princess_Leia, Noghri_Assassin, Noghri_Assassin</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<!-- <Build_Cost_Credits>10000</Build_Cost_Credits> -->
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+
+
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+		
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<Population_Value>1</Population_Value>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_LEIA </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_POLITICIAN </Encyclopedia_Unit_Class>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		
+	</HeroCompany>
+
+	<HeroCompany Name="Princess_Leia_Team">
+	<Text_ID>TEXT_HERO_LEIA</Text_ID>
+		<Icon_Name>i_button_leia.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Rebel</Affiliation>
+	
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Princess_Leia</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<!-- <Build_Cost_Credits>10000</Build_Cost_Credits> -->
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+
+
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+		
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<Population_Value>1</Population_Value>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_LEIA </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_POLITICIAN </Encyclopedia_Unit_Class>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		
+	</HeroCompany>
+	<!-- Kyle Katarn -->
+
+	
+	<HeroCompany Name="Katarn_Team">
+		<Text_ID>TEXT_HERO_KYLE_KATARN</Text_ID>
+		<Icon_Name>i_button_kyle_katarn.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<Required_Planets>Sullust</Required_Planets>
+		<Is_Buildable>Yes</Is_Buildable>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
+		<Company_Units>Kyle_Katarn</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<!-- <Build_Cost_Credits>10000</Build_Cost_Credits> -->
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+
+
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+		
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Complete>Unit_Respawn_Katarn</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Katarn</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Katarn</SFXEvent_Fleet_Move>
+		<Population_Value>1</Population_Value>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_KYLE_KATARN </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
+		<CategoryMask>LandHero</CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+	</HeroCompany>
+	
+	<HeroUnit Name="Kyle_Katarn">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		<Text_ID>TEXT_HERO_KYLE_KATARN</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_KYLE_KATARN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		
+		<Land_Model_Name>RI_KYLESABER.ALO</Land_Model_Name>
+		<Icon_Name>i_button_kyle_katarn.tga</Icon_Name>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		<Lua_Script>Palpatine</Lua_Script>
+<Garrison_Category> Infantry </Garrison_Category>
+		<!-- Lightsaber holstering data -->
+		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
+		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
+		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
+		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, -5.835, 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
+		<Holster_Minimum_Drawn_Time_In_Secs> 60.0 </Holster_Minimum_Drawn_Time_In_Secs>
+		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
+
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Vader_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Vader_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Vader_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Max_Speed>2.0</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing> <!-- Temp scale change for scale test - change back once models resized -->
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .25 </OverrideDeceleration>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
+		
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Rebel</Affiliation>
+		<!-- If you want heroes to contribute to political control, use Political_Control_Bonus_Ability -->
+		<Political_Faction>Empire</Political_Faction>
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Coruscant</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+
+		<Armor_Type> Armor_Hero </Armor_Type>
+		<Damage>100</Damage>
+		<Autoresolve_Health>800</Autoresolve_Health>
+		<Tactical_Health>450</Tactical_Health>
+
+		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
+		<Projectile_Types>Proj_Lightsaber</Projectile_Types>
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>25.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>
+
+		<SFXEvent_Select>Unit_Select_Katarn</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Katarn</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Katarn</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Katarn</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Katarn</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
+		<SFXEvent_Group_Move>Unit_Group_Move_Katarn</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Katarn</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Katarn </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Katarn </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Katarn </Death_SFXEvent_Start_Die>
+
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<CategoryMask> LandHero </CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<AI_Combat_Power>600</AI_Combat_Power>
+
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<!-- Controls the range within which Palpatine has an effect on other units' animations -->
+		<Presence_Range>100.0</Presence_Range>
+		<Unique_Space_Unit>Moldy_Crow</Unique_Space_Unit>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Katarn</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		
+				</Unit_Abilities_Data>
+	
+		<Abilities SubObjectList="Yes">
+			
+			
+			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
+			<Redirect_Blaster_Ability Name="Kyle_Redirect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.30</Redirect_Chance>
+				<Block_Chance>0.70</Block_Chance>
+				<Reaction_Arc_In_Degrees>150.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories>Infantry, LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+
+	   <Absorb_Blaster_Ability Name="Kyle_Absorb_Blaster">
+                <Activation_Style>Take_Damage</Activation_Style>
+                <Absorb_Chance>.4</Absorb_Chance>
+                <!-- Absorb Percentage and Amount work together in the following way: -->
+                <!-- Actual Amount healed = (Projectile Damage * Absorb Percentage) + Absorb Amount -->
+                <!-- Either value can be zero, but at least one should be non-zero. -->
+                <Damage_Absorb_Percentage>0.2</Damage_Absorb_Percentage>
+                <Damage_Absorb_Amount>.8</Damage_Absorb_Amount>
+                <!-- We can absorb shots from the following units types (but no missiles or grenades): -->
+                <Applicable_Unit_Categories />
+                <Applicable_Unit_Types>Silri, Emperor_Palpatine, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper, Destroyer_Droid, Underworld_Disruptor_Merc, Dark_Trooper_PhaseII</Applicable_Unit_Types>
+                <SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
+                <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+                <Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>
+                <Owner_Light_Effect_Color2 />
+                <Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+                <Owner_Light_Effect_Pulse_Count />
+            </Absorb_Blaster_Ability>
+
+
+
+	</Abilities>
+		
+
+		
+
+		
+	</HeroUnit>
+	
+	<UniqueUnit Name="Moldy_Crow">
+		<Text_ID>TEXT_UNIT_KYLE_KATARN</Text_ID>
+		<!--<Encyclopedia_Good_Against> X-wing Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat A-Wing </Encyclopedia_Vulnerable_To>-->
+		<Land_Model_Name>NV_MOLDYCROW_LANDING.ALO</Land_Model_Name>
+		<Space_Model_Name>NV_MOLDYCROW.ALO</Space_Model_Name>
+		<Icon_Name>i_button_kyle_katarn.tga</Icon_Name>
+		<Mass>0.995</Mass>
+		<Scale_Factor>0.18</Scale_Factor>
+		<Select_Box_Scale>80</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+        <Ranking_In_Category>3</Ranking_In_Category>
+		<Max_Speed>5.5</Max_Speed>
+		<Min_Speed>3.5</Min_Speed>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Max_Lift>5.0</Max_Lift>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>5.5</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>60</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Armor_Type> Armor_Hero_Transport </Armor_Type>
+
+		<Affiliation>Rebel</Affiliation>
+		<Ship_Class>Fighter</Ship_Class>
+		<Formation_Priority>5</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Shield_Points>250</Shield_Points>
+		<Tactical_Health>1500</Tactical_Health>
+		<Shield_Refresh_Rate>15</Shield_Refresh_Rate>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Size_Value>120</Size_Value>
+		<Damage>5</Damage>
+		<Behavior>DUMMY_STARSHIP, TRANSPORT, POWERED, SHIELDED </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE </SpaceBehavior>
+		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED, IDLE</LandBehavior> 
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Hover_Offset>30.0</Hover_Offset>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage_Type>Damage_Fighter</Damage_Type>
+		
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.4</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Medium_Explosion_Space_Empire</Death_Explosions>
+		
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Fire_Category_Restrictions> Infantry, Vehicle, Structure, Air, Transport </Fire_Category_Restrictions>
+
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+
+
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_KYLE_KATARN </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDO </Encyclopedia_Unit_Class>
+
+		<Death_Clone>Damage_Normal</Death_Clone>
+
+		<Score_Cost_Credits> 8000 </Score_Cost_Credits>
+
+		<SFXEvent_Select>Unit_Select_Katarn</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Katarn</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Katarn</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Katarn</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Katarn</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Ambient_Moving> Unit_Moldy_Crow_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>>
+	
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>200.0, 100.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+
+		<AI_Combat_Power>1500</AI_Combat_Power>
+		<MovementClass> Space </MovementClass>
+		<CategoryMask> Fighter | SpaceHero</CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Landing_Transport_Variant>Moldy_Crow_Landing</Landing_Transport_Variant>
+
+				
+		</UniqueUnit>
+	<UniqueUnit Name="Moldy_Crow_Landing">
+		<Variant_Of_Existing_Type>Moldy_Crow</Variant_Of_Existing_Type>
+		<Behavior>TRANSPORT</Behavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
+		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
+		<Has_Space_Evaluator>False</Has_Space_Evaluator>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</UniqueUnit>
+
+	<!-- Mon Mothma -->
+
+	
+	<HeroUnit Name="Mon_Mothma">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_MON_MOTHMA</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MON_MOTHMA_01 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
+		
+		<Icon_Name>i_button_mon_mothma.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Rebel</Affiliation>
+		<!-- must use a special ability to modify political control in order to stack correctly -->
+		<Political_Control>0</Political_Control>
+		<Political_Faction>Rebel</Political_Faction>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Alderaan</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+		<Damage>100</Damage>
+		<Autoresolve_Health>500</Autoresolve_Health>
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<CategoryMask> NonCombatHero </CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Mothma_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Mothma_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			
+		</Abilities>
+		
+	</HeroUnit>
+
+	<HeroCompany Name="Mon_Mothma_Team">
+		<Text_ID>TEXT_HERO_MON_MOTHMA_TEAM</Text_ID>
+		<Icon_Name>i_button_mon_mothma.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
+		<Company_Units>Mon_Mothma</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MON_MOTHMA_01</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Mothma</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Mothma</SFXEvent_Hero_Respawned>
+
+		<CategoryMask>NonCombatHero</CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Population_Value>1</Population_Value>
+	</HeroCompany>
+
+	<HeroUnit Name="Gavrisom">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_GAVRISOM</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_GAVRISOM </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
+		
+		<Icon_Name>i_button_gavrisom.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Rebel</Affiliation>
+		<!-- must use a special ability to modify political control in order to stack correctly -->
+		<Political_Control>0</Political_Control>
+		<Political_Faction>Rebel</Political_Faction>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Alderaan</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+		<Damage>100</Damage>
+		<Autoresolve_Health>500</Autoresolve_Health>
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<CategoryMask> NonCombatHero </CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Gavrisom_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Gavrisom_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			
+		</Abilities>
+		
+	</HeroUnit>
+
+	<HeroCompany Name="Gavrisom_Team">
+		<Text_ID>TEXT_HERO_GAVRISOM</Text_ID>
+		<Icon_Name>i_button_gavrisom.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
+		<Company_Units>Gavrisom</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MON_MOTHMA_01</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Mothma</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Mothma</SFXEvent_Hero_Respawned>
+
+		<CategoryMask>NonCombatHero</CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Population_Value>1</Population_Value>
+	</HeroCompany>
+	
+	<!-- Mara (Jedi Version) -->
+
+	<HeroCompany Name="Mara_Saber_Team">
+		<Text_ID>TEXT_HERO_MARA_JADE_TEAM</Text_ID>
+		<Icon_Name>i_button_mara_jade.tga</Icon_Name>
+		
+		<Damage>50</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>5</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets>Carida</Required_Planets>
+		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Is_Dummy>Yes</Is_Dummy>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Jade_Fire</Company_Transport_Unit>
+		<Company_Units>Mara_Jade_Lightsaber</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Mara_Jade</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Mara_Jade</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
+	
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_MARA_JADE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
+		<CategoryMask>LandHero</CategoryMask>
+		<Ranking_In_Category> 5 </Ranking_In_Category>
+		<Score_Cost_Credits> 9000 </Score_Cost_Credits>
+	</HeroCompany>
+	
+	<HeroUnit Name="Mara_Jade_Lightsaber">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		<Text_ID>TEXT_HERO_MARA_JADE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MARA_JADE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT</Encyclopedia_Unit_Class>
+		<Unique_Space_Unit>Mara_Headhunter</Unique_Space_Unit>
+		
+		<Land_Model_Name> EI_MaraSaber.alo </Land_Model_Name>
+		<Icon_Name>i_button_mara_jade.tga</Icon_Name>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior> SELECTABLE, STUNNABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DEMOLITION, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, GARRISON_UNIT, HOLSTER_WEAPON </LandBehavior>
+		<Lua_Script>ObjectScript_MaraJade</Lua_Script>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+
+		<!-- Lightsaber holstering data 
+		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
+		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
+		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
+		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 4.365, 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
+		<Holster_Minimum_Drawn_Time_In_Secs> -15.0 </Holster_Minimum_Drawn_Time_In_Secs>
+		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops> -->
+
+		<Garrison_Category> Infantry </Garrison_Category>	
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .5 </Walk_Animation_Speed>
+		<Max_Speed>2</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>	
+		<Custom_Soft_Footprint_Radius> 5.0 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .3 </FormationSpacing> 
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<FormationOrder> 1 </FormationOrder>
+		<FormationRaggedness> .8 </FormationRaggedness>
+		<MaxJiggleDistance> 2.0 </MaxJiggleDistance>
+		
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control />
+		<Political_Faction />
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Coruscant</Spawn_Planet>
+		<Armor_Type> Armor_Hero </Armor_Type>
+		<Size_Value>75</Size_Value>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Damage>50</Damage>
+		<Autoresolve_Health>500</Autoresolve_Health>
+		<Tactical_Health>400</Tactical_Health>
+		<CategoryMask> LandHero </CategoryMask>
+		<Ranking_In_Category> 5 </Ranking_In_Category>
+
+		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
+		<Projectile_Types>Proj_Lightsaber_Vader</Projectile_Types>
+		<Targeting_Max_Attack_Distance>5.0</Targeting_Max_Attack_Distance>
+		<Projectile_Appearance_Delay_Frames> 10 </Projectile_Appearance_Delay_Frames>
+		<Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		
+		<SFXEvent_Select>Unit_Select_Mara_Jade</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Mara_Jade</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Mara_Jade</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Mara_Jade</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Mara_Jade </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mara_Jade </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Mara_Jade </Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Vader_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Vader_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Vader_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Stealth_Capable>Yes</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<AI_Combat_Power>250</AI_Combat_Power>
+
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
+        		<Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
+
+		<!-- This Galactic_Influence_Range controls how far Mara Jade's System Spy ability extends -->
+		<Galactic_Influence_Range>100.0</Galactic_Influence_Range>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
+		<Neutralization_Cost>1500.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>		
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>FORCE_WHIRLWIND</Type>
+				<Recharge_Seconds>25.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Mara_Force_Whirlwind </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+
+		
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
+			<Redirect_Blaster_Ability Name="Mara_Redirect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.10</Redirect_Chance>
+				<Block_Chance>0.10</Block_Chance>
+				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types (but no missiles or grenades): -->
+				<Applicable_Unit_Categories>Infantry, Vehicle, Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+
+			<Absorb_Blaster_Ability Name="Mara_Absorb_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<Absorb_Chance>0.1</Absorb_Chance>
+				<!-- Absorb Percentage and Amount work together in the following way: -->
+				<!-- Actual Amount healed = (Projectile Damage * Absorb Percentage) + Absorb Amount -->
+				<!-- Either value can be zero, but at least one should be non-zero. -->
+				<Damage_Absorb_Percentage>0.05</Damage_Absorb_Percentage>
+				<Damage_Absorb_Amount>1</Damage_Absorb_Amount>
+				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
+				<Applicable_Unit_Categories>Infantry, LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count />
+			</Absorb_Blaster_Ability>
+
+			<Force_Whirlwind_Ability Name="Mara_Force_Whirlwind">
+				<!-- <Activation_Style>Special_Attack</Activation_Style> -->
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We need to be within this distance of the clicked target to consider activating Force Whirlwind -->
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>75.0</Activation_Max_Range>
+				<Damage_Amount>500.0</Damage_Amount>
+				<Damage_Range>75.0</Damage_Range>
+				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
+				<Travel_Time_In_Secs>1.0</Travel_Time_In_Secs>
+				<!-- Percentage chance to activate given a certain number of valid targets in range. -->
+				<!-- First number in the pair is the number of valid targets, second is the chance to activate. -->
+				<Activation_Chance>0,0.0, 1,0.0, 5,1.0, 500,1.0</Activation_Chance>
+				<!--				<Activation_Chance>0,0.0, 500,0.0</Activation_Chance>	< ! - - never activate -->
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Force_Whirlwind</SFXEvent_Activate>
+				<Owner_Particle_Effect>Force_Whirlwind_Particles</Owner_Particle_Effect>
+				<Owner_Particle_Bone_Name />
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count />
+			</Force_Whirlwind_Ability>
+
+			<Galactic_Stealth_Ability Name="Mara_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<Remove_Corruption_Ability Name="Mara_Remove_Corruption">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>
+			</Remove_Corruption_Ability>
+
+			<System_Spy_Ability Name="Mara_Jade_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+
+			<Earthquake_Attack_Ability Name="Mara_Attack_Structures">
+				<Activation_Style>Special_Attack</Activation_Style>
+				<Terminate_Effect_On_Move_Command>Yes</Terminate_Effect_On_Move_Command>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>120.0</Activation_Max_Range>
+				<Activation_Chance>1.0</Activation_Chance>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>0.01</Damage_Percentage>
+				<Damage_Interval_In_Secs>0.4</Damage_Interval_In_Secs>
+				<!-- Note: As well as matching the below Unit_Category/Unit_Type filters, the -->
+				<!-- target object must also have the EARTHQUAKE_TARGET behavior attached. -->
+				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate />
+				<Target_Particle_Effect>Earthquake_Dust_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name />
+			</Earthquake_Attack_Ability>
+
+		</Abilities>
+	</HeroUnit>
+
+	<UniqueUnit Name="Jade_Fire">
+		<Text_ID>TEXT_HERO_MARA_JADE</Text_ID>
+		<!--<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout Skipray_Blastboat</Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Lancer_Frigate Carrack_Cruiser</Encyclopedia_Vulnerable_To>-->
+		<Encyclopedia_Text> TEXT_TOOLTIP_MARA_JADE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_mara_jade.tga</Icon_Name>
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<Land_Model_Name>RV_LADYLUCK.ALO</Land_Model_Name>
+		<Space_Model_Name>RV_LADYLUCK.ALO</Space_Model_Name>
+		<Scale_Factor>0.14</Scale_Factor>
+		<Select_Box_Scale>150</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+		<Mass>0.98</Mass>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>2</Ranking_In_Category>
+		<MovementClass> Space </MovementClass>
+		<Ship_Class>fighter</Ship_Class>
+		<Mass>0.98</Mass>
+		<Max_Speed>3.5</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>50</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>1.5</Max_Lift>
+
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+
+		<AI_Combat_Power>1500</AI_Combat_Power>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<OverrideAcceleration> .3 </OverrideAcceleration>
+		<OverrideDeceleration> .3 </OverrideDeceleration>
+		<Layer_Z_Adjust> -20 </Layer_Z_Adjust>
+		
+		<Armor_Type> Armor_Hero_Transport </Armor_Type>
+
+		<Affiliation>Rebel</Affiliation>
+		<Shield_Points>400</Shield_Points>
+		<Tactical_Health>700</Tactical_Health>
+		<Autoresolve_Health>400</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+		<Energy_Capacity>99999</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Size_Value>8</Size_Value>
+		<Behavior>TRANSPORT</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, UNIT_AI, NEBULA </SpaceBehavior>
+		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+	
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Turret_Rotate_Extent_Degrees>180</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+
+		<SFXEvent_Select>Unit_Select_Han_Solo</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Han_Solo</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Han_Solo</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Han_Solo</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Han_Solo</SFXEvent_Guard>
+		<SFXEvent_Deploy>Unit_Deploy_Han_Solo</SFXEvent_Deploy>
+		<SFXEvent_Fire>Unit_Falcon_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Ambient_Moving> Unit_Falcon_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Falcon_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Falcon_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Falcon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Score_Cost_Credits> 15000 </Score_Cost_Credits>
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>200.0, 100.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Fire_Category_Restrictions> Infantry, Vehicle, Structure, Air, Transport </Fire_Category_Restrictions>
+
+		<Ranged_Target_Z_Adjust>-3.0</Ranged_Target_Z_Adjust>
+
+		<MovementClass> Space </MovementClass>
+		<CategoryMask> Fighter | SpaceHero </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Hover_Offset>5</Hover_Offset>
+		<Landing_Transport_Variant>Jade_Fire_Landing</Landing_Transport_Variant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>400.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+				
+		<Death_Clone>Damage_Normal, Small_Explosion_Space</Death_Clone>
+		<Space_Override_Population_Value>1</Space_Override_Population_Value>
+
+	</UniqueUnit>
+
+	<UniqueUnit Name="Jade_Fire_Landing">
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Variant_Of_Existing_Type>Lady_Luck</Variant_Of_Existing_Type>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
+		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.7</Scale_Factor>
+	</UniqueUnit>
+
+	<!-- Booster -->
+
+	<UniqueUnit Name="Errant_Venture">
+		<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
+		<!--<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Interceptor4_Frigate </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat</Encyclopedia_Vulnerable_To>-->
+		<Icon_Name>i_button_booster.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+		
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_1>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_5>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Text_ID>TEXT_HERO_BOOSTER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_BOOSTER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
+
+        	<Ranking_In_Category>3</Ranking_In_Category>
+			
+			<HardPoints> 
+			HP_Star_Destroyer_2_Octuple_1,
+			HP_Star_Destroyer_2_Octuple_2, 
+			HP_Star_Destroyer_2_Octuple_3, 
+			HP_Star_Destroyer_2_Turbo3, 
+			HP_Star_Destroyer_2_Turbo4,
+			HP_Star_Destroyer_2_Turbo5,
+			HP_Star_Destroyer_2_Turbo6,
+			HP_Star_Destroyer_2_Turbo7,
+			HP_Star_Destroyer_2_Turbo8,
+			HP_Star_Destroyer_2_Turbo10,
+			HP_Star_Destroyer_2_Ion1,
+			HP_Star_Destroyer_Shield_Generator, HP_Star_Destroyer_Engines, HP_Star_Destroyer_Fighter_Bay, HP_Star_Destroyer_Tractor_Beam
+		</HardPoints>
+
+		 
+		<Tech_Level>99</Tech_Level>
+		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+	  
+		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+        	<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			
+		  <Unit_Ability>
+	            <Type>TRACTOR_BEAM</Type>
+	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>20</Recharge_Seconds>
+	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>
+	      </Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+
+			<Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            		<Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
+				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+				<Activation_Min_Range>5</Activation_Min_Range>
+	            		<Activation_Max_Range>1100</Activation_Max_Range>
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>.98</Target_Speed_Decrease_Percent>
+				<Stacking_Category>2</Stacking_Category>			
+			</Tractor_Beam_Attack_Ability>
+
+		</Abilities>
+		
+	</UniqueUnit>
+	
+	<SpaceUnit Name="Errant_Venture_Two">
+	<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
+		<!--<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Interceptor4_Frigate </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat</Encyclopedia_Vulnerable_To>-->
+		<Icon_Name>i_button_booster.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+		
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Text_ID>TEXT_HERO_BOOSTER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_BOOSTER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
+
+        	<Ranking_In_Category>3</Ranking_In_Category>
+					<Space_Model_Name>EV_Red.ALO</Space_Model_Name>
+
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_1>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_5>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+	
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+
+		<Scale_Factor>4.5</Scale_Factor>
+		<Mass>0.999</Mass>
+		<Dense_FOW_Reveal_Range_Multiplier>1.00</Dense_FOW_Reveal_Range_Multiplier>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Armor_Type> Armor_Frigate </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+
+		<Max_Speed>2.5</Max_Speed>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Capital </Space_Layer>
+		<Layer_Z_Adjust>-230.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<OverrideAcceleration> .02 </OverrideAcceleration>
+		<OverrideDeceleration> .02 </OverrideDeceleration>
+		
+		<Max_Thrust>0.1</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>4</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Damage>70</Damage>
+		<Autoresolve_Health>10000</Autoresolve_Health>
+		<Shield_Points>10000</Shield_Points>
+		<Tactical_Health>5000</Tactical_Health> <!-- was 6000 -->
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Energy_Capacity>8000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Ship_Class>capital</Ship_Class>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<!--<Political_Control>1</Political_Control>-->
+		<Political_Faction>Empire</Political_Faction>
+		<Squadron_Capacity>40</Squadron_Capacity>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+
+	
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	
+
+	</SpaceUnit>
+
+	
+
+	<!-- Wedge Antilles -->
+
+	
+	<UniqueUnit Name="Lusankya_Wedge">
+		<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_WEDGE_ANTILLES</Text_ID>
+		
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>i_button_wedge_Antilles.tga</Icon_Name>
+		<Space_Model_Name>RV_LUSANKYA.ALO</Space_Model_Name>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_WEDGE_ANTILLES </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
+
+			<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			
+
+		</Unit_Abilities_Data>
+	
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>E-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 6 </Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 9 </Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>A_Wing_Squadron, 6 </Reserve_Spawned_Units_Tech_0>
+	
+	</UniqueUnit>
+
+	<!-- Cilghal -->
+	<HeroUnit Name="Cilghal">
+		<Text_ID>TEXT_HERO_CILGHAL</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_CILGHAL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
+		<Land_Model_Name>RI_Cilghal.ALO</Land_Model_Name>
+		<Icon_Name>i_button_cilghal.tga</Icon_Name>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+
+		<!-- Lightsaber holstering data -->
+		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
+		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
+		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
+		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 5.8, 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
+		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
+		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		
+		<Movement_Animation_Speed> 0.4 </Movement_Animation_Speed>
+		<Max_Speed>2</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .25 </OverrideDeceleration>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Obiwan_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Obiwan_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Obiwan_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>			
+		<Scale_Factor>1.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Size_Value>10</Size_Value>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>200</Tactical_Health>
+		<Autoresolve_Health>350</Autoresolve_Health>
+		<Damage>100</Damage>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Armor_Type> Armor_Hero </Armor_Type>
+		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
+		<Projectile_Types> Proj_Lightsaber </Projectile_Types>
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>20.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Projectile_Fire_Recharge_Seconds>0.7</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+
+		<SFXEvent_Select>Unit_Select_Obi_Wan</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Obi_Wan</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Obi_Wan</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Obi_Wan</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Obi_Wan</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Group_Move_Obi_Wan</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Obi_Wan</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Obi_Wan </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Obi_Wan </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Obi_Wan </Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<CategoryMask> LandHero </CategoryMask>
+		<Ranking_In_Category> 2 </Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>		
+
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Neutralization_Cost>3500.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!-- This Galactic_Influence_Range controls how far Cilghal's System Spy ability extends -->
+		<Galactic_Influence_Range>100.0</Galactic_Influence_Range>	<!-- the whole galaxy -->
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Lua_Script>ObiWanPlan</Lua_Script>
+
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>AREA_EFFECT_HEAL</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Spawned_Object_Type> Proj_Special_Obiwan_Instant_Heal_Blast </Spawned_Object_Type>
+				<SFXEvent_Target_Ability> Unit_Heal_Obi_Wan </SFXEvent_Target_Ability> 
+				
+			</Unit_Ability>
+			
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>TARGETED_INVULNERABILITY</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name>
+				<Spawned_Object_Type> Proj_Special_Obiwan_Instant_Invulnerability_Blast </Spawned_Object_Type>
+				<Effective_Radius>400</Effective_Radius>
+				<Friendly_Ability> true </Friendly_Ability>
+				<Supports_Autofire>True</Supports_Autofire>				
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+          	<Force_Healing_Ability Name="Cilghal_Force_Healing">
+				<!-- <Activation_Style>Ground_Automatic</Activation_Style> -->
+				<Activation_Style> User_Input </Activation_Style>
+				<Heal_Range>100.0</Heal_Range>
+				<Heal_Amount>2.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Smooth_Pulse</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+
+
+			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
+			<Redirect_Blaster_Ability Name="Cilghal_Redirect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.30</Redirect_Chance>
+				<Block_Chance>0.60</Block_Chance>
+				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Silri, Luke_Skywalker_Jedi, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper, Underworld_Disruptor_Merc, Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur, Dark_Trooper_PhaseII </Applicable_Unit_Types>
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+
+			<Force_Healing_Ability Name="Cilghal_Self_Heal">
+			
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.07 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Cilghal</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+				
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+
+			<Earthquake_Attack_Ability Name="Cilghal_Attack_Structures">
+				<Activation_Style>Special_Attack</Activation_Style>
+				<Terminate_Effect_On_Move_Command>Yes</Terminate_Effect_On_Move_Command>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>120.0</Activation_Max_Range>
+				<Activation_Chance>1.0</Activation_Chance>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>0.04</Damage_Percentage>
+				<Damage_Interval_In_Secs>0.5</Damage_Interval_In_Secs>
+				<!-- Note: As well as matching the below Unit_Category/Unit_Type filters, the -->
+				<!-- target object must also have the EARTHQUAKE_TARGET behavior attached. -->
+				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate />
+				<Target_Particle_Effect>Earthquake_Dust_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name />
+			</Earthquake_Attack_Ability>
+
+			<System_Spy_Ability Name="Cilghal_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Force_Sensitive_Heroes>Yes</See_Force_Sensitive_Heroes>
+				<See_Super_Weapons>Yes</See_Super_Weapons>
+			</System_Spy_Ability>
+
+		
+		</Abilities>
+
+	</HeroUnit>
+
+	<HeroCompany Name="Cilghal_Team">
+		<Text_ID>TEXT_HERO_CILGHAL</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_CILGHAL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_cilghal.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>100</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>5</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
+		<Company_Units>Cilghal</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+		
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Complete>Unit_Respawn_Obi_Wan</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Obi_Wan</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Obi_Wan</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>AREA_EFFECT_HEAL</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Spawned_Object_Type> Proj_Special_Obiwan_Instant_Heal_Blast </Spawned_Object_Type>
+				<SFXEvent_Target_Ability> Unit_Heal_Obi_Wan </SFXEvent_Target_Ability> 
+				
+			</Unit_Ability>
+			
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>TARGETED_INVULNERABILITY</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name>
+				<Spawned_Object_Type> Proj_Special_Obiwan_Instant_Invulnerability_Blast </Spawned_Object_Type>
+				<Effective_Radius>400</Effective_Radius>
+				<Friendly_Ability> true </Friendly_Ability>
+				<Supports_Autofire>True</Supports_Autofire>				
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		
+		<CategoryMask>LandHero</CategoryMask>
+		<Ranking_In_Category> 2 </Ranking_In_Category>
+		<Population_Value>1</Population_Value>
+	</HeroCompany>
+
+	
+
+	
+
+
+</New_Republic_Heroes>

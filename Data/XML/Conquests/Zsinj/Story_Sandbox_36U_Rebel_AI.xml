@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Campaign: Rim World Conflict (Rebel)	******-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+<!-- Force Rebels to get X-wing instead of Z-95 to start -->
+	<Event Name="Unlock_X_wings">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_X-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Z95_Headhunter_Rebel_Squadron</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_Star_Destroyer_Two">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Star_Destroyer_Two</Reward_Param1>
+		<Reward_Param2>Calamari_Cruiser</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_AMM_Interdictor_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Interdictor_Cruiser</Reward_Param1>
+		<Reward_Param2>CC7700</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Unlock_AMM_Carrack_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Carrack_Cruiser</Reward_Param1>
+		<Reward_Param2>Nebulon_B_Cruiser</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_AMM_Dominator_Star_Destroyer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Dominator_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Nebulon_B-2_Cruiser</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_AMM_BattleDragon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_BattleDragon</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Lock_AMM_Nova_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Nova_Cruiser</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	<Event Name="Unlock_AMM_Century_Brigade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Century_Brigade</Reward_Param1>
+		<Reward_Param2>Rebel_Light_Tank_Brigade</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Unlock_AMM_Heavy_Scout_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AMM_Century_Brigade</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+<!-- Rebel Hero Release -->
+
+
+	<!-- Spawn Tech 1 Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+
+
+	<Event Name="Spawn_Rogriss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Agonizer</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Han">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Remonda</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+</Story>

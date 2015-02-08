@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script></Lua_Script>
+	<Active_Plot>Conquests\Zsinj\Story_Sandbox_36U_Empire_AI.XML</Active_Plot>
+
+	<Active_Plot>Prison_Tactical.xml</Active_Plot>
+	
+</Story_Mode_Plots>

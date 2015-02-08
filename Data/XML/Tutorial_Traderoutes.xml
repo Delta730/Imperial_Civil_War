@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<TradeRoutes>
+
+
+<!-- Cluster Campaign Trade Routes -->
+
+	<TradeRoute Name="T_Coruscant_Bastion">
+		
+            <Point_A>Coruscant</Point_A>
+            <Point_B>Bastion</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	
+		<TradeRoute Name="T_Coruscant_MonCalimari">
+		
+            <Point_A>Coruscant</Point_A>
+            <Point_B>MonCalimari</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+
+	<TradeRoute Name="T_Coruscant_Nzoth">
+		
+            <Point_A>Coruscant</Point_A>
+            <Point_B>Nzoth</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+</TradeRoutes>

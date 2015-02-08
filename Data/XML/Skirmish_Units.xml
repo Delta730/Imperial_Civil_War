@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<Remnant_Space_Units>
+
+	
+<!--Armadia-->
+
+<SpaceUnit Name="Armadia_NR">
+	<Variant_Of_Existing_Type>Armadia</Variant_Of_Existing_Type>
+	<Affiliation>Rebel</Affiliation>
+</SpaceUnit>
+
+<SpaceUnit Name="Armadia_IR">
+	<Variant_Of_Existing_Type>Armadia</Variant_Of_Existing_Type>
+	<Affiliation>Empire</Affiliation>
+</SpaceUnit>
+	
+<SpaceUnit Name="Armadia_EotH">
+	<Variant_Of_Existing_Type>Armadia</Variant_Of_Existing_Type>
+	<Affiliation>Underworld</Affiliation>
+</SpaceUnit>
+
+<!--Star Home-->
+
+<SpaceUnit Name="Star_Home_NR">
+	<Variant_Of_Existing_Type>Star_Home</Variant_Of_Existing_Type>
+	<Affiliation>Rebel</Affiliation>
+</SpaceUnit>
+	
+<SpaceUnit Name="Star_Home_IR">
+	<Variant_Of_Existing_Type>Star_Home</Variant_Of_Existing_Type>
+	<Affiliation>Empire</Affiliation>
+</SpaceUnit>
+	
+<SpaceUnit Name="Star_Home_EotH">
+	<Variant_Of_Existing_Type>Star_Home</Variant_Of_Existing_Type>
+	<Affiliation>Underworld</Affiliation>
+</SpaceUnit>
+	
+<!--Battle Dragon-->
+	
+<SpaceUnit Name="HBD_NR">
+	<Variant_Of_Existing_Type>Battledragon</Variant_Of_Existing_Type>
+	<Affiliation>Rebel</Affiliation>
+</SpaceUnit>
+	
+<SpaceUnit Name="HBD_IR">
+	<Variant_Of_Existing_Type>Battledragon</Variant_Of_Existing_Type>
+	<Affiliation>Empire</Affiliation>
+</SpaceUnit>
+	
+<SpaceUnit Name="HBD_EotH">
+	<Variant_Of_Existing_Type>Battledragon</Variant_Of_Existing_Type>
+	<Affiliation>Underworld</Affiliation>
+</SpaceUnit>
+	
+<!--Nova Cruiser-->
+	
+<SpaceUnit Name="Nova_NR">
+	<Variant_Of_Existing_Type>Nova_Cruiser</Variant_Of_Existing_Type>
+	<Affiliation>Rebel</Affiliation>
+</SpaceUnit>
+	
+<SpaceUnit Name="Nova_IR">
+	<Variant_Of_Existing_Type>Nova_Cruiser</Variant_Of_Existing_Type>
+	<Affiliation>Empire</Affiliation>
+</SpaceUnit>
+	
+<SpaceUnit Name="Nova_EotH">
+	<Variant_Of_Existing_Type>Nova_Cruiser</Variant_Of_Existing_Type>
+	<Affiliation>Underworld</Affiliation>
+</SpaceUnit>
+   
+
+</Remnant_Space_Units>

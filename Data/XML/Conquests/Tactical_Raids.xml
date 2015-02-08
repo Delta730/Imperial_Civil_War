@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Campaign: Origin of Corruption (Rebel)	******-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+<Event Name="Battle_Start">
+<Event_Type>STORY_ELAPSED</Event_Type>
+<Event_Param1>0</Event_Param1>
+</Event>
+
+<Event Name="SWITCH_CONTROL_EVENT">
+<Event_Type>STORY_TRIGGER</Event_Type>
+<Reward_Type>SWITCH_CONTROL</Reward_Type>
+<Reward_Param1>Hutts</Reward_Param1>
+<Reward_Param2>AI_Player_UnderworldStoryOpponent</Reward_Param2>
+<Prereq>Battle_Start</Prereq>
+</Event>
+
+
+<Event Name="SWITCH_CONTROL_None1">
+	<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Rebel</Event_Param1>
+	<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+</Event>
+
+
+<Event Name="SWITCH_CONTROL_None2">
+	<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Empire</Event_Param1>
+	<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+</Event>
+
+
+
+<Event Name="SWITCH_CONTROL_None3">
+	<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Underworld</Event_Param1>
+	<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+</Event>
+
+
+<Event Name="SWITCH_CONTROL_None4">
+	<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Pirates</Event_Param1>
+	<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+</Event>
+
+
+
+<Event Name="SWITCH_CONTROL_None5">
+	<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Pentastar</Event_Param1>
+	<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+</Event>
+
+
+<Event Name="SWITCH_CONTROL_None6">
+	<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Yevetha</Event_Param1>
+	<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+</Event>
+
+
+<Event Name="SWITCH_CONTROL_None7">
+	<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Sarlacc</Event_Param1>
+	<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+</Event>
+
+<Event Name="SWITCH_CONTROL_None8">
+	<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Hutts</Event_Param1>
+	<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+</Event>
+
+<Event Name="Retreat_Complete">
+<Event_Type>STORY_GENERIC</Event_Type>
+<Event_Param1>RETREAT_COMPLETE</Event_Param1>
+<Reward_Type>SWITCH_CONTROL</Reward_Type>
+ <Reward_Param1>Hutts</Reward_Param1>
+ <Reward_Param2>None</Reward_Param2>
+</Event>
+</Story>
+

@@ -1,0 +1,95 @@
+<!--****************************************************-->
+<!--***** CAMPAIGN: Shadow Hand (Empire Version) *****-->
+<!--****************************************************-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+
+ 
+		<Event Name="E_Lock_Scimmy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Scimmy_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+			<Event Name="E_Lock_Executor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Generic_Executor</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	<!-- Spawn the Palpateam -->
+	<Event Name="Spawn_Emperor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Sedriss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sedriss_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Veers">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Veers_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+			<Event Name="Spawn_Harrsk_Palpateam">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Shockwave_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Spawn_Kaine">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Reaper_Kaine</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Spawn_Delvardus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Thalassa</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Spawn_Teradoc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>CrimsonSunrise_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Pellaeon_Palpateam">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Chimera_Pellaeon_Vice</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+
+</Story>

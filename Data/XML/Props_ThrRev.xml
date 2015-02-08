@@ -1,0 +1,1453 @@
+<?xml version="1.0" ?>               
+<Prop_Forest>
+
+	<Props_Urban Name="Prop_Coruscant_Senate_building_ThrRev">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Corsenate.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	
+
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Tar_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_URBTAR_BIG.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Tar_Medium">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_URBTAR_BIG.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Tar_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_URBTAR_BIG.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Tar_Larger">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_URBTAR_BIG.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Tar_Giant">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_URBTAR_BIG.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Huge">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_URBTAR_BIG.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Tar_Immense">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_URBTAR_BIG.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Tar_Gigantic">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_URBTAR_BIG.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Tar_Its_Over_Nine_Thousand">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_URBTAR_BIG.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Statue_A_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_UrbanPalpStatue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Urban>
+	
+	<Props_Urban Name="Prop_Urban_Statue_B_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_UrbanObiStatue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Urban>
+	
+	<Props_Urban Name="Prop_Urban_Statue_C_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_UrbanOddStatue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Urban>
+
+	<Props_Urban Name="Star Destroyer Downed2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Icon_Name></Icon_Name>
+		<Land_Model_Name>EV_StarDestroyer_D.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor><!--<Is_Sprite>No</Is_Sprite>--><Is_Decoration>Yes</Is_Decoration>
+		<Exclude_From_Distance_Fade> Yes </Exclude_From_Distance_Fade>
+        	<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+        	<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Urban>	
+
+	<Props_Volcanic Name="ThrRev_Prop_Tar_Pit_Huge">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TAR.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Tar_Pit_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TAR.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Tar_Pit_Medium">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TAR.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Tar_Pit_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TAR.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Tar_Pit_Tiny">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TAR.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Prop_Forest Name="Prop_Wroshyr_x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree_plain.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Wroshyr_x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree_plain.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Wroshyr_x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree_plain.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	
+	<Prop_Forest Name="Prop_Endor_Tree00_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_Tree1_Cluster_NoShadow_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_NS_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_Tree2_Cluster_NoShadow_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_NS2_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_A_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_A.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_B_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_B.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_Tree00_Cluster_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_EvergreenTree00_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01_Cluster_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_Conifer00_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Tactical_Model_Name>W_Tree_Ever_01_HI.ALO</Tactical_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_DecTree00_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_DecTree00_Obstacle_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> High Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 3.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 0.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> 0.0 </Custom_Hard_YExtent_Offset>
+		
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_DecTree00_Cluster_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_DecTree01_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_DecTree01_Obstacle_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> High Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 3.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 0.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> 0.0 </Custom_Hard_YExtent_Offset>
+
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_DecTree01_Cluster_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_PineCluster00_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_PineCluster00_Cluster_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_PineCluster01_Thr">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreePine01.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Desert Name="ThrRev_Prop_Tat_1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>TATPROP1.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="ThrRev_Prop_Tat_2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>TATPROP2.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="ThrRev_Prop_Tat_3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>TATPROP3.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="ThrRev_Prop_Tat_4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>TATPROP4.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="ThrRev_Prop_Tat_5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>TATPROP5.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="ThrRev_Prop_Tat_6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>TATPROP6.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="ThrRev_Prop_Tat_7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>TATPROP7.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="ThrRev_Prop_Tat_8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>TATPROP8.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Props_Temperate Name="ThrRev_Prop_Watermill">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_WATERMILL.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Temperate>
+
+	<Props_Temperate Name="ThrRev_Prop_Silo">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_ANSION01.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Temperate>
+
+	<Props_Temperate Name="ThrRev_Prop_Stable">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_ANSION02.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Temperate>
+
+	
+	<Props_Temperate Name="ThrRev_Prop_Fence">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_ANSION03.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Temperate>
+
+
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Pool_Huge">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_ACIDPOOL.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Bubbles_Huge">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>P_ACIDBUBBLES.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+	
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Pool_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_ACIDPOOL.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Bubbles_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>P_ACIDBUBBLES.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Pool_Medium">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_ACIDPOOL.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Bubbles_Medium">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>P_ACIDBUBBLES.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Pool_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_ACIDPOOL.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Bubbles_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>P_ACIDBUBBLES.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Pool_Tiny">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_ACIDPOOL.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Iridonia_Acid_Bubbles_Tiny">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>P_ACIDBUBBLES.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+
+	<Props_Volcanic Name="ThrRev_Prop_Dirty_Pool_Tiny">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_WATER_BROWN.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	
+	<Props_Volcanic Name="ThrRev_Prop_Dirty_Pool_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_WATER_BROWN.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Dirty_Pool_Medium">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_WATER_BROWN.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Dirty_Pool_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_WATER_BROWN.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="ThrRev_Prop_Dirty_Pool_Huge">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_WATER_BROWN.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Volcanic>
+
+	<GroundInfantry Name="Kath_Hound">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_VORNSKR_WOLF</Text_ID>
+		<Encyclopedia_Good_Against> Rebel_Trooper Darth_Vader Luke_Skywalker_Jedi</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler Dark_Trooper_PhaseI Rebel_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+  		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_KATH_HOUND</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BEAST</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>kathhound.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_vornskr.tga</Icon_Name>
+
+		<Select_Box_Scale>40</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT, HUNT</LandBehavior>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Scale_Factor>1.0</Scale_Factor>
+		<Movement_Animation_Speed> 3.5 </Movement_Animation_Speed>
+		<OverrideAcceleration> .2 </OverrideAcceleration>
+		<OverrideDeceleration> .25 </OverrideDeceleration>
+		<Max_Speed>1.8</Max_Speed>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		
+		<Armor_Type> Armor_Hero </Armor_Type>
+
+		<Affiliation>Hostile</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Size_Value>10</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>20.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+
+		<Projectile_Types>Proj_Vornskr_Bite</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 13 </Projectile_Appearance_Delay_Frames>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+
+		<SFXEvent_Select>Unit_Select_Wolf</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Wolf</SFXEvent_Move>
+		<SFXEvent_Fleet_Move />
+		<SFXEvent_Attack>Unit_Attack_Wolf</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Wolf</SFXEvent_Guard>
+		<SFXEvent_Fire />
+		<Death_SFXEvent_Start_Die>Unit_Death_Wolf</Death_SFXEvent_Start_Die>
+		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Wolf </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Low_Wolf </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+	
+		<SFXEvent_Ambient_Moving> Unit_Random_Wolf </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 3 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+        <SFXEvent_Cough_Override>Unit_Coughing_Wolf</SFXEvent_Cough_Override>
+
+		<CategoryMask> Infantry </CategoryMask>
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<FormationRaggedness> 0.0 </FormationRaggedness>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+        <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+
+		<Is_Squashable> Yes </Is_Squashable>
+		<AI_Combat_Power>6</AI_Combat_Power>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Vornskr_Attack_Priority</Targeting_Priority_Set>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Infantry</Weather_Category>
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<FormationOrder> 3 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationSpacing> 1.5 </FormationSpacing>
+		<FormationRaggedness> 0.3 </FormationRaggedness>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+				
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_PROWL</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_PROWL_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</GroundInfantry>
+
+	<GroundStructure Name="Kath_Spawn_House">
+		<Text_ID>TEXT_STRUCTURE_VORNSKR_DEN</Text_ID>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_VORNSKR_SPAWNER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Enemy_Spawn_Text> TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_VORNSKR TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_E_VORNSKR TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_VORNSKR </Enemy_Spawn_Text>
+
+		<Land_Model_Name>NB_vornskr_den.alo</Land_Model_Name>
+		<Icon_Name>i_button_NB_Rancor_cave.tga</Icon_Name>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<LandBehavior>IDLE, LAND_OBSTACLE, SPACE_OBSTACLE, SPAWN_INDIGENOUS_UNITS, HIDE_WHEN_FOGGED, DUMMY_TOOLTIP, SELECTABLE</LandBehavior>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Spawned_Indigenous_Units_Type> Kath_Hound </Spawned_Indigenous_Units_Type>
+		<Spawned_Indigenous_Units_Delay_Seconds>10.0</Spawned_Indigenous_Units_Delay_Seconds>
+		<Spawned_Indigenous_Units_Quantity>5</Spawned_Indigenous_Units_Quantity>
+		<Spawn_Indigenous_Units_In_Packs>Yes</Spawn_Indigenous_Units_In_Packs>
+		<Spawn_Indigenous_Units_Radius>80.0f</Spawn_Indigenous_Units_Radius>
+		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
+		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
+
+		<Is_Branched_Map_Discardable>False</Is_Branched_Map_Discardable>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>600</Tactical_Health>
+		<Autoresolve_Health>600</Autoresolve_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits> 500 </Score_Cost_Credits>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+
+	</GroundStructure>
+
+	<Props_Volcanic Name="Prop_Ryloth_Gardens_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Ryloth_Gardens.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Ryloth_Gardens_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Ryloth_Gardens.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Props_Volcanic>
+
+	<Props_Urban Name="Prop_Taris_Undercity_Base">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_UrbanWall_B.ALO</Land_Model_Name>
+		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>20.0</Scale_Factor>
+		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Taris_Civ_Structure_C">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Urban_TarisBuild_A.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	
+
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Taris_Civ_Structure_D">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Urban_TarisBuild_B.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.65</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Urban_Block_Taris">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_UrbanBlock_B.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>40.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Urban>
+
+
+	<!-- Corellia -->
+
+	 <Props_Urban Name="Prop_Urban_Civ_Structure_A_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>W_Urban_CorBuild_A.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_B_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>W_Urban_CorBuild_B.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_C_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>W_Urban_CorBuild_C.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_D_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>W_Urban_CorBuild_D.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_E_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>W_Urban_CorBuild_E.alo</Land_Model_Name> 
+  <LandBehavior>LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_F_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>W_Urban_CorBuild_F.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_G">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>W_ImperialPalace.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_G_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>W_ImperialPalace.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_H">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>NB_Bothan_building.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.0</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_H_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>NB_Bothan_building.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>10</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_I">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_CheckPointStructure.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.0</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_I_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_CheckPointStructure.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>10</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_J">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_GovernorsQuarters.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_J_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_GovernorsQuarters.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Hypervelocity_Gun">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_HyperVelocityGun.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Hypervelocity_Gun_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_HyperVelocityGun.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_K">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_OfficerAcademy.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_K_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_OfficerAcademy.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_L">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_OfficerAcademy.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.0</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_L_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_OfficerAcademy.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>10</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_M_Empire">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_ResearchFacility.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_M_Empire_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_ResearchFacility.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_M_Rebel">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_M_Rebel_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_N">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.0</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_N_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>10</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_O">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>NB_Prison.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>1.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_O_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>NB_Prison.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>15</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_P">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_BARRACKS.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>0.75</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Structure_P_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>RB_BARRACKS.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>7.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Turbolaser">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_TLTower.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>0.75</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Turbolaser_Large">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_TLTower.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>3.75</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Turbolaser_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>EB_TLTower.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>7.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Sensor">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>NB_SHUTTERSHIELDGEN.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>0.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+  <Props_Urban Name="Prop_Urban_Civ_Sensor_Large">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>NB_SHUTTERSHIELDGEN.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>2.5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+<Props_Urban Name="Prop_Urban_Civ_Sensor_Huge">
+  <Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID> 
+  <Land_Model_Name>NB_SHUTTERSHIELDGEN.ALO</Land_Model_Name> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  <Scale_Factor>5</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <Is_Discardable>No</Is_Discardable> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  </Props_Urban>
+	 <Props_Urban Name="Prop_Bespin_Building_A_Huge">
+  <Text_ID>TEXT_NONE</Text_ID> 
+  <Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior> 
+  <Land_Model_Name>W_Bespin_Building01.ALO</Land_Model_Name> 
+  <Scale_Factor>10</Scale_Factor> 
+  <Is_Decoration>No</Is_Decoration> 
+  <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+  <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+  <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+  <Is_Discardable>No</Is_Discardable> 
+  <Space_Layer>Frigate | Corvette</Space_Layer> 
+  </Props_Urban>
+
+	
+</Prop_Forest>

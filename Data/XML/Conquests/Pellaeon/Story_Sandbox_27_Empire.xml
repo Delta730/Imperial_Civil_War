@@ -1,0 +1,212 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Empire Version) *****-->
+<!--****************************************************-->
+
+
+
+<Story>
+	
+	
+<Event Name="Faction_Intro">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Remnant_Intro</Reward_Param1>
+	</Event>
+	
+	
+		<Event Name="Faction_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Faction_Intro</Prereq>
+		</Event>	
+
+<Event Name="Long_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Star_Wars_Intro</Reward_Param1>
+		<Prereq>Faction_Fin</Prereq>
+	</Event>
+	
+	
+	
+		<Event Name="Long_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Long_Text</Prereq>
+		</Event>	
+
+		
+	<Event Name="Pellaeon_Text_Crawl">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Pellaeon_Campaign_Intro</Reward_Param1>
+		<Prereq>Long_Text_Fin</Prereq>
+	</Event>
+	
+	
+		<Event Name="Pellaeon_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Pellaeon_Text_Crawl</Prereq>
+		</Event>	
+				<Event Name="Pellaeon_Text_Fin2">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+				<Reward_Param1>BlahBlah</Reward_Param1>
+				<Prereq>Pellaeon_Text_Fin</Prereq>
+			</Event> 
+			
+						<Event Name="Pause_For_Movie">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+	
+	<Event Name="UnPause_For_Game">
+					<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+	</Event>
+			
+	 <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+
+ </Event>
+
+<!-- Empire Hero Release -->
+
+
+	
+	<Event Name="E_Lock_Scimmy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Scimmy_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	
+	<Event Name="E_Lock_Sovereign">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Sovereign</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+		<Event Name="E_Lock_Praetor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Praetor_Empire</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="E_Level_Five">
+  		<Event_Type>STORY_TRIGGER</Event_Type>
+  		<Event_Param1>Universal_Story_Start</Event_Param1>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>5</Reward_Param2>
+		
+	 </Event>
+				<Event Name="E_Lock_MTC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MTC_Sensor</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<!-- Spawn Time Era 5 Heroes Pellaeon -->
+	<Event Name="Empire_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Gilad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Chimera_Pellaeon_Grand</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Disra">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Disra_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Tierce">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Tierce_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Spawn_Navett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Navett_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+		<Event Name="Spawn_Brakiss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Brakiss_Team</Reward_Param1>
+		<Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+<Event Name="Spawn_Meizh_Vermel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Ascian</Reward_Param1>
+		<Reward_Param2>Morishim</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<Event Name="Spawn_Navett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Navett_Team</Reward_Param1>
+		<Reward_Param2>Morishim</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+			<Event Name="Spawn_Scylla">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Scylla</Reward_Param1>
+		<Reward_Param2>Orinda</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+		<Event Name="Spawn_Stele">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>181st_Stele</Reward_Param1>
+		<Reward_Param2>Orinda</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+		  <Event Name="Intro_Welcome">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_PELLAEON_IR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+    <Reward_Param8>Pellaeon_Intro_Speech</Reward_Param8>
+    <Reward_Param9>Pellaeon_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Universal_Story_Start</Prereq>
+  </Event>
+</Story>

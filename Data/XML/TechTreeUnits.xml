@@ -1,0 +1,2731 @@
+<?xml version="1.0" ?>
+<Tech_Tree_Units>
+	<!-- New Republic Units -->
+	<Squadron Name="BWing_Squadron_Tech_1">
+	<Variant_Of_Existing_Type>B-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BWing_Squadron_Tech_2">
+	<Variant_Of_Existing_Type>B-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BWing_Squadron_Tech_3">
+	<Variant_Of_Existing_Type>B-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BWing_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>B-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BWing_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>B-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="XWing_Squadron_Tech_1">
+	<Variant_Of_Existing_Type>Rebel_X-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="XWing_Squadron_Tech_2">
+	<Variant_Of_Existing_Type>Rebel_X-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="XWing_Squadron_Tech_3">
+	<Variant_Of_Existing_Type>Rebel_X-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="XWing_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>Rebel_X-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="XWing_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>Rebel_X-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YWing_Squadron_Tech_1">
+	<Variant_Of_Existing_Type>Y-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YWing_Squadron_Tech_2">
+	<Variant_Of_Existing_Type>Y-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="AWing_Squadron_Tech_1">
+	<Variant_Of_Existing_Type>A_Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="AWing_Squadron_Tech_2">
+	<Variant_Of_Existing_Type>A_Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="AWing_Squadron_Tech_3">
+	<Variant_Of_Existing_Type>A_Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="AWing_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>A_Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="AWing_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>A_Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EWing_Squadron_Tech_2">
+	<Variant_Of_Existing_Type>E-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EWing_Squadron_Tech_3">
+	<Variant_Of_Existing_Type>E-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EWing_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>E-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EWing_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>E-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="KWing_Squadron_Tech_3">
+	<Variant_Of_Existing_Type>K-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="KWing_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>K-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="KWing_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>K-Wing_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Defender_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>Defender_Starfighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Defender_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>Defender_Starfighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Corellian_Corvette_Tech_1">
+	<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corellian_Corvette_Tech_2">
+	<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corellian_Corvette_Tech_3">
+	<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corellian_Corvette_Tech_4">
+	<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corellian_Corvette_Tech_5">
+	<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corellian_Gunboat_Tech_1">
+	<Variant_Of_Existing_Type>Corellian_Gunboat</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corellian_Gunboat_Tech_2">
+	<Variant_Of_Existing_Type>Corellian_Gunboat</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corellian_Gunboat_Tech_3">
+	<Variant_Of_Existing_Type>Corellian_Gunboat</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corellian_Gunboat_Tech_4">
+	<Variant_Of_Existing_Type>Corellian_Gunboat</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corellian_Gunboat_Tech_5">
+	<Variant_Of_Existing_Type>Corellian_Gunboat</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Nebulon_B_Frigate_Tech_1">
+	<Variant_Of_Existing_Type>Nebulon_B_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Nebulon_B_Frigate_Tech_2">
+	<Variant_Of_Existing_Type>Nebulon_B_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Marauder_Cruiser_Tech_1">
+	<Variant_Of_Existing_Type>Marauder_Missile_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Marauder_Cruiser_Tech_2">
+	<Variant_Of_Existing_Type>Marauder_Missile_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Marauder_Cruiser_Tech_3">
+	<Variant_Of_Existing_Type>Marauder_Missile_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Marauder_Cruiser_Tech_4">
+	<Variant_Of_Existing_Type>Marauder_Missile_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Marauder_Cruiser_Tech_5">
+	<Variant_Of_Existing_Type>Marauder_Missile_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Sacheen_Tech_4">
+	<Variant_Of_Existing_Type>Sacheen</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Sacheen_Tech_5">
+	<Variant_Of_Existing_Type>Sacheen</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corona_Tech_4">
+	<Variant_Of_Existing_Type>Corona</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corona_Tech_5">
+	<Variant_Of_Existing_Type>Corona</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+
+	<Squadron Name="Alliance_Assault_Frigate_Tech_1">
+	<Variant_Of_Existing_Type>Alliance_Assault_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Alliance_Assault_Frigate_Tech_2">
+	<Variant_Of_Existing_Type>Alliance_Assault_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Alliance_Assault_Frigate_Tech_3">
+	<Variant_Of_Existing_Type>Alliance_Assault_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Alliance_Assault_Frigate_Tech_4">
+	<Variant_Of_Existing_Type>Alliance_Assault_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Alliance_Assault_Frigate_Tech_5">
+	<Variant_Of_Existing_Type>Alliance_Assault_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Quasar_Tech_1">
+	<Variant_Of_Existing_Type>Quaser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Quasar_Tech_2">
+	<Variant_Of_Existing_Type>Quaser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Quasar_Tech_3">
+	<Variant_Of_Existing_Type>Quaser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Nebulon_B2_Frigate_Tech_1">
+	<Variant_Of_Existing_Type>Nebulon_B-2_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Nebulon_B2_Frigate_Tech_2">
+	<Variant_Of_Existing_Type>Nebulon_B-2_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Mc40a_Tech_1">
+	<Variant_Of_Existing_Type>MC40a</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC40a_Tech_2">
+	<Variant_Of_Existing_Type>MC40a</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC40a_Tech_3">
+	<Variant_Of_Existing_Type>MC40a</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC40a_Tech_4">
+	<Variant_Of_Existing_Type>MC40a</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC40a_Tech_5">
+	<Variant_Of_Existing_Type>MC40a</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Dreadnaught_Tech_1">
+	<Variant_Of_Existing_Type>Dreadnaught_Rebel</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Dreadnaught_Tech_2">
+	<Variant_Of_Existing_Type>Dreadnaught_Rebel</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Dreadnaught_Tech_3">
+	<Variant_Of_Existing_Type>Dreadnaught_Rebel</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Dreadnaught_Tech_4">
+	<Variant_Of_Existing_Type>Dreadnaught_Rebel</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Dreadnaught_Tech_5">
+	<Variant_Of_Existing_Type>Dreadnaught_Rebel</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Katana_Dreadnaught_Tech_2">
+	<Variant_Of_Existing_Type>Katana_Dreadnaught_Rebel</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BAC_Tech_5">
+	<Variant_Of_Existing_Type>BAC</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC80B_Tech_1">
+	<Variant_Of_Existing_Type>MC80B</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC80B_Tech_2">
+	<Variant_Of_Existing_Type>MC80B</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC80B_Tech_3">
+	<Variant_Of_Existing_Type>MC80B</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC80B_Tech_4">
+	<Variant_Of_Existing_Type>MC80B</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC80B_Tech_5">
+	<Variant_Of_Existing_Type>MC80B</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC90_Tech_3">
+	<Variant_Of_Existing_Type>MC90</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC90_Tech_4">
+	<Variant_Of_Existing_Type>MC90</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC90_Tech_5">
+	<Variant_Of_Existing_Type>MC90</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC80_Tech_1">
+	<Variant_Of_Existing_Type>Calamari_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MC80_Tech_2">
+	<Variant_Of_Existing_Type>Calamari_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Endurance_Tech_4">
+	<Variant_Of_Existing_Type>Endurance</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Endurance_Tech_5">
+	<Variant_Of_Existing_Type>Endurance</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Nebula_Tech_4">
+	<Variant_Of_Existing_Type>Nebula</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Nebula_Tech_5">
+	<Variant_Of_Existing_Type>Nebula</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<!--
+	<Squadron Name="Republic_Tech_3">
+	<Variant_Of_Existing_Type>Republic</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Republic_Tech_4">
+	<Variant_Of_Existing_Type>Republic</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Republic_Tech_5">
+	<Variant_Of_Existing_Type>Republic</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron> -->
+	<Squadron Name="Majestic_Tech_3">
+	<Variant_Of_Existing_Type>Majestic</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Majestic_Tech_4">
+	<Variant_Of_Existing_Type>Majestic</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Majestic_Tech_5">
+	<Variant_Of_Existing_Type>Majestic</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="ViscountA">
+	<Variant_Of_Existing_Type>Viscount</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Rebel_Star_Base_1A">
+	<Variant_Of_Existing_Type>Rebel_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_lshipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Star_Base_2A">
+	<Variant_Of_Existing_Type>Rebel_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_shipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Star_Base_3A">
+	<Variant_Of_Existing_Type>Rebel_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_capital_shipyard.tga</Icon_Name>
+		<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Golan_OneA">
+	<Variant_Of_Existing_Type>Rebel_Golan_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Golan_TwoA">
+	<Variant_Of_Existing_Type>Rebel_Golan_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Golan_ThreeA">
+	<Variant_Of_Existing_Type>Rebel_Golan_Three</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Gallofree_HTT_CompanyA">
+	<Variant_Of_Existing_Type>Gallofree_HTT_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Tank_Buster_SquadA">
+	<Variant_Of_Existing_Type>Rebel_Tank_Buster_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Infantry_SquadA">
+	<Variant_Of_Existing_Type>Rebel_Infantry_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Jedi_SquadA">
+	<Variant_Of_Existing_Type>Jedi_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="NR_Medic_SquadA">
+	<Variant_Of_Existing_Type>NR_Medic_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Infiltrator_TeamA">
+	<Variant_Of_Existing_Type>Rebel_Infiltrator_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Light_Missile_BrigadeA">
+	<Variant_Of_Existing_Type>Rebel_Light_Missile_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Light_Tank_BrigadeA">
+	<Variant_Of_Existing_Type>Rebel_Light_Tank_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Light_Tank_Brigade1A">
+	<Variant_Of_Existing_Type>Rebel_Light_Tank_Brigade_T1</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_SnowspeederA">
+	<Variant_Of_Existing_Type>Rebel_Snowspeeder_Wing</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_VWingA">
+	<Variant_Of_Existing_Type>Rebel_Speeder_Wing</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_FreerunnerA">
+	<Variant_Of_Existing_Type>Rebel_RAF_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Heavy_TrackerA">
+	<Variant_Of_Existing_Type>Tracker_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_T3_Tank_BrigadeA">
+	<Variant_Of_Existing_Type>Rebel_T3_Tank_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Heavy_Tank_BrigadeA">
+	<Variant_Of_Existing_Type>Rebel_Heavy_Tank_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Artillery_BrigadeA">
+	<Variant_Of_Existing_Type>Rebel_Artillery_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Ground_BarracksA">
+	<Variant_Of_Existing_Type>R_Ground_Barracks</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ground_Infiltrator_FacilityA">
+	<Variant_Of_Existing_Type>Ground_Infiltrator_Facility</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Ground_Light_Vehicle_FactoryA">
+	<Variant_Of_Existing_Type>R_Ground_Light_Vehicle_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Ground_Heavy_Vehicle_FactoryA">
+	<Variant_Of_Existing_Type>R_Ground_Heavy_Vehicle_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rebel_Ground_Mining_FacilityA">
+	<Variant_Of_Existing_Type>Rebel_Ground_Mining_Facility</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Ground_Base_ShieldA">
+	<Variant_Of_Existing_Type>R_Ground_Base_Shield</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="R_Galactic_Turbolaser_Tower_DefensesA">
+	<Variant_Of_Existing_Type>R_Galactic_Turbolaser_Tower_Defenses</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ground_Ion_CannonA">
+	<Variant_Of_Existing_Type>Ground_Ion_Cannon</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Mon_Mothma_TeamA">
+	<Variant_Of_Existing_Type>Mon_Mothma_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Mon_Mothma_TeamB">
+	<Variant_Of_Existing_Type>Mon_Mothma_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Han_Solo_TeamA">
+	<Variant_Of_Existing_Type>Han_Solo_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Han_Solo_TeamB">
+	<Variant_Of_Existing_Type>Han_Solo_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Han_Solo_TeamC">
+	<Variant_Of_Existing_Type>Han_Solo_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Han_Solo_TeamD">
+	<Variant_Of_Existing_Type>Han_Solo_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Han_Solo_TeamE">
+	<Variant_Of_Existing_Type>Han_Solo_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Princess_Leia_TeamA">
+	<Variant_Of_Existing_Type>Princess_Leia_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Princess_Leia_Team_NoghriA">
+	<Variant_Of_Existing_Type>Princess_Leia_Team_Noghri</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Princess_Leia_Team_NoghriB">
+	<Variant_Of_Existing_Type>Princess_Leia_Team_Noghri</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Home_OneA">
+	<Variant_Of_Existing_Type>Home_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Home_OneB">
+	<Variant_Of_Existing_Type>Home_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Galactic_VoyagerA">
+	<Variant_Of_Existing_Type>Galactic_Voyager</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Galactic_VoyagerB">
+	<Variant_Of_Existing_Type>Galactic_Voyager</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Galactic_VoyagerC">
+	<Variant_Of_Existing_Type>Galactic_Voyager</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corusca_RainbowA">
+	<Variant_Of_Existing_Type>Corusca_Rainbow</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corusca_RainbowB">
+	<Variant_Of_Existing_Type>Corusca_Rainbow</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corusca_RainbowC">
+	<Variant_Of_Existing_Type>Corusca_Rainbow</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Luke_Skywalker_Jedi_TeamA">
+	<Variant_Of_Existing_Type>Luke_Skywalker_Jedi_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Luke_Skywalker_Jedi_TeamB">
+	<Variant_Of_Existing_Type>Luke_Skywalker_Jedi_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Luke_Skywalker_Jedi_TeamC">
+	<Variant_Of_Existing_Type>Luke_Skywalker_Jedi_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Luke_Skywalker_Jedi_TeamD">
+	<Variant_Of_Existing_Type>Luke_Skywalker_Jedi_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Luke_Skywalker_Jedi_TeamE">
+	<Variant_Of_Existing_Type>Luke_Skywalker_Jedi_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lando_Calrissian_TeamB">
+	<Variant_Of_Existing_Type>Lando_Calrissian_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lando_Calrissian_TeamC">
+	<Variant_Of_Existing_Type>Lando_Calrissian_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lando_Calrissian_TeamD">
+	<Variant_Of_Existing_Type>Lando_Calrissian_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lando_Calrissian_TeamE">
+	<Variant_Of_Existing_Type>Lando_Calrissian_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Mara_Saber_TeamA">
+	<Variant_Of_Existing_Type>Mara_Saber_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Mara_Saber_TeamB">
+	<Variant_Of_Existing_Type>Mara_Saber_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Mara_Saber_TeamC">
+	<Variant_Of_Existing_Type>Mara_Saber_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Mara_Saber_TeamD">
+	<Variant_Of_Existing_Type>Mara_Saber_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Katarn_TeamA">
+	<Variant_Of_Existing_Type>Katarn_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Katarn_TeamB">
+	<Variant_Of_Existing_Type>Katarn_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rogue_Squadron_SpaceA">
+	<Variant_Of_Existing_Type>Rogue_Squadron_Space</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rogue_Squadron_SpaceB">
+	<Variant_Of_Existing_Type>Rogue_Squadron_Space</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rogue_Squadron_SpaceC">
+	<Variant_Of_Existing_Type>Rogue_Squadron_Space</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Rogue_Squadron_SpaceD">
+	<Variant_Of_Existing_Type>Rogue_Squadron_Space</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lusankya_WedgeA">
+	<Variant_Of_Existing_Type>Lusankya_Wedge</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lusankya_WedgeB">
+	<Variant_Of_Existing_Type>Lusankya_Wedge</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corran_Horn_TeamA">
+	<Variant_Of_Existing_Type>Corran_Horn_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corran_Horn_TeamB">
+	<Variant_Of_Existing_Type>Corran_Horn_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Corran_Horn_TeamC">
+	<Variant_Of_Existing_Type>Corran_Horn_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Cilghal_TeamA">
+	<Variant_Of_Existing_Type>Cilghal_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Cilghal_TeamB">
+	<Variant_Of_Existing_Type>Cilghal_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Gavrisom_TeamA">
+	<Variant_Of_Existing_Type>Gavrisom_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Errant_VentureA">
+	<Variant_Of_Existing_Type>Errant_Venture</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Rebel</Affiliation>
+	</Squadron>
+	<Squadron Name="Errant_VentureB">
+	<Variant_Of_Existing_Type>Errant_Venture</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Rebel</Affiliation>
+	</Squadron>
+	<Squadron Name="Wild_KarrdeA">
+	<Variant_Of_Existing_Type>Wild_karrde</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Wild_KarrdeB">
+	<Variant_Of_Existing_Type>Wild_karrde</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PeregrineA">
+	<Variant_Of_Existing_Type>Peregrine</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PeregrineB">
+	<Variant_Of_Existing_Type>Peregrine</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Airen_Cracken_TeamA">
+	<Variant_Of_Existing_Type>Airen_Cracken_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Airen_Cracken_TeamB">
+	<Variant_Of_Existing_Type>Airen_Cracken_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<!-- Imperial Remnant Units -->
+	
+	<Squadron Name="TIE_Fighter_Tech_1">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Fighter_Tech_2">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Fighter_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Fighter_Tech_4">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Fighter_Tech_5">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Bomber_Tech_1">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Bomber_Tech_2">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Bomber_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Bomber_Tech_4">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Bomber_Tech_5">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Interceptor_Tech_1">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Interceptor_Tech_2">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Interceptor_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Interceptor_Tech_4">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Interceptor_Tech_5">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Defender_Tech_1">
+	<Variant_Of_Existing_Type>TIE_Defender_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Defender_Tech_2">
+	<Variant_Of_Existing_Type>TIE_Defender_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Defender_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Defender_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Defender_Tech_4">
+	<Variant_Of_Existing_Type>TIE_Defender_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Defender_Tech_5">
+	<Variant_Of_Existing_Type>TIE_Defender_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="A9_Tech_4">
+	<Variant_Of_Existing_Type>A9_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="A9_Tech_5">
+	<Variant_Of_Existing_Type>A9_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Scimmy_Tech_2">
+	<Variant_Of_Existing_Type>Scimmy_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TIE_Droid_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Droid_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Howlrunner_Tech_4">
+	<Variant_Of_Existing_Type>Howlrunner_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Howlrunner_Tech_5">
+	<Variant_Of_Existing_Type>Howlrunner_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Preybird_Tech_5">
+	<Variant_Of_Existing_Type>Preybird_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Interdictor_Tech_1">
+	<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Interdictor_Tech_2">
+	<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Interdictor_Tech_3">
+	<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Interdictor_Tech_4">
+	<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Interdictor_Tech_5">
+	<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Vindicator_Tech_2">
+	<Variant_Of_Existing_Type>Vindicator_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Vindicator_Tech_3">
+	<Variant_Of_Existing_Type>Vindicator_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Vindicator_Tech_4">
+	<Variant_Of_Existing_Type>Vindicator_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Vindicator_Tech_5">
+	<Variant_Of_Existing_Type>Vindicator_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Escort_Carrier_Tech_1">
+	<Variant_Of_Existing_Type>Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Escort_Carrier_Tech_2">
+	<Variant_Of_Existing_Type>Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Escort_Carrier_Tech_3">
+	<Variant_Of_Existing_Type>Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Escort_Carrier_Tech_4">
+	<Variant_Of_Existing_Type>Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Escort_Carrier_Tech_5">
+	<Variant_Of_Existing_Type>Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Acclamator_Tech_4">
+	<Variant_Of_Existing_Type>Acclamator_Daala</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Acclamator_Tech_5">
+	<Variant_Of_Existing_Type>Acclamator_Daala</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lancer_Tech_1">
+	<Variant_Of_Existing_Type>Lancer_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lancer_Tech_2">
+	<Variant_Of_Existing_Type>Lancer_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lancer_Tech_3">
+	<Variant_Of_Existing_Type>Lancer_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lancer_Tech_4">
+	<Variant_Of_Existing_Type>Lancer_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Lancer_Tech_5">
+	<Variant_Of_Existing_Type>Lancer_Frigate</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Carrack_Tech_1">
+	<Variant_Of_Existing_Type>Carrack_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Carrack_Tech_2">
+	<Variant_Of_Existing_Type>Carrack_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Carrack_Tech_3">
+	<Variant_Of_Existing_Type>Carrack_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Carrack_Tech_4">
+	<Variant_Of_Existing_Type>Carrack_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Carrack_Tech_5">
+	<Variant_Of_Existing_Type>Carrack_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Strike_Tech_1">
+	<Variant_Of_Existing_Type>Strike_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Strike_Tech_2">
+	<Variant_Of_Existing_Type>Strike_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Strike_Tech_3">
+	<Variant_Of_Existing_Type>Strike_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Strike_Tech_4">
+	<Variant_Of_Existing_Type>Strike_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Strike_Tech_5">
+	<Variant_Of_Existing_Type>Strike_Cruiser</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EDreadnaught_Tech_1">
+	<Variant_Of_Existing_Type>Dreadnaught_Empire</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EDreadnaught_Tech_2">
+	<Variant_Of_Existing_Type>Dreadnaught_Empire</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EDreadnaught_Tech_3">
+	<Variant_Of_Existing_Type>Dreadnaught_Empire</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EDreadnaught_Tech_4">
+	<Variant_Of_Existing_Type>Dreadnaught_Empire</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EDreadnaught_Tech_5">
+	<Variant_Of_Existing_Type>Dreadnaught_Empire</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EKatana_Dreadnaught_Tech_2">
+	<Variant_Of_Existing_Type>Katana_Dreadnaught_Empire</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer_Tech_1">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_1</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer_Tech_2">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_1</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer_Tech_3">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_1</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer_Tech_4">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_1</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer_Tech_5">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_1</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer2_Tech_1">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_2</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer2_Tech_2">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_2</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer2_Tech_3">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_2</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer2_Tech_4">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_2</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Victory_Destroyer2_Tech_5">
+	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_2</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Crimson_Command_Tech_4">
+	<Variant_Of_Existing_Type>Crimson_Victory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MTC_Tech_3">
+	<Variant_Of_Existing_Type>MTC_Sensor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MTC_Tech_5">
+	<Variant_Of_Existing_Type>MTC_Sensor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Venator_Tech_4">
+	<Variant_Of_Existing_Type>Venator</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Venator_Tech_5">
+	<Variant_Of_Existing_Type>Venator</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Star_Destroyer_Tech_1">
+	<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Star_Destroyer_Tech_2">
+	<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Star_Destroyer_Tech_3">
+	<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Star_Destroyer_Tech_4">
+	<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Star_Destroyer_Tech_5">
+	<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Star_Destroyer2_Tech_1">
+	<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Star_Destroyer2_Tech_2">
+	<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Star_Destroyer2_Tech_3">
+	<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Star_Destroyer2_Tech_4">
+	<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Star_Destroyer2_Tech_5">
+	<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Tector_Tech_4">
+	<Variant_Of_Existing_Type>Tector_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Tector_Tech_5">
+	<Variant_Of_Existing_Type>Tector_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Dominator_Tech_1">
+	<Variant_Of_Existing_Type>Dominator_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Dominator_Tech_2">
+	<Variant_Of_Existing_Type>Dominator_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Dominator_Tech_3">
+	<Variant_Of_Existing_Type>Dominator_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Dominator_Tech_4">
+	<Variant_Of_Existing_Type>Dominator_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Dominator_Tech_5">
+	<Variant_Of_Existing_Type>Dominator_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Sov_Tech_3">
+	<Variant_Of_Existing_Type>Sovereign</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Executor_Tech_1">
+	<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Executor_Tech_4">
+	<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Executor_Tech_5">
+	<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Praetor_Tech_3">
+	<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Praetor_Tech_4">
+	<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Praetor_Tech_5">
+	<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Empire_Star_Base_1A">
+	<Variant_Of_Existing_Type>Empire_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_STATION1</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_lshipyard.tga</Icon_Name>	
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Empire_Star_Base_2A">
+	<Variant_Of_Existing_Type>Empire_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_STATION2</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_shipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Empire_Star_Base_3A">
+	<Variant_Of_Existing_Type>Empire_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_STATION3</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_capital_shipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Empire_Golan_OneA">
+	<Variant_Of_Existing_Type>Empire_Golan_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Empire_Golan_TwoA">
+	<Variant_Of_Existing_Type>Empire_Golan_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Empire_Golan_ThreeA">
+	<Variant_Of_Existing_Type>Empire_Golan_Three</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Imperial_Stormtrooper_SquadA">
+	<Variant_Of_Existing_Type>Imperial_Stormtrooper_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_Light_Scout_SquadA">
+	<Variant_Of_Existing_Type>Imperial_Light_Scout_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Shock_Soldier_SquadA">
+	<Variant_Of_Existing_Type>Shock_Soldier_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Medic_SquadA">
+	<Variant_Of_Existing_Type>Medic_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EWeb_SquadA">
+	<Variant_Of_Existing_Type>Imperial_EWEB_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Noghri_SquadA">
+	<Variant_Of_Existing_Type>Noghri_Assassin_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Novatrooper_SquadA">
+	<Variant_Of_Existing_Type>Imperial_Novatrooper_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_ATPT_SquadA">
+	<Variant_Of_Existing_Type>Imperial_ATPT_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_Heavy_Scout_SquadA">
+	<Variant_Of_Existing_Type>Imperial_Heavy_Scout_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Chariot_LAV_CompanyA">
+	<Variant_Of_Existing_Type>Chariot_LAV_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Century_BrigadeA">
+	<Variant_Of_Existing_Type>Century_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_Anti_Infantry_BrigadeA">
+	<Variant_Of_Existing_Type>Imperial_Anti_Infantry_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_Armor_GroupA">
+	<Variant_Of_Existing_Type>Imperial_Armor_Group</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_IDT_SquadA">
+	<Variant_Of_Existing_Type>Imperial_IDT_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_Artillery_CorpA">
+	<Variant_Of_Existing_Type>Imperial_Artillery_Corp</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_XR85_TankdroidA">
+	<Variant_Of_Existing_Type>Imperial_XR85_Tankdroid</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_Heavy_Assault_CompanyA">
+	<Variant_Of_Existing_Type>Imperial_Heavy_Assault_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Imperial_Anti_Aircraft_CompanyA">
+	<Variant_Of_Existing_Type>Imperial_Anti_Aircraft_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="HAV_Juggernaut_CompanyA">
+	<Variant_Of_Existing_Type>HAV_Juggernaut_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="E_Ground_BarracksA">
+	<Variant_Of_Existing_Type>E_Ground_Barracks</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="E_Ground_Advanced_Vehicle_FactoryA">
+	<Variant_Of_Existing_Type>E_Ground_Advanced_Vehicle_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="E_Ground_Light_Vehicle_FactoryA">
+	<Variant_Of_Existing_Type>E_Ground_Light_Vehicle_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="E_Ground_Heavy_Vehicle_FactoryA">
+	<Variant_Of_Existing_Type>E_Ground_Heavy_Vehicle_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Empire_Tax_CollectionA">
+	<Variant_Of_Existing_Type>Empire_Tax_Collection</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="E_Ground_Base_ShieldA">
+	<Variant_Of_Existing_Type>E_Ground_Base_Shield</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="E_Galactic_Turbolaser_Tower_DefensesA">
+	<Variant_Of_Existing_Type>E_Galactic_Turbolaser_Tower_Defenses</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ground_Empire_Hypervelocity_GunA">
+	<Variant_Of_Existing_Type>Ground_Empire_Hypervelocity_Gun</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ground_Empire_PrisonA">
+	<Variant_Of_Existing_Type>Prison</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="181st_TIE_Interceptor_SquadronB">
+	<Variant_Of_Existing_Type>181st_TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Chimera_Pellaeon_ViceB">
+	<Variant_Of_Existing_Type>Chimera_Pellaeon_Vice</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="General_Covell_TeamA">
+	<Variant_Of_Existing_Type>General_Covell_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Joruus_Cboath_TeamA">
+	<Variant_Of_Existing_Type>Joruus_Cboath_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="General_Veers_TeamA">
+	<Variant_Of_Existing_Type>General_Veers_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Emperor_Palpatine_TeamA">
+	<Variant_Of_Existing_Type>Emperor_Palpatine_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="TrigitA">
+	<Variant_Of_Existing_Type>Implaccable_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Empire</Affiliation>
+	</Squadron>
+	<Squadron Name="Shockwave_Star_DestroyerB">
+	<Variant_Of_Existing_Type>Shockwave_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Empire</Affiliation>
+	</Squadron>
+	<Squadron Name="Brakiss_TeamA">
+	<Variant_Of_Existing_Type>Brakiss_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Empire</Affiliation>
+	</Squadron>
+	<Squadron Name="Brakiss_TeamB">
+	<Variant_Of_Existing_Type>Brakiss_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Empire</Affiliation>
+	</Squadron>
+	<Squadron Name="Reaper_KaineA">
+	<Variant_Of_Existing_Type>Reaper_Kaine</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Empire</Affiliation>
+	</Squadron>
+	<Squadron Name="ThalassaA">
+	<Variant_Of_Existing_Type>Thalassa</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Empire</Affiliation>
+	</Squadron>
+	
+	<!-- Empire of the Hand Units -->
+	
+	<Squadron Name="Krsiss_Squadron_Tech_1">
+	<Variant_Of_Existing_Type>Krsiss_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Krsiss_Squadron_Tech_2">
+	<Variant_Of_Existing_Type>Krsiss_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Krsiss_Squadron_Tech_3">
+	<Variant_Of_Existing_Type>Krsiss_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Krsiss_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>Krsiss_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Krsiss_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>Krsiss_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syca_Squadron_Tech_1">
+	<Variant_Of_Existing_Type>Syca_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syca_Squadron_Tech_2">
+	<Variant_Of_Existing_Type>Syca_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syca_Squadron_Tech_3">
+	<Variant_Of_Existing_Type>Syca_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syca_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>Syca_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syca_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>Syca_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Furion_Squadron_Tech_3">
+	<Variant_Of_Existing_Type>Furion_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Furion_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>Furion_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Furion_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>Furion_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Clawcraft_Squadron_Tech_1">
+	<Variant_Of_Existing_Type>Clawcraft_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Clawcraft_Squadron_Tech_2">
+	<Variant_Of_Existing_Type>Clawcraft_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Clawcraft_Squadron_Tech_3">
+	<Variant_Of_Existing_Type>Clawcraft_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Clawcraft_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>Clawcraft_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Clawcraft_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>Clawcraft_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Scarsiss_Squadron_Tech_4">
+	<Variant_Of_Existing_Type>Scarsiss_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Scarsiss_Squadron_Tech_5">
+	<Variant_Of_Existing_Type>Scarsiss_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Decimator_Tech_4">
+	<Variant_Of_Existing_Type>Decimator</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Decimator_Tech_5">
+	<Variant_Of_Existing_Type>Decimator</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Vigilance_Tech_1">
+	<Variant_Of_Existing_Type>Vigilance_Gunship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Vigilance_Tech_2">
+	<Variant_Of_Existing_Type>Vigilance_Gunship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Vigilance_Tech_3">
+	<Variant_Of_Existing_Type>Vigilance_Gunship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Vigilance_Tech_4">
+	<Variant_Of_Existing_Type>Vigilance_Gunship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Vigilance_Tech_5">
+	<Variant_Of_Existing_Type>Vigilance_Gunship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Warlord_Tech_2">
+	<Variant_Of_Existing_Type>Warlord</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Warlord_Tech_3">
+	<Variant_Of_Existing_Type>Warlord</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Warlord_Tech_4">
+	<Variant_Of_Existing_Type>Warlord</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Warlord_Tech_5">
+	<Variant_Of_Existing_Type>Warlord</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Massias_Tech_1">
+	<Variant_Of_Existing_Type>Massias_Interdictor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Massias_Tech_2">
+	<Variant_Of_Existing_Type>Massias_Interdictor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Massias_Tech_3">
+	<Variant_Of_Existing_Type>Massias_Interdictor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Massias_Tech_4">
+	<Variant_Of_Existing_Type>Massias_Interdictor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Massias_Tech_5">
+	<Variant_Of_Existing_Type>Massias_Interdictor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Auriette_Tech_1">
+	<Variant_Of_Existing_Type>Auriette_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Auriette_Tech_2">
+	<Variant_Of_Existing_Type>Auriette_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Auriette_Tech_3">
+	<Variant_Of_Existing_Type>Auriette_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Auriette_Tech_4">
+	<Variant_Of_Existing_Type>Auriette_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Auriette_Tech_5">
+	<Variant_Of_Existing_Type>Auriette_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Asdoni_Tech_1">
+	<Variant_Of_Existing_Type>Asdoni</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Asdoni_Tech_2">
+	<Variant_Of_Existing_Type>Asdoni</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Asdoni_Tech_3">
+	<Variant_Of_Existing_Type>Asdoni</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Asdoni_Tech_4">
+	<Variant_Of_Existing_Type>Asdoni</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Asdoni_Tech_5">
+	<Variant_Of_Existing_Type>Asdoni</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Chaf_Tech_1">
+	<Variant_Of_Existing_Type>Chaf_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Chaf_Tech_2">
+	<Variant_Of_Existing_Type>Chaf_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Chaf_Tech_3">
+	<Variant_Of_Existing_Type>Chaf_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Chaf_Tech_4">
+	<Variant_Of_Existing_Type>Chaf_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Chaf_Tech_5">
+	<Variant_Of_Existing_Type>Chaf_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Kariek_Tech_1">
+	<Variant_Of_Existing_Type>Kariek_Shieldship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Kariek_Tech_2">
+	<Variant_Of_Existing_Type>Kariek_Shieldship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Kariek_Tech_3">
+	<Variant_Of_Existing_Type>Kariek_Shieldship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Kariek_Tech_4">
+	<Variant_Of_Existing_Type>Kariek_Shieldship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Kariek_Tech_5">
+	<Variant_Of_Existing_Type>Kariek_Shieldship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Nuruodo_Tech_3">
+	<Variant_Of_Existing_Type>Nuruodo</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Nuruodo_Tech_4">
+	<Variant_Of_Existing_Type>Nuruodo</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Nuruodo_Tech_5">
+	<Variant_Of_Existing_Type>Nuruodo</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Ascendancy_Tech_1">
+	<Variant_Of_Existing_Type>Chiss_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ascendancy_Tech_2">
+	<Variant_Of_Existing_Type>Chiss_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ascendancy_Tech_3">
+	<Variant_Of_Existing_Type>Chiss_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ascendancy_Tech_4">
+	<Variant_Of_Existing_Type>Chiss_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ascendancy_Tech_5">
+	<Variant_Of_Existing_Type>Chiss_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Phalanx_Tech_3">
+	<Variant_Of_Existing_Type>Phalanx_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Phalanx_Tech_4">
+	<Variant_Of_Existing_Type>Phalanx_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Phalanx_Tech_5">
+	<Variant_Of_Existing_Type>Phalanx_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syndic_Tech_1">
+	<Variant_Of_Existing_Type>Syndic_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syndic_Tech_2">
+	<Variant_Of_Existing_Type>Syndic_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syndic_Tech_3">
+	<Variant_Of_Existing_Type>Syndic_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syndic_Tech_4">
+	<Variant_Of_Existing_Type>Syndic_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Syndic_Tech_5">
+	<Variant_Of_Existing_Type>Syndic_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Underworld_Star_Base_1A">
+	<Variant_Of_Existing_Type>EotH_Golan_One</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_lshipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Underworld_Star_Base_2A">
+	<Variant_Of_Existing_Type>EotH_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_shipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Underworld_Star_Base_3A">
+	<Variant_Of_Existing_Type>EotH_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_capital_shipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="VisviaA">
+	<Variant_Of_Existing_Type>Visvia</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BraskA">
+	<Variant_Of_Existing_Type>Brask</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Phalanx_Trooper_SquadA">
+	<Variant_Of_Existing_Type>Phalanx_Trooper_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Phalanx_Commando_TeamA">
+	<Variant_Of_Existing_Type>Phalanx_Commando_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Mortar_CompanyA">
+	<Variant_Of_Existing_Type>Mortar_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Flame_Tank_CompanyA">
+	<Variant_Of_Existing_Type>Flame_Tank_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="RFT_BrigadeA">
+	<Variant_Of_Existing_Type>RFT_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="MMT_BrigadeA">
+	<Variant_Of_Existing_Type>MMT_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EotH_Scout_BrigadeA">
+	<Variant_Of_Existing_Type>EotH_Scout_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EotH_Kirov_BrigadeA">
+	<Variant_Of_Existing_Type>EotH_Kirov_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EotH_GilzeanA">
+	<Variant_Of_Existing_Type>Gilzean_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="EotH_AirstraekerA">
+	<Variant_Of_Existing_Type>EotH_Airstraeker_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="U_Ground_BarracksA">
+	<Variant_Of_Existing_Type>U_Ground_Barracks</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="U_Ground_Vehicle_FactoryA">
+	<Variant_Of_Existing_Type>U_Ground_Vehicle_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="U_Ground_Droid_WorksA">
+	<Variant_Of_Existing_Type>U_Ground_Droid_Works</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="U_Ground_Mining_FacilityA">
+	<Variant_Of_Existing_Type>U_Ground_Mining_Facility</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="U_Ground_Base_ShieldA">
+	<Variant_Of_Existing_Type>U_Ground_Base_Shield</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="U_Galactic_Turbolaser_Tower_DefensesA">
+	<Variant_Of_Existing_Type>U_Galactic_Turbolaser_Tower_Defenses</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Strikefast_Star_DestroyerA">
+	<Variant_Of_Existing_Type>Strikefast_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Strikefast_Star_DestroyerB">
+	<Variant_Of_Existing_Type>Strikefast_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Strikefast_Star_DestroyerC">
+	<Variant_Of_Existing_Type>Strikefast_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Strikefast_Star_DestroyerD">
+	<Variant_Of_Existing_Type>Strikefast_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Strikefast_Star_DestroyerE">
+	<Variant_Of_Existing_Type>Strikefast_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Admonitor_Star_DestroyerA">
+	<Variant_Of_Existing_Type>Admonitor_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Admonitor_Star_DestroyerB">
+	<Variant_Of_Existing_Type>Admonitor_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Admonitor_Star_DestroyerC">
+	<Variant_Of_Existing_Type>Admonitor_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Admonitor_Star_DestroyerD">
+	<Variant_Of_Existing_Type>Admonitor_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Admonitor_Star_DestroyerE">
+	<Variant_Of_Existing_Type>Admonitor_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Thrawns_HandA">
+	<Variant_Of_Existing_Type>Thrawns_Hand</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Thrawns_HandB">
+	<Variant_Of_Existing_Type>Thrawns_Hand</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Thrawns_HandC">
+	<Variant_Of_Existing_Type>Thrawns_Hand</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Thrawns_HandD">
+	<Variant_Of_Existing_Type>Thrawns_Hand</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="Thrawns_HandE">
+	<Variant_Of_Existing_Type>Thrawns_Hand</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Underworld</Affiliation>
+	</Squadron>
+	<Squadron Name="FrontierA">
+	<Variant_Of_Existing_Type>Frontier</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="FrontierB">
+	<Variant_Of_Existing_Type>Frontier</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="EvisceratorE">
+	<Variant_Of_Existing_Type>Eviscerator</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BattlehammerC">
+	<Variant_Of_Existing_Type>Battlehammer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BattlehammerD">
+	<Variant_Of_Existing_Type>Battlehammer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BattlehammerE">
+	<Variant_Of_Existing_Type>Battlehammer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Soontir_Fel_SquadronB">
+	<Variant_Of_Existing_Type>Soontir_Fel_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Soontir_Fel_SquadronC">
+	<Variant_Of_Existing_Type>Soontir_Fel_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Soontir_Fel_SquadronD">
+	<Variant_Of_Existing_Type>Soontir_Fel_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Soontir_Fel_SquadronE">
+	<Variant_Of_Existing_Type>Soontir_Fel_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Chak_Fel_SquadronD">
+	<Variant_Of_Existing_Type>Chak_Fel_Krsiss_Squadron_Association</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Chak_Fel_SquadronE">
+	<Variant_Of_Existing_Type>Chak_Fel_Krsiss_Squadron_Association</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ashik_TeamD">
+	<Variant_Of_Existing_Type>Ashik_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ashik_TeamE">
+	<Variant_Of_Existing_Type>Ashik_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Aurek_Seven_TeamE">
+	<Variant_Of_Existing_Type>Aurek_Seven_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Hand_of_Judgement_TeamB">
+	<Variant_Of_Existing_Type>Hand_of_Judgement_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Hand_of_Judgement_TeamC">
+	<Variant_Of_Existing_Type>Hand_of_Judgement_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Hand_of_Judgement_TeamD">
+	<Variant_Of_Existing_Type>Hand_of_Judgement_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Hand_of_Judgement_TeamE">
+	<Variant_Of_Existing_Type>Hand_of_Judgement_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+
+	<!-- Pentastar Units -->
+	
+	<Squadron Name="PATIE_Fighter_Tech_1">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Fighter_Tech_2">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Fighter_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Fighter_Tech_4">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Fighter_Tech_5">
+	<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Bomber_Tech_1">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Bomber_Tech_2">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Bomber_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Bomber_Tech_4">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Bomber_Tech_5">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Interceptor_Tech_1">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Interceptor_Tech_2">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Interceptor_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Interceptor_Tech_4">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PATIE_Interceptor_Tech_5">
+	<Variant_Of_Existing_Type>TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Skipray_Tech_1">
+	<Variant_Of_Existing_Type>Skipray_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="Skipray_Tech_2">
+	<Variant_Of_Existing_Type>Skipray_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="Skipray_Tech_3">
+	<Variant_Of_Existing_Type>Skipray_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="Skipray_Tech_4">
+	<Variant_Of_Existing_Type>Skipray_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="Skipray_Tech_5">
+	<Variant_Of_Existing_Type>Skipray_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="TIE_Hunter_Tech_1">
+	<Variant_Of_Existing_Type>TIE_Hunter_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="TIE_Hunter_Tech_2">
+	<Variant_Of_Existing_Type>TIE_Hunter_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="TIE_Hunter_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Hunter_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="TIE_Hunter_Tech_4">
+	<Variant_Of_Existing_Type>TIE_Hunter_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	<Squadron Name="TIE_Hunter_Tech_5">
+	<Variant_Of_Existing_Type>TIE_Hunter_Squadron</Variant_Of_Existing_Type>
+	</Squadron>
+	
+	<Squadron Name="PAStar_Destroyer_Tech_1">
+	<Variant_Of_Existing_Type>ISD_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAStar_Destroyer_Tech_2">
+	<Variant_Of_Existing_Type>ISD_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAStar_Destroyer_Tech_3">
+	<Variant_Of_Existing_Type>ISD_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAStar_Destroyer_Tech_4">
+	<Variant_Of_Existing_Type>ISD_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAStar_Destroyer_Tech_5">
+	<Variant_Of_Existing_Type>ISD_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAStar_Destroyer2_Tech_1">
+	<Variant_Of_Existing_Type>ISD_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAStar_Destroyer2_Tech_2">
+	<Variant_Of_Existing_Type>ISD_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAStar_Destroyer2_Tech_3">
+	<Variant_Of_Existing_Type>ISD_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAStar_Destroyer2_Tech_4">
+	<Variant_Of_Existing_Type>ISD_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAStar_Destroyer2_Tech_5">
+	<Variant_Of_Existing_Type>ISD_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Praetor_Tech_1">
+	<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Praetor_Tech_2">
+	<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Praetor_Tech_3">
+	<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Praetor_Tech_4">
+	<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Praetor_Tech_5">
+	<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="PAVenator_Tech_1">
+	<Variant_Of_Existing_Type>Venator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVenator_Tech_2">
+	<Variant_Of_Existing_Type>Venator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVenator_Tech_3">
+	<Variant_Of_Existing_Type>Venator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVenator_Tech_4">
+	<Variant_Of_Existing_Type>Venator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVenator_Tech_5">
+	<Variant_Of_Existing_Type>Venator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer_Tech_1">
+	<Variant_Of_Existing_Type>Victory_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer_Tech_2">
+	<Variant_Of_Existing_Type>Victory_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer_Tech_3">
+	<Variant_Of_Existing_Type>Victory_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer_Tech_4">
+	<Variant_Of_Existing_Type>Victory_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer_Tech_5">
+	<Variant_Of_Existing_Type>Victory_I_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer2_Tech_1">
+	<Variant_Of_Existing_Type>Victory_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer2_Tech_2">
+	<Variant_Of_Existing_Type>Victory_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer2_Tech_3">
+	<Variant_Of_Existing_Type>Victory_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer2_Tech_4">
+	<Variant_Of_Existing_Type>Victory_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVictory_Destroyer2_Tech_5">
+	<Variant_Of_Existing_Type>Victory_II_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVindicator_Tech_1">
+	<Variant_Of_Existing_Type>Vindicator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVindicator_Tech_2">
+	<Variant_Of_Existing_Type>Vindicator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVindicator_Tech_3">
+	<Variant_Of_Existing_Type>Vindicator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVindicator_Tech_4">
+	<Variant_Of_Existing_Type>Vindicator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAVindicator_Tech_5">
+	<Variant_Of_Existing_Type>Vindicator_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAInterdictor_Tech_1">
+	<Variant_Of_Existing_Type>Immobilizer_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAInterdictor_Tech_2">
+	<Variant_Of_Existing_Type>Immobilizer_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAInterdictor_Tech_3">
+	<Variant_Of_Existing_Type>Immobilizer_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAInterdictor_Tech_4">
+	<Variant_Of_Existing_Type>Immobilizer_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAInterdictor_Tech_5">
+	<Variant_Of_Existing_Type>Immobilizer_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Enforcer_Tech_1">
+	<Variant_Of_Existing_Type>Enforcer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Enforcer_Tech_2">
+	<Variant_Of_Existing_Type>Enforcer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Enforcer_Tech_3">
+	<Variant_Of_Existing_Type>Enforcer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Enforcer_Tech_4">
+	<Variant_Of_Existing_Type>Enforcer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Enforcer_Tech_5">
+	<Variant_Of_Existing_Type>Enforcer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Munificent_Tech_1">
+	<Variant_Of_Existing_Type>Munificent</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Munificent_Tech_2">
+	<Variant_Of_Existing_Type>Munificent</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Munificent_Tech_3">
+	<Variant_Of_Existing_Type>Munificent</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Munificent_Tech_4">
+	<Variant_Of_Existing_Type>Munificent</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Munificent_Tech_5">
+	<Variant_Of_Existing_Type>Munificent</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IPV1_Tech_1">
+	<Variant_Of_Existing_Type>IPV1_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IPV1_Tech_2">
+	<Variant_Of_Existing_Type>IPV1_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IPV1_Tech_3">
+	<Variant_Of_Existing_Type>IPV1_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IPV1_Tech_4">
+	<Variant_Of_Existing_Type>IPV1_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IPV1_Tech_5">
+	<Variant_Of_Existing_Type>IPV1_Pentastar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAAcclamator_Tech_1">
+	<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAAcclamator_Tech_2">
+	<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAAcclamator_Tech_3">
+	<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAAcclamator_Tech_4">
+	<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PAAcclamator_Tech_5">
+	<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IEC_Tech_1">
+	<Variant_Of_Existing_Type>Combat_Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IEC_Tech_2">
+	<Variant_Of_Existing_Type>Combat_Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IEC_Tech_3">
+	<Variant_Of_Existing_Type>Combat_Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IEC_Tech_4">
+	<Variant_Of_Existing_Type>Combat_Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="IEC_Tech_5">
+	<Variant_Of_Existing_Type>Combat_Escort_Carrier</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Pentastar_Star_Base_1A">
+	<Variant_Of_Existing_Type>Pentastar_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_STATION1</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_lshipyard.tga</Icon_Name>	
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Pentastar_Star_Base_2A">
+	<Variant_Of_Existing_Type>Pentastar_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_STATION2</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_shipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Pentastar_Star_Base_3A">
+	<Variant_Of_Existing_Type>Pentastar_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_STATION3</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_capital_shipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PA_Golan_OneA">
+	<Variant_Of_Existing_Type>Pentastar_Golan_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PA_Golan_TwoA">
+	<Variant_Of_Existing_Type>Pentastar_Golan_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PA_Golan_ThreeA">
+	<Variant_Of_Existing_Type>Pentastar_Golan_Three</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Kaine_Tech_1">
+	<Variant_Of_Existing_Type>Reaper_Kaine</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Kaine_Tech_2">
+	<Variant_Of_Existing_Type>Reaper_Kaine</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Kaine_Tech_3">
+	<Variant_Of_Existing_Type>Reaper_Kaine</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Kaine_Tech_4">
+	<Variant_Of_Existing_Type>Reaper_Kaine</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Kaine_Tech_5">
+	<Variant_Of_Existing_Type>Reaper_Kaine</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+		<Squadron Name="GrantA">
+	<Variant_Of_Existing_Type>Oriflamme</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="GrantB">
+	<Variant_Of_Existing_Type>Oriflamme</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="GrantC">
+	<Variant_Of_Existing_Type>Oriflamme</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="GrantD">
+	<Variant_Of_Existing_Type>Oriflamme</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="GrantE">
+	<Variant_Of_Existing_Type>Oriflamme</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="GregorA">
+	<Variant_Of_Existing_Type>Gregor_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="GregorB">
+	<Variant_Of_Existing_Type>Gregor_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="GregorC">
+	<Variant_Of_Existing_Type>Gregor_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="GregorD">
+	<Variant_Of_Existing_Type>Gregor_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="GregorE">
+	<Variant_Of_Existing_Type>Gregor_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="JerecA">
+	<Variant_Of_Existing_Type>Jerec_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="JerecB">
+	<Variant_Of_Existing_Type>Jerec_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="JerecC">
+	<Variant_Of_Existing_Type>Jerec_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="JerecD">
+	<Variant_Of_Existing_Type>Jerec_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="JerecE">
+	<Variant_Of_Existing_Type>Jerec_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	
+	<Squadron Name="Pentatrooper_SquadA">
+	<Variant_Of_Existing_Type>Pentastar_trooper_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Storm_CommandoA">
+	<Variant_Of_Existing_Type>Storm_Command_Team</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PAShock_Soldier_SquadA">
+	<Variant_Of_Existing_Type>Shock_Soldier_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="PAMedic_SquadA">
+	<Variant_Of_Existing_Type>Medic_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Dark_JediA">
+	<Variant_Of_Existing_Type>Dark_Jedi_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Pentastar_ATPT_SquadA">
+	<Variant_Of_Existing_Type>Imperial_ATPT_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Hailfire_SquadA">
+	<Variant_Of_Existing_Type>Hailfire_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Pentastar_Skiff_GroupA">
+	<Variant_Of_Existing_Type>Pentastar_Skiff_Group</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Pentastar_Speeder_GroupA">
+	<Variant_Of_Existing_Type>Pentastar_Speeder_Group</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="PACentury_BrigadeA">
+	<Variant_Of_Existing_Type>Century_Brigade</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="IFTX_GroupA">
+	<Variant_Of_Existing_Type>Imperial_IFTX_Group</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="LAAT_SquadA">
+	<Variant_Of_Existing_Type>LAAT_Group</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Pentastar_Walker_GroupA">
+	<Variant_Of_Existing_Type>Pentastar_Walker_Group</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Pentastar_Heavy_Assault_CompanyA">
+	<Variant_Of_Existing_Type>Imperial_Heavy_Assault_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Pentastar_Anti_Aircraft_CompanyA">
+	<Variant_Of_Existing_Type>ATAA_Pentastar_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Pentastar</Affiliation>
+	</Squadron>
+	<Squadron Name="Fortress_CompanyA">
+	<Variant_Of_Existing_Type>Fortress_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="P_Ground_BarracksA">
+	<Variant_Of_Existing_Type>P_Ground_Barracks</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="P_Ground_Advanced_Vehicle_FactoryA">
+	<Variant_Of_Existing_Type>P_Ground_Advanced_Vehicle_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="P_Ground_Light_Vehicle_FactoryA">
+	<Variant_Of_Existing_Type>P_Ground_Light_Vehicle_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="P_Ground_Heavy_Vehicle_FactoryA">
+	<Variant_Of_Existing_Type>P_Ground_Heavy_Vehicle_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Pentastar_Tax_CollectionA">
+	<Variant_Of_Existing_Type>Pentastar_Commercial_Entity</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="P_Ground_Base_ShieldA">
+	<Variant_Of_Existing_Type>Pent_Ground_Base_Shield</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="P_Galactic_Turbolaser_Tower_DefensesA">
+	<Variant_Of_Existing_Type>P_Galactic_Turbolaser_Tower_Defenses</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Ground_Pentastar_Hypervelocity_GunA">
+	<Variant_Of_Existing_Type>Ground_Pentastar_Hypervelocity_Gun</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<!-- Yevetha Units -->
+	
+	<Squadron Name="Y_Ground_BarracksA">
+	<Variant_Of_Existing_Type>Y_Ground_Barracks</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Y_Ground_FactoryA">
+	<Variant_Of_Existing_Type>Y_Heavy_Factory</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Yevetha_SquadA">
+	<Variant_Of_Existing_Type>Yevetha_Infantry_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Yevetha_ATST_SquadA">
+	<Variant_Of_Existing_Type>Yevethan_Heavy_Scout_Squad</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Yevetha_ATAT_SquadA">
+	<Variant_Of_Existing_Type>Yevethan_Heavy_Assault_Company</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Spaar_Tech_1">
+	<Variant_Of_Existing_Type>Nil_Spaar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Spaar_Tech_2">
+	<Variant_Of_Existing_Type>Nil_Spaar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Spaar_Tech_3">
+	<Variant_Of_Existing_Type>Nil_Spaar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Spaar_Tech_4">
+	<Variant_Of_Existing_Type>Nil_Spaar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Spaar_Tech_5">
+	<Variant_Of_Existing_Type>Nil_Spaar</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BilleA">
+	<Variant_Of_Existing_Type>Pride_of_Yevetha</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BilleB">
+	<Variant_Of_Existing_Type>Pride_of_Yevetha</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BilleC">
+	<Variant_Of_Existing_Type>Pride_of_Yevetha</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BilleD">
+	<Variant_Of_Existing_Type>Pride_of_Yevetha</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="BilleE">
+	<Variant_Of_Existing_Type>Pride_of_Yevetha</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Yevetha_Star_Base_1A">
+	<Variant_Of_Existing_Type>Pentastar_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_STATION1</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_lshipyard.tga</Icon_Name>	
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Yevetha</Affiliation>
+	</Squadron>
+	<Squadron Name="Yevetha_Star_Base_2A">
+	<Variant_Of_Existing_Type>Pentastar_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_STATION2</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_shipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Yevetha</Affiliation>
+	</Squadron>
+	<Squadron Name="Yevetha_Star_Base_3A">
+	<Variant_Of_Existing_Type>Pentastar_Golan_One</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_STATION3</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_capital_shipyard.tga</Icon_Name>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Yevetha</Affiliation>
+	</Squadron>
+	
+	<Squadron Name="YVictory_Destroyer_Tech_1">
+	<Variant_Of_Existing_Type>Yevetha_Victory_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YVictory_Destroyer_Tech_2">
+	<Variant_Of_Existing_Type>Yevetha_Victory_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YVictory_Destroyer_Tech_3">
+	<Variant_Of_Existing_Type>Yevetha_Victory_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YVictory_Destroyer_Tech_4">
+	<Variant_Of_Existing_Type>Yevetha_Victory_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YVictory_Destroyer_Tech_5">
+	<Variant_Of_Existing_Type>Yevetha_Victory_One</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YVictory_Destroyer2_Tech_1">
+	<Variant_Of_Existing_Type>Yevetha_Victory_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YVictory_Destroyer2_Tech_2">
+	<Variant_Of_Existing_Type>Yevetha_Victory_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YVictory_Destroyer2_Tech_3">
+	<Variant_Of_Existing_Type>Yevetha_Victory_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YVictory_Destroyer2_Tech_4">
+	<Variant_Of_Existing_Type>Yevetha_Victory_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YVictory_Destroyer2_Tech_5">
+	<Variant_Of_Existing_Type>Yevetha_Victory_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="YStar_Destroyer_Tech_1">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YStar_Destroyer_Tech_2">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YStar_Destroyer_Tech_3">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YStar_Destroyer_Tech_4">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YStar_Destroyer_Tech_5">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YStar_Destroyer2_Tech_1">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YStar_Destroyer2_Tech_2">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YStar_Destroyer2_Tech_3">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YStar_Destroyer2_Tech_4">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="YStar_Destroyer2_Tech_5">
+	<Variant_Of_Existing_Type>Yevetha_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="YTIE_Bomber_Tech_1">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Yevetha</Affiliation>
+	</Squadron>
+	<Squadron Name="YTIE_Bomber_Tech_2">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Yevetha</Affiliation>
+	</Squadron>
+	<Squadron Name="YTIE_Bomber_Tech_3">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Yevetha</Affiliation>
+	</Squadron>
+	<Squadron Name="YTIE_Bomber_Tech_4">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Yevetha</Affiliation>
+	</Squadron>
+	<Squadron Name="YTIE_Bomber_Tech_5">
+	<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	<Affiliation>Yevetha</Affiliation>
+	</Squadron>
+	<Squadron Name="DType_Tech_1">
+	<Variant_Of_Existing_Type>Trifoil_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="DType_Tech_2">
+	<Variant_Of_Existing_Type>Trifoil_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="DType_Tech_3">
+	<Variant_Of_Existing_Type>Trifoil_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="DType_Tech_4">
+	<Variant_Of_Existing_Type>Trifoil_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="DType_Tech_5">
+	<Variant_Of_Existing_Type>Trifoil_Squadron</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Aramadia_Tech_1">
+	<Variant_Of_Existing_Type>Armadia</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Aramadia_Tech_2">
+	<Variant_Of_Existing_Type>Armadia</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Aramadia_Tech_3">
+	<Variant_Of_Existing_Type>Armadia</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Aramadia_Tech_4">
+	<Variant_Of_Existing_Type>Armadia</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	<Squadron Name="Aramadia_Tech_5">
+	<Variant_Of_Existing_Type>Armadia</Variant_Of_Existing_Type>
+	<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+</Tech_Tree_Units>

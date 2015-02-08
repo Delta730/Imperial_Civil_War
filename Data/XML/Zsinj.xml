@@ -1,0 +1,2272 @@
+<?xml version="1.0" ?>
+<Remnant_Space_Units>
+
+
+<StarBase Name="Zsinj_Star_Base_1">
+		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
+		
+		<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Scale_Factor>0.25</Scale_Factor>
+		<Space_Model_Name>Light_Shipyard.alo</Space_Model_Name>
+		<Galactic_Model_Name>Light_Shipyard.alo</Galactic_Model_Name>
+		<Select_Box_Scale>600</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>600</Build_Cost_Credits>
+		<AI_Combat_Power>5000</AI_Combat_Power>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
+		<Size_Value>10</Size_Value>
+		<Tech_Level>1</Tech_Level>
+		<Base_Level>1</Base_Level>
+	<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Prev_Level_Base />
+		<Next_Level_Base>Zsinj_Star_Base_2</Next_Level_Base>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Damage>10</Damage>
+		<Shield_Points>300</Shield_Points>
+		<Tactical_Health>1600</Tactical_Health>
+		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
+		<Reinforcement_Prevention_Radius> 400 </Reinforcement_Prevention_Radius>
+
+		<Armor_Type> Armor_Station </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		
+		
+		<HardPoints>
+			Shipyard_Hangar
+		</HardPoints>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+	
+		
+		<!-- Comm array and supply dock should be replaced by dummy hard points -->
+		
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Empire_Space_Station</SFXEvent_Select>
+		<SFXEvent_Attack>Unit_Attack_Empire_Space_Station</SFXEvent_Attack>
+		<SFXEvent_Barrage>Unit_Barrage_Empire_Space_Station</SFXEvent_Barrage>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Unit_Under_Attack> EHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Custom_Soft_Footprint_Radius> 250 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust> -150 </Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Scale_Land>0.08</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.28</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>i_radar_lightshipyard.tga</Radar_Icon_Name>
+
+		<Icon_Name>i_button_lshipyard.tga</Icon_Name>
+		<Score_Cost_Credits> 1500</Score_Cost_Credits>
+		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_1_Empire</Retreat_Self_Destruct_Explosion>
+		 <Ranking_In_Category>1</Ranking_In_Category>
+		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
+		
+		
+	</StarBase>
+
+
+
+	<StarBase Name="Zsinj_Star_Base_2">
+		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
+		<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2 TEXT_TOOLTIP_GARRISON_ES_02</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Scale_Factor>2.5</Scale_Factor>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Space_Model_Name>Heavy_Shipyard.alo</Space_Model_Name>
+		<Galactic_Model_Name>Heavy_Shipyard.alo</Galactic_Model_Name>
+		<Select_Box_Scale>900</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>1200</Build_Cost_Credits>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
+		<Size_Value>20</Size_Value>
+		<Tech_Level>1</Tech_Level>
+		<Base_Level>2</Base_Level>
+		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Prev_Level_Base>Zsinj_Star_Base_1</Prev_Level_Base>
+		<Next_Level_Base>Zsinj_Star_Base_3</Next_Level_Base>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Autoresolve_Health>250</Autoresolve_Health>
+		<Damage>45</Damage>
+		<Shield_Points>750</Shield_Points>
+		<Tactical_Health>2200</Tactical_Health>
+		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
+		<Reinforcement_Prevention_Radius> 100 </Reinforcement_Prevention_Radius>
+
+		<Armor_Type> Armor_Station </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		
+		<Tactical_Buildable_Objects_Campaign>
+			Empire,
+				ES_Enhanced_Reactors_L1_Upgrade,
+				ES_Reinforced_Armor_L1_Upgrade,
+				ES_Improved_Weapons_L1_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		
+		<HardPoints>
+			Shipyard_Hangar
+		</HardPoints>
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Lancer_Frigate, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Lancer_Frigate, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Carrack_Cruiser, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Carrack_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+	
+		
+		<!-- Comm array and supply dock should be replaced by dummy hard points -->
+		
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Empire_Space_Station</SFXEvent_Select>
+		<SFXEvent_Attack>Unit_Attack_Empire_Space_Station</SFXEvent_Attack>
+		<SFXEvent_Barrage>Unit_Barrage_Empire_Space_Station</SFXEvent_Barrage>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Unit_Under_Attack> EHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Custom_Soft_Footprint_Radius> 50 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust> -200.0 </Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Scale_Land>0.08</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.28</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_heavyshipyard.tga</Radar_Icon_Name>
+		
+		
+		<Icon_Name>i_button_shipyard.tga</Icon_Name>
+		<Score_Cost_Credits> 3000</Score_Cost_Credits>
+		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_2_Empire</Retreat_Self_Destruct_Explosion>
+
+		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
+		
+	</StarBase>
+
+
+
+	<StarBase Name="Zsinj_Star_Base_3">
+		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
+		<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3 TEXT_TOOLTIP_GARRISON_ES_03</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Scale_Factor>7.0</Scale_Factor>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Space_Model_Name>capital_shipyard.alo</Space_Model_Name>
+		<Galactic_Model_Name>capital_shipyard.alo</Galactic_Model_Name>
+		<Select_Box_Scale>300</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>2400</Build_Cost_Credits>
+		<AI_Combat_Power>15000</AI_Combat_Power>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
+		<Size_Value>30</Size_Value>
+		<Tech_Level>1</Tech_Level>
+		<Base_Level>3</Base_Level>
+	<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Prev_Level_Base>Zsinj_Star_Base_2</Prev_Level_Base>
+		<Next_Level_Base></Next_Level_Base>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Damage>55</Damage>
+		<Shield_Points>2000</Shield_Points>
+		<Tactical_Health>3000</Tactical_Health>
+		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+		<Reinforcement_Prevention_Radius> 100 </Reinforcement_Prevention_Radius>
+
+		<Armor_Type> Armor_Station </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+
+		
+		<HardPoints>
+			Shipyard_Hangar
+		</HardPoints>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Lancer_Frigate, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Lancer_Frigate, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Carrack_Cruiser, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Carrack_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+	
+		<Starting_Spawned_Units_Tech_0>Dreadnaught_Empire, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Dreadnaught_Empire, 10</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+
+		<Tactical_Buildable_Objects_Campaign>
+			Empire,
+				ES_Enhanced_Reactors_L1_Upgrade,
+				ES_Enhanced_Reactors_L2_Upgrade,
+				ES_Reinforced_Armor_L1_Upgrade,
+				ES_Reinforced_Armor_L2_Upgrade,
+				ES_Improved_Weapons_L1_Upgrade,
+				ES_Improved_Weapons_L2_Upgrade,
+				ES_Improved_Defenses_L1_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		
+		
+		
+		<!-- Comm array and supply dock should be replaced by dummy hard points -->
+		
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Empire_Space_Station</SFXEvent_Select>
+		<SFXEvent_Attack>Unit_Attack_Empire_Space_Station</SFXEvent_Attack>
+		<SFXEvent_Barrage>Unit_Barrage_Empire_Space_Station</SFXEvent_Barrage>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Unit_Under_Attack> EHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Custom_Soft_Footprint_Radius> 50 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust> -200 </Layer_Z_Adjust>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Scale_Land>0.4</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.4</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_capitalshipyard.tga</Radar_Icon_Name>
+		
+		<Icon_Name>i_button_capital_shipyard.tga</Icon_Name>
+		<Score_Cost_Credits> 6000</Score_Cost_Credits>
+		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_3_Empire</Retreat_Self_Destruct_Explosion>
+
+		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
+		
+	</StarBase>
+
+
+	<!-- Heroes -->
+
+	
+		<SpaceUnit Name="Praetor_Warlord">
+		<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		 <Tech_Level>2</Tech_Level>
+		
+			<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 6</Starting_Spawned_Units_Tech_3>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+
+	<UniqueUnit Name="Iron_Fist">
+		<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_ZSINJ</Text_ID>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		
+		<Affiliation>Pirates</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+		
+		<Icon_Name>i_button_zsinj.tga</Icon_Name>
+		
+		<SFXEvent_Select>Unit_Select_Zsinj</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Zsinj</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Zsinj</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Zsinj</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Zsinj</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Move_Zsinj</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Victory_Destroyer</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Zsinj </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Zsinj </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Zsinj </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Zsinj </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Zsinj </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Zsinj </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Zsinj </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Zsinj </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Zsinj </SFXEvent_Attack_Hardpoint>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_ZSINJ </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
+
+					<!-- Hero abilities for Captain Thrawn added to ship; Hero "moveable" unit removed -->
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Zsinj_Combat_Bonus_General">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.25</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+
+		</Abilities>
+	
+	</UniqueUnit>
+
+	<UniqueUnit Name="Implaccable_Star_Destroyer">
+		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		
+		<Icon_Name>i_button_trigit.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	
+		<Text_ID>TEXT_HERO_TRIGIT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_TRIGIT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
+
+		
+
+		<Tech_Level>99</Tech_Level>
+		
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Trigit_Combat_Bonus_General">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.1</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+
+		</Abilities>
+		
+	</UniqueUnit>
+
+		<HeroUnit Name="Gethzerion">
+		<LOD_Bias>5</LOD_Bias>
+		<GUI_Bounds_Scale>0.6</GUI_Bounds_Scale>
+		<Text_ID>TEXT_HERO_GETHZERION</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_GETHZERION TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER </Encyclopedia_Unit_Class>
+		
+		<Land_Model_Name> UI_SILRI.ALO </Land_Model_Name>
+		<Icon_Name>i_button_ui_silri.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Scale_Factor>1.75</Scale_Factor>
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
+		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT, ABILITY_COUNTDOWN </LandBehavior>
+
+		<Uses_Multiple_Locomotors> Yes </Uses_Multiple_Locomotors>
+		<Hover_Offset>16.0</Hover_Offset>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Movement_Animation_Speed> .75 </Movement_Animation_Speed>
+		<Max_Speed> 1.6 </Max_Speed>
+		<Alternate_Max_Speed> 2.7 </Alternate_Max_Speed>
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 5.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<Max_Lift> .6 </Max_Lift>
+
+		<Affiliation>Underworld</Affiliation>
+		<Size_Value>10</Size_Value>
+		<Shield_Points>0</Shield_Points>
+		<Always_Spawn_In_Orbit>No</Always_Spawn_In_Orbit>
+		<Tactical_Health>700</Tactical_Health>
+		<Autoresolve_Health>600</Autoresolve_Health>
+		<Damage>60</Damage>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Armor_Type> Armor_Hero </Armor_Type>
+
+		<Projectile_Types>Proj_Silri_Lightsaber_Whip</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Appearance_Delay_Frames> 15,20 </Projectile_Appearance_Delay_Frames>
+		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>38.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<SFXEvent_Select>Unit_Select_Silri</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Silri</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Silri</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Silri</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Silri</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Silri </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Silri </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Silri </Death_SFXEvent_Start_Die>
+
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Lua_Script>ObjectScript_Silri</Lua_Script>
+		<Always_Spawn_In_Orbit>No</Always_Spawn_In_Orbit>
+
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		
+		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<Neutralization_Cost>3500.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Destroy_When_Used_As_Corruption_Prereq> No </Destroy_When_Used_As_Corruption_Prereq>
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		
+            <Unit_Ability>
+				<Type>DRAIN_LIFE</Type>
+				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Gethzerion_Drain_Life </GUI_Activated_Ability_Name> 
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+
+      
+
+            <Force_Confuse_Ability Name="Gethzerion_Confuse">
+               <Activation_Style> User_Input </Activation_Style>
+   				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
+   				<Activation_Min_Range>0.0</Activation_Min_Range>
+   				<Activation_Max_Range>100.0</Activation_Max_Range>
+   				<Confuse_Time_In_Secs>10.0</Confuse_Time_In_Secs>
+   				<Confuse_Range>100.0</Confuse_Range>
+   				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
+   				<Confuse_Travel_Time_In_Secs>1.0</Confuse_Travel_Time_In_Secs>
+                <Confuse_Effect> Confuse_Particle_Effect </Confuse_Effect> 
+   				<!-- We only consider the following unit types "valid targets": -->
+   				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+   				<Applicable_Unit_Types />
+   				<SFXEvent_Activate>Unit_Ability_Confuse</SFXEvent_Activate>
+   				<Owner_Particle_Effect>Confuse_Ability_Particles</Owner_Particle_Effect>
+   				<Owner_Particle_Bone_Name />
+   				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+   				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
+   				<Owner_Light_Effect_Color2 />
+   				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+   				<Owner_Light_Effect_Pulse_Count />
+   			</Force_Confuse_Ability>
+
+            <Galactic_Stealth_Ability Name="Gethzerion_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+            <Drain_Life_Ability Name="Gethzerion_Drain_Life">
+                <Activation_Style> User_Input </Activation_Style>
+                <Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
+                <Applicable_Unit_Types />
+                
+				<Excluded_Unit_Types>
+					Droid_R2D2,
+					Droid_C3P0,
+					MPTL_Spotter,
+					IG-88,
+					Dark_Trooper_PhaseI,
+					Dark_Trooper_PhaseII,
+					Dark_Trooper_PhaseIII,
+					Demolition_Bomb,
+					Proximity_Mine
+				</Excluded_Unit_Types>
+                
+                <Duration_In_Seconds>5</Duration_In_Seconds>
+                <Damage_Per_Second>30</Damage_Per_Second>
+                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>	
+                <Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
+                <Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
+                <Drain_Radius> 100.0 </Drain_Radius>		
+                <SFXEvent_Activate>Unit_Taunt_Silri</SFXEvent_Activate>
+                <SFXEvent_Target_Affected>Unit_Force_Lightning</SFXEvent_Target_Affected>
+                <Should_Heal>Yes</Should_Heal>
+            </Drain_Life_Ability>
+
+        </Abilities>
+
+	</HeroUnit>
+
+
+
+
+
+
+	<!-- Hero Company Data -->
+
+
+	<HeroCompany Name="Gethzerion_Team">
+		<LOD_Bias>5</LOD_Bias>
+		<GUI_Bounds_Scale>0.6</GUI_Bounds_Scale>
+		<Text_ID>TEXT_HERO_GETHZERION</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_GETHZERION TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_ui_silri.tga</Icon_Name>
+				
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>80</Damage>
+		<Affiliation>Underworld</Affiliation>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>Gethzerion</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+
+		<SFXEvent_Build_Started>UHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Silri</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Select_Silri</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Silri</SFXEvent_Fleet_Move>
+
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<Population_Value>1</Population_Value>
+
+		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+
+		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
+		
+		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+	</HeroCompany>
+
+	<!-- Zsinj Space Units -->
+
+	<!-- ******************************************************************** -->
+	<!-- ******************************* Fighters *************************** -->
+	<!-- ******************************************************************** -->	
+
+
+	<SpaceUnit Name="TIE_Raptor">
+
+		<Text_ID>TEXT_UNIT_TIE_RAPTOR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_RAPTOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Space_Model_Name>ev_TieRaptor.ALO</Space_Model_Name>
+		<Scale_Factor>0.33</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.985</Mass>
+		<Max_Speed>4.5</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Max_Lift>4</Max_Lift>
+		<Max_Thrust>2</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Hyperspace>no</Hyperspace>
+		<Hyperspace_Speed>0</Hyperspace_Speed>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> Armor_Fighter </Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>3</Damage>
+
+		<HardPoints>
+			HP_TIE_Raptor
+		</HardPoints>
+
+        <Damage_Type>Damage_Fighter</Damage_Type>
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
+		
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_TIE_Fighter </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_TIE_Fighter </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Fighter </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Fighter</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Fighter </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+
+		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
+		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_raptor.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>35</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<!-- ******************************************************************** -->
+	<!-- ******************************* Capitals *************************** -->
+	<!-- ******************************************************************** -->
+
+	
+	<SpaceUnit Name="Zsinj_Star_Destroyer_Two">
+		
+		
+
+		<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Affiliation>Pirates</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Population_Value>4</Population_Value>
+	</SpaceUnit>
+
+	
+	<SpaceUnit Name="Zsinj_Star_Destroyer">
+		
+		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Affiliation>Pirates</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		
+
+		<Population_Value>4</Population_Value>
+		
+	</SpaceUnit>
+
+	<SpaceUnit Name="Zsinj_Corellian_Corvette">
+		
+		<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Affiliation>Pirates</Affiliation>
+		<Tech_Level>0</Tech_Level>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Zsinj_Nebulon_B_Frigate">
+		<Variant_Of_Existing_Type>Nebulon_B_Frigate</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+			<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Nebulon_B-2_Frigate_Empire">
+		
+		<Variant_Of_Existing_Type>Nebulon_B-2_Frigate</Variant_Of_Existing_Type>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Affiliation>Pirates</Affiliation>
+		<Tech_Level>0</Tech_Level>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Zsinj_Carrack_Cruiser">
+		<Variant_Of_Existing_Type>Carrack_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+			<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	</SpaceUnit>
+
+
+	<SpaceUnit Name="Zsinj_Victory_Destroyer_Mark_1">
+       	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_1</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+			<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Zsinj_Interdictor_Cruiser">
+		<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+			<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Zsinj_Strike_Cruiser">
+		<Variant_Of_Existing_Type>Strike_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+			<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	</SpaceUnit>
+
+	<!-- ******************************************************************** -->
+	<!-- ******************************* Squadrons *************************** -->
+	<!-- ******************************************************************** -->	
+
+	<Squadron Name="TIE_Raptor_Squadron">
+		<Text_ID>TEXT_TIE_RAPTOR_SQUADRON</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>50</Autoresolve_Health>
+		<Damage>25</Damage>
+		<Affiliation>Pirates</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline />
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<Squadron_Units>TIE_Raptor, TIE_Raptor, TIE_Raptor, TIE_Raptor</Squadron_Units>
+		<Squadron_Units>TIE_Raptor, TIE_Raptor, TIE_Raptor, TIE_Raptor</Squadron_Units>
+		<Squadron_Units>TIE_Raptor, TIE_Raptor, TIE_Raptor, TIE_Raptor</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+ 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>-180.0,120.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>-180.0,-120.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>-240.0,15.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>-240.0,-150.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>-180.0,0.0,0.0</Squadron_Offsets>
+		<Max_Squad_Size> 12 </Max_Squad_Size>
+		<Icon_Name>i_button_tie_raptor.tga</Icon_Name>
+		<GUI_Model_Name>EV_Tieraptor.ALO</GUI_Model_Name>
+		<GUI_Distance>120</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Score_Cost_Credits> 420</Score_Cost_Credits>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+			
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_RAPTOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>1</Population_Value>
+	</Squadron>
+
+	<!--- Raptors -->
+
+	
+	
+	<!-- ******************************************************************** -->
+	<!-- ******************************* Ground *************************** -->
+	<!-- ******************************************************************** -->
+   
+
+	<GroundCompany Name="Zsinj_Century_Brigade">
+		<Text_ID>TEXT_UNIT_CRAWLER</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>20</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>180</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Zsinj_Heavy_Factory</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>tank</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Century_Tank, Century_Tank</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_tiecrawl.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Mauler</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Mauler</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>180</Score_Cost_Credits>
+
+	
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_CRAWLER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>3</Expiration_Seconds>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+
+		<GroundCompany Name="Zsinj_Armor_Group">
+		<Text_ID>TEXT_IMPERIAL_ARMOR_GROUP</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>40</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>50</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Zsinj_Heavy_Factory</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>tank</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_1-m_med_repulsor_tank.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_2M_Tank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_2M_Tank</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	3.0f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	
+		
+		<Encyclopedia_Text>TEXT_TOOLTIP_M1_REPULSOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TANK</Encyclopedia_Unit_Class>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		        
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+
+		<GroundCompany Name="Zsinj_Shock_Soldier_Squad">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_REBEL_TANK_BUSTER_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>6</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>125</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Zsinj_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Create_Team_Type> Shock_Soldier_Team </Create_Team_Type>
+		<Company_Units> Squad_Shock_Soldier, Squad_Shock_Soldier, Squad_Shock_Soldier, Squad_Shock_Soldier, Squad_Shock_Soldier, Squad_Shock_Soldier </Company_Units>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Icon_Name>i_button_shocker.tga</Icon_Name>
+		<GUI_Model_Name>RI_PLEXSOLDIER.ALO</GUI_Model_Name>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>90</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+
+		<Score_Cost_Credits>55</Score_Cost_Credits>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		
+		  			
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+
+	
+	<GroundCompany Name="Zsinj_Anti_Infantry_Brigade">
+		<Text_ID>TEXT_IMPERIAL_ANTI_INFANTRY</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>20</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>180</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Zsinj_Heavy_Factory</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>tank</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_tie_crawler.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Mauler</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Mauler</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>180</Score_Cost_Credits>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_MAULER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>3</Expiration_Seconds>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+	
+	<GroundCompany Name="Zsinj_Stormtrooper_Squad">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_IMPERIAL_STORMTROOPER_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>18</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>60</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Zsinj_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
+        <!-- AI  Changed to 18 troopers in squads of 9 -->
+		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<GUI_Model_Name>EI_TROOPER.ALO</GUI_Model_Name>
+		<Land_Model_Name>EI_TROOPER.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>2</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+
+
+
+	
+	<SpecialStructure Name="Zsinj_Ground_Barracks">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00, TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01 </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00, MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Land_Model_Name>EB_InfantryBarracks.alo</Land_Model_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
+		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<Obstacle_Proxy_Type> E_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>	
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Is_Dummy>No</Is_Dummy>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+
+		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		
+		<Destruction_Survivors> 
+			Zsinj_Raptor_Squad_Minor, 1.0
+		</Destruction_Survivors>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Affiliation>Pirates</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Tactical_Health>400</Tactical_Health>
+		<Icon_Name>i_button_e_infantry_barracks.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Barracks_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Barracks_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Barracks_Select_SFX</SFXEvent_Select>
+
+		
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		
+		<!-- The ground structures have this data which looks like it's space only because the
+		snowspeeders are using space style pathfinding which needs this information so that we won't
+		path speeders through structures -->
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Property_Flags>InBase</Property_Flags>
+		
+		<Tactical_Buildable_Objects_Campaign> 
+			
+			</Tactical_Buildable_Objects_Campaign>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+	
+		</Tactical_Buildable_Objects_Multiplayer>
+			
+		<!--<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				Imperial_Stormtrooper_Squad,
+				EL_Scout_Trooper_Research_Upgrade,
+				Imperial_Light_Scout_Squad,
+				Field_Com_Empire_Team,
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>-->
+
+		<AI_Combat_Power>300</AI_Combat_Power>
+		<Starting_Spawned_Units_Tech_0>Zsinj_Raptor_Squad, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Zsinj_Raptor_Squad, -1</Reserve_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="E_Barracks_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+			
+			<Redirect_Blaster_Ability Name="E_Magnetically_Sealed_Structure">
+				<Initially_Enabled> No </Initially_Enabled>
+				<Activation_Style>Take_Damage</Activation_Style>
+				<Redirect_Chance>0.0</Redirect_Chance>
+				<Block_Chance>0.30</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+			
+		</Abilities>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Zsinj_Heavy_Factory">
+			<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+		<Text_ID>TEXT_GROUND_HEAVY_VEHICLE_FACTORY</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00, TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01 </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00, MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Land_Model_Name>EB_VehicleFactory.alo</Land_Model_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
+		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<Obstacle_Proxy_Type> E_Ground_Heavy_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>	
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.50</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Is_Dummy>No</Is_Dummy>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+	
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		
+	<Destruction_Survivors> 
+			Zsinj_Raptor_Squad_Minor, 1.0
+		</Destruction_Survivors>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Affiliation>Pirates</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Planets />
+		<Tactical_Health>1200</Tactical_Health>
+		<Icon_Name>i_button_e_advanced_weapons.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Sabotage_Cost_Credits>2000</Sabotage_Cost_Credits>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Heavy_Vehicle_Factory_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Heavy_Vehicle_Factory_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Heavy_Factory_Select_SFX</SFXEvent_Select>
+
+		
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		
+		<!-- The ground structures have this data which looks like it's space only because the
+		snowspeeders are using space style pathfinding which needs this information so that we won't
+		path speeders through structures -->
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Property_Flags>InBase</Property_Flags>
+	
+		
+		<!--<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				EL_M1_Tank_Research_Upgrade,
+				Imperial_Armor_Group,
+				EL_SPMAT_Research_Upgrade,
+				Imperial_Artillery_Corp,
+				EL_ATAT_Research_Upgrade,
+				Imperial_Heavy_Assault_Company,
+				EL_Heavy_Reflective_Armor_L1_Upgrade,
+				EL_Heavy_Reflective_Armor_L2_Upgrade,
+				EL_Improved_ATAT_Reactors_L1_Upgrade,
+				EL_Improved_ATAT_Reactors_L2_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>-->
+
+      <AI_Combat_Power>800</AI_Combat_Power>
+		<Starting_Spawned_Units_Tech_0>Zsinj_Raptor_Squad, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Zsinj_Raptor_Squad, -1</Reserve_Spawned_Units_Tech_0>
+
+		
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>		
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="E_Heavy_Vehicle_Factory_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+			<Redirect_Blaster_Ability Name="E_Magnetically_Sealed_Structure">
+				<Initially_Enabled> No </Initially_Enabled>
+				<Activation_Style>Take_Damage</Activation_Style>
+				<Redirect_Chance>0.0</Redirect_Chance>
+				<Block_Chance>0.30</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+			
+		</Abilities>
+	</SpecialStructure>
+	
+	
+	<SpecialStructure Name="Zsinj_Commercial_Entity">
+		<Variant_Of_Existing_Type>Empire_Tax_Collection</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Tech_Level>0</Tech_Level>
+	</SpecialStructure>
+
+	<GroundCompany Name="Zsinj_Raptor_Squad_Minor">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_RAPTORTROOPER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RAPTORTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>18</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>90</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
+        <!-- AI  Changed to 18 troopers in squads of 9 -->
+		<Company_Units> Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper</Company_Units>
+		<Company_Units> Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper</Company_Units>
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Icon_Name>i_button_raptor_trooper.tga</Icon_Name>
+		<GUI_Model_Name>ZJ_Raptor.ALO</GUI_Model_Name>
+		<Land_Model_Name>ZJ_Raptor.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>2</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundInfantry Name="Raptor_Scout_Trooper">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_RAPTOR_SCOUT_TROOPER</Text_ID>
+		<Land_Model_Name>ZJ_Biker.ALO</Land_Model_Name>
+		<Icon_Name>i_button_scout_trooper_raptor.tga</Icon_Name>
+		<Lua_Script>SpeederBike</Lua_Script>
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, BIKE_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, POWERED, REVEAL, HIDE_WHEN_FOGGED, WIND_DISTURBANCE,DAMAGE_TRACKING, AMBIENT_SFX, SURFACE_FX, AFFECTED_BY_SHIELD </LandBehavior>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<!-- This is considered a repulsorlift-driven unit -->
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Mass>1.0</Mass>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Max_Speed>5.5</Max_Speed>
+		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		<LateralAcceleration> .15 </LateralAcceleration>
+		<Min_Speed_Fraction_For_Turn> 0 </Min_Speed_Fraction_For_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Bike </UnitCollisionClass>
+		<Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<FormationSpacing> .75 </FormationSpacing>
+		<Walk_Transition>Yes</Walk_Transition>
+		<Movement_Animation_Speed> 3.0 </Movement_Animation_Speed>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<FormationOrder> 1 </FormationOrder>
+		<Scale_Factor>1.5</Scale_Factor>
+		<CanCellStack>yes</CanCellStack>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Hover</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Size_Value>25</Size_Value>
+		<Damage>5</Damage>
+		<Sensor_Range>40</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>40</Tactical_Health>
+		
+		<!-- hitpoints halved to make the unit more paper-like -->
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>200</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Armor_Type> Armor_Scout_Bike </Armor_Type>
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Projectile_Types>Proj_Blaster_Cannon_Green</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		
+		<SFXEvent_Select>Unit_Select_Scout_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Scout_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scout_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Scout_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Scout_Trooper</SFXEvent_Guard>
+		
+		<SFXEvent_Fire>Unit_Scout_Trooper_Fire</SFXEvent_Fire>
+		
+		
+		<Death_SFXEvent_Start_Die>Unit_Speeder_Bike_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>
+		<SFXEvent_Ambient_Moving> Unit_Speederbike_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Engine_Moving_Loop> Unit_SpeederBike_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 12 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_SpeederBike_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<CategoryMask> Vehicle </CategoryMask>
+		<MovementClass> Hover </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>18.0, 7.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+		<AI_Combat_Power>3</AI_Combat_Power>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Select_Box_Scale>38</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Infantry</Weather_Category>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RAPTOR_SCOUTTROOPER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Tactical_Bribe_Cost>50</Tactical_Bribe_Cost>
+		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
+		<Conversion_Ability_Changes_To_Enemy> Scout_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>64</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Speeder_Bomb</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>4</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Scout_Trooper_Bomb</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="Zsinj_Light_Scout_Squad">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_RAPTOR_SCOUT_TROOPER</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>10</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>200</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>ABILITY_COUNTDOWN, DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Raptor_Scout_Trooper, Raptor_Scout_Trooper</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_scout_trooper_raptor.tga</Icon_Name>
+		<GUI_Model_Name>ZJ_Biker.ALO</GUI_Model_Name>
+		<GUI_Distance>65</GUI_Distance>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Scout_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scout_Trooper</SFXEvent_Fleet_Move>
+
+        
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6.5</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_RAPTOR_SCOUTTROOPER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Speeder_Bomb</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>150</Score_Cost_Credits>
+	</GroundCompany>
+
+
+	<GroundCompany Name="Zsinj_Light_Scout_Squad_Minor">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_RAPTOR_SCOUT_TROOPER</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>10</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Cost_Credits>200</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Z_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>ABILITY_COUNTDOWN, DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Raptor_Scout_Trooper, Raptor_Scout_Trooper</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_scout_trooper_raptor.tga.tga</Icon_Name>
+		<GUI_Model_Name>ZJ_Biker.ALO</GUI_Model_Name>
+		<GUI_Distance>65</GUI_Distance>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Scout_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scout_Trooper</SFXEvent_Fleet_Move>
+
+        
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6.5</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_RAPTOR_SCOUTTROOPER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Speeder_Bomb</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>150</Score_Cost_Credits>
+	</GroundCompany>
+
+
+	<GroundCompany Name="Zsinj_Raptor_Squad">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_RAPTORTROOPER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RAPTORTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>18</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health> 
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>90</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Create_Team_Type> Raptor_Team </Create_Team_Type>
+		<Company_Units> Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper</Company_Units>
+		<Company_Units> Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper, Raptor_Trooper</Company_Units>
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Icon_Name>i_button_raptor_trooper.tga</Icon_Name>
+		<GUI_Model_Name>ZJ_Raptor.ALO</GUI_Model_Name>
+		<Land_Model_Name>ZJ_Raptor.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+
+
+		
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>2</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+
+
+	<GroundInfantry Name="Raptor_Trooper">
+		
+		<Text_ID>TEXT_UNIT_RAPTORTROOPER</Text_ID>
+		<Tactical_Health>14</Tactical_Health>
+		<Land_Model_Name>ZJ_Raptor.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			ZJ_Raptor.ALO,
+			Urban, 				ZJ_Raptor.ALO,
+			Arctic, 			ZJ_Raptor.ALO,
+			Volcanic, 			ZJ_Raptor.ALO,
+			Desert, 			ZJ_Raptor.ALO,
+			Forest, 			ZJ_Raptor.ALO,
+			Swamp, 				ZJ_Raptor.ALO
+		</Land_Terrain_Model_Mapping>
+		<Affiliation>Empire</Affiliation>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RAPTORTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<No_Colorization_Color> 251, 174, 1, 255 </No_Colorization_Color>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, TURRET, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		
+		<Target_Bones> b_head, b_chest </Target_Bones>
+		
+		<Icon_Name>i_button_raptor_trooper.tga</Icon_Name>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed>1.6</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .3 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> 0.05 </OverrideAcceleration>
+		<OverrideDeceleration> 0.05 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Empire</Affiliation>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Political_Control>0</Political_Control>
+		<Size_Value>10</Size_Value>
+		<Damage>0.6</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>18</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Armor_Type> Armor_Infantry </Armor_Type>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Projectile_Fire_Pulse_Count>18</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.65</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+		
+		<Turret_Rotate_Extent_Degrees>30.0</Turret_Rotate_Extent_Degrees> 
+ 	 	<Turret_Elevate_Extent_Degrees>30.0</Turret_Elevate_Extent_Degrees> 
+ 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust> 
+ 		
+ 		<Turret_Bone_Name>MuzzleA_00</Turret_Bone_Name> 
+  		<Barrel_Bone_Name>MuzzleA_00</Barrel_Bone_Name> 
+  		<Turret_Rotate_Speed>9000.0</Turret_Rotate_Speed> 
+ 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis> 
+  		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis> 
+  		<Turret_Targets_Ground_Vehicles>2</Turret_Targets_Ground_Vehicles> 
+  		<Turret_Targets_Ground_Infantry>1</Turret_Targets_Ground_Infantry> 
+  		<Turret_Targets_Air_Vehicles>3</Turret_Targets_Air_Vehicles> 
+  		<Turret_Targets_Anything_Else>3</Turret_Targets_Anything_Else> 
+
+		
+		<Land_FOW_Reveal_Range>400</Land_FOW_Reveal_Range>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy>
+		<!-- from 1.0 to make them more innacurate -->
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Storm_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
+		
+		
+		<SFXEvent_Fire>Unit_Stormy_Fire</SFXEvent_Fire>
+		
+		
+		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<CategoryMask> Infantry </CategoryMask>
+		<MovementClass> Infantry </MovementClass>
+		<Property_Flags>Fodder</Property_Flags>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>3</AI_Combat_Power>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurretsAir</Targeting_Priority_Set>
+		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Infantry</Weather_Category>
+		
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+		<Presence_Induced_Animations>
+			Attention, 
+				Emperor_Palpatine,
+				Darth_Vader,
+		</Presence_Induced_Animations>
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		
+		<Projectile_Damage>0.5</Projectile_Damage>
+	</GroundInfantry>
+</Remnant_Space_Units>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Campaign: Origin of Corruption (Rebel)	******-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+			
+	 <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>60</Event_Param1>
+
+ </Event>
+<!-- Force Rebels to get X-wing instead of Z-95 to start -->
+	<Event Name="Unlock_X_wings">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_X-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Z95_Headhunter_Rebel_Squadron</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<!-- Zsinj -->
+
+
+<!-- Rebel Hero Release -->
+
+
+	<!-- Spawn Starting Heroes -->
+
+	<Event Name="Spawn_Mon_mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+<!--	<Event Name="CommanderLock">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Com_Rebel_Team</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="DISABLE_BUILDABLE_Fleet_Com">
+<Event_Type>STORY_TRIGGER</Event_Type>
+<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+<Reward_Param1>Fleet_Com_Rebel_Team</Reward_Param1>
+<Prereq>Universal_Story_Start</Prereq>
+</Event>
+<Event Name="Remove_Fleet_Coms">
+<Event_Type>STORY_CONSTRUCT</Event_Type>
+<Event_Param1>Fleet_Com_Rebel_Team</Event_Param1>
+<Event_Param2>1</Event_Param2>
+<Event_Param3>FILTER_FRIENDLY_AND_ENEMY</Event_Param3>
+<Reward_Type>REMOVE_UNIT</Reward_Type>
+<Reward_Param1>Fleet_Com_Rebel_Team</Reward_Param1>
+<Prereq>Universal_Story_Start</Prereq>
+<Perpetual>true</Perpetual>
+</Event>-->
+	<Event Name="Spawn_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Home_One</Reward_Param1>
+        	<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Spawn_Lando">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Lando_Calrissian_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Rogue_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Drayson">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Allegiance</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_BelIblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Peregrine</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Mara_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mara_Saber_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Leia">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Princess_Leia_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Booster">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Errant_Venture</Reward_Param1>
+		<Reward_Param2>Myrkr</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Karrde">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Wild_karrde</Reward_Param1>
+		<Reward_Param2>Denon</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	
+    <Event Name="Lock_Katana">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Katana_Space</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+ 
+</Story>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<SpaceUnitsCapital>
+
+	
+	<SpaceUnit Name="Star_Destroyer_E3">
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		
+		<Shield_Points>1000</Shield_Points>
+		<Tech_Level>10</Tech_Level>
+		<Tactical_Health>2000</Tactical_Health>
+
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<!--<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_E3, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_E3, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>-->
+
+	</SpaceUnit>
+
+
+
+
+
+</SpaceUnitsCapital>

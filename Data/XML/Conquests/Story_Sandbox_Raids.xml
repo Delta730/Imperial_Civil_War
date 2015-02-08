@@ -1,0 +1,1079 @@
+<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Campaign: Fractured Empire (Isard) *****-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+<Event Name="Universal_Raid_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	
+	<Event Name="STORY_SPACE_TACTICAL_Abregado_Rae">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Abregado_Rae</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 
+ 	<Event Name="STORY_SPACE_TACTICAL_Adumar">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Adumar</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 
+ 	<Event Name="STORY_SPACE_TACTICAL_amrac">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Amrac</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 
+ 	<Event Name="STORY_SPACE_TACTICAL_AnxMinor">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>AnxMinor</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 
+ 	<Event Name="STORY_SPACE_TACTICAL_Bakura">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Bakura</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Balmorra">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Balmorra</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_BanthaNebula">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>BanthaNebula</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Bastion">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Bastione</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Belsmuth">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Belsmuth</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Bespin">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Bespin</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Bilbringi">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Bilbringi</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Bimmisaari">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Bimmisaari</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Bonadan">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Bonadan</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Borleais">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Borleais</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Borosk">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Borosk</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Bothawui">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Bothawui</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Bpfassh">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Bpfassh</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Brentaal">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Brentaal</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Byss">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Byss</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 	<Event Name="STORY_SPACE_TACTICAL_Carida">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Carida</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Cattamascar">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Cattamascar</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Cejansij">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Cejansij</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Chandrila">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Chandrila</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Chardaan">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Chardaan</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Charubah">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Charubah</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Chorax">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Chorax</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Chrondre">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Chrondre</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Ciutric">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Ciutric</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Comkin">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Comkin</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Commenor">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Commenor</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Corellia">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Corellia</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Corulag">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Corulag</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Coruscant">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Coruscant</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Crustai">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Carida</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Crustai">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Carida</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Da_SoochaV">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Da_SoochaV</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Dagobah">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Dagobah</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Dathomir">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Dathomir</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Denon">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Denon</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+  	<Event Name="STORY_SPACE_TACTICAL_Dolomar">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Dolomar</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+   	<Event Name="STORY_SPACE_TACTICAL_Doornik">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Doornik</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Druckenwell">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Druckenwell</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Dubrillion">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Dubrillion</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Duro">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Duro</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Endor">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Endor</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Ession">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Ession</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Etti_IV">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Etti_IV</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Exocron">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Exocron</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Farrfin">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Farrfin</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Filve">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Filve</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+   	<Event Name="STORY_SPACE_TACTICAL_Fondor">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Fondor</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+    	<Event Name="STORY_SPACE_TACTICAL_Galantos">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Galantos</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+    	<Event Name="STORY_SPACE_TACTICAL_Garos_IV">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Garos_IV</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+    	<Event Name="STORY_SPACE_TACTICAL_Garqi">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Garqi</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+    	<Event Name="STORY_SPACE_TACTICAL_Generis">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Generis</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+    	<Event Name="STORY_SPACE_TACTICAL_Gravan">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Gravan</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+    	<Event Name="STORY_SPACE_TACTICAL_Graveyard">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Graveyard</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+    	<Event Name="STORY_SPACE_TACTICAL_Gravlex_Med">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Gravlex_Med</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+    	<Event Name="STORY_SPACE_TACTICAL_Grho">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Grho</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+    	<Event Name="STORY_SPACE_TACTICAL_Gyndine">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Gyndine</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+     	<Event Name="STORY_SPACE_TACTICAL_Hapes">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Hapes</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+     	<Event Name="STORY_SPACE_TACTICAL_Helska_4">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Helska_4</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+     	<Event Name="STORY_SPACE_TACTICAL_Honoghr">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Honoghr</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+     	<Event Name="STORY_SPACE_TACTICAL_ILC905">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>ILC905</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+     	<Event Name="STORY_SPACE_TACTICAL_Ilum">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Ilum</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+     	<Event Name="STORY_SPACE_TACTICAL_Ithor">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Ithor</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+     	<Event Name="STORY_SPACE_TACTICAL_Jomark">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Jomark</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+     	<Event Name="STORY_SPACE_TACTICAL_Jtptan">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Jtptan</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+      	<Event Name="STORY_SPACE_TACTICAL_Kariek">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Kariek</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+      	<Event Name="STORY_SPACE_TACTICAL_Kashyyyk">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Kashyyyk</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+      	<Event Name="STORY_SPACE_TACTICAL_Kauron">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Kauron</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+      	<Event Name="STORY_SPACE_TACTICAL_Kessel">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Kessel</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+      	<Event Name="STORY_SPACE_TACTICAL_Ketaris">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Ketaris</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+      	<Event Name="STORY_SPACE_TACTICAL_Khomm">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Khomm</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+      	<Event Name="STORY_SPACE_TACTICAL_Kothlis">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Kothlis</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+      	<Event Name="STORY_SPACE_TACTICAL_Kuat">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Jtptan</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+      	<Event Name="STORY_SPACE_TACTICAL_Levian">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Levian</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+       	<Event Name="STORY_SPACE_TACTICAL_Lwhekk">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Lwhekk</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+       	<Event Name="STORY_SPACE_TACTICAL_Mantell">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Mantell</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+       	<Event Name="STORY_SPACE_TACTICAL_Metellos">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Metellos</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+       	<Event Name="STORY_SPACE_TACTICAL_MonCalimari">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>MonCalimari</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+       	<Event Name="STORY_SPACE_TACTICAL_Morishim">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Morishim</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+       	<Event Name="STORY_SPACE_TACTICAL_Mrisst">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Mrisst</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 
+        	<Event Name="STORY_SPACE_TACTICAL_Muunilinst">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Muunilinst</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+        	<Event Name="STORY_SPACE_TACTICAL_Myrkr">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Myrkr</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+        	<Event Name="STORY_SPACE_TACTICAL_NalHutta">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>NalHutta</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+        	<Event Name="STORY_SPACE_TACTICAL_NespisVIII">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>NespisVIII</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+        	<Event Name="STORY_SPACE_TACTICAL_NewAlderaan">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>NewAlderaan</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+        	<Event Name="STORY_SPACE_TACTICAL_NewCov">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>NewCov</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+        	<Event Name="STORY_SPACE_TACTICAL_Nirauan">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Nirauan</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+        	<Event Name="STORY_SPACE_TACTICAL_Nkllon">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Nkllon</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+        	<Event Name="STORY_SPACE_TACTICAL_Noquivzor">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Noquivzor</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+        	<Event Name="STORY_SPACE_TACTICAL_Nzoth">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Nzoth</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_ObroaSkai">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>ObroaSkai</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Onderon">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Onderon</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Orinda">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Orinda</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Oristrom">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Oristrom</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Ossus">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Ossus</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Nzoth">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Nzoth</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Pakrik_Minor">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Pakrik_Minor</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Pantolomin">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Pantolomin</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Pardron">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Pardron</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Pesitiin">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Pesitiin</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Phind">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Phind</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Poderis">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Poderis</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+         	<Event Name="STORY_SPACE_TACTICAL_Polneye">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Polneye</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_PorusVida">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>PorusVida</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_QatChrystac">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>QatChrystac</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_Quethold">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Quethold</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_Riette">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Polneye</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_Rishi">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Rishi</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_Rodia">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Rodia</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_Sarvchi">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Sarvchi</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_Selaggis">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Selaggis</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_Sernpidal">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Sernpidal</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_Sluis_Van">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Sluis_Van</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+          	<Event Name="STORY_SPACE_TACTICAL_Svivren">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Svivren</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+           	<Event Name="STORY_SPACE_TACTICAL_Syca">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Syca</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+           	<Event Name="STORY_SPACE_TACTICAL_Talasea">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Talasea</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+           	<Event Name="STORY_SPACE_TACTICAL_Talfaglio">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Talfaglio</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+           	<Event Name="STORY_SPACE_TACTICAL_Tangrene">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Tangrene</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+           	<Event Name="STORY_SPACE_TACTICAL_Telos">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Telos</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+ 
+          	<Event Name="STORY_SPACE_TACTICAL_Terephon">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Terephon</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_The_Maw">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>The_Maw</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Thyferra">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Thyferra</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Trasi">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Trasi</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Ukio">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Ukio</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Rhigar">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Rhigar</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+           	<Event Name="STORY_SPACE_TACTICAL_Wayland">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Wayland</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Wistril">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Wistril</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Woostri">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Woostri</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Yaga_Minor">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Yaga_Minor</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_YagDhul">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>YagDhul</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Yavin">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Yavin</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Ylesia">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Ylesia</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Zfell">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Zfell</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+           	<Event Name="STORY_SPACE_TACTICAL_Eriadu">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Eriadu</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+           	<Event Name="STORY_SPACE_TACTICAL_Sullust">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Sullust</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+          	<Event Name="STORY_SPACE_TACTICAL_Champala">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Champala</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+           	<Event Name="STORY_SPACE_TACTICAL_Kalist">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Kalist</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+           	<Event Name="STORY_SPACE_TACTICAL_Tsoss">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Tsoss</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+           	<Event Name="STORY_SPACE_TACTICAL_Hakassi">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Hakassi</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+           	<Event Name="STORY_SPACE_TACTICAL_Belsavis">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Belsavis</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+           	<Event Name="STORY_SPACE_TACTICAL_Dantooine">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Dantooine</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+           	<Event Name="STORY_SPACE_TACTICAL_Thanos">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Thanos</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+           	<Event Name="STORY_SPACE_TACTICAL_Jaemus">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Conquests\InvadingFleet_Plot_File.xml</Event_Param1>
+   <Event_Param2>Jaemus</Event_Param2>
+  <Prereq>Universal_Raid_Start</Prereq>
+  <Perpetual>true</Perpetual>
+ </Event>
+
+
+
+
+</Story>

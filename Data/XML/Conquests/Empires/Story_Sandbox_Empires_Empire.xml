@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****************************************************-->
+<!--***** CAMPAIGN: Fractured Empire (Empire Version) *****-->
+<!--****************************************************-->
+
+
+
+<Story>
+
+<Event Name="Faction_Intro">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Remnant_Intro</Reward_Param1>
+	</Event>
+	
+	
+		<Event Name="Faction_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Faction_Intro</Prereq>
+		</Event>	
+
+<Event Name="Long_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Star_Wars_Intro</Reward_Param1>
+		<Prereq>Faction_Fin</Prereq>
+	</Event>
+	
+	
+	
+		<Event Name="Long_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Long_Text</Prereq>
+		</Event>	
+
+		
+	<Event Name="Empires_Text_Crawl">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Empires_Campaign_Intro</Reward_Param1>
+		<Prereq>Long_Text_Fin</Prereq>
+	</Event>
+	
+	
+		<Event Name="Empires_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Empires_Text_Crawl</Prereq>
+		</Event>	
+				<Event Name="Empires_Text_Fin2">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+				<Reward_Param1>BlahBlah</Reward_Param1>
+				<Prereq>Empires_Text_Fin</Prereq>
+			</Event> 
+			
+						<Event Name="Pause_For_Movie">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+	
+	<Event Name="UnPause_For_Game">
+					<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+	</Event>
+			
+	 <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+
+ </Event>
+	
+	<!-- Spawn Tech Level 1 Heroes Isard -->
+
+	<Event Name="Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Isard">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Lusankya</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+
+		<Event Name="Spawn_Isard">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Lusankya</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Dlarit">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Elite_Squadron</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+
+		<Event Name="Spawn_Harrsk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Shockwave_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Krennal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Reckoning_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+	
+		<Event Name="Spawn_Convarion">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corrupter_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+	
+		<Event Name="Spawn_Trigit">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Implacable_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+		<Event Name="Spawn_Brashin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Brashin_Team</Reward_Param1>
+		<Reward_Param2>Thyferra</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+	
+	<Event Name="Intro_Welcome">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_ISARD_IR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+     <Reward_Param8>Isard_Intro_Speech</Reward_Param8>
+    <Reward_Param9>Isard_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Universal_Story_Start</Prereq>
+  </Event>
+
+</Story>

@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<Event Name="Battle_Start">
+<Event_Type>STORY_ELAPSED</Event_Type>
+<Event_Param1>0</Event_Param1>
+</Event>
+
+
+<!--
+
+<Event Name="Set_Skirmish_Rules">
+	<Event_Type>STORY_TRIGGER</Event_Type>
+	<Reward_Type>SKIRMISH_RULES</Reward_Type>
+	<Reward_Param1>1</Reward_Param1>
+	<Prereq>Battle_Start</Prereq>
+</Event>
+-->
+
+<Event Name="Remove_FoW">
+	<Event_Type>STORY_TRIGGER</Event_Type>
+	<Reward_Type>ENABLE_FOW</Reward_Type>
+	<Reward_Param1>0</Reward_Param1>
+	<Prereq>Battle_Start</Prereq>
+</Event>
+
+
+<Event Name="Disable_Retreat">
+	<Event_Type>STORY_ELAPSED</Event_Type>
+<Event_Param1>0</Event_Param1>
+	<Reward_Type>DISABLE_RETREAT</Reward_Type>
+	<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+</Event>
+
+<Event Name="Disable_Retreat_Player">
+	<Event_Type>STORY_ELAPSED</Event_Type>
+<Event_Param1>0</Event_Param1>
+	<Reward_Type>DISABLE_RETREAT</Reward_Type>
+	<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+</Event>
+
+
+<Event Name="Disable_Reinforcements">
+	<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NO_REINFORCEMENTS</Event_Param2>
+	<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+	<Perpetual>true</Perpetual>
+</Event>
+
+<Event Name="Close_Reinforcement_Window">
+	<Event_Type>STORY_TRIGGER</Event_Type>
+	<Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+				<Reward_Param1>r_close</Reward_Param1>
+	<Prereq>Disable_Reinforcements</Prereq>
+	<Perpetual>true</Perpetual>
+</Event>
+
+
+<Event Name="Enable_Reinforcements">
+	<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_REINFORCEMENTS</Event_Param2>
+	<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+	<Perpetual>true</Perpetual>
+</Event>
+
+
+
+
+<Event Name="SWITCH_CONTROL_EVENT">
+<Event_Type>STORY_TRIGGER</Event_Type>
+<Reward_Type>SWITCH_CONTROL</Reward_Type>
+<Reward_Param1>Hutts</Reward_Param1>
+<Reward_Param2>AI_Player_UnderworldStoryOpponent</Reward_Param2>
+<Prereq>Battle_Start</Prereq>
+</Event>
+
+
+
+<Event Name="ENABLE_VICTORY_0">
+	<Event_Type>STORY_TRIGGER</Event_Type>
+	<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+	<Prereq>Battle_Start</Prereq>
+</Event>
+
+
+
+<Event Name="STORY_TACTICAL_DESTROY_Skirmish_Empire_Star_Base_5">
+	<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Skirmish_Empire_Star_Base_5</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+	<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>BATTLE_OVER</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	
+</Event>
+
+
+<Event Name="Victory">
+	<Event_Type>STORY_TRIGGER</Event_Type>
+	<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>	
+	<Prereq>STORY_TACTICAL_DESTROY_Skirmish_Empire_Star_Base_5</Prereq>
+</Event>
+
+
+</Story>

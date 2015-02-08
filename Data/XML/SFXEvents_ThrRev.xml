@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+
+
+
+  		<SFXEvent Name="Unit_Move_Scarsiss">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Scarsiss_Move.wav </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+
+		
+  		<SFXEvent Name="Unit_Attack_Scarsiss">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Scarsiss_Attack.wav </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+	
+
+		<SFXEvent Name="Unit_Select_Scarsiss">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Scarsiss_Report_two.wav </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+
+  		<SFXEvent Name="Unit_Move_Scarsiss">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Scarsiss_Move.wav </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+
+		
+  		<SFXEvent Name="Unit_Attack_Scarsiss">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Scarsiss_Attack.wav </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+		
+		
+  		<SFXEvent Name="Unit_Guard_Scarsiss">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Scarsiss_Acknowledge.wav </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+
+		<SFXEvent Name="Unit_Select_Claw">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Clawcraft_Report.mp3 </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+
+  		<SFXEvent Name="Unit_Move_Claw">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Clawcraft_Move.mp3 </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+
+		
+  		<SFXEvent Name="Unit_Attack_Claw">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Clawcraft_Attack.mp3 </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+		
+		
+  		<SFXEvent Name="Unit_Guard_Claw">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Clawcraft_Move.mp3 </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+	
+		<SFXEvent Name="Unit_Asteroid_Claw">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Clawcraft_Asteroid.mp3 </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+	
+		<SFXEvent Name="Unit_Nebula_Claw">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples> Data\Audio\Clawcraft_Neb.mp3 </Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_YOD_SELECT_1, TEXT_SFX_YOD_SELECT_2, TEXT_SFX_YOD_SELECT_3, TEXT_SFX_YOD_SELECT_4, TEXT_SFX_YOD_SELECT_5, TEXT_SFX_YOD_SELECT_6, TEXT_SFX_YOD_SELECT_7, TEXT_SFX_YOD_SELECT_8, TEXT_SFX_YOD_SELECT_9, TEXT_SFX_YOD_SELECT_10, TEXT_SFX_YOD_SELECT_11, TEXT_SFX_YOD_SELECT_12, TEXT_SFX_YOD_SELECT_13, TEXT_SFX_YOD_SELECT_14, TEXT_SFX_YOD_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Yoda </Overlap_Test>
+		</SFXEvent>
+</SFXEvents>

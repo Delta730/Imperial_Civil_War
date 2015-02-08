@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+
+
+    
+<!-- ******************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Survival NR Style" ************** -->
+<!-- ******************************************************************** -->
+
+
+
+
+
+	<Campaign Name="Sandbox_Survival_EotH">
+
+		<Campaign_Set> Sandbox_Survival_EotH </Campaign_Set>
+		<Sort_Order>20</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_SURVIVAL_EOTH </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_SURVIVAL </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Survivaland
+		</Locations>
+
+		<Trade_Routes> 
+		</Trade_Routes> 	
+		
+        <Home_Location> Underworld, NespisVIII </Home_Location>
+        <Home_Location> Empire, Byss </Home_Location>
+        
+        <Starting_Active_Player> Underworld </Starting_Active_Player>
+
+		<Rebel_Story_Name>Survival_Plot_Main_EotH.xml</Rebel_Story_Name>
+        	<Empire_Story_Name></Empire_Story_Name>
+        	       
+		<AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Underworld, SandBoxHuman </AI_Player_Control>
+						
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+				
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		
+		
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Underworld, 900 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 2 </Max_Tech_Level>
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire, 900 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 3 </Max_Tech_Level>
+		
+		
+	
+	</Campaign>	
+
+
+    
+ </Campaigns>

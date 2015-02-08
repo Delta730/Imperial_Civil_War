@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<Projectiles>
+
+<!-- ************************************************************************************** -->
+<!-- ******       Megamasers, Used by the Hand: Quads, Duals, Singles      ************** -->
+<!-- ************************************************************************************** -->
+		
+	<Projectile Name="Proj_Ship_Megamaser">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>5.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>P_MEGAMASER.alo</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Megamaser">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>10.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>P_MEGAMASER_Dual.alo</Space_Model_Name>
+	</Projectile>		
+
+	<Projectile Name="Proj_Ship_Quad_Megamaser">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>P_MEGAMASER_QUAD.alo</Space_Model_Name>
+	</Projectile>	
+
+	<Projectile Name="Proj_Ship_Heavy_Megamaser">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>6.5</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>P_MEGAMASER.alo</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Heavy_Megamaser">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>13.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>P_MEGAMASER_DUAL.alo</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Quad_Heavy_Megamaser">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>26.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>P_MEGAMASER_QUAD.alo</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Supermega">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>2500.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage>500.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>100.0</Projectile_Blast_Area_Range>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>P_VisviaTurret.alo</Space_Model_Name>
+	</Projectile>
+
+
+<!-- ************************************************************************************** -->
+<!-- ******       Maser Cannons, Used by the Hand: Quads, Duals, Singles      ************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Ship_Maser_Cannon">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.10</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>3.0</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_BLUE.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Maser_Cannon_Heavy">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.10</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>4.0</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_BLUE.ALO</Space_Model_Name>
+	</Projectile>
+
+
+	<Projectile Name="Proj_Ship_Maser_Cannon_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.10</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>6.0</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_BLUE_DBL.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Maser_Cannon_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.10</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>12.0</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_BLUE_QUD.ALO</Space_Model_Name>
+	</Projectile>
+
+	
+
+</Projectiles>

@@ -1,0 +1,2852 @@
+<?xml version="1.0"?>
+<UpgradeObjects_Underworld>
+
+<!-- ================== UNDERWORLD LAND MULTIPLAYER GENERAL UPGRADE OBJECTS =================== -->
+
+	
+	<!-- Bombing Runs: Lets the player call in a bombing run, must be purchased for each bombing run. -->	
+	<UpgradeObject Name="UL_Bombing_Run_Use_Upgrade">
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_BOMBING_RUN</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 38 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_bombing_run.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BOMBING_RUN_USE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_BOMBING_RUN_USE</Text_ID>
+		
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="UL_Bombing_Run_Use_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Enable_Bombing_Runs>Yes</Enable_Bombing_Runs>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+  	
+	<!-- Extort Cash (Level 1): Increases income by 15%. -->
+
+  	<UpgradeObject Name="US_Increased_Supplies_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 250 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> US_Increased_Supplies_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="US_Increased_Supplies1_L1_Bonus">
+				<Income_Multiplier>1.20</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Underworld_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<!--<Income_Stream_Mod_Ability Name="US_Increased_Supplies2_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Underworld_Star_Base_2</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="US_Increased_Supplies3_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Underworld_Star_Base_3</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="US_Increased_Supplies4_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Underworld_Star_Base_4</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="US_Increased_Supplies5_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Underworld_Star_Base_5</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>-->
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Increased Supplies (Level 2): Increases starbase income by 40%. -->
+	<UpgradeObject Name="US_Increased_Supplies_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 65 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> US_Increased_Supplies_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> US_Increased_Supplies_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="US_Increased_Supplies1_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Underworld_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<!--<Income_Stream_Mod_Ability Name="US_Increased_Supplies2_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Underworld_Star_Base_2</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="US_Increased_Supplies3_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Underworld_Star_Base_3</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="US_Increased_Supplies4_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Underworld_Star_Base_4</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="US_Increased_Supplies5_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Underworld_Star_Base_5</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>-->
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+  	
+
+<!-- ================== EOTH SPACE MULTIPLAYER GENERAL UPGRADE OBJECTS =================== -->
+	
+<!-- ================== LAND SKIRMISH EOTH COMMAND CENTER TECH UPGRADE OBJECTS =================== -->
+
+<UpgradeObject Name="UC_Level_Two_Tech_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> Yes </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> Yes </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type>UC_Level_Three_Tech_Upgrade</Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_u_tech_upgrade_2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_COMMAND_CENTER</Text_ID>
+		
+		<SFXEvent_Build_Started>UHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+	</UpgradeObject>
+
+	<UpgradeObject Name="UC_Level_Three_Tech_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 4400 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 70 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UC_Level_Two_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> Yes </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> Yes </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type>UC_Level_Two_Tech_Upgrade</Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_u_tech_upgrade_3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_COMMAND_CENTER</Text_ID>
+		
+		<SFXEvent_Build_Started>UHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+	</UpgradeObject>
+
+	
+
+
+
+<!-- Planetary Bombardment : Lets the player bombard, must be purchased for each bombardment. -->
+<!--========================================================================================= -->
+<!--========================================================================================= -->
+	
+<UpgradeObject Name="RL_Planetary_Bombard_Use_Upgrade">
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_PLANETARY_BOMBARD</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 6000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 125 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_RL_ORBITAL_BOMBARD_TOOLTIP  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="RL_Planetary_Bombard_Use_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Enable_Planetary_Bombardment>Yes</Enable_Planetary_Bombardment>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Planetary Bombardment : Lets the player bombard, must be purchased for each bombardment. -->	
+<UpgradeObject Name="EL_Planetary_Bombard_Use_Upgrade">
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_PLANETARY_BOMBARD</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 7500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 123 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_EL_ORBITAL_BOMBARD_TOOLTIP  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="EL_Planetary_Bombard_Use_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Enable_Planetary_Bombardment>Yes</Enable_Planetary_Bombardment>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Planetary Bombardment : Lets the player bombard, must be purchased for each bombardment. -->	
+	<UpgradeObject Name="UL_Planetary_Bombard_Use_Upgrade">
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_PLANETARY_BOMBARD</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 8200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 118 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_UL_ORBITAL_BOMBARD_TOOLTIP  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
+		
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="UL_Planetary_Bombard_Use_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Enable_Planetary_Bombardment>Yes</Enable_Planetary_Bombardment>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+  	
+  	<UpgradeObject Name="PL_Planetary_Bombard_Use_Upgrade">
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_PLANETARY_BOMBARD</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 7500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 123 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>PC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_EL_ORBITAL_BOMBARD_TOOLTIP  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="PL_Planetary_Bombard_Use_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Enable_Planetary_Bombardment>Yes</Enable_Planetary_Bombardment>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	
+  	
+<!-- New Mercenary Outfitter Upgrades -->
+<!--========================================================================================= -->
+<!--========================================================================================= -->
+
+<!-- Magnetically sealed Plating: Structures Armor redirects 25% laser fire. -->
+<UpgradeObject Name="U_Magnetically_Sealed_Structure_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_reinforce_structure.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_UNDERWORLD </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_MERC_MAGNETIC_STRUCTURE</Text_ID>
+		
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="U_Magnetically_Sealed_Structure_Bonus_Enabler">
+				<Ability_Name>U_Magnetically_Sealed_Structure</Ability_Name>
+				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Droid_Works, U_Ground_Vehicle_Factory</Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<UpgradeObject Name="R_Magnetically_Sealed_Structure_Upgrade">
+		<Variant_Of_Existing_Type>U_Magnetically_Sealed_Structure_Upgrade</Variant_Of_Existing_Type>
+		<Affiliation>Rebel</Affiliation>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_REBEL </Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="R_Magnetically_Sealed_Structure_Bonus_Enabler">
+				<Ability_Name>R_Magnetically_Sealed_Structure</Ability_Name>
+				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>R_Ground_Barracks, R_Ground_Light_Vehicle_Factory, R_Ground_Heavy_Vehicle_Factory, Power_Generator_R, R_Ground_Research_Facility, Communications_Array_R, Rebel_Command_Center</Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+  	</UpgradeObject>
+
+	<UpgradeObject Name="E_Magnetically_Sealed_Structure_Upgrade">
+		<Variant_Of_Existing_Type>U_Magnetically_Sealed_Structure_Upgrade</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_EMPIRE </Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="E_Magnetically_Sealed_Structure_Bonus_Enabler">
+				<Ability_Name>E_Magnetically_Sealed_Structure</Ability_Name>
+				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>E_Ground_Barracks, E_Ground_Light_Vehicle_Factory, E_Ground_Heavy_Vehicle_Factory, E_Ground_Research_Facility, Power_Generator_E, Communications_Array_E, Imperial_Command_Center</Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+  	</UpgradeObject>
+  	
+  	<UpgradeObject Name="P_Magnetically_Sealed_Structure_Upgrade">
+		<Variant_Of_Existing_Type>U_Magnetically_Sealed_Structure_Upgrade</Variant_Of_Existing_Type>
+		<Affiliation>Pentastar</Affiliation>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_EMPIRE </Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="P_Magnetically_Sealed_Structure_Bonus_Enabler">
+				<Ability_Name>P_Magnetically_Sealed_Structure</Ability_Name>
+				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>P_Ground_Barracks, P_Ground_Light_Vehicle_Factory, P_Ground_Heavy_Vehicle_Factory, P_Ground_Research_Facility, Power_Generator_Pent, Communications_Array_P, Pentastar_Command_Center</Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+  	</UpgradeObject>
+  	
+	
+	<UpgradeObject Name="U_Secure_Area_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_tactical_secure.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_MERC_SECURE_AREA </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_MERC_SECURE_AREA</Text_ID>
+		
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="U_Secure_Area_Upgrade_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Capture_Point_Time_Multiplier>0.85</Capture_Point_Time_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<UpgradeObject Name="R_Secure_Area_Upgrade">
+		<Variant_Of_Existing_Type>U_Secure_Area_Upgrade</Variant_Of_Existing_Type>
+		<Affiliation>Rebel</Affiliation>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="R_Secure_Area_Upgrade_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Capture_Point_Time_Multiplier>0.85</Capture_Point_Time_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+  	</UpgradeObject>
+
+	<UpgradeObject Name="E_Secure_Area_Upgrade">
+		<Variant_Of_Existing_Type>U_Secure_Area_Upgrade</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="E_Secure_Area_Upgrade_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Capture_Point_Time_Multiplier>0.85</Capture_Point_Time_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		
+  	</UpgradeObject>
+  	
+  	<UpgradeObject Name="P_Secure_Area_Upgrade">
+		<Variant_Of_Existing_Type>U_Secure_Area_Upgrade</Variant_Of_Existing_Type>
+		<Affiliation>Pentastar</Affiliation>
+
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="E_Secure_Area_Upgrade_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Capture_Point_Time_Multiplier>0.85</Capture_Point_Time_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		
+  	</UpgradeObject>
+  	
+  	
+	
+  	<!-- New Hutt Palace Upgrades -->
+<!--========================================================================================= -->
+<!--========================================================================================= -->
+
+
+	 <!-- Reinforcement Enhacements (Level 1): Affects Reinforcment Deployment -->
+	<UpgradeObject Name="UL_Enhanced_Deployment_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="UL_Enhanced_Deployment_L1_Upgrade">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Reinforcement_Deploy_Time_Multiplier>.75</Reinforcement_Deploy_Time_Multiplier>
+				<Disable_Reinforcement_Vulnerability>True</Disable_Reinforcement_Vulnerability>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<!-- Reinforcement Enhacements (Level 1): Affects Reinforcment Deployment -->
+	<UpgradeObject Name="RL_Enhanced_Deployment_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="RL_Enhanced_Deployment_L1_Upgrade">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Reinforcement_Deploy_Time_Multiplier>.75</Reinforcement_Deploy_Time_Multiplier>
+				<Disable_Reinforcement_Vulnerability>True</Disable_Reinforcement_Vulnerability>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<!-- Reinforcement Enhacements (Level 1): Affects Reinforcment Deployment -->
+	<UpgradeObject Name="EL_Enhanced_Deployment_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="EL_Enhanced_Deployment_L1_Upgrade">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Reinforcement_Deploy_Time_Multiplier>.75</Reinforcement_Deploy_Time_Multiplier>
+				<Disable_Reinforcement_Vulnerability>True</Disable_Reinforcement_Vulnerability>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<!-- Reinforcement Enhacements (Level 1): Affects Reinforcment Deployment -->
+	<UpgradeObject Name="PL_Enhanced_Deployment_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="EL_Enhanced_Deployment_L1_Upgrade">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Reinforcement_Deploy_Time_Multiplier>.75</Reinforcement_Deploy_Time_Multiplier>
+				<Disable_Reinforcement_Vulnerability>True</Disable_Reinforcement_Vulnerability>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	
+	
+
+
+
+	
+	
+
+
+
+
+
+
+<!-- ******************************************************************************************* -->
+<!-- ******				UPGRADE OBJECTS FOR SOLO PLAY UNDERWORLD GROUND STRUCTURES		  ****** -->
+<!-- ******************************************************************************************* -->
+
+
+
+<!-- Increased Mobility: Stormtroopers move 30% faster. -->
+	<UpgradeObject Name="EotHL_Increased_Mobility_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 475 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 12 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_mobility.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EOTHL_INCREASED_MOBILITY  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_INCREASED_MOBILITY</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EotHL_Increased_Mobility_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Phalanx_Trooper, Phalanx_Team, Phalanx_Sergeant</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.30</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Stamina Boost: Stormtroopers have 35% more health. -->
+	<UpgradeObject Name="EotHL_Stamina_Boost_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 550 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>170</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 18 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_stamina_boost.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EOTHL_STAMINA_BOOST  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_STAMINA_BOOST</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EoTHL_Stamina_Boost_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Phalanx_Trooper, Phalanx_Sergeant</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.35</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+	
+	<!-- Light Reflective Armor (Level 1): Light vehicles deflect 25% of incoming blaster fire. -->
+	<UpgradeObject Name="EOTHL_Light_Reflective_Armor_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 575 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 14 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> EotHL_Light_Reflective_Armor_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_light_reflective_armor1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EOTHL_LIGHT_REFLECTIVE_ARMOR_L1 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_LIGHT_REFLECTIVE_ARMOR_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="EotHL_Light_Reflective_Armor_L1_Bonus_Enabler">
+				<Ability_Name> EL_Light_Reflective_Armor_L1_Bonus </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Flame_Tank, RFT, Kirov </Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Light Reflective Armor (Level 2): Light vehicles deflect 50% of incoming blaster fire. -->
+	<UpgradeObject Name="EOTHL_Light_Reflective_Armor_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>380</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 22 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> EotHL_Light_Reflective_Armor_L1_Upgrade, UC_Level_Two_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> EL_Light_Reflective_Armor_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_light_reflective_armor2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EOTHL_LIGHT_REFLECTIVE_ARMOR_L2 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_LIGHT_REFLECTIVE_ARMOR_L2</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="EotHL_Light_Reflective_Armor_L2_Bonus_Enabler">
+				<Ability_Name> EL_Light_Reflective_Armor_L2_Bonus </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Flame_Tank, RFT, Kirov </Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+	</UpgradeObject>
+
+	<!-- Enhanced Reactors (Level 1): Light vehicles move 15% faster. -->
+	<UpgradeObject Name="EotHL_Enhanced_Reactors_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 400 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>130</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> EotHL_Enhanced_Reactors_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_land1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EOTHL_ENHANCED_REACTORS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_REACTORS_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EotHL_Enhanced_Reactors_L1_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>AirStraker, MMT, RFT, Flame_Tank, Plasma_Mortar, Kirov, Gilzean</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Enhanced Reactors (Level 2): Light vehicles move 30% faster. -->
+	<UpgradeObject Name="EotHL_Enhanced_Reactors_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 825 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>180</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> EotHL_Enhanced_Reactors_L1_Upgrade, UC_Level_Two_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> EotHL_Enhanced_Reactors_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_land2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EOTHL_ENHANCED_REACTORS_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_REACTORS_L2</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EotHL_Enhanced_Reactors_L2_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>AirStraker, MMT, RFT, Flame_Tank, Plasma_Mortar, Kirov</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Heavy Reflective Armor (Level 1): Heavy vehicles deflect 25% of incoming blaster fire. -->
+	<UpgradeObject Name="EotHL_Heavy_Reflective_Armor_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 550 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> EL_Heavy_Reflective_Armor_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_heavy_reflective_armor1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EOTHL_HEAVY_REFLECTIVE_ARMOR_L1 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_HEAVY_REFLECTIVE_ARMOR_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="EotHL_Heavy_Reflective_Armor_L1_Bonus_Enabler">
+				<Ability_Name> EL_Heavy_Reflective_Armor_L1_Bonus </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> AirStraeker, MMT, Plasma_Mortar, Gilzean </Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Heavy Reflective Armor (Level 2): Heavy vehicles deflect 50% of incoming blaster fire. -->
+	<UpgradeObject Name="EotHL_Heavy_Reflective_Armor_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 825 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UC_Level_Three_Tech_Upgrade, EotHL_Heavy_Reflective_Armor_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> EOTHL_Heavy_Reflective_Armor_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_heavy_reflective_armor2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EOTHL_HEAVY_REFLECTIVE_ARMOR_L2 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_HEAVY_REFLECTIVE_ARMOR_L2</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="EotHL_Heavy_Reflective_Armor_L2_Bonus_Enabler">
+				<Ability_Name> EL_Heavy_Reflective_Armor_L2_Bonus </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> AirStraeker, MMT, Plasma_Mortar, Gilzean </Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	
+	
+
+	<!-- More Garrison Units: Adds an AT-ST company and a 2M Repulsor Tank brigade to your set of free garrison units. -->
+	<UpgradeObject Name="EOTHL_More_Garrisons_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>170</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UC_Level_Two_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_garrison.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EOTHL_MORE_GARRISONS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_MORE_GARRISONS_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Garrison_Upgrade_Ability Name="EOTHL_More_Garrisons_L1_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Additional_Garrison_Units>RFT_Brigade, EotH_Scout_Brigade</Additional_Garrison_Units>
+			</Garrison_Upgrade_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Immunity to the gameplay effects of Weather. -->
+	<UpgradeObject Name="EotHL_Weatherproof_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>170</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_weather_affinity.tga</Icon_Name>
+		
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_EL_WEATHER_PROOF_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_WEATHER_PROOF_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Weatherproof_Ability Name="EotHL_Weatherproof_Upgrade_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+			</Weatherproof_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	
+	<!-- Enhanced Reactors (Level 1): Fighters gain a 25% movement speed increase. -->
+	<UpgradeObject Name="EOTHS_Enhanced_Reactors_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 650 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> EOTHS_Enhanced_Reactors_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_space1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EOTHS_ENHANCED_REACTORS_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EOTHS_Enhanced_Reactors_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Nssiss_Clawcraft, Krsiss_Interceptor, Syca_Bomber, Furion, Scarsiss</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Enhanced Reactors (Level 2): Frigates gain a 25% movement speed increase. -->
+	<UpgradeObject Name="EOTHS_Enhanced_Reactors_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1400 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> EOTHS_Enhanced_Reactors_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> EOTHS_Enhanced_Reactors_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type> EOTHS_Enhanced_Reactors_L3_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_space2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EOTHS_ENHANCED_REACTORS_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EOTHS_Enhanced_Reactors_L2_Fighter_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Nssiss_Clawcraft, Krsiss_Interceptor, Syca_Bomber, Furion, Scarsiss</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="EOTHS_Enhanced_Reactors_L2_Frigate_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Vigilance_Gunship, Massias_Interdictor, Kariek_Shieldship, Decimator, Auriette_Carrier, Asdoni, Warlord, Nuruodo, Chaf_Destroyer</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Enhanced Reactors (Level 3): Capital Ships gain a 25% movement speed increase. -->
+	<UpgradeObject Name="EOTHS_Enhanced_Reactors_L3_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> EOTHS_Enhanced_Reactors_L2_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> EOTHS_Enhanced_Reactors_L2_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_space3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L3  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EOTHS_ENHANCED_REACTORS_L3 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EOTHS_Enhanced_Reactors_L3_Fighter_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Nssiss_Clawcraft, Krsiss_Interceptor, Syca_Bomber, Furion, Scarsiss</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="EOTHS_Enhanced_Reactors_L3_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Phalanx_Destroyer, Syndic_Destroyer, Auriette_Carrier, Chiss_Star_Destroyer, Chaf_Destroyer, Kariek_Shieldship, Nuruodo, Warlord, Massias_Interdictor, Vigilance_Gunship, Decimator, Asdoni</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Reinforced Armor (Level 1): Corvettes take 25% less damage. -->
+	<UpgradeObject Name="EOTHS_Reinforced_Armor_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 750 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> EOTHS_Reinforced_Armor_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EOTHS_REINFORCED_ARMOR_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EOTHS_Reinforced_Armor_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Warlord, Vigilance_Gunship, Asdoni, Decimator</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Reinforced Armor (Level 2): Frigates take 25% less damage. -->
+	<UpgradeObject Name="EOTHS_Reinforced_Armor_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> EOTHS_Reinforced_Armor_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> EOTHS_Reinforced_Armor_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type> EOTHS_Reinforced_Armor_L3_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EOTHS_REINFORCED_ARMOR_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EOTHS_Reinforced_Armor_L2_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Auriette_Carrier, Kariek_Shieldship, Nuruodo, Warlord, Massias_Interdictor, Vigilance_Gunship, Asdoni, Decimator, Chaf_Destroyer</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Reinforced Armor (Level 3): Capital Ships take 25% less damage. -->
+	<UpgradeObject Name="EOTHS_Reinforced_Armor_L3_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> EOTHS_Reinforced_Armor_L2_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> EOTHS_Reinforced_Armor_L2_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_reinforced_armor3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L3  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EOTHS_REINFORCED_ARMOR_L3 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EOTHS_Reinforced_Armor_L3_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Phalanx_Destroyer, Syndic_Destroyer, Auriette_Carrier, Chiss_Star_Destroyer, Chaf_Destroyer, Kariek_Shieldship, Nuruodo, Warlord, Massias_Interdictor, Vigilance_Gunship, Decimator, Asdoni</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Improved Defenses (Level 1): The starbase deals 15% more damage. -->
+	<UpgradeObject Name="EOTHS_Improved_Defenses_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 950 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> EOTHS_Improved_Defenses_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_improved_defenses1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_DEFENSES_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_DEFENSES_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EOTHS_Improved_Defenses3_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Brask</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="EOTHS_Improved_Defenses4_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Visvia</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="EOTHS_Improved_Defenses5_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>EotH_Golan_Three</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	
+	
+	
+	<!-- PENTASTAR UPGRADES -->
+	
+	<UpgradeObject Name="PC_Level_Two_Tech_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 60 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> Yes </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> Yes </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type>PC_Level_Three_Tech_Upgrade</Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_e_tech_upgrade_2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_COMMAND_CENTER</Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+	</UpgradeObject>
+
+	<UpgradeObject Name="PC_Level_Three_Tech_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 4000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 85 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PC_Level_Two_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> Yes </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> Yes </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type>PC_Level_Two_Tech_Upgrade</Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_e_tech_upgrade_3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_COMMAND_CENTER</Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+	</UpgradeObject>
+	
+	
+	
+	
+	<!-- Increased Mobility: Stormtroopers move 30% faster. -->
+	<UpgradeObject Name="PL_Increased_Mobility_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 475 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 12 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_mobility.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PL_INCREASED_MOBILITY  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_INCREASED_MOBILITY</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PL_Increased_Mobility_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Penta_Stormtrooper, Navytrooper, Alignment_Sergeant, Pentastar_Trooper_Squad</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.30</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Stamina Boost: Stormtroopers have 35% more health. -->
+	<UpgradeObject Name="PL_Stamina_Boost_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 550 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>170</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 18 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>PC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_stamina_boost.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PL_STAMINA_BOOST  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_STAMINA_BOOST</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PL_Stamina_Boost_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Penta_Stormtrooper, Navytrooper, Alignment_Sergeant, Pentastar_Trooper_Squad</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.35</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+	
+	<!-- Light Reflective Armor (Level 1): Light vehicles deflect 25% of incoming blaster fire. -->
+	<UpgradeObject Name="PL_Light_Reflective_Armor_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 775 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 14 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PL_Light_Reflective_Armor_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_light_reflective_armor1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_LIGHT_REFLECTIVE_ARMOR_L1 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_LIGHT_REFLECTIVE_ARMOR_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="PL_Light_Reflective_Armor_L1_Bonus_Enabler">
+				<Ability_Name> EL_Light_Reflective_Armor_L1_Bonus </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Pentastar_Walker, Pentastar_Skiff, Hailfire, AT_PT_Walker</Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Light Reflective Armor (Level 2): Light vehicles deflect 50% of incoming blaster fire. -->
+	<UpgradeObject Name="PL_Light_Reflective_Armor_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>380</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 22 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PL_Light_Reflective_Armor_L1_Upgrade, PC_Level_Two_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PL_Light_Reflective_Armor_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_light_reflective_armor2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_LIGHT_REFLECTIVE_ARMOR_L2 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_LIGHT_REFLECTIVE_ARMOR_L2</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="PL_Light_Reflective_Armor_L2_Bonus_Enabler">
+				<Ability_Name> EL_Light_Reflective_Armor_L2_Bonus </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Pentastar_Walker, Pentastar_Skiff, Hailfire, AT_PT_Walker</Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+	</UpgradeObject>
+
+	<!-- Enhanced Reactors (Level 1): Light vehicles move 15% faster. -->
+	<UpgradeObject Name="PL_Enhanced_Reactors_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 400 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>130</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PL_Enhanced_Reactors_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_land1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_REACTORS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_REACTORS_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PL_Enhanced_Reactors_L1_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Pentastar_Walker, Pentastar_Skiff, Hailfire, AT_PT_Walker</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Enhanced Reactors (Level 2): Light vehicles move 30% faster. -->
+	<UpgradeObject Name="PL_Enhanced_Reactors_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 825 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>180</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PL_Enhanced_Reactors_L1_Upgrade, PC_Level_Two_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PL_Enhanced_Reactors_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_land2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_REACTORS_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_REACTORS_L2</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PL_Enhanced_Reactors_L2_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Pentastar_Walker, Pentastar_Skiff, Hailfire, AT_PT_Walker</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.30</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Heavy Reflective Armor (Level 1): Heavy vehicles deflect 25% of incoming blaster fire. -->
+	<UpgradeObject Name="PL_Heavy_Reflective_Armor_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 550 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>PC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PL_Heavy_Reflective_Armor_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_heavy_reflective_armor1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PL_HEAVY_REFLECTIVE_ARMOR_L1 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_HEAVY_REFLECTIVE_ARMOR_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="PL_Heavy_Reflective_Armor_L1_Bonus_Enabler">
+				<Ability_Name> EL_Heavy_Reflective_Armor_L1_Bonus </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Century_Tank, IFX_Fighter_tank_Empire_Armor, LAAT </Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Heavy Reflective Armor (Level 2): Heavy vehicles deflect 50% of incoming blaster fire. -->
+	<UpgradeObject Name="PL_Heavy_Reflective_Armor_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 825 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PC_Level_Three_Tech_Upgrade, PL_Heavy_Reflective_Armor_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PL_Heavy_Reflective_Armor_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_heavy_reflective_armor2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PL_HEAVY_REFLECTIVE_ARMOR_L2 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_HEAVY_REFLECTIVE_ARMOR_L2</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="PL_Heavy_Reflective_Armor_L2_Bonus_Enabler">
+				<Ability_Name> EL_Heavy_Reflective_Armor_L2_Bonus </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Century_Tank, IFX_Fighter_tank_Empire_Armor, LAAT </Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Improved AT-AT Reactors (Level 1): AT-AT units move 25% faster. -->
+	<UpgradeObject Name="PL_Improved_ATAT_Reactors_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 675 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>220</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PC_Level_Three_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PL_Improved_ATAT_Reactors_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_improved_atat_reactors1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L1 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_IMPROVED_ATAT_REACTORS_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PL_Improved_ATAT_Reactors_L1_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>AT_AT_Walker</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Improved AT-AT Reactors (Level 2): AT-AT units do 25% more damage. -->
+	<UpgradeObject Name="PL_Improved_ATAT_Reactors_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>440</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PL_Improved_ATAT_Reactors_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PL_Improved_ATAT_Reactors_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_improved_atat_reactors2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_IMPROVED_ATAT_REACTORS_L2</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PL_Improved_ATAT_Reactors_L2_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>AT_AT_Walker</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Increased Production (Level 1): Mining Facility provides 20% more income. -->
+	<UpgradeObject Name="PL_Increased_Production_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 250 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>130</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PL_Increased_Production_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_production1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_INCREASED_PRODUCTION_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="PL_Increased_Production_L1_Bonus">
+				<Income_Multiplier>1.20</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Pentastar_Ground_Mining_Facility</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+	
+	<!-- Increased Production (Level 2): Mining Facility provides 40% more income. -->
+	<UpgradeObject Name="PL_Increased_Production_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>360</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PL_Increased_Production_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PL_Increased_Production_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_production2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_INCREASED_PRODUCTION_L2</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="PL_Increased_Production_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Pentastar_Ground_Mining_Facility</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+  	</UpgradeObject>
+
+	<!-- Bombing Runs: Lets the player call in a bombing run, must be purchased for each bombing run. -->
+	<UpgradeObject Name="PL_Bombing_Run_Use_Upgrade">
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_BOMBING_RUN</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>PC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_bombing_run_empire.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_BOMBING_RUN_USE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_BOMBING_RUN_USE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="PL_Bombing_Run_Use_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Enable_Bombing_Runs>Yes</Enable_Bombing_Runs>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Reinforced Structures: Structures take 25% less damage. -->
+	<UpgradeObject Name="PL_Reinforced_Structures_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 750 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_reinforce_structure.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_REINFORCED_STRUCTURES  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RL_REINFORCED_STRUCTURES</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PL_Reinforced_Structures_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Enhanced Turret Firepower (Level 1): Increases Anti-Infantry turret damage by 25% -->
+	<UpgradeObject Name="PL_Enhanced_Turret_Firepower_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 675 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>200</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 18 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>PC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PL_Enhanced_Turret_Firepower_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_turret1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_TURRET_FIREPOWER_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PL_Enhanced_Turret_Firepower_L1_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Pentastar_Anti_Infantry_Turret</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Enhanced Turret Firepower (Level 2): Increases Anti-Infantry, Anti-Vehicle and Anti-Aircraft turret damage by 25% -->
+	<UpgradeObject Name="PL_Enhanced_Turret_Firepower_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 900 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>380</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PL_Enhanced_Turret_Firepower_L1_Upgrade, PC_Level_Three_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PL_Enhanced_Turret_Firepower_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_turret2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_TURRET_FIREPOWER_L2</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PL_Enhanced_Turret_Firepower_L2_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Pentastar_Anti_Infantry_Turret, Pentastar_Anti_Vehicle_Turret, Pentastar_Anti_Aircraft_Turret</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Enhanced Base Shield: Prevents all enemy weapons from penetrating the base shields. -->
+	<UpgradeObject Name="PL_Enhanced_Base_Shield_Upgrade_NoPre">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_base_shield.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_BASE_SHIELD </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_BASE_SHIELD</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="PL_Enhanced_Base_Shield_Effect">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Base_Shield_Upgrade>Yes</Base_Shield_Upgrade>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="PL_Enhanced_Base_Shield_Upgrade">
+		<Variant_Of_Existing_Type>EL_Enhanced_Base_Shield_Upgrade_NoPre</Variant_Of_Existing_Type>
+		<Tactical_Build_Prerequisites>PC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- More Garrison Units: Adds an AT-ST company and a 2M Repulsor Tank brigade to your set of free garrison units. -->
+	<UpgradeObject Name="PL_More_Garrisons_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>170</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PC_Level_Two_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_garrison.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_MORE_GARRISONS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_MORE_GARRISONS_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Garrison_Upgrade_Ability Name="PL_More_Garrisons_L1_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Additional_Garrison_Units>Imperial_IFTX_Group, Penta_ATPT_Squad</Additional_Garrison_Units>
+			</Garrison_Upgrade_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Immunity to the gameplay effects of Weather. -->
+	<UpgradeObject Name="PL_Weatherproof_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>170</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_weather_affinity.tga</Icon_Name>
+		
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_EL_WEATHER_PROOF_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EL_WEATHER_PROOF_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Weatherproof_Ability Name="PL_Weatherproof_Upgrade_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+			</Weatherproof_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	
+	
+	<!-- Enhanced Reactors (Level 1): Fighters gain a 25% movement speed increase. -->
+	<UpgradeObject Name="PS_Enhanced_Reactors_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 650 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PS_Enhanced_Reactors_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_space1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_REACTORS_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Enhanced_Reactors_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>TIE_Hunter, TIE_Interceptor, TIE_Fighter, TIE_Bomber, Torrent, Skipray_Blastboat</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Enhanced Reactors (Level 2): Frigates gain a 25% movement speed increase. -->
+	<UpgradeObject Name="PS_Enhanced_Reactors_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1400 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PS_Enhanced_Reactors_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PS_Enhanced_Reactors_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type> PS_Enhanced_Reactors_L3_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_space2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_REACTORS_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Enhanced_Reactors_L2_Fighter_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>TIE_Hunter, TIE_Interceptor, TIE_Fighter, TIE_Bomber, Torrent, Skipray_Blastboat</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="PS_Enhanced_Reactors_L2_Frigate_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>IPV1_Pentastar, Enforcer, Victory_I_Pentastar, Victory_II_Pentastar, Immobilizer_Pentastar, Vindicator_Pentastar, Munificent, Acclamator_Assault_Ship, Combat_Escort_Carrier, Recusant, Gladiator</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Enhanced Reactors (Level 3): Capital Ships gain a 25% movement speed increase. -->
+	<UpgradeObject Name="PS_Enhanced_Reactors_L3_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PS_Enhanced_Reactors_L2_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PS_Enhanced_Reactors_L2_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_reactor_space3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L3  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_REACTORS_L3 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Enhanced_Reactors_L3_Fighter_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>TIE_Hunter, TIE_Interceptor, TIE_Fighter, TIE_Bomber, Torrent, Skipray_Blastboat</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="ES_Enhanced_Reactors_L3_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>IPV1_Pentastar, Enforcer, Victory_I_Pentastar, Victory_II_Pentastar, Immobilizer_Pentastar, Vindicator_Pentastar, Munificent, Acclamator_Assault_Ship, Combat_Escort_Carrier, Recusant, Gladiator, ISD_I_Pentastar, ISD_II_Pentastar, Lucrehulk, Venator_Pentastar</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Reinforced Armor (Level 1): Corvettes take 25% less damage. -->
+	<UpgradeObject Name="PS_Reinforced_Armor_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 750 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PS_Reinforced_Armor_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_REINFORCED_ARMOR_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Reinforced_Armor_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>IPV1_Pentastar</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Reinforced Armor (Level 2): Frigates take 25% less damage. -->
+	<UpgradeObject Name="PS_Reinforced_Armor_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PS_Reinforced_Armor_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PS_Reinforced_Armor_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type> PS_Reinforced_Armor_L3_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_REINFORCED_ARMOR_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Reinforced_Armor_L2_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>IPV1_Pentastar, Enforcer, Victory_I_Pentastar, Victory_II_Pentastar, Immobilizer_Pentastar, Vindicator_Pentastar, Munificent, Acclamator_Assault_Ship, Combat_Escort_Carrier, Recusant, Gladiator</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Reinforced Armor (Level 3): Capital Ships take 25% less damage. -->
+	<UpgradeObject Name="PS_Reinforced_Armor_L3_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PS_Reinforced_Armor_L2_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PS_Reinforced_Armor_L2_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_reinforced_armor3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L3  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_REINFORCED_ARMOR_L3 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Reinforced_Armor_L3_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>IPV1_Pentastar, Enforcer, Victory_I_Pentastar, Victory_II_Pentastar, Immobilizer_Pentastar, Vindicator_Pentastar, Munificent, Acclamator_Assault_Ship, Combat_Escort_Carrier, Recusant, Gladiator, ISD_I_Pentastar, ISD_II_Pentastar, Lucrehulk, Venator_Pentastar</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
+	<UpgradeObject Name="PS_Increased_Supplies_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Tactical_Build_Cost_Multiplayer> 250 </Tactical_Build_Cost_Multiplayer>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PS_Increased_Supplies_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_INCREASED_SUPPLIES_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="PS_Increased_Supplies1_L1_Bonus">
+				<Income_Multiplier>1.20</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Pentastar_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<!--<Income_Stream_Mod_Ability Name="ES_Increased_Supplies2_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Empire_Star_Base_2</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies3_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Empire_Star_Base_3</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies4_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Empire_Star_Base_4</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies5_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>-->
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Increased Supplies (Level 2): Increases starbase income by 40%. -->
+	<UpgradeObject Name="PS_Increased_Supplies_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 65 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PS_Increased_Supplies_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PS_Increased_Supplies_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_INCREASED_SUPPLIES_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="PS_Increased_Supplies1_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Pentastar_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<!--<Income_Stream_Mod_Ability Name="ES_Increased_Supplies2_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Empire_Star_Base_2</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies3_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Empire_Star_Base_3</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies4_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Empire_Star_Base_4</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies5_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>-->
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Improved Weapons (Level 1): Fighters deal 25% more damage. -->
+	<UpgradeObject Name="PS_Improved_Weapons_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PS_Improved_Weapons_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_WEAPONS_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Improved_Weapons_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>TIE_Hunter, TIE_Interceptor, TIE_Fighter, TIE_Bomber, Torrent, Skipray_Blastboat</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Improved Weapons (Level 2): Corvettes deal 25% more damage. -->
+	<UpgradeObject Name="PS_Improved_Weapons_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PS_Improved_Weapons_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PS_Improved_Weapons_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type> PS_Improved_Weapons_L3_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_improved_weapons2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_WEAPONS_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Improved_Weapons_L2_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>TIE_Hunter, TIE_Interceptor, TIE_Fighter, TIE_Bomber, Torrent, Skipray_Blastboat, IPV1_Pentastar</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Improved Weapons (Level 3): Capital Ships deal 25% more damage. -->
+	<UpgradeObject Name="PS_Improved_Weapons_L3_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> PS_Improved_Weapons_L2_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> PS_Improved_Weapons_L2_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_improved_weapons3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L3  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_WEAPONS_L3 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Improved_Weapons_L3_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>TIE_Hunter, TIE_Interceptor, TIE_Fighter, TIE_Bomber, Torrent, Skipray_Blastboat, IPV1_Pentastar, Enforcer, Victory_I_Pentastar, Victory_II_Pentastar, Immobilizer_Pentastar, Vindicator_Pentastar, Munificent, Acclamator_Assault_Ship, Combat_Escort_Carrier, Recusant, Gladiator, ISD_I_Pentastar, ISD_II_Pentastar, Lucrehulk, Venator_Pentastar</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+
+	<!-- More Garrison Units: Adds three squadrons of TIE-Fighters and one squadron of TIE-Bombers to your set of free garrison units. -->
+	<UpgradeObject Name="PS_More_Garrisons_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>80</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>PC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_garrison.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_MORE_GARRISONS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_MORE_GARRISONS_L1</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Garrison_Upgrade_Ability Name="PS_More_Garrisons_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Additional_Garrison_Units>Skipray_Squadron, TIE_Fighter_Squadron, TIE_Fighter_Squadron</Additional_Garrison_Units>
+			</Garrison_Upgrade_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Improved Defenses (Level 1): The starbase deals 15% more damage. -->
+	<UpgradeObject Name="PS_Improved_Defenses_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 950 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> PS_Improved_Defenses_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_improved_defenses1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_DEFENSES_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_DEFENSES_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PS_Improved_Defenses3_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Pentastar_Golan_One</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="PS_Improved_Defenses4_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Pentastar_Golan_Two</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="PS_Improved_Defenses5_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Pentastar_Golan_Three</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	
+	
+	
+	
+
+
+</UpgradeObjects_Underworld>

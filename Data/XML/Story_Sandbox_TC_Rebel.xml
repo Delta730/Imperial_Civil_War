@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Campaign: Origin of Corruption (Rebel)	******-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+
+<Event Name="Faction_Intro">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Republic_Intro</Reward_Param1>
+	</Event>
+	
+	
+		<Event Name="Faction_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Faction_Intro</Prereq>
+		</Event>	
+
+<Event Name="Long_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Star_Wars_Intro</Reward_Param1>
+		<Prereq>Faction_Fin</Prereq>
+	</Event>
+	
+	
+	
+		<Event Name="Long_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Long_Text</Prereq>
+		</Event>	
+
+		
+	<Event Name="Thrawn_Text_Crawl">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Thrawn_Campaign_Intro</Reward_Param1>
+		<Prereq>Long_Text_Fin</Prereq>
+	</Event>
+	
+	
+		<Event Name="Thrawn_Text_Fin">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Thrawn_Text_Crawl</Prereq>
+		</Event>	
+				<Event Name="Thrawn_Text_Fin2">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+				<Reward_Param1>BlahBlah</Reward_Param1>
+				<Prereq>Thrawn_Text_Fin</Prereq>
+			</Event> 
+			
+						<Event Name="Pause_For_Movie">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+	
+	<Event Name="UnPause_For_Game">
+					<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+	</Event>
+			
+	 <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+
+ </Event>
+<!-- Force Rebels to get X-wing instead of Z-95 to start -->
+	<Event Name="Unlock_X_wings">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_X-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Z95_Headhunter_Rebel_Squadron</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+
+<!-- Rebel Hero Release -->
+
+
+	<!-- Spawn Starting Heroes -->
+
+	<Event Name="Spawn_Mon_mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+       		 <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        	<Reward_Param1>Home_One</Reward_Param1>
+        	<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Spawn_Lando">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Lando_Calrissian_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Rogue_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Drayson">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Allegiance</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_BelIblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Peregrine</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Mara_Jedi">
+		<Event_Type>STORY_CONQUER</Event_Type>
+    <Event_Param1>Myrkr</Event_Param1>
+	<Event_Param2></Event_Param2>
+	<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mara_Saber_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Leia">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Princess_Leia_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Booster">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Errant_Venture</Reward_Param1>
+		<Reward_Param2>Myrkr</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	  <Event Name="Intro_Welcome">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_THRAWN_NR_INTRO_ONE</Reward_Param1>
+    <Reward_Param2>15</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+    <Reward_Param8 />
+    <Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+	<Prereq>Universal_Story_Start</Prereq>
+  </Event>	  
+	
+	<Event Name="Spawn_Karrde">
+		<Event_Type>STORY_CONQUER</Event_Type>
+    <Event_Param1>Myrkr</Event_Param1>
+	<Event_Param2></Event_Param2>
+	<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Wild_karrde</Reward_Param1>
+		<Reward_Param2>Myrkr</Reward_Param2>
+			<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<Event Name="Unlock_on_Death">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Wild_Karrde</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Yevetha, Empire, Pirates, Underworld, Sarlacc, Hapans, Hutts, Vong, SsiRuuvi</Event_Param4>
+ 		<Reward_Param1>Katana_Space</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+		
+	 </Event>
+   
+     <Event Name="Katana_Karrde_Speech">
+    		<Event_Type>STORY_CONQUER</Event_Type>
+    <Event_Param1>Myrkr</Event_Param1>
+	<Event_Param2></Event_Param2>
+	<Event_Param3>Rebel</Event_Param3>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_CONQUEST_THRAWN_NR_KARRDE_INFO</Reward_Param1>
+    <Reward_Param2>25</Reward_Param2>
+    <Reward_Param3 />
+    <Reward_Param4 />
+    <Reward_Param5 />
+    <Reward_Param6 />
+    <Reward_Param7 />
+     <Reward_Param8>Karrde_Katana1_Speech</Reward_Param8>
+    <Reward_Param9>Karrde_Loop</Reward_Param9>
+    <Reward_Param10>0</Reward_Param10>
+		<Prereq>Universal_Story_Start</Prereq>
+
+	</Event>
+  
+  
+  <Event Name="Lock_Katana">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Katana_Space</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+
+	
+	<Event Name="Unlock_Katana">
+		<Event_Type>STORY_MOVE</Event_Type>
+		<Event_Param1>Wild_Karrde</Event_Param1>
+		<Event_Param2>Katana_Space</Event_Param2>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Lock_katana</Prereq>
+	</Event>
+	
+		<Event Name="Make_It_Happen">
+		<Event_Type>STORY_MOVE</Event_Type>
+		<Event_Param1>Wild_Karrde</Event_Param1>
+		<Event_Param2>Katana_Space</Event_Param2>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Dummy</Reward_Param1>
+		<Prereq>Lock_katana</Prereq>
+	</Event>
+  
+  
+	  <Event Name="Dummy">
+  <Event_Type>STORY_ELAPSED</Event_Type>
+   <Event_Param1>0</Event_Param1>
+   <Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+	<Reward_Param1>0</Reward_Param1>
+  <Prereq>Universal_Story_Start</Prereq>
+  <Perpetual>false</Perpetual>
+ </Event>
+  
+  <Event Name="Katana_Battle">
+  <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+   <Event_Param1>Katana_Plot_NR.xml</Event_Param1>
+   <Event_Param2>Katana_Space</Event_Param2>
+   <Reward_Type>SET_TACTICAL_MAP</Reward_Type>
+	<Reward_Param1>Space_Katana_Mission</Reward_Param1>
+		<Reward_Param2>Space</Reward_Param2>
+  <Prereq>Universal_Story_Start</Prereq>
+  <Perpetual>false</Perpetual>
+ </Event>
+   
+   
+   <Event Name="Katana_Ownwer_Empire">
+    <Event_Type>STORY_MISSION_LOST</Event_Type>
+ <Event_Param1>Katana_Plot_NR.xml</Event_Param1>
+    <Reward_Type>PLANET_FACTION</Reward_Type>
+    <Reward_Param1>Katana_Space</Reward_Param1>
+    <Reward_Param2>Empire</Reward_Param2>
+	<Prereq>Universal_Story_Start</Prereq>
+  </Event>
+   <Event Name="Katana_Empire_Wins">
+   <Event_Type>STORY_MISSION_LOST</Event_Type>
+	<Event_Param1>Katana_Plot_NR.xml</Event_Param1>
+    <Reward_Type>CHANGE_OWNER</Reward_Type>
+    <Reward_Param1>Katana_Dreadnaught_Empire</Reward_Param1>
+    <Reward_Param2>Empire</Reward_Param2>
+	<Prereq>Universal_Story_Start</Prereq>
+  </Event>
+  <Event Name="Disable_Katana_Branch">
+   <Event_Type>STORY_MISSION_LOST</Event_Type>
+	<Event_Param1>Katana_Plot_NR.xml</Event_Param1>
+    <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+    <Reward_Param1>Katana_Spawn_Rebel</Reward_Param1>
+    <Reward_Param2>1</Reward_Param2>
+	<Prereq>Universal_Story_Start</Prereq>
+  </Event>
+  
+  <!-- copy these events in every GC story file(human player!) that contains the Katana mission; works for empire and rebels -->
+	<Event Name="SET_FLAG_KATANA_COUNT">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+			<Reward_Param1>KATANA_COUNT</Reward_Param1>
+			<Reward_Param2>0</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Disable_Katana_Count">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+				<Reward_Param1>STORY_FLAG_KATANA_COUNT</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+		<Event Name="STORY_CONQUER_Katana_Space">
+			<Event_Type>STORY_CONQUER</Event_Type>
+				<Event_Param1>Katana_Space</Event_Param1>
+				<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+			<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+				<Reward_Param1>STORY_FLAG_KATANA_COUNT</Reward_Param1>
+				<Reward_Param2>0</Reward_Param2>
+		</Event>
+	
+	<Event Name="STORY_FLAG_KATANA_COUNT">
+		<Event_Type>STORY_FLAG</Event_Type>
+			<Event_Param1>KATANA_COUNT</Event_Param1>
+			<Event_Param2>0</Event_Param2>
+			<Event_Param3>GREATER_THAN</Event_Param3>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+			<Reward_Param1>Katana_Dreadnaught_Rebel</Reward_Param1>
+			<Reward_Param2>Katana_Space</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="INCREMENT_FLAG_KATANA_COUNT_Minus_1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>KATANA_COUNT</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Prereq>STORY_FLAG_KATANA_COUNT</Prereq>
+		<Perpetual>true</Perpetual>	
+	</Event>
+
+  
+    <Event Name="No_Really_This_Time">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Katana_Space</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Katana_Battle</Prereq>
+	</Event>
+  
+
+</Story>

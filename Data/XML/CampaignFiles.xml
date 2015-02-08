@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<Campaign_Files>
+	<File>Tutorial_Campaign.xml</File>
+	<File>Campaigns_Thrawn.xml</File>
+	<File>Conquests\ImpCivWar\Campaigns_ICW.xml</File>
+	<File>Campaigns_Palpatine.xml</File>
+	<File>Conquests\Empires\Campaigns_EaW.xml</File>
+	<File>Conquests\Daala\Campaigns_Daala.xml</File>
+	<File>Conquests\BFC\Campaigns_BFC.xml</File>	
+	<File>Conquests\FTGU\Campaigns_FTGU.xml</File>
+	<File>Conquests\Pellaeon\Campaigns_Pellaeon.xml</File>
+	<File>Conquests\Isard\Campaigns_Ysanne.xml</File>
+	<File>Conquests\Zsinj\Campaigns_Zsinj.xml</File>
+	<File>Conquests\ArtofWar\Campaigns_Small_All.xml</File>
+	<File>Conquests\ArtofWar\Campaigns_All.xml</File>
+	<File>Conquests\Clusters\Campaigns_Cluster.xml</File>
+	<File>Conquests\Align\Campaigns_Align.xml</File>
+	<File>Campaigns_Survival_NR.xml</File>
+	<File>Campaigns_Survival_Remnant.xml</File>
+	<File>Campaigns_Survival_EotH.xml</File>
+	
+	<File>Campaigns_Multiplayer.xml</File>
+</Campaign_Files>

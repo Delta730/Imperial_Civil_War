@@ -1,0 +1,850 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+
+		<SFXEvent Name="Unit_Attack_Hailfire">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Hailfire\Hailfire_Attack.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Hailfire">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Hailfire\Hailfire_Move.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Select_Hailfire">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Hailfire\Hailfire_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+
+
+		<SFXEvent Name="Unit_Attack_Nova">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Nova\Nova_Attack.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Nova">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Nova\Nova_Move.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Select_Nova">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Nova\Nova_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+
+<SFXEvent Name="Ship_Move_Yevetha">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Yevetha\Ship_Attack.wav data\audio\SFX\Units\Yevetha\Ship_Attack_Two.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Ship_Move_Yevetha">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Yevetha\Ship_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Ship_Select_Yevetha">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Yevetha\Ship_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+
+
+<SFXEvent Name="Unit_Attack_Yevetha">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Yevetha\Yevetha_Attack.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Yevetha">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Yevetha\Yevetha_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Die_Yevetha">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Units\Yevetha\Yevetha_Die_One.wav data\audio\SFX\Units\Yevetha\Yevetha_Die_Two.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+
+<SFXEvent Name="Unit_Cracken">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Cracken\Cracken.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+
+<SFXEvent Name="Unit_Attack_Illor">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Illor\Illor_Attack.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Illor">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Illor\Illor_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Select_Illor">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Illor\Illor_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+
+
+	<SFXEvent Name="Unit_Attack_Zsinj">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Zsinj\Zsinj_Attack.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Zsinj">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Zsinj\Zsinj_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Select_Zsinj">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Zsinj\Zsinj_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+
+			<SFXEvent Name="Unit_Attack_Parck">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Parck\Parck_Attack.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Parck">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Parck\Parck_Move.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Select_Parck">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Parck\Parck_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+
+			<SFXEvent Name="Unit_Attack_Karrde">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Karrde\Karrde_Attack.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Karrde">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Karrde\Karrde_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Select_Karrde">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Karrde\Karrde_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+	
+
+
+			<SFXEvent Name="Unit_Select_Kaine">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Kaine\Kaine_Reporting.wav data\audio\SFX\Heroes\Kaine\Kaine_Reporting2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Defeat_Kaine">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Kaine\Kaine_Defeat.wav data\audio\SFX\Heroes\Kaine\Kaine_Defeat2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Kaine">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Kaine\Kaine_Attack.wav  data\audio\SFX\Heroes\Kaine\Kaine_Attack2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Kaine">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Kaine\Kaine_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Kaine</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Select_Jerec">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Jerec\Jerec_Reporting.wav data\audio\SFX\Heroes\Jerec\Jerec_Reporting2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Defeat_Jerec">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Jerec\Jerec_Defeat.wav data\audio\SFX\Heroes\Jerec\Jerec_Defeat2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Jerec">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Jerec\Jerec_Attack.wav  data\audio\SFX\Heroes\Jerec\Jerec_Attack2.wav data\audio\SFX\Heroes\Jerec\Jerec_Attack3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Jerec">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Jerec\Jerec_Move.wav data\audio\SFX\Heroes\Jerec\Jerec_Move2.wav data\audio\SFX\Heroes\Jerec\Jerec_Move3.wav data\audio\SFX\Heroes\Jerec\Jerec_Move4.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Jerec</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Select_Isard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Isard\Isard_Reporting.wav data\audio\SFX\Heroes\Isard\Isard_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Isard</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Defeat_Isard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Isard\Isard_Defeat.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Isard</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Isard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Isard\Isard_Attack.wav  data\audio\SFX\Heroes\Isard\Isard_Attack2.wav data\audio\SFX\Heroes\Isard\Isard_Attack3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Isard</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Isard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Isard\Isard_Move2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Isard</Overlap_Test>
+	</SFXEvent>
+	
+	
+			<SFXEvent Name="Unit_Select_Daala">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Daala\Daala_Reporting.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Daala</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Defeat_Daala">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Daala\Daala_Defeat.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Daala</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Daala">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Daala\Daala_Attack.wav  data\audio\SFX\Heroes\Daala\Daala_Attack2.wav data\audio\SFX\Heroes\Daala\Daala_Attack3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Daala</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Daala">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Daala\Daala_Move.wav data\audio\SFX\Heroes\Daala\Daala_Move2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Daala</Overlap_Test>
+	</SFXEvent>
+	
+
+			<SFXEvent Name="Unit_Select_Erisi">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Erisi\Erisi_Reporting.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Erisi</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Erisi">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Erisi\Erisi_Attack.wav  data\audio\SFX\Heroes\Erisi\Erisi_Attack2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Erisi</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Erisi">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Erisi\Erisi_Move.wav data\audio\SFX\Heroes\Erisi\Erisi_Move2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Erisi</Overlap_Test>
+	</SFXEvent>
+	
+	
+	<SFXEvent Name="Unit_Select_Aralani">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Aralani\Aralani_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Aralani">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Aralani\Aralani_Attack.wav data\audio\SFX\Heroes\Aralani\Aralani_Attack2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Aralani">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Aralani\Aralani_Move.wav data\audio\SFX\Heroes\Aralani\Aralani_Move2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+
+
+			<SFXEvent Name="Unit_Select_Brakiss">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Brakiss\Brakiss_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Brakiss">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Brakiss\Brakiss_Attack.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Brakiss">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Brakiss\Brakiss_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+
+			<SFXEvent Name="Unit_Select_Joruus">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Joruus\Joruus_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Joruus">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Joruus\Joruus_Attack.wav data\audio\SFX\Heroes\Joruus\Joruus_Attack2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Joruus">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Joruus\Joruus_Move.wav data\audio\SFX\Heroes\Joruus\Joruus_Move2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+
+
+			<SFXEvent Name="Unit_Select_Vermel">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Vermel\Vermel_Reporting.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Vermel">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Vermel\Vermel_Attack.wav  data\audio\SFX\Heroes\Vermel\Vermel_Attack2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Vermel">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Vermel\Vermel_Move.wav data\audio\SFX\Heroes\Vermel\Vermel_Move2.wav data\audio\SFX\Heroes\Vermel\Vermel_Move3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+	
+	
+		<SFXEvent Name="Unit_Health_Critical_Vermel">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Teradoc\Vermel_Damage.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Vermel</Overlap_Test>
+	</SFXEvent>
+
+			<SFXEvent Name="Unit_Select_Melvar">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Melvar\Melvar_Reporting.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Melvar</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Melvar">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Melvar\Melvar_Attack.wav  data\audio\SFX\Heroes\Melvar\Melvar_Attack2.wav data\audio\SFX\Heroes\Melvark\Melvar_Concentrate.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Melvar</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Melvar">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Melvar\Melvar_Move.wav data\audio\SFX\Heroes\Melvar\Melvar_Move2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Melvar</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Select_Delvardus">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Delvardus\Delvardus_Reporting.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Delvardus</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Delvardus">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Delvardus\Delvardus_Attack.wav  data\audio\SFX\Heroes\Delvardus\Delvardus_Attack2.wav data\audio\SFX\Heroes\Delvardusk\Delvardus_Attack3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Delvardus</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Delvardus">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Delvardus\Delvardus_Move.wav data\audio\SFX\Heroes\Delvardus\Delvardus_Move2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Delvardus</Overlap_Test>
+	</SFXEvent>
+	
+	
+			<SFXEvent Name="Unit_Select_Harrsk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Harrsk\Harrsk_Reporting.wav data\audio\SFX\Heroes\Harrsk\Harrsk_Select.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Harrsk</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Harrsk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Harrsk\Harrsk_Attack.wav  data\audio\SFX\Heroes\Harrsk\Harrsk_Attack2.wav data\audio\SFX\Heroes\Harrsk\Harrsk_Attack3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Harrsk</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Harrsk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Harrsk\Harrsk_Move.wav data\audio\SFX\Heroes\Harrsk\Harrsk_Attack1.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Harrsk</Overlap_Test>
+	</SFXEvent>
+	
+					<SFXEvent Name="Unit_Lost_Shields_Harrsk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Harrsk\Harrsk_Lost_Shields.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Harrsk</Overlap_Test>
+	</SFXEvent>
+	
+					<SFXEvent Name="Unit_Harrsk_Death_SFX">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Harrsk\Harrsk_Health.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Harrsk</Overlap_Test>
+	</SFXEvent>
+	
+	
+			<SFXEvent Name="Unit_Select_Krennal">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Krennal\Krennal_Select.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Krennal</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Move_Krennal">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Krennal\Krennal_Move.wav data\audio\SFX\Heroes\Krennal\Krennal_Attack2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Krennal</Overlap_Test>
+	</SFXEvent>
+	
+				<SFXEvent Name="Unit_Attack_Krennal">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Krennal\Krennal_Attack.wav  data\audio\SFX\Heroes\Krennal\Krennal_Attack3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Krennal</Overlap_Test>
+	</SFXEvent>
+	
+					<SFXEvent Name="Unit_Lost_Shields_Krennal">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Krennal\Krennal_Lost_Shields.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Krennal</Overlap_Test>
+	</SFXEvent>
+	
+			<SFXEvent Name="Unit_Select_Teradoc">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Teradoc\Teradoc_Reporting.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Teradoc</Overlap_Test>
+	</SFXEvent>
+		
+					<SFXEvent Name="Unit_Fleet_Move_Teradoc">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Teradoc\Teradoc_Move.wav data\audio\SFX\Heroes\Teradoc\Teradoc_Move2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Teradoc</Overlap_Test>
+	</SFXEvent>
+						<SFXEvent Name="Unit_Move_Teradoc">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Teradoc\Teradoc_Move1.wav data\audio\SFX\Heroes\Teradoc\Teradoc_Move3.wav data\audio\SFX\Heroes\Teradoc\Teradoc_Move4.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Teradoc</Overlap_Test>
+	</SFXEvent>
+	
+							<SFXEvent Name="Unit_Attack_Teradoc">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Teradoc\Teradoc_Attack.wav data\audio\SFX\Heroes\Teradoc\Teradoc_Attack2.wav data\audio\SFX\Heroes\Teradoc\Teradoc_Attack3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Teradoc</Overlap_Test>
+	</SFXEvent>
+	
+								<SFXEvent Name="Unit_Barrage_Teradoc">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Teradoc\Teradoc_Attack3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Teradoc</Overlap_Test>
+	</SFXEvent>
+	
+		<SFXEvent Name="Unit_Lost_Shields_Teradoc">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Teradoc\Teradoc_Lost_Shields.wav </Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Teradoc</Overlap_Test>
+	</SFXEvent>
+	
+		<SFXEvent Name="Unit_Health_Critical_Teradoc">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Teradoc\Teradoc_Critical.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Teradoc</Overlap_Test>
+	</SFXEvent>
+	
+	
+	
+		<SFXEvent Name="Unit_Select_Pellaeon">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Pellaeon\Pellaeon_Reporting.wav data\audio\SFX\Heroes\Pellaeon\Pellaeon_Select.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Pellaeon</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>   
+	</SFXEvent>
+	
+		<SFXEvent Name="Unit_Move_Pellaeon">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Pellaeon\Pellaeon_Move.wav data\audio\SFX\Heroes\Pellaeon\Pellaeon_Move2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Pellaeon</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>  
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Attack_Pellaeon">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Pellaeon\Pellaeon_Attack.wav data\audio\SFX\Heroes\Pellaeon\Pellaeon_Attack2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Pellaeon</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>  
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Select_Garm">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Garm\Garm_Select.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Garm</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>   
+	</SFXEvent>
+	
+		<SFXEvent Name="Unit_Move_Garm">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Garm\Garm_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Garm</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>  
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Attack_Garm">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Garm\Garm_Attack.wav data\audio\SFX\Heroes\Pellaeon\Garm_Attack2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Garm</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>  
+	</SFXEvent>
+
+		<SFXEvent Name="Unit_Select_Phennir">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Turr\Turr_Select.wav data\audio\SFX\Heroes\Turr\Turr_Select2.wav data\audio\SFX\Heroes\Turr\Turr_Select3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Phennir</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>   
+	</SFXEvent>
+	
+		<SFXEvent Name="Unit_Move_Phennir">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Turr\Turr_Move.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Phennir</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>  
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Attack_Phennir">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Turr\Turr_Attack.wav data\audio\SFX\Heroes\Turr\Turr_Attack2.wav data\audio\SFX\Heroes\Turr\Turr_Attack3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Phennir</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>  
+	</SFXEvent>
+	
+		<SFXEvent Name="Unit_Health_Low_Phennir">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Turr\Turr_Support.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Phennir</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>  
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Health_Critical_Phennir">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>data\audio\SFX\Heroes\Turr\Turr_Hit.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
+		<Overlap_Test> Unit_Phennir</Overlap_Test>
+		<Min_Volume>210</Min_Volume>
+			<Max_Volume>210</Max_Volume>  
+	</SFXEvent>
+</SFXEvents>

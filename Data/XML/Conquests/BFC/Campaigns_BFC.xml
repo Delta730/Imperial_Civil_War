@@ -1,0 +1,645 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+
+
+    
+<!-- ******************************************************************** -->
+<!-- ******************* SANDBOX CAMPAIGN "Pellaeon Campaign" ************* -->
+<!-- ******************************************************************** -->
+
+
+
+
+	
+
+		   <Campaign Name="Sandbox_BFC_Rebel">
+
+		<Campaign_Set> Sandbox_BFC </Campaign_Set>
+		<Sort_Order>8</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_BFC </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_BFC </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+      <Locations> 
+			Galaxy_Core_Art_Model, 
+			Coruscant,
+			Bilbringi,
+			Galantos,
+			Borleais,
+			Pantolomin,
+			Mrisst,
+			Nzoth,	
+			Zfell,
+			Polneye,
+			Jtptan,
+			Doornik,
+			ILC905
+		</Locations>
+		
+		<Trade_Routes>
+			Bilbringi_Noquivzor,
+			Coruscant_Pantolomin,
+			Bilbringi_Mrisst,
+			Mrisst_Noquivzor,
+			Mrisst_Pantolomin,
+			ILC905_Jtptan,
+			Doornik_ILC905,
+			Doornik_Nzoth,
+			Pantolomin_Doornik,
+			Nzoth_Polneye,
+			Jtptan_Polneye,
+			Zfell_Polneye,
+			Jtptan_Zfell,
+			Zfell_Galantos,
+			Coruscant_Galantos,
+			Coruscant_Nzoth,
+			Pantolomin_Doornik,
+			Doornik_Mrisst,
+			Borleais_Coruscant,
+			Borleais_Mrisst
+		</Trade_Routes>
+		
+        <Home_Location> Rebel, Coruscant </Home_Location>
+        <Home_Location> Yevetha, Nzoth </Home_Location>
+
+        <Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\BFC\Story_Plots_Sandbox_BFC.xml</Rebel_Story_Name>
+
+		
+		<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Yevetha, BasicRebel </AI_Player_Control>
+		
+		<Markup_Filename>Yevetha, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		
+		<Special_Case_Production> Empire, Abregado_Rae, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Abregado_Rae, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Galantos, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Galantos, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, E-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Corona </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Sacheen</Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Endurance </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Nebula </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Rebel, Bilbringi, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Light_Tank_Brigade </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Heavy_Tank_Brigade </Starting_Forces>
+
+		
+
+
+		<!-- Coruscant Space Forces -->
+		<Starting_Forces> Rebel, Coruscant, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Corona </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Corona </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, A-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, B-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, B-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Endurance </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Nebula </Starting_Forces>
+		<!-- Coruscant Land Forces -->
+		<Starting_Forces> Rebel, Coruscant, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Rebel_Light_Tank_Brigade </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Rebel_Heavy_Tank_Brigade </Starting_Forces>
+
+		
+		<!-- Mrisst Space Forces -->
+		<Starting_Forces> Rebel, Mrisst, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Marauder_Missile_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Alliance_Assault_Frigate </Starting_Forces>
+		<!-- Mrisst Land Forces -->
+		<Starting_Forces> Rebel, Mrisst, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<!-- Noquivzor Space Forces -->
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Marauder_Missile_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Alliance_Assault_Frigate </Starting_Forces>
+		<!-- Mrisst Land Forces -->
+		<Starting_Forces> Rebel, Noquivzor, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+
+		
+
+		<!-- Galantos Space Forces -->
+		<Starting_Forces> Rebel, Galantos, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Majestic </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Majestic </Starting_Forces>
+		<!-- Galantos Land Forces -->
+		<Starting_Forces> Rebel, Galantos, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<!-- Borleais Space Forces -->
+		<Starting_Forces> Rebel, Borleais, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Majestic </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Majestic </Starting_Forces>
+		<!-- Borleais Land Forces -->
+		<Starting_Forces> Rebel, Borleais, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Rebel_Infantry_Squad </Starting_Forces>
+
+	
+		<!-- Pantolomin Space Forces -->
+		<Starting_Forces> Rebel, Pantolomin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Endurance </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Endurance </Starting_Forces>
+		<!-- Pantolomin Land Forces -->
+		<Starting_Forces> Rebel, Pantolomin, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Rebel_Infantry_Squad </Starting_Forces>
+
+		<Starting_Credits> Yevetha,  12000 </Starting_Credits>
+		<Starting_Tech_Level> Yevetha, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Yevetha, 5 </Max_Tech_Level>
+		
+	<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Nzoth, Y_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Victory_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Victory_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Victory_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Pride_of_Yevetha </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Nil_Spaar </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Nzoth, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevethan_Heavy_Assault_Company </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Polneye, Y_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Yevetha_Star_Destroyer_Two </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Polneye, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Y_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Victory_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Star_Destroyer_Two </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Zfell, Y_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Yevetha_Star_Destroyer_Two </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Zfell, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Doornik, Y_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Yevetha_Star_Destroyer </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Doornik, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, ILC905, Y_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Yevetha_Victory_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Yevetha_Star_Destroyer </Starting_Forces>
+	</Campaign>	
+
+			   <Campaign Name="Sandbox_BFC_Yevetha">
+
+		<Campaign_Set> Sandbox_BFC </Campaign_Set>
+		<Sort_Order>8</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_BFC </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_BFC </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+      <Locations> 
+			Galaxy_Core_Art_Model, 
+			Coruscant,
+			Bilbringi,
+			Galantos,
+			Borleais,
+			Pantolomin,
+			Mrisst,
+			Nzoth,	
+			Zfell,
+			Polneye,
+			Jtptan,
+			Doornik,
+			ILC905
+		</Locations>
+		
+		<Trade_Routes>
+			Bilbringi_Noquivzor,
+			Coruscant_Pantolomin,
+			Bilbringi_Mrisst,
+			Mrisst_Noquivzor,
+			Mrisst_Pantolomin,
+			ILC905_Jtptan,
+			Doornik_ILC905,
+			Doornik_Nzoth,
+			Pantolomin_Doornik,
+			Nzoth_Polneye,
+			Jtptan_Polneye,
+			Zfell_Polneye,
+			Jtptan_Zfell,
+			Zfell_Galantos,
+			Coruscant_Galantos,
+			Coruscant_Nzoth,
+			Pantolomin_Doornik,
+			Doornik_Mrisst,
+			Borleais_Coruscant,
+			Borleais_Mrisst
+		</Trade_Routes>
+		
+        <Home_Location> Rebel, Coruscant </Home_Location>
+        <Home_Location> Yevetha, Nzoth </Home_Location>
+
+        <Starting_Active_Player> Yevetha </Starting_Active_Player>
+
+		<Rebel_Story_Name>Conquests\BFC\Story_Plots_Sandbox_BFC_Yevetha.xml</Rebel_Story_Name>
+
+		
+		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Yevetha, SandboxHuman </AI_Player_Control>
+		
+		<Markup_Filename>Yevetha, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		
+		<Special_Case_Production> Empire, Abregado_Rae, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Abregado_Rae, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Atzerri, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Atzerri, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Galantos, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Galantos, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, NalHutta, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, NalHutta, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Hutt_Palace_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Tatooine, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		
+		
+		<!-- Bilbringi Space Forces -->
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, E-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Corona </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Sacheen</Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Endurance </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Nebula </Starting_Forces>
+		<!-- Bilbringi Land Forces -->
+		<Starting_Forces> Rebel, Bilbringi, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Light_Tank_Brigade </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, Rebel_Heavy_Tank_Brigade </Starting_Forces>
+
+		
+
+
+		<!-- Coruscant Space Forces -->
+		<Starting_Forces> Rebel, Coruscant, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Corona </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Corona </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, A-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, B-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, B-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Endurance </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Nebula </Starting_Forces>
+		<!-- Coruscant Land Forces -->
+		<Starting_Forces> Rebel, Coruscant, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Rebel_Light_Tank_Brigade </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, Rebel_Heavy_Tank_Brigade </Starting_Forces>
+
+		
+		<!-- Mrisst Space Forces -->
+		<Starting_Forces> Rebel, Mrisst, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Marauder_Missile_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Alliance_Assault_Frigate </Starting_Forces>
+		<!-- Mrisst Land Forces -->
+		<Starting_Forces> Rebel, Mrisst, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<!-- Noquivzor Space Forces -->
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Marauder_Missile_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Alliance_Assault_Frigate </Starting_Forces>
+		<!-- Mrisst Land Forces -->
+		<Starting_Forces> Rebel, Noquivzor, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, Rebel_Infantry_Squad </Starting_Forces>
+
+		
+
+		<!-- Galantos Space Forces -->
+		<Starting_Forces> Rebel, Galantos, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Majestic </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Majestic </Starting_Forces>
+		<!-- Galantos Land Forces -->
+		<Starting_Forces> Rebel, Galantos, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<!-- Borleais Space Forces -->
+		<Starting_Forces> Rebel, Borleais, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Majestic </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Majestic </Starting_Forces>
+		<!-- Borleais Land Forces -->
+		<Starting_Forces> Rebel, Borleais, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, Rebel_Infantry_Squad </Starting_Forces>
+
+	
+		<!-- Pantolomin Space Forces -->
+		<Starting_Forces> Rebel, Pantolomin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Sacheen </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Endurance </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Endurance </Starting_Forces>
+		<!-- Pantolomin Land Forces -->
+		<Starting_Forces> Rebel, Pantolomin, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, Rebel_Infantry_Squad </Starting_Forces>
+
+		<Starting_Credits> Yevetha,  12000 </Starting_Credits>
+		<Starting_Tech_Level> Yevetha, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Yevetha, 5 </Max_Tech_Level>
+		
+	<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Nzoth, Y_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Victory_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Star_Destroyer_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Pride_of_Yevetha </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Nil_Spaar </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Nzoth, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Nzoth, Yevethan_Heavy_Assault_Company </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Polneye, Y_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Yevetha_Star_Destroyer_Two </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Polneye, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Polneye, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Y_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Victory_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Star_Destroyer_Two </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Jtptan, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Jtptan, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Zfell, Y_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Yevetha_Star_Destroyer_Two </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Zfell, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Zfell, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, Doornik, Y_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Yevetha_Star_Destroyer </Starting_Forces>
+		<!-- Orinda Land Forces -->
+		<Starting_Forces> Yevetha, Doornik, Y_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Yevetha_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Yevetha, Doornik, Yevethan_Heavy_Scout_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+		<Starting_Forces> Yevetha, ILC905, Y_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Armadia </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Yevetha_Victory_Two </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Yevetha_Victory_One </Starting_Forces>
+		<Starting_Forces> Yevetha, ILC905, Yevetha_Star_Destroyer </Starting_Forces>
+	</Campaign>	
+
+ </Campaigns>

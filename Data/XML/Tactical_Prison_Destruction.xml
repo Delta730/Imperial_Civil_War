@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<Event Name="Battle_Start">
+<Event_Type>STORY_ELAPSED</Event_Type>
+<Event_Param1>0</Event_Param1>
+</Event>
+
+<Event Name="STORY_TACTICAL_DESTROY_Prison"> 
+<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+<Event_Param1>Prison</Event_Param1>
+<Event_Param3>1</Event_Param3>
+<Perpetual>true</Perpetual>
+</Event>
+
+<Event Name="STORY_TACTICAL_DESTROY_Prison2"> 
+<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+<Event_Param1>Secondary_Prison_E</Event_Param1>
+<Event_Param3>1</Event_Param3>
+<Perpetual>true</Perpetual>
+</Event>
+
+
+<Event Name="TRIGGER_AI_PRISON_DESTROYED">
+<Event_Type>STORY_TRIGGER</Event_Type>
+<Reward_Type>TRIGGER_AI</Reward_Type>
+<Reward_Param1>PRISON_DESTROYED</Reward_Param1>
+<Reward_Param2>Rebel</Reward_Param2>
+<Prereq>STORY_TACTICAL_DESTROY_Prison</Prereq>
+<Prereq>STORY_TACTICAL_DESTROY_Prison2</Prereq>
+<Perpetual>true</Perpetual>
+</Event>
+
+</Story>
