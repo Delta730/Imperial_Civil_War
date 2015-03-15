@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Remnant_Space_Units>
 
-<SpaceUnit Name="Generic_Executor">
+	<SpaceUnit Name="Generic_Executor">
 
 		<Text_ID>TEXT_UNIT_EXECUTOR_GENERIC</Text_ID>
 		<!--<Encyclopedia_Good_Against> Alliance_Assault_Frigate Calamari_Cruiser MC90 </Encyclopedia_Good_Against>-->

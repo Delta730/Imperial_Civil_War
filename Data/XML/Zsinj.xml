@@ -390,15 +390,10 @@
 	<!-- Heroes -->
 
 	
-		<SpaceUnit Name="Praetor_Warlord">
+	<SpaceUnit Name="Praetor_Warlord">
 		<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
 		<Affiliation>Pirates</Affiliation>
-		 <Tech_Level>2</Tech_Level>
-		
-			<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 6</Starting_Spawned_Units_Tech_3>
-
+		<Tech_Level>2</Tech_Level>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
@@ -410,9 +405,8 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 
-
 	<UniqueUnit Name="Iron_Fist">
-		<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Executor</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ZSINJ</Text_ID>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
@@ -471,7 +465,7 @@
 	</UniqueUnit>
 
 	<UniqueUnit Name="Implaccable_Star_Destroyer">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
 		
 		<Icon_Name>i_button_trigit.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -479,8 +473,6 @@
 		<Text_ID>TEXT_HERO_TRIGIT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_TRIGIT </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
-
-		
 
 		<Tech_Level>99</Tech_Level>
 		
@@ -501,12 +493,11 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 
-
 		</Abilities>
 		
 	</UniqueUnit>
 
-		<HeroUnit Name="Gethzerion">
+	<HeroUnit Name="Gethzerion">
 		<LOD_Bias>5</LOD_Bias>
 		<GUI_Bounds_Scale>0.6</GUI_Bounds_Scale>
 		<Text_ID>TEXT_HERO_GETHZERION</Text_ID>
@@ -700,13 +691,7 @@
 
 	</HeroUnit>
 
-
-
-
-
-
 	<!-- Hero Company Data -->
-
 
 	<HeroCompany Name="Gethzerion_Team">
 		<LOD_Bias>5</LOD_Bias>
@@ -765,7 +750,6 @@
 	<!-- ******************************************************************** -->
 	<!-- ******************************* Fighters *************************** -->
 	<!-- ******************************************************************** -->	
-
 
 	<SpaceUnit Name="TIE_Raptor">
 
@@ -916,29 +900,28 @@
 
 	
 	<SpaceUnit Name="Zsinj_Star_Destroyer_Two">
-		
-		
-
-		<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
-		<Required_Special_Structures></Required_Special_Structures>
+		<Variant_Of_Existing_Type>Generic_Star_Destroyer_Two</Variant_Of_Existing_Type>
 		<Affiliation>Pirates</Affiliation>
-		<Tech_Level>0</Tech_Level>
-		<Population_Value>4</Population_Value>
+		<Tech_Level>1</Tech_Level>
+		
+		<Starting_Spawned_Units_Tech_0>TIE_Raptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Raptor_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		
 	</SpaceUnit>
 
-	
 	<SpaceUnit Name="Zsinj_Star_Destroyer">
-		
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
-		<Required_Special_Structures></Required_Special_Structures>
 		<Affiliation>Pirates</Affiliation>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		
-
+		<Starting_Spawned_Units_Tech_0>TIE_Raptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		
-
-		<Population_Value>4</Population_Value>
+		<Reserve_Spawned_Units_Tech_0>TIE_Raptor_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 		
 	</SpaceUnit>
 
@@ -979,32 +962,21 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 	</SpaceUnit>
 
-
 	<SpaceUnit Name="Zsinj_Victory_Destroyer_Mark_1">
        	<Variant_Of_Existing_Type>Victory_Destroyer_Mark_1</Variant_Of_Existing_Type>
 		<Affiliation>Pirates</Affiliation>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-			<Tech_Level>0</Tech_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Tech_Level>0</Tech_Level>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Zsinj_Interdictor_Cruiser">
 		<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
 		<Affiliation>Pirates</Affiliation>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-			<Tech_Level>0</Tech_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Zsinj_Strike_Cruiser">
 		<Variant_Of_Existing_Type>Strike_Cruiser</Variant_Of_Existing_Type>
 		<Affiliation>Pirates</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-			<Tech_Level>0</Tech_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 	</SpaceUnit>
 
 	<!-- ******************************************************************** -->
@@ -1089,10 +1061,6 @@
 		<Population_Value>1</Population_Value>
 	</Squadron>
 
-	<!--- Raptors -->
-
-	
-	
 	<!-- ******************************************************************** -->
 	<!-- ******************************* Ground *************************** -->
 	<!-- ******************************************************************** -->
@@ -1149,7 +1117,7 @@
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 
-		<GroundCompany Name="Zsinj_Armor_Group">
+	<GroundCompany Name="Zsinj_Armor_Group">
 		<Text_ID>TEXT_IMPERIAL_ARMOR_GROUP</Text_ID>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1205,7 +1173,7 @@
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 
-		<GroundCompany Name="Zsinj_Shock_Soldier_Squad">
+	<GroundCompany Name="Zsinj_Shock_Soldier_Squad">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_REBEL_TANK_BUSTER_SQUAD</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_PLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -1263,7 +1231,6 @@
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 
-	
 	<GroundCompany Name="Zsinj_Anti_Infantry_Brigade">
 		<Text_ID>TEXT_IMPERIAL_ANTI_INFANTRY</Text_ID>
 		<GUI_Row> 1 </GUI_Row>
@@ -1380,9 +1347,6 @@
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 	</GroundCompany>
 
-
-
-	
 	<SpecialStructure Name="Zsinj_Ground_Barracks">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
@@ -1698,7 +1662,6 @@
 		</Abilities>
 	</SpecialStructure>
 	
-	
 	<SpecialStructure Name="Zsinj_Commercial_Entity">
 		<Variant_Of_Existing_Type>Empire_Tax_Collection</Variant_Of_Existing_Type>
 		<Affiliation>Pirates</Affiliation>
@@ -1975,7 +1938,6 @@
 		<Score_Cost_Credits>150</Score_Cost_Credits>
 	</GroundCompany>
 
-
 	<GroundCompany Name="Zsinj_Light_Scout_Squad_Minor">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_RAPTOR_SCOUT_TROOPER</Text_ID>
@@ -2042,7 +2004,6 @@
 		<Score_Cost_Credits>150</Score_Cost_Credits>
 	</GroundCompany>
 
-
 	<GroundCompany Name="Zsinj_Raptor_Squad">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_RAPTORTROOPER</Text_ID>
@@ -2106,7 +2067,6 @@
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 	</GroundCompany>
-
 
 	<GroundInfantry Name="Raptor_Trooper">
 		
@@ -2269,4 +2229,5 @@
 		
 		<Projectile_Damage>0.5</Projectile_Damage>
 	</GroundInfantry>
+	
 </Remnant_Space_Units>

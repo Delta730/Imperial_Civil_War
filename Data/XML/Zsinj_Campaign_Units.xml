@@ -412,8 +412,8 @@
 
 
 	<SpaceUnit Name="Imperial_Star_Destroyer_Two_Raptor">
-		<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
-				<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Variant_Of_Existing_Type>Generic_Star_Destroyer_Two</Variant_Of_Existing_Type>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Raptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -425,17 +425,15 @@
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
 
 	</SpaceUnit>
-
-	
-	
 	
 
 	<SpaceUnit Name="Generic_Star_Destroyer_Raptor">
-		<Variant_Of_Existing_Type>tar_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
 		
-				<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>1</Tech_Level>
 
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Raptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
