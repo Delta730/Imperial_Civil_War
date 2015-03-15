@@ -1,23 +1,17 @@
 <?xml version="1.0" ?>
 <Remnant_Space_Units>
 
-
-
 	<!-- Heroes -->
 
 	<UniqueUnit Name="Reaper_Kaine">
-		<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Executor</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_KAINE</Text_ID>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
-	<Affiliation>Pirates</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 		<Tech_Level>99</Tech_Level>
-		
-		  
 
-
-        
-				<SFXEvent_Select>Unit_Select_Kaine</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Kaine</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Kaine</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Kaine</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Kaine</SFXEvent_Attack>
@@ -26,18 +20,13 @@
 		<SFXEvent_Group_Move>Unit_Move_Kaine</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Attack_Kaine</SFXEvent_Group_Attack>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Kaine </Death_SFXEvent_Start_Die>
-		
 
-  
 		<Icon_Name>i_button_kaine.tga</Icon_Name>
-		
 		
 		<Encyclopedia_Text> TEXT_TOOLTIP_KAINE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
-		
-	
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Kaine_Combat_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
@@ -64,6 +53,7 @@
 	
 	</UniqueUnit>
 
+	
 	<HeroUnit Name="Jerec">
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -335,24 +325,17 @@
 		<Population_Value>1</Population_Value>
 	</HeroUnit>
 
-
-
-
 	<UniqueUnit Name="Vengeance_Jerec">
-		<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Executor</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_JEREC</Text_ID>
 
-	<Space_Model_Name>EV_Vengeance.ALO</Space_Model_Name>
-	<Affiliation>Pirates</Affiliation>
+		<Space_Model_Name>EV_Vengeance.ALO</Space_Model_Name>
+		<Affiliation>Pirates</Affiliation>
 		<Tech_Level>99</Tech_Level>
-		
-		  		<Population_Value>15</Population_Value>
-
 
 		<Scale_Factor>0.65</Scale_Factor>
 
-        
-				<SFXEvent_Select>Unit_Select_Jerec</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Jerec</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Jerec</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Jerec</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Jerec</SFXEvent_Attack>
@@ -361,21 +344,14 @@
 		<SFXEvent_Group_Move>Unit_Move_Jerec</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Attack_Jerec</SFXEvent_Group_Attack>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Jerec </Death_SFXEvent_Start_Die>
-		
 
-  
 		<Icon_Name>i_button_jerec.tga</Icon_Name>
-		
 		
 		<Encyclopedia_Text> TEXT_TOOLTIP_JEREC </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
-		
-	
-	
 	</UniqueUnit>
-
 
 	<HeroCompany Name="Jerec_Team">
 		<Text_ID>TEXT_HERO_JEREC</Text_ID>
@@ -436,20 +412,18 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		
-				<Land_Override_Population_Value>1</Land_Override_Population_Value>
+		<Land_Override_Population_Value>1</Land_Override_Population_Value>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_JEREC </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
 		<CategoryMask>LandHero | SpaceHero</CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
-		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Population_Value>15</Population_Value>
 	</HeroCompany>
 
 
-
-		<UniqueUnit Name="Oriflamme">
+	<UniqueUnit Name="Oriflamme">
 		<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
 	
 		<Icon_Name>i_button_grant.tga</Icon_Name>
@@ -460,10 +434,6 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_GRANT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_ADMIRAL </Encyclopedia_Unit_Class>
 
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
-
-        <Ranking_In_Category>3</Ranking_In_Category>
-		
 		<Tech_Level>99</Tech_Level>
 		<SFXEvent_Select>Unit_Select_Thrawn</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Thrawn</SFXEvent_Move>
@@ -474,7 +444,7 @@
 		<SFXEvent_Health_Critical_Warning>Unit_Defeat_Thrawn</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-        		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+        <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Thrawn </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
@@ -497,9 +467,7 @@
 		<SFXEvent_Hero_Respawned>Unit_Select_Thrawn</SFXEvent_Hero_Respawned>
 	  
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
-        <Build_Cost_Credits>0</Build_Cost_Credits>
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Population_Value>4</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
@@ -509,9 +477,6 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<!-- Hero abilities for Captain Thrawn added to ship; Hero "moveable" unit removed -->
-		
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Grant_Combat_Bonus_General">
@@ -527,7 +492,6 @@
 				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-
 
 		</Abilities>
 		

@@ -102,7 +102,7 @@
 	</UniqueUnit>
 
 	<SpaceUnit Name="Corusca_Rainbow">
-		<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Generic_Interdictor_Cruiser</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_IILLOOR</Text_ID>
 		<!--<Encyclopedia_Good_Against> Marauder_Missile_Cruiser </Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Calamari_Cruiser Y-wing </Encyclopedia_Vulnerable_To>-->
@@ -133,39 +133,10 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Illor </SFXEvent_Attack_Hardpoint>
-		
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>INTERDICT</Type>
-				<Disable_Movement>Yes</Disable_Movement>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-			</Unit_Ability>
-			
-			<!-- Secondary ability -->
-			<Unit_Ability>
-				<Type>MISSILE_SHIELD</Type>
-				<Disable_Movement>Yes</Disable_Movement>
-
-				<Effective_Radius>450</Effective_Radius>
-				<Recharge_Seconds>0</Recharge_Seconds>
-				<Expiration_Seconds>0</Expiration_Seconds>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-		</Unit_Ability>
-			
-		</Unit_Abilities_Data>
-		
-
+	
 		<Encyclopedia_Text> TEXT_TOOLTIP_IILLOR</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 3000</Score_Cost_Credits>
 
-		
 	</SpaceUnit>
 
 	
@@ -325,8 +296,6 @@
 	</SpaceUnit> 
 
 
-	
-	
 	<UniqueUnit Name="Wild_Karrde_Death_Clone">
 		<Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
 		<Space_Model_Name> RV_WildKarrde_Die.ALO </Space_Model_Name>
@@ -344,7 +313,6 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</UniqueUnit>
-
 
 
 	<!-- Airen Cracken -->
@@ -502,9 +470,8 @@
 
 	<!-- Garm Bel Iblis -->
 	<UniqueUnit Name="Peregrine">
+		<Variant_Of_Existing_Type>Katana_Dreadnaught_Rebel</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_GARM</Text_ID>
-		<!--<Encyclopedia_Good_Against> Alliance_Assault_Frigate Calamari_Cruiser MC40a </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> B-wing Y-wing K-Wing </Encyclopedia_Vulnerable_To>-->
 		<GUI_Row> 2 </GUI_Row>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
@@ -513,8 +480,7 @@
 		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Icon_Name>i_button_RI_garm_bel.tga</Icon_Name>
-		<Variant_Of_Existing_Type>Katana_Dreadnaught_Rebel</Variant_Of_Existing_Type>
-		
+
 		<SFXEvent_Select>Unit_Select_Garm</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Garm</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Garm</SFXEvent_Fleet_Move>
@@ -785,9 +751,6 @@
 		
 		<Tech_Level>99</Tech_Level>
 
-		<Neutralization_Cost>2000.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5400</Tactical_Build_Cost_Multiplayer>
@@ -897,25 +860,12 @@
 			</Cancel_Special_Ability>-->
 		</Abilities>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-			<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>0.5</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>0.5</Radar_Icon_Scale_Space>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Radar_Icon_Name>i_radar_mc90.tga</Radar_Icon_Name>
-      	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
-		
+
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 
 		<Text_ID>TEXT_UNIT_GALACTIC_VOYAGER</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HOME_ONE_01 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
-		<!--<Encyclopedia_Good_Against> Carrack_Cruiser Victory_Destroyer_Mark_2 </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> TIE_Bomber Tector_Star_Destroyer Star_Destroyer </Encyclopedia_Vulnerable_To>-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Icon_Name>i_button_admiral_akbar.tga</Icon_Name>
 		
@@ -923,23 +873,8 @@
 
 	<UniqueUnit Name="Mon_Remonda">
 		<Variant_Of_Existing_Type>MC80b</Variant_Of_Existing_Type>
-				
-        <Ranking_In_Category>3</Ranking_In_Category>
 		
 		<Tech_Level>99</Tech_Level>
-
-		<Neutralization_Cost>2000.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5400</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<SFXEvent_Select>Unit_Select_Han_Solo</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Han_Solo</SFXEvent_Move>
@@ -963,7 +898,7 @@
 		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Millenium_Falcon, 1</Starting_Spawned_Units_Tech_0>
-	<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 
 		<Neutralization_Cost>3000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
@@ -979,30 +914,6 @@
 		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-	<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-					
-			<!-- Secondary ability -->
-			<Unit_Ability>
-				<Type>DEFEND</Type>
-				<Expiration_Seconds>20</Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
-				<Recharge_Seconds>20</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-		
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-			
-		</Unit_Abilities_Data>
-
-		<!-- Hero abilities moved to ship; Ackbar "movable" unit removed -->
 		<Abilities SubObjectList="Yes">
 					
 			<Combat_Bonus_Ability Name="Han_Combat_Bonus">
@@ -1021,26 +932,12 @@
 			
 		</Abilities>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-			<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>0.5</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>0.5</Radar_Icon_Scale_Space>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Radar_Icon_Name>i_radar_monremonda.tga</Radar_Icon_Name>
-		
-      	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 
 		<Text_ID>TEXT_HERO_HAN_SOLO</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HAN_SOLO </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
-		<!--<Encyclopedia_Good_Against> Acclamator_Assault_Ship Tartan_Patrol_Cruiser Interceptor4_Frigate </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> TIE_Bomber Skipray_Blastboat</Encyclopedia_Vulnerable_To>-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Icon_Name>i_button_han_solo.tga</Icon_Name>
 		
@@ -2709,9 +2606,7 @@
 	<!-- Booster -->
 
 	<UniqueUnit Name="Errant_Venture">
-		<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
-		<!--<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Interceptor4_Frigate </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat</Encyclopedia_Vulnerable_To>-->
+		<Variant_Of_Existing_Type>Generic_Star_Destroyer_Two</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_booster.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
@@ -2733,8 +2628,6 @@
 		<Text_ID>TEXT_HERO_BOOSTER</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_BOOSTER </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
-
-        	<Ranking_In_Category>3</Ranking_In_Category>
 			
 			<HardPoints> 
 			HP_Star_Destroyer_2_Octuple_1,
@@ -2780,7 +2673,7 @@
 	  
 		<AI_Combat_Power>4000</AI_Combat_Power>
 		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
-        	<Build_Cost_Credits>10000</Build_Cost_Credits>
+        <Build_Cost_Credits>10000</Build_Cost_Credits>
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 
 		<Neutralization_Cost>2000.0</Neutralization_Cost>
@@ -2795,58 +2688,20 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-
-			
-		  <Unit_Ability>
-	            <Type>TRACTOR_BEAM</Type>
-	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
-	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>20</Recharge_Seconds>
-	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-				<Supports_Autofire>True</Supports_Autofire>
-	      </Unit_Ability>
-
-		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-
-
-			<Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
-				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-	            		<Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
-				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-				<Activation_Min_Range>5</Activation_Min_Range>
-	            		<Activation_Max_Range>1100</Activation_Max_Range>
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Target_Speed_Decrease_Percent>.98</Target_Speed_Decrease_Percent>
-				<Stacking_Category>2</Stacking_Category>			
-			</Tractor_Beam_Attack_Ability>
-
-		</Abilities>
 		
 	</UniqueUnit>
 	
 	<SpaceUnit Name="Errant_Venture_Two">
-	<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
-		<!--<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Interceptor4_Frigate </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat</Encyclopedia_Vulnerable_To>-->
+	<Variant_Of_Existing_Type>Generic_Star_Destroyer_Two</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_booster.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
-		
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 
 		<Text_ID>TEXT_HERO_BOOSTER</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_BOOSTER </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 
-        	<Ranking_In_Category>3</Ranking_In_Category>
-					<Space_Model_Name>EV_Red.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_Red.ALO</Space_Model_Name>
 
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -2865,52 +2720,13 @@
 		<Select_Box_Scale>100</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>4.5</Scale_Factor>
-		<Mass>0.999</Mass>
-		<Dense_FOW_Reveal_Range_Multiplier>1.00</Dense_FOW_Reveal_Range_Multiplier>
-		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
-		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armor_Frigate </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<Max_Speed>2.5</Max_Speed>
-		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-230.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<OverrideAcceleration> .02 </OverrideAcceleration>
-		<OverrideDeceleration> .02 </OverrideDeceleration>
 		
-		<Max_Thrust>0.1</Max_Thrust>
-		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
-		<Maintenance_Cost>0.3</Maintenance_Cost>
-
 		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>4</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Damage>70</Damage>
+
 		<Autoresolve_Health>10000</Autoresolve_Health>
 		<Shield_Points>10000</Shield_Points>
-		<Tactical_Health>5000</Tactical_Health> <!-- was 6000 -->
-		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
-		<Ship_Class>capital</Ship_Class>
-		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
-		<!--<Political_Control>1</Political_Control>-->
-		<Political_Faction>Empire</Political_Faction>
-		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>5000</Build_Cost_Credits>
-
-	
-
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6400</Tactical_Build_Cost_Multiplayer>
@@ -2920,8 +2736,6 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-	
 
 	</SpaceUnit>
 
@@ -2935,9 +2749,6 @@
 		<Text_ID>TEXT_HERO_WEDGE_ANTILLES</Text_ID>
 		
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Icon_Name>i_button_wedge_Antilles.tga</Icon_Name>
@@ -2946,12 +2757,6 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_WEDGE_ANTILLES </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
-
-			<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-
-		</Unit_Abilities_Data>
 	
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>E-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>

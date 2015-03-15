@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <Remnant_Heroes>
-<UniqueUnit Name="Melvar_Juggernaut">
+	<UniqueUnit Name="Melvar_Juggernaut">
 		<Variant_Of_Existing_Type>HAV_Juggernaut</Variant_Of_Existing_Type>
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_HERO_MELVAR</Text_ID>
@@ -28,7 +28,7 @@
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>   
 	</UniqueUnit>
 
-<HeroUnit Name="Melvar">
+	<HeroUnit Name="Melvar">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_MELVAR</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_MELVAR </Encyclopedia_Text>
@@ -428,16 +428,7 @@
 	</HeroUnit>
 
 	
-
-
-
-
-
-
-
-
 <!-- COMPANY DATA -->
-
 
 	<HeroCompany Name="Brakiss_Team">
 		<LOD_Bias>5</LOD_Bias>
@@ -827,10 +818,8 @@
 		<Icon_Name>i_button_stele.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	
-			
 		
  	</SpaceUnit>
-	
 	
 	<Squadron Name="Elite_Squadron">
 		<Text_ID>TEXT_ELITE_SQUADRON</Text_ID>
@@ -920,7 +909,6 @@
 		<Tactical_Health>150</Tactical_Health>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
 
-   	
 		<SFXEvent_Select>Unit_Select_Erisi</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Erisi</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Erisi</SFXEvent_Fleet_Move>
@@ -939,7 +927,6 @@
 		
  	</SpaceUnit>
 
-	
 	<!-- The Shockwave Star Destroyer is used by Harrsk (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Shockwave_Star_Destroyer">
 		<Variant_Of_Existing_Type>Tector_Star_Destroyer</Variant_Of_Existing_Type>
@@ -953,7 +940,6 @@
 		<Tech_Level>99</Tech_Level>
 		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-				
 		
 		<SFXEvent_Select>Unit_Select_Harrsk</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Harrsk</SFXEvent_Move>
@@ -965,7 +951,6 @@
 		<SFXEvent_Stop>Unit_Move_Harrsk</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Harrsk </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Move_Harrsk </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Harrsk </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Harrsk </SFXEvent_Attack_Hardpoint>
@@ -992,12 +977,9 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			
-
-			
 		</Abilities>
 
 	</UniqueUnit>
-	
 	
 	<!-- The Reckoning Star Destroyer is used by Krennal (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Reckoning_Star_Destroyer">
@@ -1013,7 +995,7 @@
 		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		
-				<SFXEvent_Select>Unit_Select_Krennal</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Krennal</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Krennal</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Krennal</SFXEvent_Attack>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Krennel </SFXEvent_Hardpoint_Destroyed>
@@ -1028,7 +1010,6 @@
 		<SFXEvent_Stop>Unit_Move_Krennal</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Krennal </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Move_Krennal </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Krennal </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Krennal </SFXEvent_Attack_Hardpoint>
@@ -1054,12 +1035,10 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			
-
-			
 		</Abilities>
+		
 	</UniqueUnit>
 
-	
 	<!-- The Corrupter Star Destroyer is used by Convarion (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Corrupter_Star_Destroyer">
 		<Variant_Of_Existing_Type>Victory_Destroyer_Mark_2</Variant_Of_Existing_Type>
@@ -1074,11 +1053,10 @@
 		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 
-
 	</UniqueUnit>
 		
-		<!-- The (Unknown) Star Destroyer is used by Delvardus (Remnant Major Hero) during space battles -->
-		<UniqueUnit Name="Thalassa">
+	<!-- The Thalassa Star Destroyer is used by Delvardus (Remnant Major Hero) during space battles -->
+	<UniqueUnit Name="Thalassa">
 		<Variant_Of_Existing_Type>Praetor</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_delvardus.tga</Icon_Name>
 		
@@ -1091,7 +1069,6 @@
 	  
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 
-		
 		<SFXEvent_Select>Unit_Select_Delvardus</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Delvardus</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Delvardus</SFXEvent_Fleet_Move>
@@ -1102,7 +1079,6 @@
 		<SFXEvent_Stop>Unit_Move_Delvardus</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Delvardus </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Move_Delvardus </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Delvardus </SFXEvent_Attack_Hardpoint>
@@ -1114,8 +1090,6 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
-		
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -1133,13 +1107,12 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 	
-			
 		</Abilities>
 
 	</UniqueUnit>
 	
-			<!-- The (Unknown) Star Destroyer is used by Delvardus (Remnant Major Hero) during space battles -->
-		<UniqueUnit Name="Implacable_Star_Destroyer">
+	<!-- The Implacable Star Destroyer is used by Trigit (Remnant Major Hero) during space battles -->
+	<UniqueUnit Name="Implacable_Star_Destroyer">
 		<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_trigit.tga</Icon_Name>
 		
@@ -1155,8 +1128,6 @@
 	<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
-		
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -1174,12 +1145,11 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 	
-			
 		</Abilities>
+		
 	</UniqueUnit>
 
-
-	<!-- The Scylla  is used by Daala (Remnant Major Hero) during space battles -->
+	<!-- The Scylla and Gorgon are used by Daala (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Scylla">
 		<Variant_Of_Existing_Type>Venator</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_daala.tga</Icon_Name>
@@ -1189,7 +1159,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_DAALA </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
 			
-			<SFXEvent_Select>Unit_Select_Daala</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Daala</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Daala</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Daala</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Daala</SFXEvent_Attack>
@@ -1206,8 +1176,6 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
-		
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -1225,10 +1193,8 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 	
-			
 		</Abilities>
 		
-
 	</UniqueUnit>
 	
 	<UniqueUnit Name="Gorgon">
@@ -1238,10 +1204,8 @@
 		<Text_ID>TEXT_HERO_DAALA</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_DAALA </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
-
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
 	
-			<SFXEvent_Select>Unit_Select_Daala</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Daala</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Daala</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Daala</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Daala</SFXEvent_Attack>
@@ -1255,27 +1219,18 @@
 		<Tech_Level>99</Tech_Level>
 		
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
-        <Build_Cost_Credits>0</Build_Cost_Credits>
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Population_Value>4</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<!-- Hero abilities for Captain Thrawn added to ship; Hero "moveable" unit removed -->
-		
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
-		
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -1293,12 +1248,10 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 	
-			
 		</Abilities>
 		
 	</UniqueUnit>
 
-	
 	<!-- The (Unknown) Star Destroyer is used by Teradoc (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="CrimsonSunrise_Star_Destroyer">
 		<Variant_Of_Existing_Type>13X</Variant_Of_Existing_Type>
@@ -1330,8 +1283,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Teradoc </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Teradoc </SFXEvent_Attack_Hardpoint>
 		
-			
-					<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -1363,7 +1315,6 @@
 		
 	</UniqueUnit>
 	
-	
 	<!-- The (Unknown) CR90 is used by Meizh Vermel (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Ascian">
 		<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>
@@ -1376,7 +1327,7 @@
 		
 		<CategoryMask> Corvette | SpaceHero | AntiFighter </CategoryMask>
 		
-					<SFXEvent_Select>Unit_Select_Vermel</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Vermel</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Vermel</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Vermel</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Vermel</SFXEvent_Attack>
@@ -1397,11 +1348,11 @@
 		
 		<Affiliation>Empire</Affiliation>
 		
-		
 	</UniqueUnit>
 	
+	<!-- The 13X Star Destroyer is used by Colonel Cronus (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="13X">
-		<Variant_Of_Existing_Type>Victory_Destroyer_Mark_2</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Crimson_Victory</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_cronus.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
@@ -1409,79 +1360,16 @@
 		<Text_ID>TEXT_HERO_CRONUS</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_CRONUS</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
-
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
-        	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-	
-		<Space_Model_Name>ev_13x.ALO</Space_Model_Name>
-
-        	<Ranking_In_Category>3</Ranking_In_Category>
 		
 		<Tech_Level>99</Tech_Level>
-		
-		<Starting_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Scimmy_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_4>A9_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_5>Preybird_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Victory_Destroyer</SFXEvent_Build_Complete>
-		<SFXEvent_Ambient_Loop>Unit_Victory_Destroyer_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-		<SFXEvent_Select>Unit_Select_Victory_Destroyer</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Victory_Destroyer</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Victory_Destroyer</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Victory_Destroyer</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Victory_Destroyer</SFXEvent_Guard>
-		<SFXEvent_Stop>Unit_Stop_Victory_Destroyer</SFXEvent_Stop>
-		<SFXEvent_Barrage>Unit_Barrage_Victory_Destroyer</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Victory_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Victory_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
-
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
-
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-
-		<SFXEvent_Engine_Idle_Loop> Unit_Victory_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Victory_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
-		
-		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
-	  
-		
+	
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<!-- Hero abilities for Admiral Parck added to ship; Hero "moveable" unit removed -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			
 			<Unit_Ability>
@@ -1531,7 +1419,6 @@
 		
 	</UniqueUnit>	
 
-	
 	<HeroCompany Name="Tierce_Team">
 		<Text_ID>TEXT_HERO_TIERCE</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIERCE</Encyclopedia_Text>
@@ -1574,8 +1461,6 @@
 		<Population_Value>4</Population_Value>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
-		
-		
 	</HeroCompany>
 	
 	<UniqueUnit Name="Sinister_Relentless">
@@ -1587,10 +1472,6 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_TIERCE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_ADMIRAL </Encyclopedia_Unit_Class>
 
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
-
-        <Ranking_In_Category>3</Ranking_In_Category>
-		
 		<Tech_Level>99</Tech_Level>
 		<SFXEvent_Select>Unit_Select_Thrawn</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Thrawn</SFXEvent_Move>
@@ -1601,7 +1482,7 @@
 		<SFXEvent_Health_Critical_Warning>Unit_Defeat_Thrawn</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-        		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+        <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Thrawn </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
@@ -1614,19 +1495,13 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Thrawn</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
 		<SFXEvent_Build_Complete>Unit_Complete_Thrawn</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Select_Thrawn</SFXEvent_Hero_Respawned>
 	  
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
-        <Build_Cost_Credits>0</Build_Cost_Credits>
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Population_Value>4</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
@@ -1636,9 +1511,6 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<!-- Hero abilities for Captain Thrawn added to ship; Hero "moveable" unit removed -->
-		
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Grodin_Combat_Bonus_General">
@@ -1655,11 +1527,9 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 
-
 		</Abilities>
 		
 	</UniqueUnit>
-
 
 	<HeroUnit Name="Sedriss">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -1684,7 +1554,6 @@
 		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
 		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
 		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
-
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Vader_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Vader_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
@@ -1989,9 +1858,6 @@
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
 
-	
-
-	
 	<Squadron Name="181st_TIE_Interceptor_Squadron">
 		<Text_ID>TEXT_181ST_TIE_INTERCEPTOR_SQUADRON</Text_ID>
 		<GUI_Row> 1 </GUI_Row>
@@ -2057,7 +1923,6 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		 
 		
 		<Population_Value>1</Population_Value>
 	</Squadron>
@@ -2120,7 +1985,6 @@
 		
 		<Encyclopedia_Text>TEXT_TOOLTIP_SOONTIR_FEL_EMPIRE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		
 		
 		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -2302,49 +2166,25 @@
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>i_button_fel_soontir.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-	
-			
 		
  	</SpaceUnit>
 
-	
-	<!-- The Judicator Star Destroyer is used by Brandei(Empire?/Remnant Major Hero) during space battles -->
+	<!-- The Judicator Star Destroyer is used by Brandei(Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Judicator_Star_Destroyer">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
 		
 		<Icon_Name>i_button_brandei.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-				<Population_Value>4</Population_Value>
 
 		<Text_ID>TEXT_HERO_BRANDEI</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_BRANDEI </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 
-		
-
 		<Tech_Level>99</Tech_Level>
 		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		
-		
-		<!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-
-			
-		  <Unit_Ability>
-	            <Type>TRACTOR_BEAM</Type>
-	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
-	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>20</Recharge_Seconds>
-	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-				<Supports_Autofire>True</Supports_Autofire>
-	      </Unit_Ability>
-
-		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 
 			<Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
 				<Activation_Style> User_Input </Activation_Style>
@@ -2358,14 +2198,13 @@
 				<Stacking_Category>2</Stacking_Category>			
 			</Tractor_Beam_Attack_Ability>
 
-
 		</Abilities>
 		
 	</UniqueUnit>
 	
 	<!-- The Relentless Star Destroyer is used by Dorja (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Relentless_Star_Destroyer">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_dorja.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
@@ -2374,27 +2213,10 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 
 		<Tech_Level>99</Tech_Level>
-		<Population_Value>4</Population_Value>
 
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		
-		<Unit_Abilities_Data SubObjectList="Yes">
-
-			
-		  <Unit_Ability>
-	            <Type>TRACTOR_BEAM</Type>
-	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
-	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>20</Recharge_Seconds>
-	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-				<Supports_Autofire>True</Supports_Autofire>
-	      </Unit_Ability>
-
-		</Unit_Abilities_Data>
-
+				
 		<Abilities SubObjectList="Yes">
-
 
 			<Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
 				<Activation_Style> User_Input </Activation_Style>
@@ -2408,12 +2230,10 @@
 				<Stacking_Category>2</Stacking_Category>			
 			</Tractor_Beam_Attack_Ability>
 
-
 		</Abilities>
 		
 	</UniqueUnit>
 
-	
 	<UniqueUnit Name="Covell_AT_AT_Walker">
 		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
 		<LOD_Bias>0.5</LOD_Bias>
@@ -2588,9 +2408,9 @@
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
 
-	
+	<!-- The Agonizer Star Destroyer is used by Rogriss (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Agonizer_Star_Destroyer">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
 		
 		<Icon_Name>i_button_rogriss.tga</Icon_Name>
 		
@@ -2599,15 +2419,9 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_AGONIZER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
 
-		
-
 		<Tech_Level>99</Tech_Level>
 		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Agonizer_Combat_Bonus_General">
@@ -2625,21 +2439,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 
-
 	</UniqueUnit>
 
-		
-
-	
-
-	
+	<!-- The Lusankya Star Destroyer is used by Isard (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Lusankya">
-		<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Executor</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_LUSANKYA</Text_ID>
-		
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+
 		<Tech_Level>99</Tech_Level>
 		
 		<Icon_Name>i_button_isard.tga</Icon_Name>
@@ -2649,7 +2455,7 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
-				<SFXEvent_Select>Unit_Select_Isard</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Isard</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Isard</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Isard</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Isard</SFXEvent_Attack>
@@ -2658,14 +2464,6 @@
 		<SFXEvent_Group_Move>Unit_Move_Isard</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Attack_Isard</SFXEvent_Group_Attack>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Isard </Death_SFXEvent_Start_Die>
-		
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-
-		</Unit_Abilities_Data>
-		
 		
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Isard_Combat_Bonus">
@@ -2688,7 +2486,6 @@
 				<Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
-
 
 			<Political_Transition_Bonus_Ability Name="Isard_Political_Transition_Bonus">
 				<Time_Reduction_Percentage>0.25</Time_Reduction_Percentage>
@@ -2720,39 +2517,26 @@
 				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
 			</System_Spy_Ability>
 
-			
 		</Abilities>
 
 	</UniqueUnit>
 
-	
+	<!-- The Knight Hammer Star Destroyer is used by Daala (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Knight_Hammer">
-		<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Executor</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_DAALA</Text_ID>
-		
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+
 		<Tech_Level>99</Tech_Level>
 		
 		<Icon_Name>i_button_daala.tga</Icon_Name>
 		<Space_Model_Name>EV_Knight.alo</Space_Model_Name>
-        <Starting_Spawned_Units_Tech_0>A9_Squadron, 3</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
-        <Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>A9_Squadron, 7</Reserve_Spawned_Units_Tech_0> 
-        <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 7</Reserve_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 8</Reserve_Spawned_Units_Tech_0>
-       	 <Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
-		
 		<Encyclopedia_Text> TEXT_TOOLTIP_DAALA </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	
-			<SFXEvent_Select>Unit_Select_Daala</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Daala</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Daala</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Move_Daala</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Daala</SFXEvent_Attack>
@@ -2762,12 +2546,7 @@
 		<SFXEvent_Group_Attack>Unit_Attack_Daala</SFXEvent_Group_Attack>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Daala </Death_SFXEvent_Start_Die>
 		
-	
-			<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
 		<Death_Clone>Damage_Normal, Knight_Death_Clone</Death_Clone>
-
-		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Daala_Combat_Bonus">
@@ -2795,10 +2574,7 @@
 
 	</UniqueUnit>
 
-	
-	
-
-	<!-- This special AT-AT is used by General Maximillian Veers (Empire Major Hero) during ground battles -->
+	<!-- This special AT-AT is used by General Maximillian Veers (Remnant Major Hero) during ground battles -->
 	<UniqueUnit Name="Veers_AT_AT_Walker">
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_HERO_GENERAL_VEERS_02</Text_ID>
@@ -3018,7 +2794,6 @@
 		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
 	</UniqueUnit>
 
-	
 	<HeroUnit Name="General_Veers">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_GENERAL_VEERS</Text_ID>
@@ -3109,7 +2884,6 @@
 
 	</HeroUnit>
 
-		
 	<HeroCompany Name="General_Veers_Team">
 		<Text_ID>TEXT_HERO_VEERS_TEAM</Text_ID>
 		<Icon_Name>i_button_general_maximillian_veers.tga</Icon_Name>
@@ -3177,9 +2951,7 @@
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
 
-
-	
-
+	<!-- The Chimera Star Destroyer is used by Pellaeon (Remnant Major Hero) during space battles --> 
 	<UniqueUnit Name="Chimera_Pellaeon_Vice">
 		<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_pellaeon.tga</Icon_Name>
@@ -3195,36 +2967,21 @@
 		<SFXEvent_Guard>Unit_Move_Pellaeon</SFXEvent_Guard>
 		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-        		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
-
-		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
-		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
-		<SFXEvent_Build_Complete>Unit_Complete_Thrawn</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Select_Thrawn</SFXEvent_Hero_Respawned>
-	  
-
-        <Build_Cost_Credits>0</Build_Cost_Credits>
+        <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<!-- Hero abilities for Captain Thrawn added to ship; Hero "moveable" unit removed -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			
-     			
 			<Unit_Ability>
 				<Type>CONCENTRATE_FIRE</Type>
 				<Effective_Radius>6000</Effective_Radius>
@@ -3234,7 +2991,6 @@
 				<GUI_Activated_Ability_Name>Pellaeon_Ability</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability>  </SFXEvent_Target_Ability>
 			</Unit_Ability>
-				
 
 		</Unit_Abilities_Data>
 
@@ -3253,7 +3009,6 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			
-					
 			<Concentrate_Fire_Attack_Ability Name="Pellaeon_Ability">
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
@@ -3264,8 +3019,6 @@
 				<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
 				<Stacking_Category>0</Stacking_Category>
 			</Concentrate_Fire_Attack_Ability>
-
-
 
 		</Abilities>
 		
@@ -3281,8 +3034,6 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_GILAD_PELLAEON</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_ADMIRAL </Encyclopedia_Unit_Class>
 
-		
-
 		<Tech_Level>99</Tech_Level>
 		<SFXEvent_Select>Unit_Select_Pellaeon</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Pellaeon</SFXEvent_Move>
@@ -3291,21 +3042,10 @@
 		<SFXEvent_Guard>Unit_Move_Pellaeon</SFXEvent_Guard>
 		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-        		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
-		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
-		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
-		<SFXEvent_Build_Complete>Unit_Complete_Thrawn</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Select_Thrawn</SFXEvent_Hero_Respawned>
+        <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 	  
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
-        <Build_Cost_Credits>0</Build_Cost_Credits>
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Population_Value>4</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>8000</Tactical_Build_Cost_Multiplayer>
@@ -3316,10 +3056,8 @@
 		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<!-- Hero abilities for Captain Thrawn added to ship; Hero "moveable" unit removed -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			
-     			
 			<Unit_Ability>
 				<Type>CONCENTRATE_FIRE</Type>
 				<Effective_Radius>6000</Effective_Radius>
@@ -3329,7 +3067,6 @@
 				<GUI_Activated_Ability_Name>Pellaeon_Ability</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Barrage_Ackbar </SFXEvent_Target_Ability>
 			</Unit_Ability>
-				
 
 		</Unit_Abilities_Data>
 
@@ -3348,8 +3085,7 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			
-					
-				<Concentrate_Fire_Attack_Ability Name="Pellaeon_Ability">
+			<Concentrate_Fire_Attack_Ability Name="Pellaeon_Ability">
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
@@ -3360,11 +3096,9 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Concentrate_Fire_Attack_Ability>
 
-
 		</Abilities>
 		
 	</UniqueUnit>
-
 
 	<HeroUnit Name="Emperor_Palpatine">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -3460,7 +3194,7 @@
 
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -3655,10 +3389,10 @@
 		</Abilities>
 	</HeroUnit>
 
-		<UniqueUnit Name="Eclipse_Super_Star_Destroyer">
+	<UniqueUnit Name="Eclipse_Super_Star_Destroyer">
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_SSD_ECLIPSE</Text_ID>
-				<Population_Value>20</Population_Value>
+		<Population_Value>20</Population_Value>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_ECLIPSE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SSD </Encyclopedia_Unit_Class>
@@ -3707,14 +3441,12 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		  
-        <!-- Set to spawn all units once and then not continue - no reserves -->
         <Starting_Spawned_Units_Tech_0>TIE_Droid_Squadron, 5</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>Shadow_Droid_Squadron, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Droid_Squadron, 45</Reserve_Spawned_Units_Tech_0> 
         <Reserve_Spawned_Units_Tech_0>Shadow_Droid_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
-        
         <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
         <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
         
@@ -3729,11 +3461,11 @@
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints>
-     			HP_Executor_Turbo_1, HP_Executor_Turbo_2, HP_Executor_Turbo_3, HP_Executor_Turbo_4, HP_Executor_Turbo_5, HP_Executor_Turbo_6, HP_Executor_Turbo_7, HP_Executor_Turbo_8, HP_Executor_Turbo_9, HP_Executor_Turbo_10, HP_Executor_Turbo_11, HP_Executor_Turbo_12, HP_Executor_Turbo_13, HP_Executor_Turbo_14, HP_Executor_Turbo_15, HP_Executor_Turbo_16, HP_Executor_Turbo_17, HP_Executor_Turbo_18, HP_Executor_Turbo_19, HP_Executor_Turbo_20, HP_Executor_Turbo_21, HP_Executor_Turbo_22, HP_Executor_Turbo_23, HP_Executor_Turbo_24, HP_Executor_Turbo_25, HP_Executor_Turbo_26, HP_Executor_Turbo_27, HP_Executor_Turbo_28, HP_Executor_Turbo_29, HP_Executor_Turbo_30, HP_Executor_Turbo_31, HP_Executor_Turbo_32, HP_Executor_Turbo_33, HP_Executor_Turbo_34, HP_Executor_Turbo_35, HP_Executor_Turbo_36, HP_Executor_Turbo_37, HP_Executor_Turbo_38, HP_Executor_Turbo_39, HP_Executor_Turbo_40, HP_Executor_Turbo_41, HP_Executor_Turbo_42, HP_Executor_Turbo_43, HP_Executor_Turbo_44, HP_Executor_Turbo_45, HP_Executor_Turbo_46,
-			HP_Executor_Turbo_47, HP_Executor_Turbo_48, HP_Executor_Turbo_49, HP_Executor_Turbo_50, HP_Executor_Turbo_51, HP_Executor_Turbo_52, HP_Executor_Turbo_53, HP_Executor_Turbo_54, HP_Executor_Turbo_Heavy_1, HP_Executor_Turbo_Heavy_2, HP_Executor_Turbo_Heavy_3, HP_Executor_Turbo_Heavy_4, HP_Executor_Turbo_Heavy_5, HP_Executor_Turbo_Heavy_6, HP_Executor_Turbo_Heavy_7, HP_Executor_Turbo_Heavy_8, HP_Executor_Turbo_Heavy_9, HP_Executor_Turbo_Heavy_10, HP_Executor_Turbo_Heavy_11, HP_Executor_Turbo_Heavy_12, HP_Executor_Turbo_Heavy_13, HP_Executor_Turbo_Heavy_14, HP_Executor_Turbo_Heavy_15, HP_Executor_Turbo_Heavy_16, HP_Executor_Turbo_Heavy_17, HP_Executor_Turbo_Heavy_18, HP_Executor_Turbo_Heavy_19, HP_Executor_Turbo_Heavy_20, HP_Executor_Turbo_Heavy_21, HP_Executor_Turbo_Heavy_22, HP_Executor_Turbo_Heavy_23, HP_Executor_Turbo_Heavy_24, HP_Executor_Turbo_Heavy_25, HP_Executor_Turbo_Heavy_26, HP_Executor_Turbo_Heavy_27, HP_Executor_Turbo_Heavy_28, HP_Executor_Turbo_Heavy_29, HP_Executor_Turbo_Heavy_30, 
-			HP_Executor_Turbo_Heavy_31, HP_Executor_Turbo_Heavy_32, HP_Executor_Turbo_Heavy_33, HP_Executor_Turbo_Heavy_34, HP_SSD_Hangar,
-			HP_Executor_Ion_cannon_11, HP_Executor_Ion_cannon_12, HP_Executor_Ion_cannon_13, HP_Executor_Ion_cannon_14, HP_Executor_Ion_cannon_15, HP_Executor_Ion_cannon_16, HP_Executor_Ion_cannon_17, HP_Executor_Ion_cannon_18, HP_Executor_Ion_cannon_19, HP_Executor_Ion_cannon_20 
+     	HP_Executor_Turbo_1, HP_Executor_Turbo_2, HP_Executor_Turbo_3, HP_Executor_Turbo_4, HP_Executor_Turbo_5, HP_Executor_Turbo_6, HP_Executor_Turbo_7, HP_Executor_Turbo_8, HP_Executor_Turbo_9, HP_Executor_Turbo_10, HP_Executor_Turbo_11, HP_Executor_Turbo_12, HP_Executor_Turbo_13, HP_Executor_Turbo_14, HP_Executor_Turbo_15, HP_Executor_Turbo_16, HP_Executor_Turbo_17, HP_Executor_Turbo_18, HP_Executor_Turbo_19, HP_Executor_Turbo_20, HP_Executor_Turbo_21, HP_Executor_Turbo_22, HP_Executor_Turbo_23, HP_Executor_Turbo_24, HP_Executor_Turbo_25, HP_Executor_Turbo_26, HP_Executor_Turbo_27, HP_Executor_Turbo_28, HP_Executor_Turbo_29, HP_Executor_Turbo_30, HP_Executor_Turbo_31, HP_Executor_Turbo_32, HP_Executor_Turbo_33, HP_Executor_Turbo_34, HP_Executor_Turbo_35, HP_Executor_Turbo_36, HP_Executor_Turbo_37, HP_Executor_Turbo_38, HP_Executor_Turbo_39, HP_Executor_Turbo_40, HP_Executor_Turbo_41, HP_Executor_Turbo_42, HP_Executor_Turbo_43, HP_Executor_Turbo_44, HP_Executor_Turbo_45, HP_Executor_Turbo_46,
+		HP_Executor_Turbo_47, HP_Executor_Turbo_48, HP_Executor_Turbo_49, HP_Executor_Turbo_50, HP_Executor_Turbo_51, HP_Executor_Turbo_52, HP_Executor_Turbo_53, HP_Executor_Turbo_54, HP_Executor_Turbo_Heavy_1, HP_Executor_Turbo_Heavy_2, HP_Executor_Turbo_Heavy_3, HP_Executor_Turbo_Heavy_4, HP_Executor_Turbo_Heavy_5, HP_Executor_Turbo_Heavy_6, HP_Executor_Turbo_Heavy_7, HP_Executor_Turbo_Heavy_8, HP_Executor_Turbo_Heavy_9, HP_Executor_Turbo_Heavy_10, HP_Executor_Turbo_Heavy_11, HP_Executor_Turbo_Heavy_12, HP_Executor_Turbo_Heavy_13, HP_Executor_Turbo_Heavy_14, HP_Executor_Turbo_Heavy_15, HP_Executor_Turbo_Heavy_16, HP_Executor_Turbo_Heavy_17, HP_Executor_Turbo_Heavy_18, HP_Executor_Turbo_Heavy_19, HP_Executor_Turbo_Heavy_20, HP_Executor_Turbo_Heavy_21, HP_Executor_Turbo_Heavy_22, HP_Executor_Turbo_Heavy_23, HP_Executor_Turbo_Heavy_24, HP_Executor_Turbo_Heavy_25, HP_Executor_Turbo_Heavy_26, HP_Executor_Turbo_Heavy_27, HP_Executor_Turbo_Heavy_28, HP_Executor_Turbo_Heavy_29, HP_Executor_Turbo_Heavy_30, 
+		HP_Executor_Turbo_Heavy_31, HP_Executor_Turbo_Heavy_32, HP_Executor_Turbo_Heavy_33, HP_Executor_Turbo_Heavy_34, HP_SSD_Hangar, 			HP_Executor_Ion_cannon_11, HP_Executor_Ion_cannon_12, HP_Executor_Ion_cannon_13, HP_Executor_Ion_cannon_14, HP_Executor_Ion_cannon_15, HP_Executor_Ion_cannon_16, HP_Executor_Ion_cannon_17, HP_Executor_Ion_cannon_18, HP_Executor_Ion_cannon_19, HP_Executor_Ion_cannon_20 
 		</HardPoints>
+		
 		<GUI_Model_Name>EV_Eclipse.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -3745,7 +3477,6 @@
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Calamari</SFXEvent_Build_Complete>
 		<SFXEvent_Ambient_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-		
 		
 		<SFXEvent_Select>Unit_Select_Emperor</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Emperor</SFXEvent_Move>
@@ -3784,7 +3515,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
-			<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_executor.tga</Radar_Icon_Name>
@@ -3796,7 +3527,6 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
-		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			
 			<Unit_Ability>
@@ -3843,6 +3573,7 @@
 
 		</Abilities>
 		<Scale_Factor>0.68</Scale_Factor>
+		
 	</UniqueUnit>
 	
 	<UniqueUnit Name="Eclipse_Death_Clone">
@@ -3851,7 +3582,6 @@
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
-		
 		
 		<Max_Speed> 0.25 </Max_Speed>
 		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
@@ -3935,7 +3665,6 @@
 		<Text_ID>TEXT_HERO_FERRIER</Text_ID>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
         <Affiliation>Empire</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Tech_Level>99</Tech_Level>
 		<CategoryMask> Corvette | AntiCorvette | SpaceHero </CategoryMask>
 		<Icon_Name>i_button_ferrier.tga</Icon_Name>
@@ -3967,39 +3696,16 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
-		
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>TURBO</Type>
-			
-				<Expiration_Seconds>20</Expiration_Seconds>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Gunboat</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-			</Unit_Ability>
-			
-		</Unit_Abilities_Data>
-				
 		<Encyclopedia_Text>TEXT_TOOLTIP_FERRIER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_THIEF</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 1350</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2150</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>2</Population_Value>
 	</UniqueUnit>
 
 	<!-- Joruus C'boath -->
@@ -4084,7 +3790,7 @@
 
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -4293,7 +3999,6 @@
 		<SFXEvent_Barrage>Unit_Move_Joruus</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Joruus </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Move_Joruus </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Joruus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Joruus </SFXEvent_Attack_Hardpoint>
@@ -4303,28 +4008,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Joruus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Joruus </SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Assault_Frigate </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Assault_Frigate </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Assault_Frigate </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-
-		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
-		
 		<Death_SFXEvent_Start_Die>Unit_Attack_Joruus</Death_SFXEvent_Start_Die>
-
-		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_CBOATH</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
@@ -4338,7 +4022,7 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+
 	</UniqueUnit>
 	
 	<HeroCompany Name="Joruus_Cboath_Team">
@@ -4400,17 +4084,15 @@
 		
 		<Encyclopedia_Text>TEXT_TOOLTIP_CBOATH</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
 
-	
 	<!-- The Relentless Star Destroyer is used by Disra/Tierce/Flim (Remnant Major Hero) during space battles -->
 	<UniqueUnit Name="Relentless_Star_Destroyer_Disra">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
-		<!--<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Interceptor4_Frigate </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat</Encyclopedia_Vulnerable_To>-->
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+
 		<Icon_Name>i_button_disra.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
@@ -4418,15 +4100,6 @@
 		<Text_ID>TEXT_HERO_SINISTER_TRIUMVIRATE</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_SINISTER_TRIUMVIRATE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
-
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON, DAMAGE_TRACKING </SpaceBehavior>
-
-        <Ranking_In_Category>3</Ranking_In_Category>
-		 <HardPoints> 
-			HP_Star_Destroyer_Weapon_FR, HP_Star_Destroyer_Weapon_FL, HP_Star_Destroyer_Weapon_L2, HP_Star_Destroyer_Weapon_R2, HP_Star_Destroyer_Weapon_L3, HP_Star_Destroyer_Weapon_R3,
-			HP_Star_Destroyer_Weapon_L4, HP_Star_Destroyer_Weapon_R4, HP_Star_Destroyer_Weapon_L5, HP_Star_Destroyer_Weapon_R5, HP_Star_Destroyer_Weapon_L6, HP_Star_Destroyer_Weapon_R6, HP_Star_Destroyer_Weapon_IR, HP_Star_Destroyer_Weapon_IR2,
-			HP_Star_Destroyer_Weapon_IL, HP_Star_Destroyer_Weapon_IL2, HP_Star_Destroyer_Shield_Generator, HP_Star_Destroyer_Engines, HP_Star_Destroyer_Fighter_Bay, HP_Star_Destroyer_Tractor_Beam
-		</HardPoints>
 		
 		<Tech_Level>99</Tech_Level>
 		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
@@ -4438,26 +4111,10 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-
-		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-	  
+  
 		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
         <Build_Cost_Credits>10000</Build_Cost_Credits>
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Population_Value>4</Population_Value>
 
 		<Neutralization_Cost>2000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
@@ -4495,20 +4152,6 @@
 				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-			
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
-				<Recharge_Seconds>50</Recharge_Seconds>
-				<Expiration_Seconds>7</Expiration_Seconds>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Thrawn</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-			</Unit_Ability>
 
 		</Abilities>
 		
@@ -4787,10 +4430,5 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
-
-
-	
-	
-
 
 </Remnant_Heroes>

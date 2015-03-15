@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Remnant_Space_Units>
 
-<GenericHeroUnit Name="Generic_Probe_Droid_Pentastar">
+	<GenericHeroUnit Name="Generic_Probe_Droid_Pentastar">
 		<Text_ID>TEXT_HERO_UNIT_PROBE_DROID</Text_ID>
 		<GUI_Row> 1 </GUI_Row>
 		<Icon_Name>i_button_scout_droid.tga</Icon_Name>
@@ -93,7 +93,7 @@
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
 	
-<StarBase Name="Pentastar_Star_Base_1">
+	<StarBase Name="Pentastar_Star_Base_1">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		
 		<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
@@ -137,7 +137,6 @@
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		
 		<HardPoints>
 			Shipyard_Hangar
 		</HardPoints>
@@ -159,7 +158,6 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 	
-		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
 		
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -178,7 +176,6 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
-
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
@@ -211,10 +208,7 @@
 		 <Ranking_In_Category>1</Ranking_In_Category>
 		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
 		
-		
 	</StarBase>
-
-
 
 	<StarBase Name="Pentastar_Star_Base_2">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
@@ -293,7 +287,6 @@
 				PS_Improved_Weapons_L1_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 	
-		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
 		
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -312,7 +305,6 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
-
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
@@ -340,7 +332,6 @@
 		<Radar_Icon_Scale_Space>0.08</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_heavyshipyard.tga</Radar_Icon_Name>
 		
-		
 		<Icon_Name>i_button_shipyard.tga</Icon_Name>
 		<Score_Cost_Credits> 3000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_2_Empire</Retreat_Self_Destruct_Explosion>
@@ -348,8 +339,6 @@
 		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
 		
 	</StarBase>
-
-
 
 	<StarBase Name="Pentastar_Star_Base_3">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
@@ -394,7 +383,6 @@
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
-		
 		<HardPoints>
 			Shipyard_Hangar
 		</HardPoints>
@@ -412,8 +400,6 @@
 		<Starting_Spawned_Units_Tech_0>Enforcer, 4</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Enforcer, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-
-
 		<Tactical_Buildable_Objects_Campaign>
 			Pentastar,
 				PS_Enhanced_Reactors_L1_Upgrade,
@@ -428,8 +414,6 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-		
-		
 		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
 		
@@ -485,12 +469,10 @@
 		
 	</StarBase>
 	
-		<StarBase Name="Skirmish_Pentastar_Star_Base_1">
+	<StarBase Name="Skirmish_Pentastar_Star_Base_1">
 		<Variant_Of_Existing_Type>Pentastar_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
-		
-		
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Reinforcement_Prevention_Radius> 100 </Reinforcement_Prevention_Radius>
@@ -538,7 +520,6 @@
 			Shipyard_Hangar
 		</HardPoints>
 		
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Pentastar_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
@@ -634,7 +615,7 @@
 		<Damage>16</Damage>
 
 		<HardPoints>
-			HP_TIE_Hunter_ION_01
+		HP_TIE_Hunter_ION_01
 		</HardPoints>
 
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
@@ -643,7 +624,6 @@
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
 
-        
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
@@ -744,7 +724,6 @@
 		</Unit_Abilities_Data>
 
 	</SpaceUnit>
-
 
 	<Squadron Name="TIE_Hunter_Squadron">
 		<Text_ID>TEXT_UNIT_TIE_HUNTER</Text_ID>
@@ -851,7 +830,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 		
 		<HardPoints>
-			HP_Torrent
+		HP_Torrent
 		</HardPoints>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
@@ -900,7 +879,7 @@
 		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 		
-<SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+		<SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
 		<SFXEvent_Select> </SFXEvent_Select>
 		<SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
@@ -921,7 +900,6 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Fighter </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Fighter </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_TIE_Fighter </SFXEvent_Attack_Hardpoint>
-
 
 		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
 		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
@@ -1054,7 +1032,7 @@
 		<Mass>0.9995</Mass>
 		<Scale_Factor>.35</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Tech_Level>1</Tech_Level> <!-- Modded by Chris R. for MP-->
+		<Tech_Level>1</Tech_Level>
 		
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Max_Speed>2.75</Max_Speed>
@@ -1116,7 +1094,7 @@
 		<Death_Clone>Damage_Normal, Small_Explosion_Space</Death_Clone>
 
 		<HardPoints>
-			HP_IPV_00, HP_IPV_01, HP_IPV_02, HP_IPV_03, HP_IPV_04, HP_IPV_05
+		HP_IPV_00, HP_IPV_01, HP_IPV_02, HP_IPV_03, HP_IPV_04, HP_IPV_05
 		</HardPoints>
 
 		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
@@ -1150,7 +1128,6 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_IPV1_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_IPV1_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -1212,7 +1189,7 @@
 		<Scale_Factor>0.93</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
-             <Ranking_In_Category>6</Ranking_In_Category>
+        <Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>2.5</Max_Speed>
 		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -1249,8 +1226,6 @@
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		
-		
-		
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>5</Squadron_Capacity>
 		<Transport_Capacity>4</Transport_Capacity>
@@ -1272,16 +1247,7 @@
 		<Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
-			HP_Enforcer_01,
-			HP_Enforcer_02,
-			HP_Enforcer_03,
-			HP_Enforcer_04,
-			HP_Enforcer_05,
-			HP_Enforcer_06,
-			HP_Enforcer_07,
-			HP_Vindy_Shields_01,
-			HP_Vindy_Engines_01,
-			HP_Interdictor_Fighter_Bay
+		HP_Enforcer_01, HP_Enforcer_02, HP_Enforcer_03, HP_Enforcer_04, HP_Enforcer_05, HP_Enforcer_06, HP_Enforcer_07, HP_Vindy_Shields_01, HP_Vindy_Engines_01, HP_Interdictor_Fighter_Bay
 		</HardPoints>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -1334,7 +1300,6 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Interdictor_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Interdictor_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 		
-		
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -1346,8 +1311,6 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 
-		
-		
 		<Encyclopedia_Text> TEXT_TOOLTIP_ENFORCER </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PICKET </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 3000</Score_Cost_Credits>
@@ -1362,21 +1325,18 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>2</Population_Value>
 	</SpaceUnit>
-
 	
 	<SpaceUnit Name="Praetor">
 		<Text_ID>TEXT_UNIT_PRAETOR</Text_ID>
 	
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>PA_Praetor.ALO</Space_Model_Name>
-		 <Population_Value>9</Population_Value>
+		<Population_Value>9</Population_Value>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
 	
-	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
+		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -1450,45 +1410,16 @@
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints> 
-			Praetor_Bay,
-			Praetor_Shield,
-			Praetor_Engines_One,
-			Praetor_Engines_Two,
-			Praetor_Engines_Three,
-			HP_Praetor_Turbo_01,
-			HP_Praetor_Turbo_02,
-			HP_Praetor_Turbo_03,
-			HP_Praetor_Turbo_04,
-			HP_Praetor_Turbo_05,
-			HP_Praetor_Turbo_06,
-			HP_Praetor_Turbo_07,
-			HP_Praetor_Turbo_08,
-			HP_Praetor_Turbo_09,
-			HP_Praetor_Turbo_10,
-			HP_Praetor_Turbo_11,
-			HP_Praetor_Turbo_12,
-			HP_Praetor_Turbo_13,
-			HP_Praetor_Turbo_14,
-			HP_Praetor_Quad_01,
-			HP_Praetor_Quad_02,
-			HP_Praetor_Quad_03,
-			HP_Praetor_Quad_04,
-			HP_Praetor_Quad_05,
-			HP_Praetor_Quad_06,
-			HP_Praetor_Ion_01,
-			HP_Praetor_Ion_02,
-			HP_Praetor_Ion_03,
-			HP_Praetor_Ion_04,
-			HP_Praetor_Ion_05,
-			HP_Praetor_Ion_06,
-			HP_Praetor_Ion_07,
-			HP_Praetor_Ion_08,
-			HP_Praetor_Ion_09,
-			HP_Praetor_Ion_10,
-			HP_Praetor_Ion_11,
-			HP_Praetor_Ion_12,
-			HP_Praetor_Ion_13,
-			HP_Praetor_Ion_14,
+			Praetor_Bay, Praetor_Shield, Praetor_Engines_One, Praetor_Engines_Two,
+			Praetor_Engines_Three, HP_Praetor_Turbo_01, HP_Praetor_Turbo_02, HP_Praetor_Turbo_03,
+			HP_Praetor_Turbo_04, HP_Praetor_Turbo_05, HP_Praetor_Turbo_06, HP_Praetor_Turbo_07,
+			HP_Praetor_Turbo_08, HP_Praetor_Turbo_09, HP_Praetor_Turbo_10, HP_Praetor_Turbo_11,
+			HP_Praetor_Turbo_12, HP_Praetor_Turbo_13, HP_Praetor_Turbo_14, HP_Praetor_Quad_01,
+			HP_Praetor_Quad_02, HP_Praetor_Quad_03, HP_Praetor_Quad_04, HP_Praetor_Quad_05,
+			HP_Praetor_Quad_06, HP_Praetor_Ion_01, HP_Praetor_Ion_02, HP_Praetor_Ion_03,
+			HP_Praetor_Ion_04, HP_Praetor_Ion_05, HP_Praetor_Ion_06, HP_Praetor_Ion_07,
+			HP_Praetor_Ion_08, HP_Praetor_Ion_09, HP_Praetor_Ion_10, HP_Praetor_Ion_11,
+			HP_Praetor_Ion_12, HP_Praetor_Ion_13, HP_Praetor_Ion_14,
 		</HardPoints>
 
 		<SFXEvent_Select>Unit_Select_Praetor</SFXEvent_Select>
@@ -1554,14 +1485,9 @@
 		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_praetor.tga</Radar_Icon_Name>
 
-	
 		<Encyclopedia_Text> TEXT_TOOLTIP_PRAETOR </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-
-		
-	
-		
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>16000</Tactical_Build_Cost_Multiplayer>
@@ -1571,8 +1497,8 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
 	</SpaceUnit>
-
 
 	<SpaceUnit Name="Lucrehulk">
 		<Text_ID>TEXT_UNIT_LUCREHULK</Text_ID>
@@ -1583,10 +1509,8 @@
 
 		<Ranking_In_Category>5</Ranking_In_Category>
 	
-	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
+		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Torrent_Squadron, 3</Starting_Spawned_Units_Tech_0>
@@ -1596,7 +1520,7 @@
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 10</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-			<Required_Planets>Bonadan, Etti_IV, Ession</Required_Planets>
+		<Required_Planets>Bonadan, Etti_IV, Ession</Required_Planets>
 		<Select_Box_Scale>100</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
@@ -1660,24 +1584,7 @@
 		<Targeting_Max_Attack_Distance>2700.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints> 
-			HP_Lucrehulk_Laser01,
-			HP_Lucrehulk_Laser02,
-			HP_Lucrehulk_Laser03,
-			HP_Lucrehulk_Laser04,
-			HP_Lucrehulk_Laser05,
-			HP_Lucrehulk_Laser06,
-			HP_Lucrehulk_Laser07,
-			HP_Lucrehulk_Laser08,
-			HP_Lucrehulk_Laser09,
-			HP_Lucrehulk_Laser10,
-			HP_Lucrehulk_Turbo01,
-			HP_Lucrehulk_Turbo02,
-			HP_Lucrehulk_Turbo03,
-			HP_Lucrehulk_Turbo04,
-			HP_Lucrehulk_Shields,
-			HP_Lucrehulk_Hangar01,
-			HP_Lucrehulk_Hangar02,
-			HP_Lucrehulk_Engines
+		HP_Lucrehulk_Laser01, HP_Lucrehulk_Laser02, HP_Lucrehulk_Laser03, HP_Lucrehulk_Laser04, HP_Lucrehulk_Laser05, HP_Lucrehulk_Laser06, HP_Lucrehulk_Laser07, HP_Lucrehulk_Laser08, HP_Lucrehulk_Laser09, HP_Lucrehulk_Laser10, HP_Lucrehulk_Turbo01, HP_Lucrehulk_Turbo02, HP_Lucrehulk_Turbo03, HP_Lucrehulk_Turbo04, HP_Lucrehulk_Shields, HP_Lucrehulk_Hangar01, HP_Lucrehulk_Hangar02, HP_Lucrehulk_Engines
 		</HardPoints>
 
 		<SFXEvent_Select>Unit_Select_Lucrehulk</SFXEvent_Select>
@@ -1743,14 +1650,9 @@
 		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_lucrehulk.tga</Radar_Icon_Name>
 
-	
 		<Encyclopedia_Text> TEXT_TOOLTIP_LUCREHULK </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 10000</Score_Cost_Credits>
-
-		
-	
-		
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
@@ -1762,8 +1664,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 
-
-
+	
 	<!-- ******************************************************************** -->
 	<!-- ******************************* Fighters *************************** -->
 	<!-- ******************************************************************** -->	
@@ -1823,7 +1724,7 @@
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
-			HP_Skipray_TORP, HP_Skipray_ION, HP_Skipray_Laser
+		HP_Skipray_TORP, HP_Skipray_ION, HP_Skipray_Laser
 		</HardPoints>
 
 		<Land_Bomber_Type>TIE_Bomber_Bombing_Run</Land_Bomber_Type>
@@ -1889,7 +1790,6 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
-
 	</SpaceUnit>
 
 	<Squadron Name="Skipray_Squadron">
@@ -1982,12 +1882,10 @@
 
 	
 	<SpaceUnit Name="Venator_Pentastar">
-		<Variant_Of_Existing_Type>Venator</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Generic_Venator</Variant_Of_Existing_Type>
 	    <Affiliation>Pentastar</Affiliation>
         <Tech_Level>1</Tech_Level>
-
-
-	<!-- Fighter complement -->		
+	
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Torrent_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -1996,182 +1894,83 @@
 		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Torrent_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 		
+        <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+        <Tactical_Build_Prerequisites>PC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		
-        <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-        <Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
-        <Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
-        <Tactical_Build_Prerequisites>PC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
-        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-        <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-        <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-        <!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 	
-		<SpaceUnit Name="Victory_II_Pentastar">
-		<Variant_Of_Existing_Type>Victory_Destroyer_Mark_2</Variant_Of_Existing_Type>
-	
-  
-
-        <Affiliation>Pentastar</Affiliation>
-
-        <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-        <Tactical_Build_Cost_Multiplayer>4800</Tactical_Build_Cost_Multiplayer>
-        <Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
-        <Tactical_Build_Prerequisites>PC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
-        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-        <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-        <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-        <!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</SpaceUnit>
-	
-		<SpaceUnit Name="Victory_I_Pentastar">
-		<Variant_Of_Existing_Type>Victory_Destroyer_Mark_1</Variant_Of_Existing_Type>
+	<SpaceUnit Name="Victory_II_Pentastar">
+		<Variant_Of_Existing_Type>Generic_Victory_Destroyer_Two</Variant_Of_Existing_Type>
 		<Affiliation>Pentastar</Affiliation>
-
-        <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-        <Tactical_Build_Cost_Multiplayer>4500</Tactical_Build_Cost_Multiplayer>
-        <Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
-        <Tactical_Build_Prerequisites>PC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
-        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-        <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-        <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-        <!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</SpaceUnit>
-	
-			<SpaceUnit Name="Immobilizer_Pentastar">
-		<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
-
-
-		<Affiliation>Pentastar</Affiliation>
-	
+		<Tech_Level>1</Tech_Level>
+		<Population_Value>6</Population_Value>
 		
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+        <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+        <Tactical_Build_Prerequisites>PC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+        <!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 	
-				<SpaceUnit Name="Vindicator_Pentastar">
+	<SpaceUnit Name="Victory_I_Pentastar">
+		<Variant_Of_Existing_Type>Generic_Victory_Destroyer</Variant_Of_Existing_Type>
+		<Affiliation>Pentastar</Affiliation>
+		<Tech_Level>1</Tech_Level>
+		<Population_Value>6</Population_Value>
+		
+		<Starting_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+        <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+        <Tactical_Build_Prerequisites>PC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+        <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Vindicator_Pentastar">
 		<Variant_Of_Existing_Type>Vindicator_Cruiser</Variant_Of_Existing_Type>
 		<Affiliation>Pentastar</Affiliation>
-		 <Tech_Level>1</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>2</Population_Value>
 	</SpaceUnit>
 	
-				<SpaceUnit Name="ISD_II_Pentastar">
-		<Variant_Of_Existing_Type>Imperial_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<SpaceUnit Name="ISD_II_Pentastar">
+		<Variant_Of_Existing_Type>Generic_Star_Destroyer_Two</Variant_Of_Existing_Type>
+		<Tech_Level>1</Tech_Level>
+		<Affiliation>Pentastar</Affiliation>
 
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Scimmy_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_4>A9_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_5>Preybird_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>Howlrunner_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_5>
-				<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 
 		<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_4>A9_Squadron, 2</Reserve_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_5>Preybird_Squadron, 2</Reserve_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_5>
-
-
-		<Affiliation>Pentastar</Affiliation>
+		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6900</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites>PC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<Tactical_Build_Prerequisites>PC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 	
-		<SpaceUnit Name="ISD_I_Pentastar">
+	<SpaceUnit Name="ISD_I_Pentastar">
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
-	
+		<Tech_Level>1</Tech_Level>
 		<Affiliation>Pentastar</Affiliation>
 		
-		<Tech_Level>1</Tech_Level>
-
-		<Population_Value>4</Population_Value>
-		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_4>A9_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_5>Preybird_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>Howlrunner_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_5>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		
-			<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_4>A9_Squadron, 2</Reserve_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_5>Preybird_Squadron, 2</Reserve_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_5>
-				
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>PC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
 	</SpaceUnit>
 	
 	<SpaceUnit Name="Munificent">
@@ -2183,7 +1982,7 @@
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
         <Scale_Factor>1.2</Scale_Factor>
-	 <Population_Value>3</Population_Value>
+		<Population_Value>3</Population_Value>
 
         <Ranking_In_Category>6</Ranking_In_Category>
         <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -2211,7 +2010,7 @@
         <Shield_Refresh_Rate>25</Shield_Refresh_Rate>
         <Energy_Capacity>3000</Energy_Capacity>
         <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
-	<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
         <Affiliation>Pentastar</Affiliation>
         <Tech_Level>1</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
@@ -2236,7 +2035,7 @@
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
-	<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 
         <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
         <Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
@@ -2246,24 +2045,11 @@
         <Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
 
         <HardPoints>
-   HP_Munificent_Dual_One,
-   HP_Munificent_Dual_Two,
-   HP_Munificent_Dual_Three,
-	HP_Munificent_Dual_Four,
-	HP_Munificent_Medium_One,
-	HP_Munificent_Medium_Two,
-	HP_Munificent_Medium_Three,
-	HP_Munificent_Medium_Four,
-	HP_Munificent_Heavy,
-	HP_Munificent_Ion,
-	Munificent_Bay,
-	Munificent_Engines
+		HP_Munificent_Dual_One, HP_Munificent_Dual_Two, HP_Munificent_Dual_Three, HP_Munificent_Dual_Four, HP_Munificent_Medium_One, HP_Munificent_Medium_Two, 	HP_Munificent_Medium_Three, HP_Munificent_Medium_Four, HP_Munificent_Heavy, HP_Munificent_Ion, Munificent_Bay, Munificent_Engines
         </HardPoints>
 
-	<!-- Fighter complement -->		
 		<Starting_Spawned_Units_Tech_1>Skipray_Squadron, 2</Starting_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		
 		
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>i_button_munificent.tga</Icon_Name>
@@ -2312,7 +2098,6 @@
         <SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
         <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Victory_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-        
         <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
         <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -2327,9 +2112,6 @@
         <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
         <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
     
-        
-   		
-
         <Encyclopedia_Text> TEXT_TOOLTIP_MUNIFICENT </Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
         <Score_Cost_Credits> 2250</Score_Cost_Credits>
@@ -2344,7 +2126,7 @@
         <!--<MULTIPLAYER SKIRMISH VALUES END>-->
     </SpaceUnit>
 
-<SpaceUnit Name="Acclamator_Assault_Ship">
+	<SpaceUnit Name="Acclamator_Assault_Ship">
 		<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>EV_ACCLAMATOR.ALO</Space_Model_Name>
@@ -2364,6 +2146,7 @@
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .04 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
+		<Lua_Script>Targeting</Lua_Script>
 		
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
@@ -2413,15 +2196,13 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
 		
 		<HardPoints>
-			HP_Acclamator_Weapon_FL, HP_Acclamator_Weapon_FR, HP_Acclamator_Weapon_FC, HP_Acclamator_Weapon_BL, HP_Acclamator_Weapon_BR, HP_Acclamator_Weapon_BC, HP_Acclamator_Engines, HP_Acclamator_Fighter_Bay
+		HP_Acclamator_Weapon_FL, HP_Acclamator_Weapon_FR, HP_Acclamator_Weapon_FC, HP_Acclamator_Weapon_BL, HP_Acclamator_Weapon_BR, HP_Acclamator_Weapon_BC, HP_Acclamator_Engines, HP_Acclamator_Fighter_Bay
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -2450,7 +2231,6 @@
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
-
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Acclamator </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Acclamator </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Acclamator </SFXEvent_Attack_Hardpoint>
@@ -2474,7 +2254,6 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -2520,6 +2299,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>3</Population_Value>
+		
 	</SpaceUnit>
 
      <SpaceUnit Name="Acclamator_Death_Clone">
@@ -2540,7 +2320,6 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceUnit>
-	
 	
 	<SpaceUnit Name="Combat_Escort_Carrier">
 		<Text_ID>TEXT_UNIT_ESCORT_CARRIER</Text_ID>
@@ -2611,19 +2390,12 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Hunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>TIE_Hunter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
 		<HardPoints>
-			HP_Escort_Turbo_FC,
-			HP_Escort_Turbo_MC,
-			HP_Escort_Weapon_ML,
-			HP_Escort_Weapon_MR,
-			HP_Escort_Weapon_BL,
-			HP_Escort_Weapon_BR,
-			HP_Escort_Fighterbay
+		HP_Escort_Turbo_FC, HP_Escort_Turbo_MC, HP_Escort_Weapon_ML, HP_Escort_Weapon_MR, HP_Escort_Weapon_BL, HP_Escort_Weapon_BR, HP_Escort_Fighterbay
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -2652,7 +2424,6 @@
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
-
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Escort_Carrier </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Escort_Carrier </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Escort_Carrier</SFXEvent_Attack_Hardpoint>
@@ -2676,7 +2447,6 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -2743,16 +2513,5 @@
 
 	</SpaceUnit>
 
-
-
-
-	<!-- ******************************************************************** -->
-	<!-- ******************************* Squadrons *************************** -->
-	<!-- ******************************************************************** -->	
-
 	
-	
-	
-
-
 </Remnant_Space_Units>

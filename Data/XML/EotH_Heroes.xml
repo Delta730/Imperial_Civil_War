@@ -1128,9 +1128,7 @@
 	</UniqueUnit>
 
 	<UniqueUnit Name="Admonitor_Star_Destroyer">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
-		<!--<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Marauder_Missile_Cruiser </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> Y-wing </Encyclopedia_Vulnerable_To>-->
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_dagon_niriz.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
@@ -1138,18 +1136,13 @@
 		<Text_ID>TEXT_UNIT_SD_ADMONITOR</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_NIRIZ</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
-
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
-
-        	<Ranking_In_Category>3</Ranking_In_Category>
 		
 		<Tech_Level>99</Tech_Level>
 	  
 		<AI_Combat_Power>6000</AI_Combat_Power>
 		<Score_Cost_Credits> 6000 </Score_Cost_Credits>
-        	<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+        <CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -1191,18 +1184,12 @@
 				<Stacking_Category>1</Stacking_Category>
 			</Combat_Bonus_Ability>
 
-			
-
-			
-
 		</Abilities>
 		
 	</UniqueUnit>
 
 	<UniqueUnit Name="Strikefast_Star_Destroyer">
 		<Variant_Of_Existing_Type>Victory_Destroyer_Mark_1</Variant_Of_Existing_Type>
-		<!--<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Marauder_Missile_Cruiser </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> Y-wing </Encyclopedia_Vulnerable_To>-->
 		<Icon_Name>i_button_voss.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
@@ -1210,18 +1197,6 @@
 		<Text_ID>TEXT_UNIT_SD_STRIKEFAST</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_PARCK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
-
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
-        	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-		<Tactical_Health>3500</Tactical_Health>
-		<Shield_Points>1000</Shield_Points>
-
-        	<Ranking_In_Category>3</Ranking_In_Category>
-		 <HardPoints>
-            HP_Mark1_Weap01, HP_Mark1_Weap02, HP_Mark1_Weap05, HP_Victory_Destroyer_Fighter_Bay, HP_Mark1_Weap06, HP_Mark1_Weap09, HP_Mark1_Weap10, HP_Mark1_Weap13, HP_Mark1_Weap14, HP_Mark1_Weap17, HP_Mark1_Weap18, HP_Mark1_Weap21, HP_Mark1_Weap22, HP_Mark1_Engines, HP_Mark1_Shield_Generator
-        </HardPoints>
-	
 
 		<Tech_Level>99</Tech_Level>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
