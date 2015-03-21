@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////////////////////////////////
 -- Find Attack Targets in Survival Mode
--- © Pox
+--  Pox
 --//////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -9,6 +9,7 @@ require("PGStateMachine")
 require("PGCommands")
 require("PGSpawnUnits")
 require("PGMoveUnits")
+require("LayerTeleport")
 
 function Definitions()
 	
@@ -21,9 +22,12 @@ end
 
 function State_Init(message)
 	if message == OnEnter then
+    if Get_Game_Mode() ~= "Space" then
+			ScriptExit()
+		end
+    TeleportToLayer(Object)
 		has_target = false
 		if GlobalValue.Get("Survival_Mode") ~= 1 or Object.Get_Owner().Is_Human() then
-			
 			ScriptExit()
 		end
 

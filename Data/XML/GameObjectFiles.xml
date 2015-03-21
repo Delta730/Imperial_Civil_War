@@ -165,4 +165,5 @@
 		
 		<File>Survival_Units.xml</File>
 		<File>Survival_Upgrades.xml</File>
+		<File>LayerDummies.xml</File>
 </Game_Object_Files>
