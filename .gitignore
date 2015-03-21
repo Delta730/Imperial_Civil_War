@@ -5,3 +5,4 @@ dir_to_ignore/Data/Maps/
 *.ala
 *.dds
 *.ALO
+*/Data/Text/MasterTextFile_GERMAN.DAT
