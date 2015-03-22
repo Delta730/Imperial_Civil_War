@@ -210,7 +210,8 @@ local Unit_Info_Table = {
                      },
           ["CALAMARI_CRUISER"] = { meshes = { "Hull",
                                               "Lights",
-                                              "Shadow"
+                                              "Shadow",
+                                              "PE_StarDestroyerEngines_SML"
                                             },
                                   heights = {"ZLayer_Medium",
                                               "ZLayer_Low"}
