@@ -2717,7 +2717,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Autoresolve_Health>450</Autoresolve_Health>
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
@@ -2783,7 +2783,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>30</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>70</Build_Time_Seconds>
@@ -2914,7 +2914,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
@@ -3019,7 +3019,7 @@
 	</SpecialStructure>
 	
 	<SpecialStructure Name="P_Ground_Light_Vehicle_Factory">
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 				<Obstacle_Proxy_Type> P_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 		<Tech_Level>0</Tech_Level>
 			<Destruction_Survivors> 
@@ -3186,7 +3186,7 @@
 	</SpecialStructure>
 	
 	<SpecialStructure Name="P_Ground_Heavy_Vehicle_Factory">
-	<Affiliation>Pentastar</Affiliation>
+	<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 				<Obstacle_Proxy_Type> P_Ground_Heavy_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 				<Required_Special_Structures>P_Ground_Light_Vehicle_Factory</Required_Special_Structures>
 		<Tech_Level>0</Tech_Level>
@@ -3356,7 +3356,7 @@
 	</SpecialStructure>
 	
 	<SpecialStructure Name="P_Ground_Advanced_Vehicle_Factory">
-	<Affiliation>Pentastar</Affiliation>
+	<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Obstacle_Proxy_Type> P_Ground_Heavy_Advanced_Factory_Build_Pad </Obstacle_Proxy_Type>
 				<Required_Special_Structures>P_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
 		<Tech_Level>0</Tech_Level>
@@ -3488,13 +3488,6 @@
 			</Abilities>
 	</SpecialStructure>
 	
-	<SpecialStructure Name="Pentastar_Commercial_Entity">
-		<Variant_Of_Existing_Type>Empire_Tax_Collection</Variant_Of_Existing_Type>
-		<Affiliation>Pentastar</Affiliation>
-		<Tech_Level>0</Tech_Level>
-		
-	</SpecialStructure>
-	
 	<SpecialStructure Name="Pentastar_Ground_Shutter_Shield">
 		<Select_Box_Scale>175</Select_Box_Scale>
 		<Text_ID>TEXT_GROUND_SHUTTER_SHIELD</Text_ID>
@@ -3504,7 +3497,7 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Scale_Factor>0.75</Scale_Factor> <!--  -->
 
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3500</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -3656,7 +3649,7 @@
 		<Shield_Normal_Color>0.2, 0.2, 0.8, 1.0</Shield_Normal_Color>
 		<Shield_Upgraded_Color>0.2, 0.7, 0.8, 1.0</Shield_Upgraded_Color>
 		
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -3749,7 +3742,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>RB_HyperVelocityGun.alo</Land_Model_Name>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Pentastar </Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Build_Time_Seconds>95</Build_Time_Seconds>
@@ -3877,7 +3870,7 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Affiliation>PEntastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -3998,7 +3991,7 @@
 		<Tactical_Additional_Structure_Type>Power_Generator_Pent</Tactical_Additional_Structure_Type>
 		<Obstacle_Proxy_Type> P_Ground_Turbolaser_Tower_Build_Pad </Obstacle_Proxy_Type>
 
-		<Affiliation>PEntastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Projectile_Types>Proj_Ground_Turbolaser_Green</Projectile_Types>
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -4013,7 +4006,7 @@
 	<SpecialStructure Name="P_Galactic_Turbolaser_Tower_Defenses">
 		<Variant_Of_Existing_Type>Template_Galactic_Turbolaser_Tower_Defenses</Variant_Of_Existing_Type>
 
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Tech_Level>1</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -4029,7 +4022,7 @@
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 	</SpecialStructure>
 	
-		<SpecialStructure Name="P_Ground_Research_Facility">
+	<SpecialStructure Name="P_Ground_Research_Facility">
 		<GUI_Bounds_Scale>0.35</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_RESEARCH_FACILITY</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
@@ -4081,7 +4074,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1800</Build_Cost_Credits>
 		<Build_Time_Seconds>240</Build_Time_Seconds>
@@ -4176,9 +4169,7 @@
 		</Abilities>
 	</SpecialStructure>
 	
-	
-	
-		<SpecialStructure Name="Power_Generator_Pent">
+	<SpecialStructure Name="Power_Generator_Pent">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
@@ -4234,7 +4225,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -4325,12 +4316,12 @@
 		<Score_Cost_Credits> 2000 </Score_Cost_Credits>
 	</SpecialStructure>
 	
-		<SpecialStructure Name="Power_Generator_Pent_Multiplayer">
+	<SpecialStructure Name="Power_Generator_Pent_Multiplayer">
 		<Variant_Of_Existing_Type>Power_Generator_Pent</Variant_Of_Existing_Type>
 		<Victory_Relevant>Yes</Victory_Relevant>
 	</SpecialStructure>
 	
-		<SpecialStructure Name="Communications_Array_P">
+	<SpecialStructure Name="Communications_Array_P">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_COMM_ARRAY</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
@@ -4394,7 +4385,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -4543,7 +4534,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>

@@ -32,7 +32,7 @@
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
-<Lua_Script>Targeting</Lua_Script>
+		<Lua_Script>Targeting</Lua_Script>
 		<Armor_Type> Armor_Frigate </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
@@ -43,7 +43,7 @@
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
@@ -355,7 +355,7 @@
 	<SpaceUnit Name="Executor">
 		<Variant_Of_Existing_Type>Generic_Executor</Variant_Of_Existing_Type>
 		<Tech_Level>1</Tech_Level>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -907,7 +907,7 @@
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -1075,7 +1075,7 @@
 		<Bank_Turn_Angle>8</Bank_Turn_Angle>
 		<OverrideAcceleration> .03 </OverrideAcceleration>
 		<OverrideDeceleration> .03 </OverrideDeceleration>
-	<Lua_Script>Targeting</Lua_Script>	
+		<Lua_Script>Targeting</Lua_Script>	
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -1091,7 +1091,7 @@
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Pirates, Harrsk, Teradoc</Affiliation>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -3156,7 +3156,7 @@
 
 
 
-		
+
 	<!-- ******************************************************************** -->
 	<!-- ******************************* Squadrons *************************** -->
 	<!-- ******************************************************************** -->	

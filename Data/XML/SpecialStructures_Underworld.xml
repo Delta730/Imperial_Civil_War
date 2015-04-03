@@ -1059,7 +1059,7 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 		<Scale_Factor>0.60</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Pentastar, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -1938,7 +1938,7 @@
 <SpecialStructure Name="Empire_Golan_One">
 	<Variant_Of_Existing_Type>Generic_Golan_One</Variant_Of_Existing_Type>
 	<Tech_Level>1</Tech_Level>
-	<Affiliation>Empire</Affiliation>
+	<Affiliation>Empire, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 	<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
 </SpecialStructure>
 
@@ -1946,7 +1946,7 @@
 <SpecialStructure Name="Empire_Golan_Two">
 	<Variant_Of_Existing_Type>Generic_Golan_Two</Variant_Of_Existing_Type>
 	<Tech_Level>1</Tech_Level>
-	<Affiliation>Empire</Affiliation>
+	<Affiliation>Empire, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 	<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
 </SpecialStructure>
 
@@ -1954,7 +1954,7 @@
 <SpecialStructure Name="Empire_Golan_Three">
 	<Variant_Of_Existing_Type>Generic_Golan_Three</Variant_Of_Existing_Type>
 	<Tech_Level>1</Tech_Level>
-	<Affiliation>Empire</Affiliation>
+	<Affiliation>Empire, Pirates, Harrsk, Teradoc, Zsinj</Affiliation>
 	<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
 	<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
