@@ -2228,6 +2228,7 @@
         <Home_Location> Rebel, MonCalimari </Home_Location>
         <Home_Location> Empire, Coruscant </Home_Location>
 		 <Home_Location> Pentastar, Bastion </Home_Location>
+		 		 <Home_Location> Teradoc, Bastion </Home_Location>
 	 
         <Starting_Active_Player> Pentastar </Starting_Active_Player>
 
@@ -3121,7 +3122,7 @@
 					
 	</Campaign>	
 
-	<Campaign Name="Sandbox_Ysanne_Pentastar">
+	<Campaign Name="Sandbox_Ysanne_Teradoc">
 
 		<Campaign_Set> Sandbox_Ysanne </Campaign_Set>
 		<Sort_Order>3</Sort_Order>
@@ -3263,10 +3264,11 @@
         <Home_Location> Rebel, MonCalimari </Home_Location>
         <Home_Location> Empire, Coruscant </Home_Location>
 		<Home_Location> Pentastar, Bastion </Home_Location>
+				<Home_Location> Teradoc , Comkin </Home_Location>
 	 
         <Starting_Active_Player> Teradoc </Starting_Active_Player>
 
-		<Rebel_Story_Name>Conquests\Isard\Story_Plots_Sandbox_44_Rebel_Pentastar.xml</Rebel_Story_Name>
+		<Rebel_Story_Name>Conquests\Isard\Story_Plots_Sandbox_44_Rebel.xml</Rebel_Story_Name>
         <Empire_Story_Name>Conquests\Isard\Story_Plots_Sandbox_44_Empire_AI.xml</Empire_Story_Name>
         	 
 		<AI_Player_Control> Empire, BasicRebel </AI_Player_Control>      
@@ -3277,7 +3279,7 @@
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Pentastar, DefaultGalacticHints </Markup_Filename>	
-		<Markup_Filename>Pentastar, DefaultGalacticHints </Markup_Filename>	
+		<Markup_Filename>Teradoc, DefaultGalacticHints </Markup_Filename>	
 		
 		<Supports_Custom_Settings>False</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
