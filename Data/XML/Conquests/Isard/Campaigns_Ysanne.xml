@@ -3264,17 +3264,17 @@
         <Home_Location> Rebel, MonCalimari </Home_Location>
         <Home_Location> Empire, Coruscant </Home_Location>
 		<Home_Location> Pentastar, Bastion </Home_Location>
-				<Home_Location> Teradoc , Comkin </Home_Location>
+		<Home_Location> Teradoc , Bilbringi </Home_Location>
 	 
         <Starting_Active_Player> Teradoc </Starting_Active_Player>
 
-		<Rebel_Story_Name>Conquests\Isard\Story_Plots_Sandbox_44_Rebel.xml</Rebel_Story_Name>
+		<Rebel_Story_Name>Conquests\Isard\Story_Plots_Sandbox_44_Rebel_AI.xml</Rebel_Story_Name>
         <Empire_Story_Name>Conquests\Isard\Story_Plots_Sandbox_44_Empire_AI.xml</Empire_Story_Name>
         	 
 		<AI_Player_Control> Empire, BasicRebel </AI_Player_Control>      
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
 		<AI_Player_Control> Pentastar, BasicRebel </AI_Player_Control>
-		<AI_Player_Control> Teradoc, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Teradoc, SandBoxHuman </AI_Player_Control>
 							
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
@@ -4017,145 +4017,10 @@
 		<!-- Dathomir Land Forces -->
 		<Starting_Forces> Teradoc, Dathomir, Gethzerion_Team </Starting_Forces>
 		<Starting_Forces> Teradoc, Dathomir, Melvar_Team </Starting_Forces>
-		<Starting_Forces> Teradoc, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Teradoc, Dathomir, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Teradoc, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Bonadan Space Forces -->
-		<Starting_Forces> Teradoc, Bonadan, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, Zsinj_Dreadnaught </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, Zsinj_Nebulon_B_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, TIE_Raptor_Squadron </Starting_Forces>
-		<!-- Bonadan Land Forces -->
-		<Starting_Forces> Teradoc, Bonadan, Gethzerion_Team </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Bonadan, Imperial_Stormtrooper_Squad </Starting_Forces>
-
-		<!-- YagDhul Space Forces -->
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Star_Destroyer_two </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Carrack_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Carrack_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Zsinj_Nebulon_B_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, TIE_Raptor_Squadron </Starting_Forces>
-		<!-- YagDhul Land Forces -->
-		<Starting_Forces> Teradoc, YagDhul, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, YagDhul, Imperial_Stormtrooper_Squad </Starting_Forces>
-				
-		<!-- Telos Space Forces -->	
-		<Starting_Forces> Teradoc, Telos, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, Zsinj_Dreadnaught </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, Zsinj_Nebulon_B_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, TIE_Raptor_Squadron </Starting_Forces>
-		<!-- Telos Land Forces -->
-		<Starting_Forces> Teradoc, Telos, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Telos, Imperial_Stormtrooper_Squad </Starting_Forces>
-
-		<!-- Gravan Space Forces -->	
-		<Starting_Forces> Teradoc, Gravan, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, Zsinj_Dreadnaught </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, Zsinj_Nebulon_B_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, TIE_Raptor_Squadron </Starting_Forces>
-		<!-- Gravan Land Forces -->
-		<Starting_Forces> Teradoc, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Gravan, Imperial_Stormtrooper_Squad </Starting_Forces>
-		
-	
-		<!-- Belsmuth Space Forces -->	
-		<Starting_Forces> Teradoc, Belsmuth, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, Zsinj_Dreadnaught </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, Zsinj_Nebulon_B_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, TIE_Raptor_Squadron </Starting_Forces>
-		<!-- Belsmuth Land Forces -->
-		<Starting_Forces> Teradoc, Belsmuth, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Belsmuth, Imperial_Stormtrooper_Squad </Starting_Forces>	
-
-		<!-- Selaggis Space Forces -->	
-		<Starting_Forces> Teradoc, Selaggis, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, Zsinj_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, Zsinj_Dreadnaught </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, Zsinj_Nebulon_B_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, TIE_Raptor_Squadron </Starting_Forces>
-		<!-- Corulag Land Forces -->
-		<Starting_Forces> Teradoc, Selaggis, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Selaggis, Imperial_Stormtrooper_Squad </Starting_Forces>
-		
-		<!-- Comkin Space Forces -->	
-		<Starting_Forces> Teradoc, Comkin, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Zsinj_Nebulon_B_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, TIE_Raptor_Squadron </Starting_Forces>
-		<!-- Corulag Land Forces -->
-		<Starting_Forces> Teradoc, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		
-		<!-- Comkin Space Forces -->	
-		<Starting_Forces> Teradoc, Comkin, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Zsinj_Nebulon_B_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, TIE_Raptor_Squadron </Starting_Forces>
-		<!-- Corulag Land Forces -->
-		<Starting_Forces> Teradoc, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		
-		<!-- Etti_IV Space Forces -->	
-		<Starting_Forces> Teradoc, Etti_IV, Zsinj_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Teradoc, Etti_IV, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
-		<Starting_Forces> Teradoc, Etti_IV, Zsinj_Nebulon_B_Cruiser </Starting_Forces>
-		<Starting_Forces> Teradoc, Etti_IV, TIE_Raptor_Squadron </Starting_Forces>
-		<Starting_Forces> Teradoc, Etti_IV, TIE_Raptor_Squadron </Starting_Forces>
-		<!-- Corulag Land Forces -->
-		<Starting_Forces> Teradoc, Etti_IV, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Etti_IV, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Etti_IV, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Teradoc, Etti_IV, Imperial_Stormtrooper_Squad </Starting_Forces>
 					
 	</Campaign>	
 
