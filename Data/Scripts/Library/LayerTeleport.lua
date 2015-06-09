@@ -1,5 +1,5 @@
 function TeleportToLayer(obj)
-  local info_list = require("SubObjects")
+  local info_list = require("TRSubObjects")
   object_str = Object.Get_Type().Get_Name()
     obj.Prevent_All_Fire(true)
       for i, mesh in pairs(info_list[object_str].meshes) do 
