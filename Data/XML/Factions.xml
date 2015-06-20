@@ -713,7 +713,7 @@
 	
 
 		<Allies />
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Yevetha, Hapans, Pentastar</Enemies>
+		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Yevetha, Hapans, Pentastar, Teradoc </Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -1443,7 +1443,7 @@
 	
 
 		<Allies></Allies> 
-		<Enemies>Rebel, Pirates, Sarlacc, Hostile, Underworld, Hutts, Yevetha, Hapans, Pentastar</Enemies>
+		<Enemies>Rebel, Pirates, Sarlacc, Hostile, Underworld, Hutts, Yevetha, Hapans, Pentastar, Teradoc </Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -1520,7 +1520,7 @@
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 
 		<Allies>Sarlacc</Allies>
-		<Enemies>Empire, Rebel, Hostile, Underworld, Hutts, Yevetha, Hapans, Pentastar</Enemies>
+		<Enemies>Empire, Rebel, Hostile, Underworld, Hutts, Yevetha, Hapans, Pentastar, Teradoc </Enemies>
 		<Easily_Bribed> Yes </Easily_Bribed>
 
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -1603,7 +1603,7 @@
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
 		<Allies>Neutral</Allies>
-		<Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld, Hutts, Yevetha, Hapans, Pentastar</Enemies>
+		<Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld, Hutts, Yevetha, Hapans, Pentastar, Teradoc </Enemies>
 
 	</Faction>
 
@@ -1646,7 +1646,7 @@
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 
 		<Allies>Pirates</Allies>
-		<Enemies>Empire, Rebel, Hostile, Underworld, Hutts, Yevetha, Pirates, Pentastar</Enemies>
+		<Enemies>Empire, Rebel, Hostile, Underworld, Hutts, Yevetha, Pirates, Pentastar, Teradoc </Enemies>
 		<Easily_Bribed> Yes </Easily_Bribed>
 
 		<Can_Control_Planets>true</Can_Control_Planets>
