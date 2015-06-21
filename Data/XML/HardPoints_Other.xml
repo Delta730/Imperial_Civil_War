@@ -26,6 +26,253 @@
 <!-- ============================================= 	  SPACE STRUCTURES   ============================================= -->
 <!-- =============================================                       ============================================= -->
 
+
+		<HardPoint Name="HP_Gladiator_Turbo01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL</Tooltip_Text>
+            <Health>250.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>Turbo01</Attachment_Bone>
+            <Collision_Mesh>Turbo01</Collision_Mesh>
+            <Damage_Decal>Turbo01</Damage_Decal>
+            <Damage_Particles>Turbo01</Damage_Particles>
+
+            <Fire_Bone_A>Turbo01</Fire_Bone_A>
+            <Fire_Bone_B>Turbo01</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>70.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+           <Fire_Range_Distance>2100.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+	
+			<HardPoint Name="HP_Gladiator_Turbo02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL</Tooltip_Text>
+            <Health>250.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>Turbo01</Attachment_Bone>
+            <Collision_Mesh>Turbo01</Collision_Mesh>
+            <Damage_Decal>Turbo01</Damage_Decal>
+            <Damage_Particles>Turbo01</Damage_Particles>
+
+            <Fire_Bone_A>Turbo01</Fire_Bone_A>
+            <Fire_Bone_B>Turbo01</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>70.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+           <Fire_Range_Distance>2100.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_Gladiator_Laser01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+       <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Health>585.0</Health>
+
+			<Death_Explosion_Particles> Medium_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>Laser01</Attachment_Bone>
+            <Collision_Mesh>Laser01</Collision_Mesh>
+            <Damage_Decal>Laser01</Damage_Decal>
+            <Damage_Particles>Laser01</Damage_Particles>
+
+			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+			
+            <Fire_Bone_A>Laser01</Fire_Bone_A>
+            <Fire_Bone_B>Laser01</Fire_Bone_B>
+            <Fire_Cone_Width>160</Fire_Cone_Width>
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_red</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+    </HardPoint>
+	
+		<HardPoint Name="HP_Gladiator_Laser02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+       <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Health>585.0</Health>
+
+			<Death_Explosion_Particles> Medium_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>Laser02</Attachment_Bone>
+            <Collision_Mesh>Laser02</Collision_Mesh>
+            <Damage_Decal>Laser02</Damage_Decal>
+            <Damage_Particles>Laser02</Damage_Particles>
+
+			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+			
+            <Fire_Bone_A>Laser02</Fire_Bone_A>
+            <Fire_Bone_B>Laser02</Fire_Bone_B>
+            <Fire_Cone_Width>160</Fire_Cone_Width>
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_red</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+    </HardPoint>
+	
+		<HardPoint Name="HP_Gladiator_Missile01">
+			<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+            <Health>285.0</Health> 
+		  <Repair_Cost_Per_Frame>1.0</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>2.0</Repair_Amount_Per_Frame>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+			
+            <Model_To_Attach />
+            <Attachment_Bone>Missile01</Attachment_Bone>
+            <Collision_Mesh>Missile01</Collision_Mesh>
+            <Damage_Decal>Missile01</Damage_Decal>
+            <Damage_Particles>Missile01</Damage_Particles>
+
+			<Death_Breakoff_Prop />
+
+            <Fire_Bone_A>Missile01</Fire_Bone_A>
+            <Fire_Bone_B>Missile01</Fire_Bone_B>
+             <Fire_Cone_Width>200.0</Fire_Cone_Width>
+            <Fire_Cone_Height>200.0</Fire_Cone_Height> 
+            <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+
+			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+    </HardPoint>
+	
+			<HardPoint Name="HP_Gladiator_Missile02">
+			<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+            <Health>285.0</Health> 
+		  <Repair_Cost_Per_Frame>1.0</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>2.0</Repair_Amount_Per_Frame>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+			
+            <Model_To_Attach />
+            <Attachment_Bone>Missile02</Attachment_Bone>
+            <Collision_Mesh>Missile02</Collision_Mesh>
+            <Damage_Decal>Missile02</Damage_Decal>
+            <Damage_Particles>Missile02</Damage_Particles>
+
+			<Death_Breakoff_Prop />
+
+            <Fire_Bone_A>Missile02</Fire_Bone_A>
+            <Fire_Bone_B>Missile02</Fire_Bone_B>
+             <Fire_Cone_Width>200.0</Fire_Cone_Width>
+            <Fire_Cone_Height>200.0</Fire_Cone_Height> 
+            <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+
+			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+    </HardPoint>
+	
+	
+	<HardPoint Name="Gladiator_Hangar">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		  <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+		<Attachment_Bone>Hangar</Attachment_Bone>     
+		   <Damage_Particles>HP_SPAWN_EMITDAMAGE</Damage_Particles>        
+		<Collision_Mesh>Hangar</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Gravity_Well_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	</HardPoint>
+
  <HardPoint Name="HP_Skipray_TORP">
 		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
 		<Is_Targetable>No</Is_Targetable>
