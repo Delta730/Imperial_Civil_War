@@ -2532,7 +2532,7 @@
         <Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
 
         <HardPoints>
-		HP_Gladiator_Turbo01, HP_Gladiator_Turbo02, HP_Gladiator_Laser01, HP_Gladiator_Laser02, HP_Gladiator_Missile01, HP_Gladiator_Missile01, Gladiator_Hangar
+		HP_Gladiator_Turbo01, HP_Gladiator_Turbo02, HP_Gladiator_Laser01, HP_Gladiator_Laser02, HP_Gladiator_Missile01, HP_Gladiator_Missile02, Gladiator_Hangar
         </HardPoints>
 
 		<Starting_Spawned_Units_Tech_1>Skipray_Squadron, 2</Starting_Spawned_Units_Tech_1>
