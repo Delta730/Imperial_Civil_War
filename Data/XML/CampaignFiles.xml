@@ -16,6 +16,7 @@
 	<File>Conquests\ArtofWar\Campaigns_All.xml</File>
 	<File>Conquests\Clusters\Campaigns_Cluster.xml</File>
 	<File>Conquests\Align\Campaigns_Align.xml</File>
+	<File>Conquests\Warlords\Campaigns_Warlords.xml</File>
 	<File>Campaigns_Survival_NR.xml</File>
 	<File>Campaigns_Survival_Remnant.xml</File>
 	<File>Campaigns_Survival_EotH.xml</File>

@@ -180,15 +180,15 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>IonLight_01</Attachment_Bone>
-            <Collision_Mesh>IonLight_01</Collision_Mesh>
-            <Damage_Decal>IonLight_01</Damage_Decal>
-            <Damage_Particles>IonLight_01</Damage_Particles>
+            <Attachment_Bone>Ion_01</Attachment_Bone>
+            <Collision_Mesh>Ion_01</Collision_Mesh>
+            <Damage_Decal>Ion_01</Damage_Decal>
+            <Damage_Particles>Ion_01</Damage_Particles>
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-	    <Fire_Bone_A>IonLight_01</Fire_Bone_A>
-            <Fire_Bone_B>IonLight_01</Fire_Bone_B>
+	    <Fire_Bone_A>Ion_01</Fire_Bone_A>
+            <Fire_Bone_B>Ion_01</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Dual</Fire_Projectile_Type>
@@ -220,15 +220,15 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>IonLight_06</Attachment_Bone>
-            <Collision_Mesh>IonLight_06</Collision_Mesh>
-            <Damage_Decal>IonLight_06</Damage_Decal>
-            <Damage_Particles>IonLight_06</Damage_Particles>
+            <Attachment_Bone>Ion_06</Attachment_Bone>
+            <Collision_Mesh>Ion_06</Collision_Mesh>
+            <Damage_Decal>Ion_06</Damage_Decal>
+            <Damage_Particles>Ion_06</Damage_Particles>
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-	    <Fire_Bone_A>IonLight_06</Fire_Bone_A>
-            <Fire_Bone_B>IonLight_06</Fire_Bone_B>
+	    <Fire_Bone_A>Ion_06</Fire_Bone_A>
+            <Fire_Bone_B>Ion_06</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Dual</Fire_Projectile_Type>
@@ -260,15 +260,15 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>IonLight_07</Attachment_Bone>
-            <Collision_Mesh>IonLight_07</Collision_Mesh>
-            <Damage_Decal>IonLight_07</Damage_Decal>
-            <Damage_Particles>IonLight_07</Damage_Particles>
+            <Attachment_Bone>Ion_07</Attachment_Bone>
+            <Collision_Mesh>Ion_07</Collision_Mesh>
+            <Damage_Decal>Ion_07</Damage_Decal>
+            <Damage_Particles>Ion_07</Damage_Particles>
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-	    <Fire_Bone_A>IonLight_07</Fire_Bone_A>
-            <Fire_Bone_B>IonLight_07</Fire_Bone_B>
+	    <Fire_Bone_A>Ion_07</Fire_Bone_A>
+            <Fire_Bone_B>Ion_07</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Dual</Fire_Projectile_Type>
@@ -300,15 +300,15 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>IonLight_08</Attachment_Bone>
-            <Collision_Mesh>IonLight_08</Collision_Mesh>
-            <Damage_Decal>IonLight_08</Damage_Decal>
-            <Damage_Particles>IonLight_08</Damage_Particles>
+            <Attachment_Bone>Ion_08</Attachment_Bone>
+            <Collision_Mesh>Ion_08</Collision_Mesh>
+            <Damage_Decal>Ion_08</Damage_Decal>
+            <Damage_Particles>Ion_08</Damage_Particles>
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-	    <Fire_Bone_A>IonLight_08</Fire_Bone_A>
-            <Fire_Bone_B>IonLight_08</Fire_Bone_B>
+	    <Fire_Bone_A>Ion_08</Fire_Bone_A>
+            <Fire_Bone_B>Ion_08</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Dual</Fire_Projectile_Type>

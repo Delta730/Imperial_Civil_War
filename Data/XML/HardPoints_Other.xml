@@ -76,13 +76,13 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Turbo01</Attachment_Bone>
-            <Collision_Mesh>Turbo01</Collision_Mesh>
-            <Damage_Decal>Turbo01</Damage_Decal>
-            <Damage_Particles>Turbo01</Damage_Particles>
+            <Attachment_Bone>Turbo02</Attachment_Bone>
+            <Collision_Mesh>Turbo02</Collision_Mesh>
+            <Damage_Decal>Turbo02</Damage_Decal>
+            <Damage_Particles>Turbo02</Damage_Particles>
 
-            <Fire_Bone_A>Turbo01</Fire_Bone_A>
-            <Fire_Bone_B>Turbo01</Fire_Bone_B>
+            <Fire_Bone_A>Turbo02</Fire_Bone_A>
+            <Fire_Bone_B>Turbo02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>70.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
