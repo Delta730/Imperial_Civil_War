@@ -167,6 +167,9 @@
 	<File>Teradoc_Space.xml</File>
 	<File>Teradoc_Ground.xml</File>
 	
+	<File>Eriadu_Space.xml</File>
+	<File>Eriadu_Ground.xml</File>
+	
 	<File>SharedSpaceTriangles.xml</File>
 		
 		<File>Survival_Units.xml</File>

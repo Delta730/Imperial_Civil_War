@@ -147,7 +147,8 @@
 		Sanrafsix_Woostri,
 		Sullust_Woostri,
 		Thyferra_YagDhul,
-		Vondarc_Woostri
+		Vondarc_Woostri,
+		Woostri_YagDhul
 		</Trade_Routes>
 		
         <Home_Location> Rebel, MonCalimari </Home_Location>
@@ -1129,7 +1130,8 @@
 		Sanrafsix_Woostri,
 		Sullust_Woostri,
 		Thyferra_YagDhul,
-		Vondarc_Woostri
+		Vondarc_Woostri,
+		Woostri_YagDhul
 		</Trade_Routes>
 		
         <Home_Location> Rebel, MonCalimari </Home_Location>

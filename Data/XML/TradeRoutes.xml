@@ -1339,7 +1339,7 @@
 	</TradeRoute>
 		<TradeRoute Name="Clakdor_Utapau">
 		<Point_A>Clakdor</Point_A>
-		<Point_B>Sluis_Van</Point_B>
+		<Point_B>Utapau</Point_B>
 		<HS_Speed_Factor>0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
