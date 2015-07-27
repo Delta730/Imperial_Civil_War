@@ -1,6 +1,8 @@
 function TeleportToLayer(obj)
   local info_list = require("TRSubObjects")
+  
   object_str = Object.Get_Type().Get_Name()
+  if info_list[object_str] then
     obj.Prevent_All_Fire(true)
       for i, mesh in pairs(info_list[object_str].meshes) do 
         Hide_Sub_Object(obj, 1, mesh);
@@ -25,4 +27,5 @@ function TeleportToLayer(obj)
     zlayer_dummy.Despawn()
     obj.Prevent_All_Fire(false)
     --ScriptExit()
+  end
 end
