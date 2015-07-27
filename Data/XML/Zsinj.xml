@@ -496,6 +496,39 @@
 		</Abilities>
 		
 	</UniqueUnit>
+	
+		<UniqueUnit Name="Demolisher">
+		<Variant_Of_Existing_Type>Gladiator</Variant_Of_Existing_Type>
+		
+		<Icon_Name>i_button_screed.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	
+		<Text_ID>TEXT_HERO_SCREED</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_SCREED </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+
+		<Tech_Level>99</Tech_Level>
+		
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Screed_Combat_Bonus_General">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.1</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+		</Abilities>
+		
+	</UniqueUnit>
 
 	<HeroUnit Name="Gethzerion">
 		<LOD_Bias>5</LOD_Bias>

@@ -2217,8 +2217,8 @@
 		
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Bastion, Pentastar_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, IPV </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, IPV </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Bellator </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Gladiator </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Gregor_Team </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Acclamator_Assault_Ship </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Oriflamme </Starting_Forces>

@@ -655,7 +655,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Dagobah.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Utapau_01.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Dagobah.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>

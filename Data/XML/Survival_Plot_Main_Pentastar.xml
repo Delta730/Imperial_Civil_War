@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script>Survival_GC_Script_Pentastar</Lua_Script>
+	<Active_Plot>Story_Sandbox_Survival_Pentastar.xml</Active_Plot>
+	
+</Story_Mode_Plots>

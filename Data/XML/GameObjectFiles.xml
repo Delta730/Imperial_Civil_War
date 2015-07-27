@@ -72,6 +72,7 @@
 
 	<File>Planets.xml</File>
 	<File>Planets_Regions.xml</File>
+		<File>Planets_Warlord.xml</File>
 
 	<File>Projectiles.xml</File>
 	<File>Turbolasers.xml</File>
@@ -161,6 +162,14 @@
 	<File>Pentastar_Heroes.xml</File>
 	<File>Pentastar_Space.xml</File>
 	<File>Pentastar_Ground.xml</File>
+	
+		<File>Teradoc_Heroes.xml</File>
+	<File>Teradoc_Space.xml</File>
+	<File>Teradoc_Ground.xml</File>
+	
+	<File>Eriadu_Space.xml</File>
+	<File>Eriadu_Ground.xml</File>
+	
 	<File>SharedSpaceTriangles.xml</File>
 		
 		<File>Survival_Units.xml</File>
