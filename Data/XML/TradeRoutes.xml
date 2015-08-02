@@ -272,6 +272,14 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
+	<TradeRoute Name="Belsavis_Clakdor">
+		<Point_A>Belsavis</Point_A>
+		<Point_B>Clakdor</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="Belsavis_Endor">
 		<Point_A>Belsavis</Point_A>
 		<Point_B>Endor</Point_B>
@@ -307,6 +315,14 @@
 		<TradeRoute Name="Belsavis_Vondarc">
 		<Point_A>Belsavis</Point_A>
 		<Point_B>Vondarc</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Belsmuth_Columex">
+		<Point_A>Belsmuth</Point_A>
+		<Point_B>Columex</Point_B>
 		<HS_Speed_Factor>0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
@@ -504,6 +520,14 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
+	<TradeRoute Name="Bimmisaari_Metalorn">
+		<Point_A>Bimmisaari</Point_A>
+		<Point_B>Metalorn</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="Bimmisaari_MistThree">
 		<Point_A>Bimmisaari</Point_A>
 		<Point_B>MistThree</Point_B>
@@ -523,6 +547,14 @@
 	<TradeRoute Name="Bimmisaari_Nespis">
 		<Point_A>Bimmisaari</Point_A>
 		<Point_B>NespisVIII</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Bimmisaari_NewAlderaan">
+		<Point_A>Bimmisaari</Point_A>
+		<Point_B>NewAlderaan</Point_B>
 		<HS_Speed_Factor>0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
@@ -1353,14 +1385,6 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
-	<TradeRoute Name="Columex_Metalorn">
-		<Point_A>Columex</Point_A>
-		<Point_B>Metalorn</Point_B>
-		<HS_Speed_Factor>0</HS_Speed_Factor>
-		<Political_Control_Gain>0</Political_Control_Gain>
-		<Credit_Gain_Factor>0</Credit_Gain_Factor>
-		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
-	</TradeRoute>
 	<TradeRoute Name="Columex_MonCal">
 		<Point_A>Columex</Point_A>
 		<Point_B>MonCalimari</Point_B>
@@ -1961,6 +1985,14 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
+	<TradeRoute Name="Eaittu_Vondarc">
+		<Point_A>Eiattu</Point_A>
+		<Point_B>Vondarc</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="Endor_Qat">
 		<Point_A>Endor</Point_A>
 		<Point_B>QatChrystac</Point_B>
@@ -1980,6 +2012,14 @@
 	<TradeRoute Name="Eriadu_Qat">
 		<Point_A>Eriadu</Point_A>
 		<Point_B>QatChrystac</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Eriadu_Sanrafsix">
+		<Point_A>Eriadu</Point_A>
+		<Point_B>Sanrafsix</Point_B>
 		<HS_Speed_Factor>0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
@@ -2265,6 +2305,14 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
+	<TradeRoute Name="Garos_Ossus">
+		<Point_A>Garos_IV</Point_A>
+		<Point_B>Ossus</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="Garos_Phindar">
 		<Point_A>Garos_IV</Point_A>
 		<Point_B>Phind</Point_B>
@@ -2404,6 +2452,14 @@
 	<TradeRoute Name="Gravan_Obroa">
 		<Point_A>Gravan</Point_A>
 		<Point_B>ObroaSkai</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Gravan_Togoria">
+		<Point_A>Gravan</Point_A>
+		<Point_B>Togoria</Point_B>
 		<HS_Speed_Factor>0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
@@ -3145,6 +3201,14 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
+	<TradeRoute Name="MonCal_NewAlderaan">
+		<Point_A>MonCalimari</Point_A>
+		<Point_B>NewAlderaan</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="MonCal_Ossus">
 		<Point_A>MonCalimari</Point_A>
 		<Point_B>Ossus</Point_B>
@@ -3569,6 +3633,14 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
+	<TradeRoute Name="Roche_Togoria">
+		<Point_A>Roche</Point_A>
+		<Point_B>Togoria</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="Rodia_Sluis">
 		<Point_A>Rodia</Point_A>
 		<Point_B>Sluis_Van</Point_B>
@@ -3620,6 +3692,14 @@
 	<TradeRoute Name="Sluis_Thyferra">
 		<Point_A>Sluis_Van</Point_A>
 		<Point_B>Thyferra</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Sluis_Utapau">
+		<Point_A>Sluis_Van</Point_A>
+		<Point_B>Utapau</Point_B>
 		<HS_Speed_Factor>0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
