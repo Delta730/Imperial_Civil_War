@@ -48,7 +48,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_ADUMAR_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_ADUMAR_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_ADUMAR_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_ADUMAR_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_CENTARES_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_ADUMAR_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -108,7 +108,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_DENON_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_DENON_INFO_TAC</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_DENON_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_DENON_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_COLUMEX_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_DENON_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_HEAVY</Planet_Ability_Description>
@@ -170,7 +170,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_BAKURA_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_BAKURA_INFO_TAC</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_BAKURA_INFO_ADV--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_DANTOOINE_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_TOGORIA_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_DANTOOINE_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -231,7 +231,7 @@
 		<Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<Describe_Tactical>TEXT_PLANET_LEVIAN_ENCYC_01</Describe_Tactical>
 		<Describe_Advantage>TEXT_PLANET_LEVIAN_INFO_ADV_01</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_POLNEYE_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_CHARROS_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_LEVIAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_HEAVY</Planet_Ability_Description>
@@ -294,7 +294,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_GRAVEYARD_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_GRAVEYARD_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_GRAVEYARD_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_ROCHE_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_GRAVEYARD_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -351,7 +351,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_PODERIS_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_PODERIS_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_PODERIS_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_PODERIS_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_METALORN_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_PODERIS_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -418,7 +418,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_PODERIS_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_PODERIS_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_PODERIS_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_PODERIS_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_SANRAFSIX_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_PODERIS_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -543,7 +543,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_SOOCHA_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_SOOCHA_INFO_TAC_00</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_SOOCHA_INFO_ADV_00--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_SOOCHA_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_CLAKDOR_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_SOOCHA_INFO_TAC_00</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -604,7 +604,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_RISHI_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_RISHI_INFO_TAC</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_RISHI_INFO_ADV--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_DUBRILLION_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_VONDARC_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Description>TEXT_PLANET_HEAVY</Planet_Ability_Description>
 
@@ -662,7 +662,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_FARRFIN_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_FARRFIN_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_FARRFIN_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_FARRFIN_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_EIATTU_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_FARRFIN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
