@@ -2019,7 +2019,7 @@
 
     </HardPoint>
 	
-	<HardPoint Name="HP_Syndic_Mega_02">
+	<HardPoint Name="HP_Syndic_Mega_04">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2101,7 +2101,7 @@
 
     </HardPoint>
 	
-	<HardPoint Name="HP_Syndic_Mega_02">
+	<HardPoint Name="HP_Syndic_Mega_06">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
