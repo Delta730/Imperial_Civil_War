@@ -41,7 +41,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Bonadan.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Adumar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Bonadan_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
@@ -100,7 +100,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1500 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Dantooine.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> GleeAnselm.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Etti.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -224,7 +224,7 @@
 		<Max_Space_Base>2</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Trasi.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Kuat.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Amrac.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map/>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -278,7 +278,7 @@
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Crustai.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Crustai.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map/>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -392,7 +392,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		
 		<Space_Tactical_Map>Space_Kariek.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Lwhekk.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Yavin.ted </Land_Tactical_Map>
 		
 		<Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
@@ -530,7 +530,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Borleais.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Thyferra.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Borleais.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -584,7 +584,7 @@
 		<Max_Space_Base>2</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Alderaan.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Terephon.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Hapes.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -642,7 +642,7 @@
 		<Max_Space_Base>2</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Umika.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Hoth_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Umika.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map/>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -698,7 +698,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Riette.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> gleeanselm.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Lwhekk.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -755,7 +755,7 @@
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Ukio.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Alderaan.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Sarvchi.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map/>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -867,7 +867,7 @@
 		<Max_Space_Base>3</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Dagobah.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Fallmap.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Syca.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map/>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -977,7 +977,7 @@
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Brentaal.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Carida.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Charubah.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -1035,7 +1035,7 @@
 		<Max_Space_Base>2</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Alderaan.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Rodia.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Hapes.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -1254,7 +1254,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Terephon.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Bestine_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Terephon.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -1313,7 +1313,7 @@
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Alderaan.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Jomark.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Hapes.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -1434,7 +1434,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Exocron.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Corulag.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Exocron.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -1548,7 +1548,7 @@
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> gleeanselm.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Iridonia.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_GravlexMed.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -1611,7 +1611,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Kuat.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Kuat.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Carida_02.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1800 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
@@ -1672,7 +1672,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Kuat.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Corulag.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Wayland_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -1790,7 +1790,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_YagaMinor.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> YagaMinor.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Anaxes_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -1855,7 +1855,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Bakura.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Corellia_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Bakura.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -1916,7 +1916,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Yagdhul.ted</Space_Tactical_Map>
-		<Land_Tactical_Map>YagDhul.ted </Land_Tactical_Map>
+		<Land_Tactical_Map>Iridonia.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -2030,7 +2030,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 800 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Lwhekk.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> ObroaSkai.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Chorax.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -2144,7 +2144,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Levian.ted</Space_Tactical_Map>
-		<Land_Tactical_Map>AArgonar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map>_Land_Planet_Hypori_01.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>

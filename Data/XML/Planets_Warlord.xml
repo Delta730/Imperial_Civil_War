@@ -26,7 +26,7 @@
 		<Terrain>Urban</Terrain>
 		<Planet_Credit_Value>85</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
-<Galactic_Position>240, 225, 10.0</Galactic_Position>
+		<Galactic_Position>240, 225, 10.0</Galactic_Position>
 		<Special_Structures_Land>2</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
@@ -34,7 +34,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Adumar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Bestine_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Adumar.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
@@ -87,7 +87,7 @@
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Planet_Credit_Value>160</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
-<Galactic_Position>295, 295, 10.0</Galactic_Position>
+		<Galactic_Position>295, 295, 10.0</Galactic_Position>
 		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>2</Max_Space_Base>
@@ -156,7 +156,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Bakura.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Dantooine.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Ylesia.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -218,7 +218,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Levian.ted</Space_Tactical_Map>
-		<Land_Tactical_Map>AArgonar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map>Generis.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -337,7 +337,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Poderis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> YagDhul.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Poderis.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -404,7 +404,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Poderis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Bonadan_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Poderis.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -467,7 +467,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Poderis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Utapau_01.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Poderis.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -529,7 +529,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Soocha.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Soocha.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Dathomir.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 2400 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -590,7 +590,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Rishi.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> gleeanselm.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Kuat_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -648,7 +648,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Farrfin.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Alderaan.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Felucia_00.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>

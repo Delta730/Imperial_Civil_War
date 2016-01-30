@@ -365,7 +365,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 800 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Ilum.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Belsavis.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Belsavis.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -538,7 +538,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Aargonar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Exocron.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Bpfassh.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -595,7 +595,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Bakura.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Kothlis.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Bakura.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -655,7 +655,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> _Land_Planet_Utapau_01.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Dagobah_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Dagobah.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -710,7 +710,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Max_Space_Base>3</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Dathomir.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Dathomir_01.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Dathomir.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -773,7 +773,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Bakura.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Dantooine.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Dantooine_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -835,7 +835,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Soocha.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Soocha.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 2400 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -896,7 +896,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Rishi.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> gleeanselm.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Carida.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -953,7 +953,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1800 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Endor.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Endor_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Endor.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -1014,7 +1014,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Exocron.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Eriadu_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Exocron.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -1128,7 +1128,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Bakura.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Bakura.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Felucia_00.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -1187,7 +1187,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Generis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> AbregadoRae.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Generis.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -1249,7 +1249,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		
 		<Space_Tactical_Map>Space_Helska.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Helska4.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_AlzocIII_02.ted </Land_Tactical_Map>
 		
 		<Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
@@ -1302,7 +1302,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Honoghr.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Honoghr_01.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Honoghr.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -1364,7 +1364,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 800 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Ilum.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Ilum_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Ilum.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -1421,7 +1421,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1500 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> jomark.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Telos.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Jomark.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -1539,7 +1539,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Kessel.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Bilbringi.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> SluisVan.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -1598,7 +1598,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Ketaris.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Crustai.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Kuat.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -1660,7 +1660,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Levian.ted</Space_Tactical_Map>
-		<Land_Tactical_Map>AArgonar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map>_Land_Planet_Rattatak_01.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -1779,7 +1779,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_MonCalamari.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> MonCal.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_MonCalimari_02.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -1902,7 +1902,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Nespis.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Tangrene.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Soocha.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -1963,7 +1963,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_NewAlderaan.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Alderaan.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Alderaan_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -2024,7 +2024,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Ossus.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Poderis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Korriban_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -2141,7 +2141,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Rishi.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> gleeanselm.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Trasi.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -2316,7 +2316,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Levian.ted</Space_Tactical_Map>
-		<Land_Tactical_Map>AArgonar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map>Telos.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -2429,7 +2429,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Nkllon.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Sullust_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_SluisVan.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -2490,7 +2490,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Svivren.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Ukio.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Jomark.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -2728,7 +2728,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Ukio.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Ukio.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> CiutricIV.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -2865,7 +2865,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Dantooine.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Lwhekk.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Wistril.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -2927,7 +2927,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Yavin.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Yavin.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Yavin_02.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
@@ -2988,7 +2988,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Ylesia.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Bakura.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Ylesia.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -3054,7 +3054,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Dantooine.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Felucia_00.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Bimmisaari.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -3199,7 +3199,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Commenor.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Jomark.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Cejansiji.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -3259,7 +3259,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Umika.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Hoth_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Chrondre.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -3317,7 +3317,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1500 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Denon.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Muunilinst_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Druckenwell.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -3379,7 +3379,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Filve.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Ryloth.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Fondor.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -3436,7 +3436,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		
 		<Space_Tactical_Map>Space_GarosIV.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Carida.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Generis.ted </Land_Tactical_Map>
 		
 		<Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
@@ -3493,7 +3493,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Bastion.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Denon.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Taris_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 2400 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
@@ -3610,7 +3610,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Kashyyyk.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Kashyyyk_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Kashyyyk.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -3671,7 +3671,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Kothlis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Bothawui_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Kothlis.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -3877,7 +3877,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> NewCov.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Bakura.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_NewCov.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -3994,7 +3994,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> CiutricIV.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> GleeAnselm.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Orinda.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -4056,7 +4056,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> OrdPardron.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Bastion.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_OrdPardron.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -4176,7 +4176,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_QatChrystac.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> QatChrystac.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_AetenII_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -4234,7 +4234,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Thyferra.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Thyferra.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Eriadu_02.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -4293,7 +4293,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Thyferra.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Thyferra.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Thyferra_02.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -4352,7 +4352,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Woostri.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> GleeAnselm.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Kothlis.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -4478,7 +4478,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Bilbringi.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Bilbringi.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Poderis.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -4592,7 +4592,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Carida.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Carida_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Carida.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -4655,7 +4655,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Borleais.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> GleeAnselm.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Borleais.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -4712,7 +4712,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Chardaan.ted</Space_Tactical_Map> <!-- Same basic planet, not worth doing a new space map for -->
-		<Land_Tactical_Map> Kuat.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Generis.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1800 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
@@ -4950,7 +4950,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Fondor.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Fondor.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Manaan_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1800 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -5013,7 +5013,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Yagdhul.ted</Space_Tactical_Map>
-		<Land_Tactical_Map>YagDhul.ted </Land_Tactical_Map>
+		<Land_Tactical_Map>_Land_Planet_Mustafar_01.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -5069,7 +5069,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Mrisst.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Generis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Rodia.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -5130,7 +5130,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Bothawui.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Bestine_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Bothawui.ted</Space_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -5190,7 +5190,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> ObroaSkai.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Polus_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_ObroaSkai.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -5254,7 +5254,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
 		<Space_Tactical_Map>Space_Nzoth.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> AArgonar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Dathomir_01.ted </Land_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
@@ -5316,7 +5316,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Carida.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Bakura.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Onderon.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -5438,7 +5438,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_PorusVida.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Dantooine.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Thyferra.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -5499,7 +5499,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Nirauan.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Jabiim_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_TALASEA.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -5533,7 +5533,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
-		<Land_Tactical_Map> YagDhul.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Shola_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Yagdhul.ted</Space_Tactical_Map>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.85</Scale_Factor>
@@ -5680,7 +5680,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Brentaal.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Lwhekk.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Fondor.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 2400 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
@@ -5736,7 +5736,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Byss.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Byss.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Byss_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -5796,7 +5796,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Yagaminor.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> CiutricIV.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Chandrila.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
@@ -5851,7 +5851,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Corellia.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Corellia.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Corellia_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 2000 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -5912,7 +5912,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Corulag.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Corulag.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Corulag_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -6031,7 +6031,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Alzoc.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_AlzocIII_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Dolomar.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map/>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -6149,7 +6149,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Farrfin.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Alderaan.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> ObroaSkai.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -6273,7 +6273,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_ObroaSkai.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> ObroaSkai.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Fresia_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -6310,7 +6310,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 				<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
-		<Land_Tactical_Map> YagDhul.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Korriban_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Yagdhul.ted</Space_Tactical_Map>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -6456,7 +6456,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Kuat.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Kuat.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Anaxes_02.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1800 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
@@ -6517,7 +6517,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Metellos.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Adumar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Taris_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -6569,7 +6569,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Ukio.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Tangrene.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>SpacePakrikMinor.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -6629,7 +6629,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Pantolomin.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> GleeAnselm.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Kamino_01.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -6685,7 +6685,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Corulag.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Corulag.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Fondor_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
