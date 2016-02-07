@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<TradeRoutes>
+
+
+<!-- Black Fleet Campaign Trade Routes -->
+
+	<TradeRoute Name="Wayland_Comkin">
+		
+            <Point_A>Wayland</Point_A>
+            <Point_B>Comkin</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		<TradeRoute Name="Garqi_Comkin">
+		
+            <Point_A>Garqi</Point_A>
+            <Point_B>Comkin</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		<TradeRoute Name="Garqi_Mantell">
+		
+            <Point_A>Garqi</Point_A>
+            <Point_B>Mantell</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Wistril_Mantell">
+		
+            <Point_A>Wistril</Point_A>
+            <Point_B>Mantell</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Wistril_Adumar">
+		
+            <Point_A>Wistril</Point_A>
+            <Point_B>Adumar</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		<TradeRoute Name="Ilum_Adumar">
+		
+            <Point_A>Ilum</Point_A>
+            <Point_B>Adumar</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+
+			<TradeRoute Name="Ilum_Crustai">
+		
+            <Point_A>Ilum</Point_A>
+            <Point_B>Crustai</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		<TradeRoute Name="Denon_NalHutta">
+		
+            <Point_A>Denon</Point_A>
+            <Point_B>NalHutta</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Ylesia_NalHutta">
+		
+            <Point_A>Ylesia</Point_A>
+            <Point_B>NalHutta</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Kashyyyk_MistOne">
+		
+            <Point_A>Kashyyyk</Point_A>
+            <Point_B>MistOne</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		<TradeRoute Name="Corulag_MistOne">
+		
+            <Point_A>Corulag</Point_A>
+            <Point_B>MistOne</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		<TradeRoute Name="NewAlderaan_MistThree">
+		
+            <Point_A>NewAlderaan</Point_A>
+            <Point_B>MistThree</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="NewAlderaan_Gravan">
+		
+            <Point_A>NewAlderaan</Point_A>
+            <Point_B>Gravan</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="NewAlderaan_Nespis">
+		
+            <Point_A>NewAlderaan</Point_A>
+            <Point_B>NespisVIII</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Garos_IV_Nespis">
+		
+            <Point_A>Garos_IV</Point_A>
+            <Point_B>NespisVIII</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Corulag_Hakassi">
+		
+            <Point_A>Corulag</Point_A>
+            <Point_B>Hakassi</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		
+	<TradeRoute Name="Tsoss_Byss">
+		
+            <Point_A>Tsoss</Point_A>
+            <Point_B>Byss</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		<TradeRoute Name="Galantos_Byss">
+		
+            <Point_A>Galantos</Point_A>
+            <Point_B>Byss</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+			<TradeRoute Name="Galantos_Jtptan">
+		
+            <Point_A>Galantos</Point_A>
+            <Point_B>Jtptan</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Duro_Hakassi">
+		
+            <Point_A>Duro</Point_A>
+            <Point_B>Hakassi</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Cejansij_MistThree">
+		
+            <Point_A>NewAlderaan</Point_A>
+            <Point_B>MistThree</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Ylesia_Kashyyyk">
+		
+            <Point_A>Ylesia</Point_A>
+            <Point_B>Kashyyyk</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Bothawui_NewCov">
+		
+            <Point_A>Bothawui</Point_A>
+            <Point_B>NewCov</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Thyferra_NewCov">
+		
+            <Point_A>Thyferra</Point_A>
+            <Point_B>NewCov</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+
+	<TradeRoute Name="Borleais_ILC905">
+		
+            <Point_A>Borleais</Point_A>
+            <Point_B>ILC905</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		<TradeRoute Name="Borleais_Farrfin">
+		
+            <Point_A>Borleais</Point_A>
+            <Point_B>Farrfin</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Champala_Farrfin">
+		
+            <Point_A>Champala</Point_A>
+            <Point_B>Farrfin</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Champala_Obroa">
+		
+            <Point_A>Champala</Point_A>
+            <Point_B>ObroaSkai</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Carida_Farrfin">
+		
+            <Point_A>Carida</Point_A>
+            <Point_B>Farrfin</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Oristrom_ILC905">
+		
+            <Point_A>Oristrom</Point_A>
+            <Point_B>ILC905</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+		<TradeRoute Name="Kashyyyk_Duro">
+		
+            <Point_A>Kashyyyk</Point_A>
+            <Point_B>Duro</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Coruscant_Galantos">
+		
+            <Point_A>Coruscant</Point_A>
+            <Point_B>Galantos</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+
+	<TradeRoute Name="Pantolomin_Doornik">
+		
+            <Point_A>Pantolomin</Point_A>
+            <Point_B>Doornik</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+
+	<TradeRoute Name="Zfell_Galantos">
+		
+            <Point_A>Zfell</Point_A>
+            <Point_B>Galantos</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+
+	<TradeRoute Name="Jtptan_Polneye">
+		
+            <Point_A>Jtptan</Point_A>
+            <Point_B>Polneye</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+
+
+	
+	<TradeRoute Name="Doornik_Nzoth">
+		
+            <Point_A>Doornik</Point_A>
+            <Point_B>Nzoth</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	
+	
+	<TradeRoute Name="Mrisst_Noquivzor">
+		
+            <Point_A>Mrisst</Point_A>
+            <Point_B>Noquivzor</Point_B>
+            <HS_Speed_Factor>0.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+
+
+</TradeRoutes>

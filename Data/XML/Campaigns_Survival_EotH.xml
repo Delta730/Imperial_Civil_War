@@ -16,10 +16,10 @@
 
 	<Campaign Name="Sandbox_Survival_EotH">
 
-		<Campaign_Set> Sandbox_Survival_EotH </Campaign_Set>
+		<Campaign_Set> Sandbox_Survival </Campaign_Set>
 		<Sort_Order>20</Sort_Order>
 
-        <Text_ID> TEXT_CAMPAIGN_SINGLE_SURVIVAL_EOTH </Text_ID>
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_SURVIVAL </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_SURVIVAL </Description_Text>
 
         <Camera_Shift_X> 40.0 </Camera_Shift_X>

@@ -126,18 +126,17 @@
 		</Trade_Routes>
 		
         <Home_Location> Rebel, MonCalimari </Home_Location>
-        <Home_Location> Empire, Dathomir </Home_Location>
+        <Home_Location> Pirates, Dathomir </Home_Location>
+ 
      
-        <Starting_Active_Player> Empire </Starting_Active_Player>
+        <Starting_Active_Player> Pirates </Starting_Active_Player>
 
 		<Rebel_Story_Name>Conquests\Zsinj\Story_Plots_Sandbox_36U_Rebel_AI.xml</Rebel_Story_Name>
-        <Empire_Story_Name>Conquests\Zsinj\Story_Plots_Sandbox_36U_Empire.xml</Empire_Story_Name>
         	 
-		<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>      
+		<AI_Player_Control> Pirates, SandboxHuman </AI_Player_Control>      
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
-		<AI_Player_Control> Pirates, BasicRebel </AI_Player_Control>
 									
-		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 				
 		<Supports_Custom_Settings>False</Supports_Custom_Settings>
@@ -368,268 +367,164 @@
 		
 		<!-- Empire Starting Forces -->
 
-		<Starting_Credits> Empire,  12000 </Starting_Credits>
-		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Empire, 1 </Max_Tech_Level>
-		
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Dathomir, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Dathomir, Imperial_Star_Destroyer_Two_Raptor </Starting_Forces>
-		<Starting_Forces> Empire, Dathomir, Imperial_Star_Destroyer_Two_Raptor </Starting_Forces>
-		<Starting_Forces> Empire, Dathomir, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Dathomir, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Dathomir, E_Corellian_Corvette </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Dathomir, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
-
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Telos, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Telos, Victory_Destroyer_Mark_1 </Starting_Forces>
-		<Starting_Forces> Empire, Telos, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Telos, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Telos, E_Corellian_Corvette </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Telos, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Telos, Century_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Telos, Century_Brigade </Starting_Forces>
-
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Garos_IV, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Garos_IV, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<Starting_Forces> Empire, Garos_IV, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Garos_IV, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Garos_IV, E_Corellian_Corvette </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Garos_IV, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Garos_IV, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Garos_IV, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Phind, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Phind, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<Starting_Forces> Empire, Phind, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Phind, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Phind, E_Corellian_Corvette </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Phind, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Phind, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Phind, Imperial_Heavy_Scout_Squad </Starting_Forces>
-
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Gravan, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Gravan, Dreadnaught_Empire </Starting_Forces>
-		<Starting_Forces> Empire, Gravan, Dreadnaught_Empire </Starting_Forces>
-		<Starting_Forces> Empire, Gravan, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Empire, Gravan, E_Corellian_Corvette </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Gravan, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Gravan, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Gravan, Imperial_Heavy_Scout_Squad </Starting_Forces>
-
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Bonadan, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Bonadan, Dreadnaught_Empire </Starting_Forces>
-		<Starting_Forces> Empire, Bonadan, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Bonadan, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Bonadan, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Bonadan, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Bonadan, Imperial_ATPT_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Bonadan, Imperial_ATPT_Squad </Starting_Forces>
-
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Etti_IV, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Etti_IV, Victory_Destroyer_Mark_1 </Starting_Forces>
-		<Starting_Forces> Empire, Etti_IV, Generic_Star_Destroyer_Raptor </Starting_Forces>
-		<Starting_Forces> Empire, Etti_IV, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Etti_IV, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Etti_IV, Victory_Destroyer_Mark_1 </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Etti_IV, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Etti_IV, Chariot_LAV_Company </Starting_Forces>
-		<Starting_Forces> Empire, Etti_IV, Chariot_LAV_Company </Starting_Forces>
-
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Ession, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Ession, Generic_Star_Destroyer_Raptor </Starting_Forces>
-		<Starting_Forces> Empire, Ession, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Ession, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Ession, E_Nebulon_B_Frigate </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Ession, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Ession, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Ession, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Tangrene, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Tangrene, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<Starting_Forces> Empire, Tangrene, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Tangrene, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Tangrene, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Tangrene, E_Ground_Light_Vehicle_Factory </Starting_Forces>
-		<Starting_Forces> Empire, Tangrene, Imperial_Armor_Group </Starting_Forces>
-		<Starting_Forces> Empire, Tangrene, Imperial_Armor_Group </Starting_Forces>
-
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Mrisst, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Mrisst, Dreadnaught_Empire </Starting_Forces>
-		<Starting_Forces> Empire, Mrisst, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Mrisst, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Mrisst, E_Nebulon_B_Frigate </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Mrisst, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Mrisst, Empire_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Mrisst, Empire_Stormtrooper_Squad </Starting_Forces>
-
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Selaggis, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Selaggis, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<Starting_Forces> Empire, Selaggis, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Empire, Selaggis, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Empire, Selaggis, E_Corellian_Corvette </Starting_Forces>
-
-		
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Yavin, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Yavin, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<Starting_Forces> Empire, Yavin, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Yavin, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Yavin, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Yavin, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Yavin, Imperial_Light_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Yavin, Imperial_Light_Scout_Squad </Starting_Forces>
-		
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Comkin, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Comkin, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Empire, Comkin, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Comkin, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Comkin, E_Corellian_Corvette </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Comkin, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
-		
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Belsmuth, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Belsmuth, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Empire, Belsmuth, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Belsmuth, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Empire, Belsmuth, E_Corellian_Corvette </Starting_Forces>
-		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Empire, Belsmuth, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Belsmuth, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Belsmuth, Imperial_Stormtrooper_Squad </Starting_Forces>
-		
-		
-		<!-- Warlords Starting Forces -->
-
-		<Starting_Credits> Pirates,  900000 </Starting_Credits>
+		<Starting_Credits> Pirates,  12000 </Starting_Credits>
 		<Starting_Tech_Level> Pirates, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Pirates, 1 </Max_Tech_Level>
 		
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Bimmisaari, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Pirates, Bimmisaari, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Bimmisaari, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Bimmisaari, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, Bimmisaari, E_Corellian_Corvette </Starting_Forces>
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Bimmisaari, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Pirates, Bimmisaari, Empire_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Bimmisaari, Empire_Stormtrooper_Squad </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Star_Destroyer_Two_Raptor </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Star_Destroyer_Two_Raptor </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, E_Corellian_Corvette </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Dathomir, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Telos, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Telos, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Telos, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Telos, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Telos, E_Corellian_Corvette </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Telos, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Telos, Century_Brigade </Starting_Forces>
+		<Starting_Forces> Pirates, Telos, Century_Brigade </Starting_Forces>
+
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Garos_IV, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Garos_IV, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<Starting_Forces> Pirates, Garos_IV, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Garos_IV, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Garos_IV, E_Corellian_Corvette </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Garos_IV, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Garos_IV, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Garos_IV, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, PorusVida, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Pirates, PorusVida, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, PorusVida, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, PorusVida, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, PorusVida, E_Corellian_Corvette </Starting_Forces>
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, PorusVida, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Pirates, PorusVida, Empire_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, PorusVida, Empire_Stormtrooper_Squad </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Phind, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Phind, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<Starting_Forces> Pirates, Phind, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Phind, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Phind, Demolisher </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Phind, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Phind, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Phind, Imperial_Heavy_Scout_Squad </Starting_Forces>
+
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Gravan, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Gravan, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Gravan, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Gravan, E_Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Gravan, E_Corellian_Corvette </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Gravan, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Gravan, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Gravan, Imperial_Heavy_Scout_Squad </Starting_Forces>
+
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Bonadan, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Bonadan, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, Imperial_ATPT_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bonadan, Imperial_ATPT_Squad </Starting_Forces>
+
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Etti_IV, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Generic_Star_Destroyer_Raptor </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Victory_Destroyer_Mark_1 </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Etti_IV, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Chariot_LAV_Company </Starting_Forces>
+		<Starting_Forces> Pirates, Etti_IV, Chariot_LAV_Company </Starting_Forces>
+
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Ession, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Ession, Generic_Star_Destroyer_Raptor </Starting_Forces>
+		<Starting_Forces> Pirates, Ession, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ession, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ession, E_Nebulon_B_Frigate </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Ession, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Ession, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+		<Starting_Forces> Pirates, Ession, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Jomark, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Pirates, Jomark, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Jomark, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Jomark, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, Jomark, E_Corellian_Corvette </Starting_Forces>
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Jomark, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Pirates, Jomark, Empire_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Jomark, Empire_Stormtrooper_Squad </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Tangrene, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Tangrene, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<Starting_Forces> Pirates, Tangrene, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tangrene, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tangrene, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Tangrene, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Pirates, Tangrene, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Pirates, Tangrene, Imperial_Armor_Group </Starting_Forces>
+
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Mrisst, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Mrisst, Dreadnaught_Empire </Starting_Forces>
+		<Starting_Forces> Pirates, Mrisst, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mrisst, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mrisst, E_Nebulon_B_Frigate </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Mrisst, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Mrisst, Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Mrisst, Empire_Stormtrooper_Squad </Starting_Forces>
+
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Selaggis, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Selaggis, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<Starting_Forces> Pirates, Selaggis, E_Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Selaggis, E_Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Selaggis, E_Corellian_Corvette </Starting_Forces>
+
 		
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Kessel, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Pirates, Kessel, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Kessel, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Kessel, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, Kessel, E_Corellian_Corvette </Starting_Forces>
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Kessel, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Pirates, Kessel, Empire_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Kessel, Empire_Stormtrooper_Squad </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Yavin, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Yavin, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<Starting_Forces> Pirates, Yavin, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Yavin, E_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Yavin, Victory_Destroyer_Mark_2 </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Yavin, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Yavin, Imperial_Light_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Yavin, Imperial_Light_Scout_Squad </Starting_Forces>
 		
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Thanos, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Pirates, Thanos, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Thanos, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Thanos, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, Thanos, Thalassa </Starting_Forces>
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Thanos, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Pirates, Thanos, Empire_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Thanos, Empire_Stormtrooper_Squad </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Comkin, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Comkin, E_Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Comkin, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Comkin, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Comkin, E_Corellian_Corvette </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Comkin, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Comkin, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Cejansij, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Pirates, Cejansij, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Cejansij, E_Nebulon_B-2_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Cejansij, E_Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, Cejansij, E_Corellian_Corvette </Starting_Forces>
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Cejansij, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Pirates, Cejansij, Empire_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Cejansij, Empire_Stormtrooper_Squad </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Belsmuth, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Pirates, Belsmuth, E_Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Belsmuth, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Belsmuth, E_Nebulon_B-2_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Belsmuth, E_Corellian_Corvette </Starting_Forces>
+		<!-- Zsinj Space Forces -->
+		<Starting_Forces> Pirates, Belsmuth, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Belsmuth, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Belsmuth, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Kuat, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Pirates, Kuat, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<Starting_Forces> Pirates, Kuat, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Kuat, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Kuat, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Kuat, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Pirates, Kuat, Imperial_Light_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Kuat, Imperial_Light_Scout_Squad </Starting_Forces>
-		
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Hakassi, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Pirates, Hakassi, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<Starting_Forces> Pirates, Hakassi, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Hakassi, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Hakassi, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Hakassi, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Pirates, Hakassi, Imperial_Light_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Hakassi, Imperial_Light_Scout_Squad </Starting_Forces>
-		
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Onderon, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Pirates, Onderon, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<Starting_Forces> Pirates, Onderon, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Onderon, E_Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Pirates, Onderon, Victory_Destroyer_Mark_2 </Starting_Forces>
-		<!-- Warlords Space Forces -->
-		<Starting_Forces> Pirates, Onderon, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Pirates, Onderon, Imperial_Light_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Onderon, Imperial_Light_Scout_Squad </Starting_Forces>
+	
 		
 	</Campaign>	
 

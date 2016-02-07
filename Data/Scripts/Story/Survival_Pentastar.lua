@@ -91,7 +91,7 @@ function Begin_GC(message)
 			}
 
 		rebel = Find_Player("Rebel")
-		pentastar = Find_Player("Pentastar}")
+		pentastar = Find_Player("Pentastar")
 		
 		start_list = {"Enforcer", "Acclamator_Assault_Ship", "Munificent"}
 		SpawnList(start_list, item_base_marker, pentastar, false, false)
