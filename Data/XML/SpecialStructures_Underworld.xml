@@ -1523,8 +1523,8 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Tactical_Health>4620</Tactical_Health>
-		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
@@ -1552,7 +1552,7 @@
 		
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Armor_Type> Armor_Station </Armor_Type>
 
 		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
 		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
@@ -1626,8 +1626,8 @@
 		<Required_Special_Structures />
 		<Required_Planets>Trasi, Chardaan, Gyndine, Jaemus, Thanos, MonCalimari, Nirauan, Fondor, Sullust, Coruscant, Kuat, Corellia, Yaga_Minor, Byss, Dathomir, Garos_IV, Bespin, Bothawui, Corulag, Carida, AetenII, Anaxes, Eriadu, Fresia, Bestine, Honoghr, Jabiim, Kamino, Kessel, Muunilinst, Bastion, Bilbringi </Required_Planets>
                 <Tactical_Health>6930</Tactical_Health>
-		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
@@ -1656,7 +1656,7 @@
 		
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Armor_Type> Armor_Station </Armor_Type>
 
 		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
 		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
@@ -1753,8 +1753,8 @@
 		<Required_Special_Structures />
 		<Required_Planets>Chardaan, Bilbringi, MonCalimari, Fondor, Byss, Sullust, Coruscant, Kuat, Corellia, Yaga_Minor, Muunilinst, Bastion, Trasi, Jaemus</Required_Planets>
                 <Tactical_Health>10010</Tactical_Health>
-		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
@@ -1784,7 +1784,7 @@
 		
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Armor_Type> Armor_Station </Armor_Type>
 
 		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
 		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
@@ -1985,7 +1985,7 @@
 </SpecialStructure>
 
 <SpecialStructure Name="EotH_Golan_Three">
-	<Variant_Of_Existing_Type>Visvia</Variant_Of_Existing_Type>
+	<Variant_Of_Existing_Type>Generic_Golan_Three</Variant_Of_Existing_Type>
 	<Tech_Level>99</Tech_Level>
 	<Affiliation>Underworld</Affiliation>
 	<Starting_Spawned_Units_Tech_0>Clawcraft_Squadron, 2</Starting_Spawned_Units_Tech_0>

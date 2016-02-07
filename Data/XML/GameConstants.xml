@@ -1564,8 +1564,8 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Transport, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Bomber, 0.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Fighter, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Bomber, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Fighter, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Hero_Transport, 0.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Corellian_Corvette, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Missile_Cruiser, 5 </Damage_To_Armor_Mod>
@@ -1581,7 +1581,7 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Assault_Frigate, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Calamari_Cruiser, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Star_Destroyer, 0.75 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Station, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Station, 1.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Capital, 0.75</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Frigate, 2</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Corvette, 1</Damage_To_Armor_Mod>
@@ -3669,7 +3669,7 @@
 	
 	<Battle_Pending_Timeout_Seconds> 15 </Battle_Pending_Timeout_Seconds>
 	
-	<Message_Of_The_Day_URL>http://216.120.238.87/EAWMOTD</Message_Of_The_Day_URL>
+	<Message_Of_The_Day_URL>http://www.petroglyphgames.com/eawmotd/</Message_Of_The_Day_URL>
 	
 	<Skirmish_Buy_Credits>2000</Skirmish_Buy_Credits>
 	<Skirmish_Reinforcement_Delay_Frames>90</Skirmish_Reinforcement_Delay_Frames>
