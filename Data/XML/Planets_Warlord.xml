@@ -26,15 +26,15 @@
 		<Terrain>Urban</Terrain>
 		<Planet_Credit_Value>85</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
-<Galactic_Position>300, 200, 10.0</Galactic_Position>
-		<Special_Structures_Land>2</Special_Structures_Land>
+		<Galactic_Position>240, 225, 10.0</Galactic_Position>
+		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Adumar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Bestine_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Adumar.ted</Space_Tactical_Map>
 
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
@@ -48,7 +48,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_ADUMAR_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_ADUMAR_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_ADUMAR_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_ADUMAR_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_CENTARES_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_ADUMAR_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -87,7 +87,7 @@
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Planet_Credit_Value>160</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
-<Galactic_Position>350, 290, 10.0</Galactic_Position>
+		<Galactic_Position>295, 295, 10.0</Galactic_Position>
 		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>2</Max_Space_Base>
@@ -108,7 +108,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_DENON_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_DENON_INFO_TAC</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_DENON_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_DENON_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_COLUMEX_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_DENON_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_HEAVY</Planet_Ability_Description>
@@ -148,7 +148,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>35</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>240, 100, 10.0</Galactic_Position>
+		<Galactic_Position>230, 110, 10.0</Galactic_Position>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
@@ -156,7 +156,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Bakura.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Dantooine.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Ylesia.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1100 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
@@ -170,7 +170,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_BAKURA_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_BAKURA_INFO_TAC</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_BAKURA_INFO_ADV--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_DANTOOINE_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_TOGORIA_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_DANTOOINE_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -218,7 +218,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Levian.ted</Space_Tactical_Map>
-		<Land_Tactical_Map>AArgonar.ted </Land_Tactical_Map>
+		<Land_Tactical_Map>Generis.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -231,7 +231,7 @@
 		<Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<Describe_Tactical>TEXT_PLANET_LEVIAN_ENCYC_01</Describe_Tactical>
 		<Describe_Advantage>TEXT_PLANET_LEVIAN_INFO_ADV_01</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_POLNEYE_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_CHARROS_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_LEVIAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_HEAVY</Planet_Ability_Description>
@@ -266,7 +266,7 @@
 		<Terrain>Desert</Terrain>
 		<Planet_Credit_Value>75</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>60</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>300, 150, 10.0</Galactic_Position>
+		<Galactic_Position>230, 180, 10.0</Galactic_Position>
 		<Special_Structures_Land>0</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
@@ -294,7 +294,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_GRAVEYARD_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_GRAVEYARD_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_GRAVEYARD_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_ROCHE_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_GRAVEYARD_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -329,7 +329,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>40</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>360, 190, 10.0</Galactic_Position>
+		<Galactic_Position>270, 200, 10.0</Galactic_Position>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
@@ -337,7 +337,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Poderis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> YagDhul.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Poderis.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -351,7 +351,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_PODERIS_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_PODERIS_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_PODERIS_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_PODERIS_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_METALORN_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_PODERIS_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -396,7 +396,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>40</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>110.0, -320.0, 10.0</Galactic_Position>
+		<Galactic_Position>110.0, -290.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
@@ -404,7 +404,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Poderis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Bonadan_02.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Poderis.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -418,7 +418,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_PODERIS_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_PODERIS_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_PODERIS_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_PODERIS_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_SANRAFSIX_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_PODERIS_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -459,15 +459,15 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>40</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>100, -480, 10.0</Galactic_Position>
-		<Special_Structures_Land>7</Special_Structures_Land>
+		<Galactic_Position>110, -440, 10.0</Galactic_Position>
+		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> Poderis.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Utapau_01.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Poderis.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -520,7 +520,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>125</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>115, -375, 10.0</Galactic_Position>
+		<Galactic_Position>76, -370, 10.0</Galactic_Position>
 		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
@@ -529,7 +529,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Soocha.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Soocha.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Dathomir.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 2400 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -543,7 +543,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_SOOCHA_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_SOOCHA_INFO_TAC_00</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_SOOCHA_INFO_ADV_00--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_SOOCHA_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_CLAKDOR_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_SOOCHA_INFO_TAC_00</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
@@ -590,7 +590,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Space_Tactical_Map>Space_Rishi.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> gleeanselm.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Kuat_02.ted </Land_Tactical_Map>
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
@@ -604,7 +604,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_RISHI_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_RISHI_INFO_TAC</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_RISHI_INFO_ADV--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_DUBRILLION_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_VONDARC_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Description>TEXT_PLANET_HEAVY</Planet_Ability_Description>
 
@@ -639,7 +639,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>75</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-60, -360, 10.0</Galactic_Position>
+		<Galactic_Position>40, -320, 10.0</Galactic_Position>
 		<Special_Structures_Land>3</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
@@ -648,7 +648,7 @@
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>Space_Farrfin.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Alderaan.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Felucia_00.ted </Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -662,7 +662,7 @@
 		<!--<Describe_Weather>TEXT_PLANET_FARRFIN_INFO_WEA</Describe_Weather>--><Describe_Weather>TEXT_PLANET_CORUSCANT_INFO_WEA</Describe_Weather>
 		<!--<Describe_Tactical>TEXT_PLANET_FARRFIN_ENCYC_01</Describe_Tactical>--><Describe_Tactical>TEXT_PLANET_NONE_INFO_WEA</Describe_Tactical>
 		<!--TEXT_PLANET_FARRFIN_INFO_ADV_01--><Describe_Advantage>TEXT_PLANET_NONE_INFO_WEA</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_FARRFIN_INFO_HIS_01</Describe_History>
+		<Describe_History>TEXT_PLANET_EIATTU_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_FARRFIN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>

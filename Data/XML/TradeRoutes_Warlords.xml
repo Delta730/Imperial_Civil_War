@@ -125,17 +125,6 @@
         
     </TradeRoute>
 	
-		<TradeRoute Name="NewAlderaan_MistThree">
-		
-            <Point_A>NewAlderaan</Point_A>
-            <Point_B>MistThree</Point_B>
-            <HS_Speed_Factor>0.0</HS_Speed_Factor>
-            <Political_Control_Gain>0</Political_Control_Gain>
-            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
-            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
-        
-    </TradeRoute>
-	
 	<TradeRoute Name="NewAlderaan_Gravan">
 		
             <Point_A>NewAlderaan</Point_A>
