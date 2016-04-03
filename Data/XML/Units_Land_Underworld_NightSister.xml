@@ -261,7 +261,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Special_Structures>Zsinj_Ground_Barracks</Required_Special_Structures>
 		<Required_Planets>Dathomir</Required_Planets>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -269,8 +269,8 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		
-		<Company_Transport_Unit>Underworld_Vehicle_Transport</Company_Transport_Unit>
-		<Company_Units>Night_Sister</Company_Units>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Night_Sister, Night_Sister, Night_Sister</Company_Units>
 
 		<SFXEvent_Build_Started>UHD_Build_Unit</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -342,7 +342,7 @@
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 
 		<Scale_Factor>1.5</Scale_Factor>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
 		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
@@ -468,12 +468,12 @@
 		<Damage>100</Damage>
 		<Autoresolve_Health>450</Autoresolve_Health>
 		
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
