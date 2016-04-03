@@ -378,10 +378,13 @@
 		<Starting_Forces> Pirates, Dathomir, E_Nebulon_B-2_Frigate </Starting_Forces>
 		<Starting_Forces> Pirates, Dathomir, E_Nebulon_B-2_Frigate </Starting_Forces>
 		<Starting_Forces> Pirates, Dathomir, E_Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Iron_Fist </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Implaccable_Star_Destroyer </Starting_Forces>
 		<!-- Zsinj Space Forces -->
-		<Starting_Forces> Pirates, Dathomir, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Zsinj_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Pirates, Dathomir, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Dathomir, Gethzerion_Team </Starting_Forces>
 
 		<!-- Zsinj Space Forces -->
 		<Starting_Forces> Pirates, Telos, Zsinj_Star_Base_1 </Starting_Forces>
@@ -393,6 +396,7 @@
 		<Starting_Forces> Pirates, Telos, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pirates, Telos, Century_Brigade </Starting_Forces>
 		<Starting_Forces> Pirates, Telos, Century_Brigade </Starting_Forces>
+				<Starting_Forces> Pirates, Telos, Melvar_Team </Starting_Forces>
 
 		<!-- Zsinj Space Forces -->
 		<Starting_Forces> Pirates, Garos_IV, Zsinj_Star_Base_1 </Starting_Forces>

@@ -252,7 +252,7 @@
 		<Damage>100</Damage>
 		<Autoresolve_Health>450</Autoresolve_Health>
 		
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
