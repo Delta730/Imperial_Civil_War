@@ -765,7 +765,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>35</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-40, 400, 10.0</Galactic_Position>
+		<Galactic_Position>-50, 410, 10.0</Galactic_Position>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
