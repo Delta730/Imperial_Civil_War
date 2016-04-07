@@ -2602,6 +2602,8 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Scale_Factor>0.7</Scale_Factor>
 	</UniqueUnit>
+	
+	
 
 	<!-- Booster -->
 

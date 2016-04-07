@@ -574,7 +574,8 @@
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Dark_Jedi_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Fortress_Company </Starting_Forces>
-		
+				<Starting_Forces> Pentastar, Jaemus, Sariss_Team </Starting_Forces>
+				
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Muunilinst, Pentastar_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Pentastar, Muunilinst, IPV </Starting_Forces>
@@ -602,6 +603,7 @@
 		<Starting_Forces> Pentastar, Jaemus, Penta_ATPT_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Jaemus, LAAT_Group </Starting_Forces>
 		<Starting_Forces> Pentastar, Jaemus, Imperial_IFTX_Group </Starting_Forces>
+				<Starting_Forces> Pentastar, Jaemus, Sariss_Team </Starting_Forces>
 		
 			<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Dantooine, Pentastar_Star_Base_1 </Starting_Forces>
@@ -1430,6 +1432,7 @@
 		<Starting_Forces> Pentastar, Jaemus, Penta_ATPT_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Jaemus, LAAT_Group </Starting_Forces>
 		<Starting_Forces> Pentastar, Jaemus, Imperial_IFTX_Group </Starting_Forces>
+				<Starting_Forces> Pentastar, Jaemus, Sariss_Team </Starting_Forces>
 		
 			<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Dantooine, Pentastar_Star_Base_1 </Starting_Forces>
@@ -2228,9 +2231,9 @@
 		<Starting_Forces> Pentastar, Bastion, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Dark_Jedi_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Sariss_Team </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Fortress_Company </Starting_Forces>
-		
+						
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Muunilinst, Pentastar_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Pentastar, Muunilinst, IPV </Starting_Forces>
@@ -2241,7 +2244,6 @@
 		<!-- Sullust Land Forces -->
 		<Starting_Forces> Pentastar, Muunilinst, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pentastar, Muunilinst, Pentastar_trooper_Squad </Starting_Forces>
-		<Starting_Forces> Pentastar, Muunilinst, Sariss_Team </Starting_Forces>
 		<Starting_Forces> Pentastar, Muunilinst, Reikas_Team </Starting_Forces>
 		<Starting_Forces> Pentastar, Muunilinst, Hailfire_Company </Starting_Forces>
 		
