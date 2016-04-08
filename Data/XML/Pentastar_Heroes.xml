@@ -468,7 +468,7 @@
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-		<CategoryMask> LandHero | SpaceHero </CategoryMask>
+		<CategoryMask> LandHero </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -645,27 +645,17 @@
 
 	<UniqueUnit Name="Vengeance_Jerec">
 		<Variant_Of_Existing_Type>Executor</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_JEREC</Text_ID>
+		<Text_ID>TEXT_HERO_SYSCO</Text_ID>
 
 		<Space_Model_Name>EV_Vengeance.ALO</Space_Model_Name>
-		<Affiliation>Pirates</Affiliation>
-		<Tech_Level>99</Tech_Level>
+		<Affiliation>Pentastar</Affiliation>
+		<Tech_Level>1</Tech_Level>
 
 		<Scale_Factor>0.65</Scale_Factor>
 
-		<SFXEvent_Select>Unit_Select_Jerec</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Jerec</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Move_Jerec</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Jerec</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Move_Jerec</SFXEvent_Guard>
-		<SFXEvent_Announce>Unit_Select_Jerec</SFXEvent_Announce>
-		<SFXEvent_Group_Move>Unit_Move_Jerec</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Attack_Jerec</SFXEvent_Group_Attack>
-		<Death_SFXEvent_Start_Die> Unit_Defeat_Jerec </Death_SFXEvent_Start_Die>
-
-		<Icon_Name>i_button_jerec.tga</Icon_Name>
+		<Icon_Name>i_button_SYSCO.tga</Icon_Name>
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_JEREC </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_SYSCO </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
