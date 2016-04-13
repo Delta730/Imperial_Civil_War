@@ -1825,7 +1825,7 @@
         <Starting_Active_Player> Pentastar </Starting_Active_Player>
 
 		<Rebel_Story_Name>Conquests\Align\Story_Plots_Sandbox_44_Rebel_Pentastar.xml</Rebel_Story_Name>
-        	<Empire_Story_Name>Conquests\Align\Story_Plots_Sandbox_44_Empire_AI.xml</Empire_Story_Name>
+        <Empire_Story_Name>Conquests\Align\Story_Plots_Sandbox_44_Empire_AI.xml</Empire_Story_Name>
         	 
 		<AI_Player_Control> Empire, BasicRebel </AI_Player_Control>      
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
