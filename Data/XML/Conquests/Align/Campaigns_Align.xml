@@ -27,7 +27,7 @@
         <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
         <Camera_Distance> 1200.0 </Camera_Distance>
 
-        <Locations> 
+         <Locations> 
 				Galaxy_Core_Art_Model, 
 				AnxMinor,
 				Bastion,
@@ -68,6 +68,7 @@
 				Thanos,
 				Tsoss,
 				YagDhul,
+				Entralla
 			</Locations>
 
         	<Trade_Routes> 
@@ -110,6 +111,8 @@
 			Denon_Duro,
 			Denon_Kashyyyk,
 			Endor_Sullust,
+			Entralla_Muunilinst,
+			Entralla_Jaemus,
 			Eriadu_Sullust,
 			Hakassi_Kuat,
 			Hakassi_Tsoss,
@@ -561,20 +564,34 @@
 		
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Bastion, Pentastar_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, IPV </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, IPV </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Gregor_Team </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Bellator </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Gladiator </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Oriflamme </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Reaper_Kaine </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Jerec_Team </Starting_Forces>
 		<!-- Sullust Land Forces -->
 		<Starting_Forces> Pentastar, Bastion, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Dark_Jedi_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Fortress_Company </Starting_Forces>
+		
+								<!-- Sullust Space Forces -->
+		<Starting_Forces> Pentastar, Entralla, Pentastar_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, IPV </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, IPV </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Gregor_Team </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Oriflamme </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Reaper_Kaine </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Jerec_Team </Starting_Forces>
+		<!-- Sullust Land Forces -->
+		<Starting_Forces> Pentastar, Entralla, P_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Pentastar_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Pentastar_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Dark_Jedi_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Fortress_Company </Starting_Forces>
 				<Starting_Forces> Pentastar, Jaemus, Sariss_Team </Starting_Forces>
+						
+				
+
 				
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Muunilinst, Pentastar_Star_Base_1 </Starting_Forces>
@@ -857,7 +874,7 @@
         <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
         <Camera_Distance> 1200.0 </Camera_Distance>
 
-        <Locations> 
+         <Locations> 
 				Galaxy_Core_Art_Model, 
 				AnxMinor,
 				Bastion,
@@ -898,6 +915,7 @@
 				Thanos,
 				Tsoss,
 				YagDhul,
+				Entralla
 			</Locations>
 
         	<Trade_Routes> 
@@ -940,6 +958,8 @@
 			Denon_Duro,
 			Denon_Kashyyyk,
 			Endor_Sullust,
+			Entralla_Muunilinst,
+			Entralla_Jaemus,
 			Eriadu_Sullust,
 			Hakassi_Kuat,
 			Hakassi_Tsoss,
@@ -1391,20 +1411,32 @@
 		
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Bastion, Pentastar_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, IPV </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, IPV </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Gregor_Team </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Bellator </Starting_Forces>
+		<Starting_Forces> Pentastar, Bastion, Gladiator </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Oriflamme </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Reaper_Kaine </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Jerec_Team </Starting_Forces>
 		<!-- Sullust Land Forces -->
 		<Starting_Forces> Pentastar, Bastion, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Dark_Jedi_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Fortress_Company </Starting_Forces>
 		
+								<!-- Sullust Space Forces -->
+		<Starting_Forces> Pentastar, Entralla, Pentastar_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, IPV </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, IPV </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Gregor_Team </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Oriflamme </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Reaper_Kaine </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Jerec_Team </Starting_Forces>
+		<!-- Sullust Land Forces -->
+		<Starting_Forces> Pentastar, Entralla, P_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Pentastar_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Pentastar_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Dark_Jedi_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Fortress_Company </Starting_Forces>
+				<Starting_Forces> Pentastar, Jaemus, Sariss_Team </Starting_Forces>
+						
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Muunilinst, Pentastar_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Pentastar, Muunilinst, IPV </Starting_Forces>
@@ -1727,6 +1759,7 @@
 				Thanos,
 				Tsoss,
 				YagDhul,
+				Entralla
 			</Locations>
 
         	<Trade_Routes> 
@@ -1769,6 +1802,8 @@
 			Denon_Duro,
 			Denon_Kashyyyk,
 			Endor_Sullust,
+			Entralla_Muunilinst,
+			Entralla_Jaemus,
 			Eriadu_Sullust,
 			Hakassi_Kuat,
 			Hakassi_Tsoss,
@@ -2222,17 +2257,29 @@
 		<Starting_Forces> Pentastar, Bastion, Pentastar_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Bellator </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Gladiator </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Gregor_Team </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Oriflamme </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Reaper_Kaine </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Jerec_Team </Starting_Forces>
 		<!-- Sullust Land Forces -->
 		<Starting_Forces> Pentastar, Bastion, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
-		<Starting_Forces> Pentastar, Bastion, Sariss_Team </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Fortress_Company </Starting_Forces>
+		
+								<!-- Sullust Space Forces -->
+		<Starting_Forces> Pentastar, Entralla, Pentastar_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, IPV </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, IPV </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Gregor_Team </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Oriflamme </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Reaper_Kaine </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Jerec_Team </Starting_Forces>
+		<!-- Sullust Land Forces -->
+		<Starting_Forces> Pentastar, Entralla, P_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Pentastar_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Pentastar_trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Dark_Jedi_Squad </Starting_Forces>
+		<Starting_Forces> Pentastar, Entralla, Fortress_Company </Starting_Forces>
+				<Starting_Forces> Pentastar, Jaemus, Sariss_Team </Starting_Forces>
 						
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Pentastar, Muunilinst, Pentastar_Star_Base_1 </Starting_Forces>

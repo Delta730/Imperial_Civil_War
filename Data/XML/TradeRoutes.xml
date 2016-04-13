@@ -2009,6 +2009,22 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
+	<TradeRoute Name="Entralla_Muunilinst">
+		<Point_A>Entralla</Point_A>
+		<Point_B>Muunilinst</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<TradeRoute Name="Entralla_Jaemus">
+		<Point_A>Entralla</Point_A>
+		<Point_B>JAemus</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="Eriadu_Qat">
 		<Point_A>Eriadu</Point_A>
 		<Point_B>QatChrystac</Point_B>
