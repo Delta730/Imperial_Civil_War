@@ -999,7 +999,7 @@
 					
 	</Campaign>		
 	
-		<Campaign Name="Sandbox_Warlords_Hutts">
+	<Campaign Name="Sandbox_Warlords_Hutts">
 
 		<Campaign_Set> Sandbox_Warlords </Campaign_Set>
 		<Sort_Order>2</Sort_Order>
@@ -1143,16 +1143,16 @@
 		<Home_Location> Pirates, Dathomir </Home_Location>
 	 
         <Starting_Active_Player> Hutts </Starting_Active_Player>
-		
+
 		<Rebel_Story_Name>Conquests\Warlords\Story_Plots_Sandbox_44_Rebel_AI.xml</Rebel_Story_Name>
         <Empire_Story_Name>Conquests\Warlords\Story_Plots_Sandbox_44_Empire_AI.xml</Empire_Story_Name>
         	 
-		<AI_Player_Control> Hutts, SandboxHuman </AI_Player_Control>      
+		<AI_Player_Control> Teradoc, BasicRebel </AI_Player_Control>      
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
 		<AI_Player_Control> Pentastar, BasicRebel </AI_Player_Control>
 		<AI_Player_Control> Pirates, BasicRebel </AI_Player_Control>	
 		<AI_Player_Control> Empire, BasicRebel </AI_Player_Control>		
-		<AI_Player_Control> Teradoc, BasicRebel </AI_Player_Control>			
+		<AI_Player_Control> Hutts, SandboxHuman </AI_Player_Control>			
 		
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
@@ -1981,7 +1981,7 @@
 		<Starting_Forces> Hutts, Belsavis, Hutts_trooper_Squad </Starting_Forces>
 		<Starting_Forces> Hutts, Belsavis, Hutts_trooper_Squad </Starting_Forces>
 					
-	</Campaign>		
+	</Campaign>	
 	
 
  </Campaigns>
