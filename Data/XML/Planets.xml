@@ -4228,7 +4228,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Galactic_Position>320, 100, 10.0</Galactic_Position>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
-		<Max_Space_Base>1</Max_Space_Base>
+		<Max_Space_Base>3</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -4252,7 +4252,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_THYFERRA_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_LIGHT</Encyclopedia_Text><!---TEXT_PLANET_MANAAN_HEAL-->
+		<Encyclopedia_Text>TEXT_PLANET_CAPITAL</Encyclopedia_Text><!---TEXT_PLANET_MANAAN_HEAL-->
 		<!--<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>--><Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>

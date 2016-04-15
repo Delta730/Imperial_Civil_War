@@ -269,7 +269,7 @@
 		<Galactic_Position>230, 180, 10.0</Galactic_Position>
 		<Special_Structures_Land>0</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
-		<Max_Space_Base>1</Max_Space_Base>
+		<Max_Space_Base>3</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 
@@ -299,7 +299,7 @@
 		<Planet_Ability_Name>TEXT_PLANET_GRAVEYARD_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_LIGHT</Encyclopedia_Text><!---TEXT_PLANET_GRAVEYARD_ENCYC_01-->
+		<Encyclopedia_Text>TEXT_PLANET_CAPITAL</Encyclopedia_Text><!---TEXT_PLANET_GRAVEYARD_ENCYC_01-->
 		<!--<Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>--><Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -332,7 +332,7 @@
 		<Galactic_Position>270, 200, 10.0</Galactic_Position>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
-		<Max_Space_Base>1</Max_Space_Base>
+		<Max_Space_Base>2</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -354,7 +354,7 @@
 		<Describe_History>TEXT_PLANET_METALORN_INFO_HIS</Describe_History>
 
 		<Planet_Ability_Name>TEXT_PLANET_PODERIS_INFO_ADV_01</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_PLANET_LIGHT</Planet_Ability_Description>
+		<Planet_Ability_Description>TEXT_PLANET_HEAVY</Planet_Ability_Description>
 
 		<Encyclopedia_Text>TEXT_PLANET_LIGHT</Encyclopedia_Text><!---TEXT_PLANET_PODERIS_ENCYC_01-->
 		<!--<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>--><Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>

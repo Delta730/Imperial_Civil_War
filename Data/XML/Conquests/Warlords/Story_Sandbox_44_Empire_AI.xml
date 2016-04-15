@@ -17,11 +17,6 @@
 	
 	<!-- Spawn Tech Level 1 Heroes Isard -->
 
-	<Event Name="Empire_Enters_Tech_01">
-		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>1</Event_Param1>
-	</Event>
-
 	<Event Name="Spawn_Isard">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
@@ -31,13 +26,12 @@
 	</Event>
 
 
-
 	<Event Name="Spawn_Dlarit">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Elite_Squadron</Reward_Param1>
 		<Reward_Param2>Thyferra</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 	
 	<Event Name="Spawn_Krennal">
@@ -45,7 +39,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Reckoning_Star_Destroyer</Reward_Param1>
 		<Reward_Param2>Thyferra</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 	
 		<Event Name="Spawn_Convarion">
@@ -53,43 +47,37 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Corrupter_Star_Destroyer</Reward_Param1>
 		<Reward_Param2>Thyferra</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 	
 		<Event Name="Spawn_Trigit">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Implacable_Star_Destroyer</Reward_Param1>
+		<Reward_Param1>Implaccable_Star_Destroyer</Reward_Param1>
 		<Reward_Param2>Thyferra</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 		<Event Name="Spawn_Brashin">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Brashin_Team</Reward_Param1>
 		<Reward_Param2>Thyferra</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 		<Event Name="Spawn_Loor">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Loor_Team</Reward_Param1>
 		<Reward_Param2>Thyferra</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 		<Event Name="Spawn_Derricote">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Derricote_Team</Reward_Param1>
 		<Reward_Param2>Thyferra</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_01</Prereq>
-	</Event>
-	
-	<Event Name="CommanderLock">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Fleet_Com_Empire_Team</Reward_Param1>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
+
 
 </Story>

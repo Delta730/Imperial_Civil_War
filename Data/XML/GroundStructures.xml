@@ -2861,6 +2861,57 @@
 		<Obstacle_Proxy_Type> Pentastar_Build_Pad </Obstacle_Proxy_Type>
 
 	</GroundStructure>
+	
+		   <GroundStructure Name="Sensor_Array_Teradoc">
+
+ 		<Variant_Of_Existing_Type> Abstract_Sensor_Array </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_STRUCTURE_SENSOR_EMPIRE</Text_ID>
+
+		<Tactical_Sell_Credits> 250 </Tactical_Sell_Credits>
+		<SFXEvent_Sold_Tactical> EHD_Sensor_Node_Sold </SFXEvent_Sold_Tactical>
+
+		<Required_Special_Structures>Communications_Array_P</Required_Special_Structures>
+		 
+		<Affiliation>Teradoc</Affiliation>
+
+		<Obstacle_Proxy_Type> Pentastar_Build_Pad </Obstacle_Proxy_Type>
+
+	</GroundStructure>
+	
+			   <GroundStructure Name="Sensor_Array_Pirates">
+
+ 		<Variant_Of_Existing_Type> Abstract_Sensor_Array </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_STRUCTURE_SENSOR_EMPIRE</Text_ID>
+
+		<Tactical_Sell_Credits> 250 </Tactical_Sell_Credits>
+		<SFXEvent_Sold_Tactical> EHD_Sensor_Node_Sold </SFXEvent_Sold_Tactical>
+
+		<Required_Special_Structures>Communications_Array_P</Required_Special_Structures>
+		 
+		<Affiliation>Pirates</Affiliation>
+
+		<Obstacle_Proxy_Type> Pentastar_Build_Pad </Obstacle_Proxy_Type>
+
+	</GroundStructure>
+	
+			   <GroundStructure Name="Sensor_Array_Hutts">
+
+ 		<Variant_Of_Existing_Type> Abstract_Sensor_Array </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_STRUCTURE_SENSOR_EMPIRE</Text_ID>
+
+		<Tactical_Sell_Credits> 250 </Tactical_Sell_Credits>
+		<SFXEvent_Sold_Tactical> EHD_Sensor_Node_Sold </SFXEvent_Sold_Tactical>
+
+		<Required_Special_Structures>Communications_Array_P</Required_Special_Structures>
+		 
+		<Affiliation>Hutts</Affiliation>
+
+		<Obstacle_Proxy_Type> Pentastar_Build_Pad </Obstacle_Proxy_Type>
+
+	</GroundStructure>
 
    <GroundStructure Name="Sensor_Array_Underworld">
 

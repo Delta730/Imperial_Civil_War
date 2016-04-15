@@ -22,7 +22,8 @@
 	<File>GroundBuildablesSkirmish.xml</File>
 	<File>Dominator.xml</File>
 	<File>EotH_Vehicles.xml</File>
-
+	<File>Imperial_Vehicles_Collective.xml</File>
+	
 	<File>GalacticCompanies.xml</File>
 	<File>TechTreeUnits.xml</File>
 

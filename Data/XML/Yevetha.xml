@@ -1577,24 +1577,7 @@
 
 
    
-	<GroundVehicle Name="AT_ST_Duskhan">
-		<Variant_Of_Existing_Type> AT_ST_Walker </Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_AT_ST_WALKER</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ATST_YEVETHA</Encyclopedia_Text>
-		
-		
-		<Affiliation>Yevetha</Affiliation>
-		<Tactical_Health>270</Tactical_Health>
-		<Projectile_Types>Proj_ATST_Blaster_Cannon_Red</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>240.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
-		
-		
-	</GroundVehicle>
+	
 	
 	<GroundCompany Name="Yevethan_Heavy_Scout_Squad">
 		<LOD_Bias>4</LOD_Bias>
@@ -1650,16 +1633,7 @@
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 	
-	<GroundVehicle Name="AT_AT_Duskhan">
-		<Variant_Of_Existing_Type> AT_AT_Walker </Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_AT_AT_WALKER</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ATAT_YEVETHA</Encyclopedia_Text>
-		
-		
-		<Affiliation>Yevetha</Affiliation>
-		<Tactical_Health>600</Tactical_Health>
-		
-	</GroundVehicle>
+
 	<GroundCompany Name="Yevethan_Heavy_Assault_Company">
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_IMPERIAL_HEAVY_ASSAULT_COMPANY</Text_ID>

@@ -9,7 +9,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Sprite>No</Is_Sprite>
 		<Type>Walk</Type>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>75</Size_Value>
 		<!--  <Damage>2</Damage> -->
@@ -64,7 +64,7 @@
 		<GUI_Row>1</GUI_Row>
 		<Text_ID>TEXT_HERO_UNIT_PROBE_DROID</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Build_Cost_Credits>30</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
@@ -106,7 +106,7 @@
 		<Galactic_Model_Name>Light_Shipyard.alo</Galactic_Model_Name>
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Build_Cost_Credits>600</Build_Cost_Credits>
 		<AI_Combat_Power>5000</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
@@ -222,7 +222,7 @@
 		<Galactic_Model_Name>Heavy_Shipyard.alo</Galactic_Model_Name>
 		<Select_Box_Scale>900</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Build_Cost_Credits>1200</Build_Cost_Credits>
 		<AI_Combat_Power>10000</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -352,7 +352,7 @@
 		<Galactic_Model_Name>capital_shipyard.alo</Galactic_Model_Name>
 		<Select_Box_Scale>300</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Build_Cost_Credits>2400</Build_Cost_Credits>
 		<AI_Combat_Power>15000</AI_Combat_Power>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -587,7 +587,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -760,7 +760,7 @@
 		<Hyperspace_Speed>1</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -925,7 +925,7 @@
 		<Hyperspace_Speed>1</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -1066,7 +1066,7 @@
 	
 	<SpaceUnit Name="Venator_Delvardus">
 		<Variant_Of_Existing_Type>Generic_Venator</Variant_Of_Existing_Type>
-	    <Affiliation>Delvardus</Affiliation>
+	    <Affiliation>Hutts</Affiliation>
         <Tech_Level>1</Tech_Level>
 	
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -1086,7 +1086,7 @@
 	
 	<SpaceUnit Name="Victory_II_Delvardus">
 		<Variant_Of_Existing_Type>Generic_Victory_Destroyer_Two</Variant_Of_Existing_Type>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Tech_Level>1</Tech_Level>
 		<Population_Value>6</Population_Value>
 		
@@ -1100,7 +1100,7 @@
 	
 	<SpaceUnit Name="Victory_I_Delvardus">
 		<Variant_Of_Existing_Type>Generic_Victory_Destroyer</Variant_Of_Existing_Type>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Tech_Level>1</Tech_Level>
 		<Population_Value>6</Population_Value>
 		
@@ -1114,14 +1114,14 @@
 	
 	<SpaceUnit Name="Vindicator_Delvardus">
 		<Variant_Of_Existing_Type>Vindicator_Cruiser</Variant_Of_Existing_Type>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Tech_Level>1</Tech_Level>
 		
 	</SpaceUnit>
 	
 		<SpaceUnit Name="Gladiator_Delvardus">
 		<Variant_Of_Existing_Type>Gladiator</Variant_Of_Existing_Type>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Tech_Level>1</Tech_Level>
 		
 	</SpaceUnit>
@@ -1129,7 +1129,7 @@
 	<SpaceUnit Name="ISD_II_Delvardus">
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer_Two</Variant_Of_Existing_Type>
 		<Tech_Level>1</Tech_Level>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 
 		<Starting_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_1>
@@ -1147,7 +1147,7 @@
 	<SpaceUnit Name="ISD_I_Delvardus">
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
 		<Tech_Level>1</Tech_Level>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		
 		<Starting_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_1>
@@ -1201,7 +1201,7 @@
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
 
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -1363,7 +1363,7 @@
 
 	    <Variant_Of_Existing_Type>Generic_Victory_Destroyer</Variant_Of_Existing_Type>
 		<Tech_Level>1</Tech_Level>
-		<Affiliation>Delvardus</Affiliation>
+		<Affiliation>Hutts</Affiliation>
 		
 		<Text_ID>TEXT_UNIT_CRIMSON</Text_ID>
 		

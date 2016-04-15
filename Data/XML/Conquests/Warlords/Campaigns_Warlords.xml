@@ -153,14 +153,15 @@
 		
         <Home_Location> Rebel, MonCalimari </Home_Location>
         <Home_Location> Empire, Coruscant </Home_Location>
-		 <Home_Location> Pentastar, Bastion </Home_Location>
-		 		 <Home_Location> Teradoc, Centares </Home_Location>
-				 <Home_Location> Hutts, Eriadu </Home_Location>
+		<Home_Location> Pentastar, Bastion </Home_Location>
+		<Home_Location> Teradoc, Centares </Home_Location>
+		<Home_Location> Hutts, Eriadu </Home_Location>
+		<Home_Location> Pirates, Dathomir </Home_Location>
 	 
         <Starting_Active_Player> Teradoc </Starting_Active_Player>
 
-		<Rebel_Story_Name>Conquests\Align\Story_Plots_Sandbox_44_Rebel_AI.xml</Rebel_Story_Name>
-        	<Empire_Story_Name>Conquests\Align\Story_Plots_Sandbox_44_Empire_AI.xml</Empire_Story_Name>
+		<Rebel_Story_Name>Conquests\Warlords\Story_Plots_Sandbox_44_Rebel_AI.xml</Rebel_Story_Name>
+        <Empire_Story_Name>Conquests\Warlords\Story_Plots_Sandbox_44_Empire_AI.xml</Empire_Story_Name>
         	 
 		<AI_Player_Control> Teradoc, SandboxHuman </AI_Player_Control>      
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
@@ -1136,28 +1137,29 @@
 		
         <Home_Location> Rebel, MonCalimari </Home_Location>
         <Home_Location> Empire, Coruscant </Home_Location>
-		 <Home_Location> Pentastar, Bastion </Home_Location>
-		 		 <Home_Location> Teradoc, Centares </Home_Location>
-				 <Home_Location> Hutts, Eriadu </Home_Location>
+		<Home_Location> Pentastar, Bastion </Home_Location>
+		<Home_Location> Teradoc, Centares </Home_Location>
+		<Home_Location> Hutts, Eriadu </Home_Location>
+		<Home_Location> Pirates, Dathomir </Home_Location>
 	 
         <Starting_Active_Player> Hutts </Starting_Active_Player>
-
-		<Rebel_Story_Name>Conquests\Align\Story_Plots_Sandbox_44_Rebel_AI.xml</Rebel_Story_Name>
-        	<Empire_Story_Name>Conquests\Align\Story_Plots_Sandbox_44_Empire_AI.xml</Empire_Story_Name>
+		
+		<Rebel_Story_Name>Conquests\Warlords\Story_Plots_Sandbox_44_Rebel_AI.xml</Rebel_Story_Name>
+        <Empire_Story_Name>Conquests\Warlords\Story_Plots_Sandbox_44_Empire_AI.xml</Empire_Story_Name>
         	 
 		<AI_Player_Control> Hutts, SandboxHuman </AI_Player_Control>      
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
 		<AI_Player_Control> Pentastar, BasicRebel </AI_Player_Control>
 		<AI_Player_Control> Pirates, BasicRebel </AI_Player_Control>	
 		<AI_Player_Control> Empire, BasicRebel </AI_Player_Control>		
-		<AI_Player_Control> Hutts, BasicRebel </AI_Player_Control>			
+		<AI_Player_Control> Teradoc, BasicRebel </AI_Player_Control>			
 		
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Teradoc, DefaultGalacticHints </Markup_Filename>			
 		<Markup_Filename>Pentastar, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Teradoc, DefaultGalacticHints </Markup_Filename>			
+		<Markup_Filename>Hutts, DefaultGalacticHints </Markup_Filename>			
 		
 		<Supports_Custom_Settings>False</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
