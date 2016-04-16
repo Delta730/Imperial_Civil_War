@@ -261,7 +261,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>Zsinj_Ground_Barracks</Required_Special_Structures>
+		<Required_Special_Structures>P_Ground_Barracks</Required_Special_Structures>
 		<Required_Planets>Dathomir</Required_Planets>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
