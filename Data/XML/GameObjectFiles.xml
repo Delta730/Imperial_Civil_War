@@ -39,7 +39,11 @@
 	<File>Zsinj_Campaign_Units.xml</File>
 	
 	<File>Yevetha.xml</File>
-	<File>Zsinj.xml</File>			
+	
+	<File>Zsinj_Heroes.xml</File>		
+	<File>Zsinj_Space.xml</File>	
+	<File>Zsinj_Ground.xml</File>	
+	
 	<File>Hapes.xml</File>	
 	<File>Hutts.xml</File>	
 
