@@ -1035,7 +1035,7 @@
 		<Max_Space_Base>2</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map> Rodia.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> Alderaan.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>Space_Hapes.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
