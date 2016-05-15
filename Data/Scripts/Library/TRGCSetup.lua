@@ -85,6 +85,7 @@ local GCPlanetLists = {
         "REBEL",
         "EMPIRE"
         }
+  } 
 }
 
 
