@@ -12,7 +12,7 @@
 		<!--<Encyclopedia_Vulnerable_To> Snowspeeder Plex_Soldier Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>-->
 		<Encyclopedia_Text>TEXT_TOOLTIP_ATTE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
-		<Land_Model_Name>ATTETest.ALO</Land_Model_Name>
+		<Land_Model_Name>ATTE.ALO</Land_Model_Name>
 		<Icon_Name>i_button_atte.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>ABILITY_COUNTDOWN, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,STUNNABLE,DAMAGE_TRACKING,SQUASH,AFFECTED_BY_SHIELD</LandBehavior>
@@ -28,9 +28,9 @@
 		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
 		<Projectile_Appearance_Delay_Frames>2,1</Projectile_Appearance_Delay_Frames>
 		<Scale_Factor>1</Scale_Factor>
-		<Movement_Animation_Speed> 0.9566 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.9066 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 0.5 </Rotation_Animation_Speed>
-		<Max_Speed>0.45 </Max_Speed>
+		<Max_Speed>0.40 </Max_Speed>
 		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>
@@ -48,7 +48,7 @@
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Type>Walk</Type>
-		<Deploys>Yes</Deploys>
+		<Deploys>No</Deploys>
 		<Auto_Deploys>No</Auto_Deploys>
 		<Affiliation>Pentastar</Affiliation>
 		<Political_Control>0</Political_Control>
@@ -59,28 +59,21 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>90.0</Targeting_Min_Attack_Distance>
 		<!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles priority 3 (N/A = 9999) -->
-		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Ground_Infantry> 4 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Air_Vehicles> 2 </Turret_Targets_Air_Vehicles>
-		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
-		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>60</Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
-		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
-		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-		<Targeting_Fire_Inaccuracy> Infantry, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
-		<Ranged_Target_Z_Adjust>50.0</Ranged_Target_Z_Adjust>
-		<Projectile_Types>Proj_Ground_Laser_Cannon_Red_ATAT</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		
+		
+		<HardPoints>
+			HP_ATTE_Main,
+			HP_ATTE_TurretFrontLeft,
+			HP_ATTE_TurretFrontRight,
+			HP_ATTE_TurretFrontBottomLeft,
+			HP_ATTE_TurretFrontBottomRight,
+			HP_ATTE_TurretBackLeft,
+			HP_ATTE_TurretBackRight,
+		</HardPoints>
+
 		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Select>Unit_Select_AT_AT</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_AT_AT</SFXEvent_Move>
