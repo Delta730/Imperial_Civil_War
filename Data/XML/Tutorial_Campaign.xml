@@ -82,7 +82,7 @@
 		<Max_Tech_Level> Rebel, 2 </Max_Tech_Level>
 		
 		<!-- MonCalimari Space Forces -->
-		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, NR_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_X-Wing_Squadron </Starting_Forces>
 		<!-- MonCalimari Land Forces -->
 		<Starting_Forces> Rebel, MonCalimari, R_Ground_Barracks </Starting_Forces>
@@ -91,7 +91,7 @@
 
 		
 		<!-- Coruscant Space Forces -->
-		<Starting_Forces> Rebel, Coruscant, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, NR_Star_Base_1 </Starting_Forces>
 		<!-- Coruscant Land Forces -->
 		<Starting_Forces> Rebel, Coruscant, R_Ground_Barracks </Starting_Forces>
 		

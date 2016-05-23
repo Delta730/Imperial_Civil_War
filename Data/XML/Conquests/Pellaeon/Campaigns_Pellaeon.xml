@@ -208,7 +208,7 @@
 		
 			
 		<!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -223,7 +223,7 @@
 		<Starting_Forces> Rebel, Bothawui, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Kothlis Space Forces -->
-		<Starting_Forces> Rebel, Kothlis, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Kothlis, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kothlis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kothlis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kothlis, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -237,7 +237,7 @@
 		<Starting_Forces> Rebel, Kothlis, Rebel_Infantry_Squad </Starting_Forces>
 	
 		<!-- Druckenwell Space Forces -->
-		<Starting_Forces> Rebel, Druckenwell, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Druckenwell, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Druckenwell, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Druckenwell, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Druckenwell, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -251,7 +251,7 @@
 		<Starting_Forces> Rebel, Druckenwell, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Dolomar Space Forces -->
-		<Starting_Forces> Rebel, Dolomar, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Dolomar, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dolomar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Dolomar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Dolomar, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -265,7 +265,7 @@
 		<Starting_Forces> Rebel, Dolomar, Rebel_Infantry_Squad </Starting_Forces>
 			
 		<!-- Chardaan Space Forces -->
-		<Starting_Forces> Rebel, Chardaan, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chardaan, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chardaan, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chardaan, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chardaan, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -279,7 +279,7 @@
 		<Starting_Forces> Rebel, Chardaan, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Sluis_Van Space Forces -->
-		<Starting_Forces> Rebel, Sluis_Van, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, NR_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, A-Wing_Squadron </Starting_Forces>
@@ -295,7 +295,7 @@
 		<Starting_Forces> Rebel, Sluis_Van, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Denon Space Forces -->
-		<Starting_Forces> Rebel, Denon, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Denon, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Denon, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Denon, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Denon, A-Wing_Squadron </Starting_Forces>
@@ -311,7 +311,7 @@
 		<Starting_Forces> Rebel, Denon, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Thyferra Space Forces -->
-		<Starting_Forces> Rebel, Thyferra, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Thyferra, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Thyferra, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Thyferra, A-Wing_Squadron </Starting_Forces>
@@ -329,7 +329,7 @@
 		<Starting_Forces> Rebel, Thyferra, Rebel_Heavy_Tank_Brigade </Starting_Forces>
 
 		<!-- MonCalimari Space Forces -->
-		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, NR_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, A-Wing_Squadron </Starting_Forces>
@@ -344,7 +344,7 @@
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Coruscant Space Forces -->
-		<Starting_Forces> Rebel, Coruscant, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, A-Wing_Squadron </Starting_Forces>
@@ -362,7 +362,7 @@
 		<Starting_Forces> Rebel, Coruscant, Rebel_Heavy_Tank_Brigade </Starting_Forces>
 
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Rebel, Bilbringi, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, NR_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -376,7 +376,7 @@
 		<Starting_Forces> Rebel, Bilbringi, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Gyndine Space Forces -->
-		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -390,7 +390,7 @@
 		<Starting_Forces> Rebel, Gyndine, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Commenor Space Forces -->
-		<Starting_Forces> Rebel, Commenor, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Commenor, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Commenor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Commenor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Commenor, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -404,7 +404,7 @@
 		<Starting_Forces> Rebel, Commenor, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Belsavis Space Forces -->
-		<Starting_Forces> Rebel, Belsavis, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -418,7 +418,7 @@
 		<Starting_Forces> Rebel, Belsavis, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Corellia Space Forces -->
-		<Starting_Forces> Rebel, Corellia, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -433,7 +433,7 @@
 		<Starting_Forces> Rebel, Corellia, Rebel_T3_Tank_Brigade </Starting_Forces>
 
 		<!-- Duro Space Forces -->
-		<Starting_Forces> Rebel, Duro, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Duro, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Duro, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Duro, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Duro, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -448,7 +448,7 @@
 		<Starting_Forces> Rebel, Duro, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Pantolomin Space Forces -->
-		<Starting_Forces> Rebel, Pantolomin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -462,7 +462,7 @@
 		<Starting_Forces> Rebel, Pantolomin, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Wayland Space Forces -->
-		<Starting_Forces> Rebel, Wayland, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -476,7 +476,7 @@
 		<Starting_Forces> Rebel, Wayland, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Chandrila Space Forces -->
-		<Starting_Forces> Rebel, Chandrila, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -490,7 +490,7 @@
 		<Starting_Forces> Rebel, Chandrila, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Yavin Space Forces -->
-		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -505,7 +505,7 @@
 		<Starting_Forces> Rebel, Yavin, Jedi_Squad </Starting_Forces>
 		
 		<!-- Champala Space Forces -->
-		<Starting_Forces> Rebel, Champala, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Champala, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Champala, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Champala, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Champala, E-Wing_Squadron </Starting_Forces>
@@ -519,7 +519,7 @@
 		<Starting_Forces> Rebel, Champala, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Levian Space Forces -->
-		<Starting_Forces> Rebel, Levian, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Levian, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Levian, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Levian, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Levian, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -534,7 +534,7 @@
 		<Starting_Forces> Rebel, Levian, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Corellia Space Forces -->
-		<Starting_Forces> Rebel, Corellia, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -548,7 +548,7 @@
 		<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Phind Space Forces -->
-		<Starting_Forces> Rebel, Phind, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Phind, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -560,7 +560,7 @@
 		<Starting_Forces> Rebel, Phind, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Adumar Space Forces -->
-		<Starting_Forces> Rebel, Adumar, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Adumar, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Adumar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Adumar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Adumar, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -574,7 +574,7 @@
 		<Starting_Forces> Rebel, Adumar, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Garos_IV Space Forces -->
-		<Starting_Forces> Rebel, Garos_IV, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Garos_IV, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Garos_IV, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Garos_IV, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Garos_IV, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -588,7 +588,7 @@
 		<Starting_Forces> Rebel, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Exocron Space Forces -->
-		<Starting_Forces> Rebel, Exocron, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Exocron, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Exocron, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Exocron, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Exocron, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -599,7 +599,7 @@
 		<Starting_Forces> Rebel, Exocron, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Balmorra Space Forces -->
-		<Starting_Forces> Rebel, Balmorra, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Balmorra, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Balmorra, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Balmorra, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Balmorra, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -614,7 +614,7 @@
 		<Starting_Forces> Rebel, Balmorra, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Abregado_Rae Space Forces -->
-		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Abregado_Rae, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -628,7 +628,7 @@
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Kashyyyk Space Forces -->
-		<Starting_Forces> Rebel, Kashyyyk, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -642,7 +642,7 @@
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- NewCov Space Forces -->
-		<Starting_Forces> Rebel, NewCov, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, NewCov, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, NewCov, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, NewCov, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -666,7 +666,7 @@
 		
 		
 		<!-- Bastion Space Forces -->
-		<Starting_Forces> Empire, Bastion, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Bastion, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Victory_Destroyer_Mark_1 </Starting_Forces>
@@ -687,7 +687,7 @@
 		<Starting_Forces> Empire, Bastion, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Morishim Space Forces -->
-		<Starting_Forces> Empire, Morishim, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Morishim, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Morishim, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Morishim, Carrack_Cruiser </Starting_Forces>
@@ -702,7 +702,7 @@
 		<Starting_Forces> Empire, Morishim, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Pakrik_Minor Space Forces -->
-		<Starting_Forces> Empire, Pakrik_Minor, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pakrik_Minor, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Carrack_Cruiser </Starting_Forces>
@@ -715,7 +715,7 @@
 		<Starting_Forces> Empire, Pakrik_Minor, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Pesitiin Space Forces -->
-		<Starting_Forces> Empire, Pesitiin, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pesitiin, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Star_Destroyer </Starting_Forces>
@@ -727,7 +727,7 @@
 		<Starting_Forces> Empire, Pesitiin, Dreadnaught_Empire </Starting_Forces>
 		
 		<!-- Orinda Space Forces -->
-		<Starting_Forces> Empire, Orinda, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Carrack_Cruiser </Starting_Forces>
@@ -742,7 +742,7 @@
 		<Starting_Forces> Empire, Orinda, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Tangrene Space Forces -->
-		<Starting_Forces> Empire, Tangrene, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Tangrene, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Tangrene, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Tangrene, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Tangrene, Strike_Cruiser </Starting_Forces>
@@ -756,7 +756,7 @@
 		<Starting_Forces> Empire, Tangrene, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Trasi Space Forces -->
-		<Starting_Forces> Empire, Trasi, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Trasi, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Trasi, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Trasi, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Trasi, Strike_Cruiser </Starting_Forces>
@@ -770,7 +770,7 @@
 		<Starting_Forces> Empire, Trasi, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Kalist Space Forces -->
-		<Starting_Forces> Empire, Kalist, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Kalist, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Kalist, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Kalist, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Kalist, Strike_Cruiser </Starting_Forces>
@@ -784,7 +784,7 @@
 		<Starting_Forces> Empire, Kalist, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Gravlex_Med Space Forces -->
-		<Starting_Forces> Empire, Gravlex_Med, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Gravlex_Med, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Gravlex_Med, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Gravlex_Med, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Gravlex_Med, Strike_Cruiser  </Starting_Forces>
@@ -799,7 +799,7 @@
 		<Starting_Forces> Empire, Gravlex_Med, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Hakassi Space Forces -->
-		<Starting_Forces> Empire, Hakassi, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Hakassi, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Hakassi, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Hakassi, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Hakassi, Strike_Cruiser  </Starting_Forces>
@@ -814,7 +814,7 @@
 		<Starting_Forces> Empire, Hakassi, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Muunilinst Space Forces -->
-		<Starting_Forces> Empire, Muunilinst, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Empire_Golan_Two </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Dreadnaught_Empire </Starting_Forces>
@@ -832,7 +832,7 @@
 		<Starting_Forces> Empire, Muunilinst, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Borosk Space Forces -->
-		<Starting_Forces> Empire, Borosk, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Borosk, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Borosk, Shipyards_Empire_Capital </Starting_Forces>
 		<Starting_Forces> Empire, Borosk, Shipyards_Empire_HeavyFrigate </Starting_Forces>
 		<Starting_Forces> Empire, Borosk, Empire_Golan_Two </Starting_Forces>
@@ -852,7 +852,7 @@
 		<Starting_Forces> Empire, Borosk, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Yaga Space Forces -->
-		<Starting_Forces> Empire, Yaga_Minor, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Yaga_Minor, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Yaga_Minor, Shipyards_Empire_Capital </Starting_Forces>
 		<Starting_Forces> Empire, Yaga_Minor, Shipyards_Empire_HeavyFrigate </Starting_Forces>
 		<Starting_Forces> Empire, Yaga_Minor, Star_Destroyer </Starting_Forces>
@@ -873,7 +873,7 @@
 		<Starting_Forces> Empire, Yaga_Minor, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- AnxMinor Space Forces -->
-		<Starting_Forces> Empire, AnxMinor, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, AnxMinor, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, AnxMinor, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, AnxMinor, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, AnxMinor, Strike_Cruiser  </Starting_Forces>
@@ -889,7 +889,7 @@
 		<Starting_Forces> Empire, AnxMinor, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Tsoss Space Forces -->
-		<Starting_Forces> Empire, Tsoss, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Tsoss, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Tsoss, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Tsoss, Strike_Cruiser  </Starting_Forces>
@@ -905,7 +905,7 @@
 		<Starting_Forces> Empire, Tsoss, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- New Cov Space Forces -->
-		<Starting_Forces> Empire, Ketaris, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Ketaris, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Ketaris, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Ketaris, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Ketaris, Strike_Cruiser  </Starting_Forces>
@@ -921,7 +921,7 @@
 		<Starting_Forces> Empire, Ketaris, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Obroa Skai Space Forces -->
-		<Starting_Forces> Empire, Dubrillion, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Dubrillion, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Dubrillion, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Dubrillion, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Dubrillion, Strike_Cruiser  </Starting_Forces>
@@ -946,7 +946,7 @@
 		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
 
   <!-- Nirauan Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Chiss_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
@@ -961,7 +961,7 @@
 		<Starting_Forces> Underworld, Nirauan, EotH_MMT_Brigade</Starting_Forces>	
 	
 	 	<!-- Syca Space Forces -->
-		<Starting_Forces> Underworld, Syca, Underworld_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Underworld, Syca, EotH_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Phalanx_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
@@ -978,7 +978,7 @@
 		<Starting_Forces> Underworld, Syca, EotH_MMT_Brigade</Starting_Forces>	
 
 		<!-- Kariek Space Forces -->
-		<Starting_Forces> Underworld, Kariek, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Dreadnaught_EotH </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
@@ -991,7 +991,7 @@
 		<Starting_Forces> Underworld, Kariek, EotH_Kirov_Brigade</Starting_Forces>
 		
 		<!-- Sarvchi Space Forces -->
-		<Starting_Forces> Underworld, Sarvchi, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Sarvchi, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
@@ -1004,7 +1004,7 @@
 		<Starting_Forces> Underworld, Sarvchi, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Rhigar Space Forces -->
-		<Starting_Forces> Underworld, Rhigar, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Rhigar, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
@@ -1017,7 +1017,7 @@
 		<Starting_Forces> Underworld, Rhigar, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Amrac Space Forces -->
-		<Starting_Forces> Underworld, Amrac, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Amrac, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
@@ -1031,7 +1031,7 @@
 		<Starting_Forces> Underworld, Amrac, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Oristrom Space Forces -->
-		<Starting_Forces> Underworld, Oristrom, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
@@ -1045,7 +1045,7 @@
 		<Starting_Forces> Underworld, Oristrom, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Crustai Space Forces -->
-		<Starting_Forces> Underworld, Crustai, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Crustai, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
@@ -1058,7 +1058,7 @@
 		<Starting_Forces> Underworld, Crustai, EotH_ATCW_Brigade</Starting_Forces>	
 
 		<!-- Quethold Space Forces -->
-		<Starting_Forces> Underworld, Quethold, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
@@ -1071,7 +1071,7 @@
 		<Starting_Forces> Underworld, Quethold, EotH_ATCW_Brigade</Starting_Forces>
 
 		<!-- Riette Space Forces -->
-		<Starting_Forces> Underworld, Riette, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Riette, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Auriette_Carrier </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
@@ -1279,7 +1279,7 @@
 		
 			
 		<!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1294,7 +1294,7 @@
 		<Starting_Forces> Rebel, Bothawui, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Kothlis Space Forces -->
-		<Starting_Forces> Rebel, Kothlis, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Kothlis, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kothlis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kothlis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kothlis, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1308,7 +1308,7 @@
 		<Starting_Forces> Rebel, Kothlis, Rebel_Infantry_Squad </Starting_Forces>
 	
 		<!-- Druckenwell Space Forces -->
-		<Starting_Forces> Rebel, Druckenwell, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Druckenwell, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Druckenwell, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Druckenwell, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Druckenwell, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1322,7 +1322,7 @@
 		<Starting_Forces> Rebel, Druckenwell, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Dolomar Space Forces -->
-		<Starting_Forces> Rebel, Dolomar, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Dolomar, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dolomar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Dolomar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Dolomar, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1336,7 +1336,7 @@
 		<Starting_Forces> Rebel, Dolomar, Rebel_Infantry_Squad </Starting_Forces>
 			
 		<!-- Chardaan Space Forces -->
-		<Starting_Forces> Rebel, Chardaan, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chardaan, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chardaan, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chardaan, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chardaan, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1350,7 +1350,7 @@
 		<Starting_Forces> Rebel, Chardaan, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Sluis_Van Space Forces -->
-		<Starting_Forces> Rebel, Sluis_Van, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, NR_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, A-Wing_Squadron </Starting_Forces>
@@ -1366,7 +1366,7 @@
 		<Starting_Forces> Rebel, Sluis_Van, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Denon Space Forces -->
-		<Starting_Forces> Rebel, Denon, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Denon, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Denon, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Denon, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Denon, A-Wing_Squadron </Starting_Forces>
@@ -1382,7 +1382,7 @@
 		<Starting_Forces> Rebel, Denon, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Thyferra Space Forces -->
-		<Starting_Forces> Rebel, Thyferra, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Thyferra, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Thyferra, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Thyferra, A-Wing_Squadron </Starting_Forces>
@@ -1400,7 +1400,7 @@
 		<Starting_Forces> Rebel, Thyferra, Rebel_Heavy_Tank_Brigade </Starting_Forces>
 
 		<!-- MonCalimari Space Forces -->
-		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, NR_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, A-Wing_Squadron </Starting_Forces>
@@ -1414,7 +1414,7 @@
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Coruscant Space Forces -->
-		<Starting_Forces> Rebel, Coruscant, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, A-Wing_Squadron </Starting_Forces>
@@ -1432,7 +1432,7 @@
 		<Starting_Forces> Rebel, Coruscant, Rebel_Heavy_Tank_Brigade </Starting_Forces>
 
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Rebel, Bilbringi, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, NR_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1446,7 +1446,7 @@
 		<Starting_Forces> Rebel, Bilbringi, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Gyndine Space Forces -->
-		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1460,7 +1460,7 @@
 		<Starting_Forces> Rebel, Gyndine, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Commenor Space Forces -->
-		<Starting_Forces> Rebel, Commenor, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Commenor, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Commenor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Commenor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Commenor, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1474,7 +1474,7 @@
 		<Starting_Forces> Rebel, Commenor, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Belsavis Space Forces -->
-		<Starting_Forces> Rebel, Belsavis, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1488,7 +1488,7 @@
 		<Starting_Forces> Rebel, Belsavis, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Corellia Space Forces -->
-		<Starting_Forces> Rebel, Corellia, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1503,7 +1503,7 @@
 		<Starting_Forces> Rebel, Corellia, Rebel_T3_Tank_Brigade </Starting_Forces>
 
 		<!-- Duro Space Forces -->
-		<Starting_Forces> Rebel, Duro, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Duro, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Duro, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Duro, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Duro, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1518,7 +1518,7 @@
 		<Starting_Forces> Rebel, Duro, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Pantolomin Space Forces -->
-		<Starting_Forces> Rebel, Pantolomin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1532,7 +1532,7 @@
 		<Starting_Forces> Rebel, Pantolomin, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Wayland Space Forces -->
-		<Starting_Forces> Rebel, Wayland, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1546,7 +1546,7 @@
 		<Starting_Forces> Rebel, Wayland, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Chandrila Space Forces -->
-		<Starting_Forces> Rebel, Chandrila, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1560,7 +1560,7 @@
 		<Starting_Forces> Rebel, Chandrila, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Yavin Space Forces -->
-		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1575,7 +1575,7 @@
 		<Starting_Forces> Rebel, Yavin, Jedi_Squad </Starting_Forces>
 		
 		<!-- Champala Space Forces -->
-		<Starting_Forces> Rebel, Champala, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Champala, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Champala, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Champala, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Champala, E-Wing_Squadron </Starting_Forces>
@@ -1589,7 +1589,7 @@
 		<Starting_Forces> Rebel, Champala, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Levian Space Forces -->
-		<Starting_Forces> Rebel, Levian, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Levian, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Levian, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Levian, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Levian, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1604,7 +1604,7 @@
 		<Starting_Forces> Rebel, Levian, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Corellia Space Forces -->
-		<Starting_Forces> Rebel, Corellia, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1617,7 +1617,7 @@
 		<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Phind Space Forces -->
-		<Starting_Forces> Rebel, Phind, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Phind, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1629,7 +1629,7 @@
 		<Starting_Forces> Rebel, Phind, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Adumar Space Forces -->
-		<Starting_Forces> Rebel, Adumar, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Adumar, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Adumar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Adumar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Adumar, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1643,7 +1643,7 @@
 		<Starting_Forces> Rebel, Adumar, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Garos_IV Space Forces -->
-		<Starting_Forces> Rebel, Garos_IV, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Garos_IV, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Garos_IV, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Garos_IV, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Garos_IV, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1657,7 +1657,7 @@
 		<Starting_Forces> Rebel, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Exocron Space Forces -->
-		<Starting_Forces> Rebel, Exocron, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Exocron, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Exocron, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Exocron, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Exocron, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1668,7 +1668,7 @@
 		<Starting_Forces> Rebel, Exocron, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Balmorra Space Forces -->
-		<Starting_Forces> Rebel, Balmorra, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Balmorra, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Balmorra, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Balmorra, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Balmorra, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1683,7 +1683,7 @@
 		<Starting_Forces> Rebel, Balmorra, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Abregado_Rae Space Forces -->
-		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Abregado_Rae, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1697,7 +1697,7 @@
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Kashyyyk Space Forces -->
-		<Starting_Forces> Rebel, Kashyyyk, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1711,7 +1711,7 @@
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- NewCov Space Forces -->
-		<Starting_Forces> Rebel, NewCov, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, NewCov, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, NewCov, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, NewCov, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1735,7 +1735,7 @@
 		
 		
 		<!-- Bastion Space Forces -->
-		<Starting_Forces> Empire, Bastion, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Bastion, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Victory_Destroyer_Mark_1 </Starting_Forces>
@@ -1756,7 +1756,7 @@
 		<Starting_Forces> Empire, Bastion, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Morishim Space Forces -->
-		<Starting_Forces> Empire, Morishim, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Morishim, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Morishim, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Morishim, Carrack_Cruiser </Starting_Forces>
@@ -1771,7 +1771,7 @@
 		<Starting_Forces> Empire, Morishim, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Pakrik_Minor Space Forces -->
-		<Starting_Forces> Empire, Pakrik_Minor, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pakrik_Minor, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Carrack_Cruiser </Starting_Forces>
@@ -1784,7 +1784,7 @@
 		<Starting_Forces> Empire, Pakrik_Minor, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Pesitiin Space Forces -->
-		<Starting_Forces> Empire, Pesitiin, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pesitiin, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Star_Destroyer </Starting_Forces>
@@ -1796,7 +1796,7 @@
 		<Starting_Forces> Empire, Pesitiin, Dreadnaught_Empire </Starting_Forces>
 		
 		<!-- Orinda Space Forces -->
-		<Starting_Forces> Empire, Orinda, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Carrack_Cruiser </Starting_Forces>
@@ -1811,7 +1811,7 @@
 		<Starting_Forces> Empire, Orinda, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Tangrene Space Forces -->
-		<Starting_Forces> Empire, Tangrene, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Tangrene, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Tangrene, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Tangrene, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Tangrene, Strike_Cruiser </Starting_Forces>
@@ -1825,7 +1825,7 @@
 		<Starting_Forces> Empire, Tangrene, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Trasi Space Forces -->
-		<Starting_Forces> Empire, Trasi, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Trasi, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Trasi, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Trasi, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Trasi, Strike_Cruiser </Starting_Forces>
@@ -1839,7 +1839,7 @@
 		<Starting_Forces> Empire, Trasi, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Kalist Space Forces -->
-		<Starting_Forces> Empire, Kalist, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Kalist, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Kalist, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Kalist, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Kalist, Strike_Cruiser </Starting_Forces>
@@ -1853,7 +1853,7 @@
 		<Starting_Forces> Empire, Kalist, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Gravlex_Med Space Forces -->
-		<Starting_Forces> Empire, Gravlex_Med, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Gravlex_Med, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Gravlex_Med, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Gravlex_Med, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Gravlex_Med, Strike_Cruiser  </Starting_Forces>
@@ -1868,7 +1868,7 @@
 		<Starting_Forces> Empire, Gravlex_Med, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Hakassi Space Forces -->
-		<Starting_Forces> Empire, Hakassi, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Hakassi, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Hakassi, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Hakassi, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Hakassi, Strike_Cruiser  </Starting_Forces>
@@ -1883,7 +1883,7 @@
 		<Starting_Forces> Empire, Hakassi, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Muunilinst Space Forces -->
-		<Starting_Forces> Empire, Muunilinst, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Empire_Golan_Two </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Dreadnaught_Empire </Starting_Forces>
@@ -1901,7 +1901,7 @@
 		<Starting_Forces> Empire, Muunilinst, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Borosk Space Forces -->
-		<Starting_Forces> Empire, Borosk, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Borosk, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Borosk, Shipyards_Empire_Capital </Starting_Forces>
 		<Starting_Forces> Empire, Borosk, Shipyards_Empire_HeavyFrigate </Starting_Forces>
 		<Starting_Forces> Empire, Borosk, Empire_Golan_Two </Starting_Forces>
@@ -1921,7 +1921,7 @@
 		<Starting_Forces> Empire, Borosk, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Yaga Space Forces -->
-		<Starting_Forces> Empire, Yaga_Minor, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Yaga_Minor, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Yaga_Minor, Shipyards_Empire_Capital </Starting_Forces>
 		<Starting_Forces> Empire, Yaga_Minor, Shipyards_Empire_HeavyFrigate </Starting_Forces>
 		<Starting_Forces> Empire, Yaga_Minor, Star_Destroyer </Starting_Forces>
@@ -1942,7 +1942,7 @@
 		<Starting_Forces> Empire, Yaga_Minor, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- AnxMinor Space Forces -->
-		<Starting_Forces> Empire, AnxMinor, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, AnxMinor, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, AnxMinor, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, AnxMinor, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, AnxMinor, Strike_Cruiser  </Starting_Forces>
@@ -1958,7 +1958,7 @@
 		<Starting_Forces> Empire, AnxMinor, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Tsoss Space Forces -->
-		<Starting_Forces> Empire, Tsoss, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Tsoss, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Tsoss, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Tsoss, Strike_Cruiser  </Starting_Forces>
@@ -1974,7 +1974,7 @@
 		<Starting_Forces> Empire, Tsoss, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- New Cov Space Forces -->
-		<Starting_Forces> Empire, Ketaris, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Ketaris, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Ketaris, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Ketaris, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Ketaris, Strike_Cruiser  </Starting_Forces>
@@ -1990,7 +1990,7 @@
 		<Starting_Forces> Empire, Ketaris, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Obroa Skai Space Forces -->
-		<Starting_Forces> Empire, Dubrillion, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Dubrillion, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Dubrillion, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Dubrillion, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Dubrillion, Strike_Cruiser  </Starting_Forces>
@@ -2015,7 +2015,7 @@
 		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
 
   <!-- Nirauan Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Chiss_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
@@ -2030,7 +2030,7 @@
 		<Starting_Forces> Underworld, Nirauan, EotH_MMT_Brigade</Starting_Forces>	
 	
 	 	<!-- Syca Space Forces -->
-		<Starting_Forces> Underworld, Syca, Underworld_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Underworld, Syca, EotH_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Phalanx_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
@@ -2047,7 +2047,7 @@
 		<Starting_Forces> Underworld, Syca, EotH_MMT_Brigade</Starting_Forces>	
 
 		<!-- Kariek Space Forces -->
-		<Starting_Forces> Underworld, Kariek, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Dreadnaught_EotH </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
@@ -2060,7 +2060,7 @@
 		<Starting_Forces> Underworld, Kariek, EotH_Kirov_Brigade</Starting_Forces>
 		
 		<!-- Sarvchi Space Forces -->
-		<Starting_Forces> Underworld, Sarvchi, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Sarvchi, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
@@ -2073,7 +2073,7 @@
 		<Starting_Forces> Underworld, Sarvchi, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Rhigar Space Forces -->
-		<Starting_Forces> Underworld, Rhigar, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Rhigar, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
@@ -2086,7 +2086,7 @@
 		<Starting_Forces> Underworld, Rhigar, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Amrac Space Forces -->
-		<Starting_Forces> Underworld, Amrac, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Amrac, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
@@ -2100,7 +2100,7 @@
 		<Starting_Forces> Underworld, Amrac, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Oristrom Space Forces -->
-		<Starting_Forces> Underworld, Oristrom, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
@@ -2114,7 +2114,7 @@
 		<Starting_Forces> Underworld, Oristrom, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Crustai Space Forces -->
-		<Starting_Forces> Underworld, Crustai, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Crustai, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
@@ -2127,7 +2127,7 @@
 		<Starting_Forces> Underworld, Crustai, EotH_ATCW_Brigade</Starting_Forces>	
 
 		<!-- Quethold Space Forces -->
-		<Starting_Forces> Underworld, Quethold, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
@@ -2140,7 +2140,7 @@
 		<Starting_Forces> Underworld, Quethold, EotH_ATCW_Brigade</Starting_Forces>
 
 		<!-- Riette Space Forces -->
-		<Starting_Forces> Underworld, Riette, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Riette, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Auriette_Carrier </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
@@ -2347,7 +2347,7 @@
 		
 			
 		<!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2362,7 +2362,7 @@
 		<Starting_Forces> Rebel, Bothawui, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Kothlis Space Forces -->
-		<Starting_Forces> Rebel, Kothlis, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Kothlis, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kothlis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kothlis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kothlis, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2376,7 +2376,7 @@
 		<Starting_Forces> Rebel, Kothlis, Rebel_Infantry_Squad </Starting_Forces>
 	
 		<!-- Druckenwell Space Forces -->
-		<Starting_Forces> Rebel, Druckenwell, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Druckenwell, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Druckenwell, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Druckenwell, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Druckenwell, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2390,7 +2390,7 @@
 		<Starting_Forces> Rebel, Druckenwell, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Dolomar Space Forces -->
-		<Starting_Forces> Rebel, Dolomar, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Dolomar, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dolomar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Dolomar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Dolomar, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2404,7 +2404,7 @@
 		<Starting_Forces> Rebel, Dolomar, Rebel_Infantry_Squad </Starting_Forces>
 			
 		<!-- Chardaan Space Forces -->
-		<Starting_Forces> Rebel, Chardaan, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chardaan, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chardaan, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chardaan, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chardaan, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2418,7 +2418,7 @@
 		<Starting_Forces> Rebel, Chardaan, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Sluis_Van Space Forces -->
-		<Starting_Forces> Rebel, Sluis_Van, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, NR_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, A-Wing_Squadron </Starting_Forces>
@@ -2434,7 +2434,7 @@
 		<Starting_Forces> Rebel, Sluis_Van, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Denon Space Forces -->
-		<Starting_Forces> Rebel, Denon, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Denon, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Denon, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Denon, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Denon, A-Wing_Squadron </Starting_Forces>
@@ -2450,7 +2450,7 @@
 		<Starting_Forces> Rebel, Denon, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Thyferra Space Forces -->
-		<Starting_Forces> Rebel, Thyferra, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Thyferra, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Thyferra, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Thyferra, A-Wing_Squadron </Starting_Forces>
@@ -2468,7 +2468,7 @@
 		<Starting_Forces> Rebel, Thyferra, Rebel_Heavy_Tank_Brigade </Starting_Forces>
 
 		<!-- MonCalimari Space Forces -->
-		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, NR_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, A-Wing_Squadron </Starting_Forces>
@@ -2483,7 +2483,7 @@
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Coruscant Space Forces -->
-		<Starting_Forces> Rebel, Coruscant, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Dreadnaught_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, A-Wing_Squadron </Starting_Forces>
@@ -2501,7 +2501,7 @@
 		<Starting_Forces> Rebel, Coruscant, Rebel_Heavy_Tank_Brigade </Starting_Forces>
 
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Rebel, Bilbringi, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, NR_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2515,7 +2515,7 @@
 		<Starting_Forces> Rebel, Bilbringi, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Gyndine Space Forces -->
-		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2529,7 +2529,7 @@
 		<Starting_Forces> Rebel, Gyndine, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Commenor Space Forces -->
-		<Starting_Forces> Rebel, Commenor, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Commenor, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Commenor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Commenor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Commenor, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2543,7 +2543,7 @@
 		<Starting_Forces> Rebel, Commenor, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Belsavis Space Forces -->
-		<Starting_Forces> Rebel, Belsavis, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2557,7 +2557,7 @@
 		<Starting_Forces> Rebel, Belsavis, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Corellia Space Forces -->
-		<Starting_Forces> Rebel, Corellia, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2572,7 +2572,7 @@
 		<Starting_Forces> Rebel, Corellia, Rebel_T3_Tank_Brigade </Starting_Forces>
 
 		<!-- Duro Space Forces -->
-		<Starting_Forces> Rebel, Duro, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Duro, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Duro, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Duro, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Duro, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2587,7 +2587,7 @@
 		<Starting_Forces> Rebel, Duro, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Pantolomin Space Forces -->
-		<Starting_Forces> Rebel, Pantolomin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2601,7 +2601,7 @@
 		<Starting_Forces> Rebel, Pantolomin, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Wayland Space Forces -->
-		<Starting_Forces> Rebel, Wayland, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2615,7 +2615,7 @@
 		<Starting_Forces> Rebel, Wayland, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Chandrila Space Forces -->
-		<Starting_Forces> Rebel, Chandrila, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2629,7 +2629,7 @@
 		<Starting_Forces> Rebel, Chandrila, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Yavin Space Forces -->
-		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2644,7 +2644,7 @@
 		<Starting_Forces> Rebel, Yavin, Jedi_Squad </Starting_Forces>
 		
 		<!-- Champala Space Forces -->
-		<Starting_Forces> Rebel, Champala, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Champala, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Champala, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Champala, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Champala, E-Wing_Squadron </Starting_Forces>
@@ -2658,7 +2658,7 @@
 		<Starting_Forces> Rebel, Champala, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Levian Space Forces -->
-		<Starting_Forces> Rebel, Levian, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Levian, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Levian, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Levian, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Levian, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2673,7 +2673,7 @@
 		<Starting_Forces> Rebel, Levian, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Corellia Space Forces -->
-		<Starting_Forces> Rebel, Corellia, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2686,7 +2686,7 @@
 		<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Phind Space Forces -->
-		<Starting_Forces> Rebel, Phind, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Phind, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2698,7 +2698,7 @@
 		<Starting_Forces> Rebel, Phind, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Adumar Space Forces -->
-		<Starting_Forces> Rebel, Adumar, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Adumar, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Adumar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Adumar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Adumar, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2712,7 +2712,7 @@
 		<Starting_Forces> Rebel, Adumar, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Garos_IV Space Forces -->
-		<Starting_Forces> Rebel, Garos_IV, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Garos_IV, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Garos_IV, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Garos_IV, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Garos_IV, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2726,7 +2726,7 @@
 		<Starting_Forces> Rebel, Garos_IV, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Exocron Space Forces -->
-		<Starting_Forces> Rebel, Exocron, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Exocron, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Exocron, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Exocron, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Exocron, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2737,7 +2737,7 @@
 		<Starting_Forces> Rebel, Exocron, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Balmorra Space Forces -->
-		<Starting_Forces> Rebel, Balmorra, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Balmorra, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Balmorra, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Balmorra, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Balmorra, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2752,7 +2752,7 @@
 		<Starting_Forces> Rebel, Balmorra, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 		<!-- Abregado_Rae Space Forces -->
-		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Abregado_Rae, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2766,7 +2766,7 @@
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Kashyyyk Space Forces -->
-		<Starting_Forces> Rebel, Kashyyyk, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2780,7 +2780,7 @@
 		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- NewCov Space Forces -->
-		<Starting_Forces> Rebel, NewCov, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, NewCov, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, NewCov, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, NewCov, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, NewCov, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2804,7 +2804,7 @@
 		
 		
 		<!-- Bastion Space Forces -->
-		<Starting_Forces> Empire, Bastion, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Bastion, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Victory_Destroyer_Mark_1 </Starting_Forces>
@@ -2825,7 +2825,7 @@
 		<Starting_Forces> Empire, Bastion, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Morishim Space Forces -->
-		<Starting_Forces> Empire, Morishim, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Morishim, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Morishim, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Morishim, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Morishim, Carrack_Cruiser </Starting_Forces>
@@ -2840,7 +2840,7 @@
 		<Starting_Forces> Empire, Morishim, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Pakrik_Minor Space Forces -->
-		<Starting_Forces> Empire, Pakrik_Minor, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pakrik_Minor, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Carrack_Cruiser </Starting_Forces>
@@ -2853,7 +2853,7 @@
 		<Starting_Forces> Empire, Pakrik_Minor, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Pesitiin Space Forces -->
-		<Starting_Forces> Empire, Pesitiin, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pesitiin, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Star_Destroyer </Starting_Forces>
@@ -2865,7 +2865,7 @@
 		<Starting_Forces> Empire, Pesitiin, Dreadnaught_Empire </Starting_Forces>
 		
 		<!-- Orinda Space Forces -->
-		<Starting_Forces> Empire, Orinda, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Orinda, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Orinda, Carrack_Cruiser </Starting_Forces>
@@ -2880,7 +2880,7 @@
 		<Starting_Forces> Empire, Orinda, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Tangrene Space Forces -->
-		<Starting_Forces> Empire, Tangrene, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Tangrene, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Tangrene, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Tangrene, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Tangrene, Strike_Cruiser </Starting_Forces>
@@ -2894,7 +2894,7 @@
 		<Starting_Forces> Empire, Tangrene, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Trasi Space Forces -->
-		<Starting_Forces> Empire, Trasi, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Trasi, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Trasi, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Trasi, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Trasi, Strike_Cruiser </Starting_Forces>
@@ -2908,7 +2908,7 @@
 		<Starting_Forces> Empire, Trasi, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Kalist Space Forces -->
-		<Starting_Forces> Empire, Kalist, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Kalist, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Kalist, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Kalist, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Kalist, Strike_Cruiser </Starting_Forces>
@@ -2922,7 +2922,7 @@
 		<Starting_Forces> Empire, Kalist, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Gravlex_Med Space Forces -->
-		<Starting_Forces> Empire, Gravlex_Med, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Gravlex_Med, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Gravlex_Med, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Gravlex_Med, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Gravlex_Med, Strike_Cruiser  </Starting_Forces>
@@ -2937,7 +2937,7 @@
 		<Starting_Forces> Empire, Gravlex_Med, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Hakassi Space Forces -->
-		<Starting_Forces> Empire, Hakassi, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Hakassi, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Hakassi, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Hakassi, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Hakassi, Strike_Cruiser  </Starting_Forces>
@@ -2952,7 +2952,7 @@
 		<Starting_Forces> Empire, Hakassi, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Muunilinst Space Forces -->
-		<Starting_Forces> Empire, Muunilinst, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Empire_Golan_Two </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Dreadnaught_Empire </Starting_Forces>
@@ -2970,7 +2970,7 @@
 		<Starting_Forces> Empire, Muunilinst, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Borosk Space Forces -->
-		<Starting_Forces> Empire, Borosk, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Borosk, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Borosk, Shipyards_Empire_Capital </Starting_Forces>
 		<Starting_Forces> Empire, Borosk, Shipyards_Empire_HeavyFrigate </Starting_Forces>
 		<Starting_Forces> Empire, Borosk, Empire_Golan_Two </Starting_Forces>
@@ -2990,7 +2990,7 @@
 		<Starting_Forces> Empire, Borosk, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Yaga Space Forces -->
-		<Starting_Forces> Empire, Yaga_Minor, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Yaga_Minor, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Yaga_Minor, Shipyards_Empire_Capital </Starting_Forces>
 		<Starting_Forces> Empire, Yaga_Minor, Shipyards_Empire_HeavyFrigate </Starting_Forces>
 		<Starting_Forces> Empire, Yaga_Minor, Star_Destroyer </Starting_Forces>
@@ -3011,7 +3011,7 @@
 		<Starting_Forces> Empire, Yaga_Minor, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- AnxMinor Space Forces -->
-		<Starting_Forces> Empire, AnxMinor, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, AnxMinor, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, AnxMinor, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, AnxMinor, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, AnxMinor, Strike_Cruiser  </Starting_Forces>
@@ -3027,7 +3027,7 @@
 		<Starting_Forces> Empire, AnxMinor, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Tsoss Space Forces -->
-		<Starting_Forces> Empire, Tsoss, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Tsoss, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Tsoss, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Tsoss, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Tsoss, Strike_Cruiser  </Starting_Forces>
@@ -3043,7 +3043,7 @@
 		<Starting_Forces> Empire, Tsoss, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- New Cov Space Forces -->
-		<Starting_Forces> Empire, Ketaris, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Ketaris, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Ketaris, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Ketaris, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Ketaris, Strike_Cruiser  </Starting_Forces>
@@ -3059,7 +3059,7 @@
 		<Starting_Forces> Empire, Ketaris, Imperial_Light_Scout_Squad </Starting_Forces>
 
 		<!-- Obroa Skai Space Forces -->
-		<Starting_Forces> Empire, Dubrillion, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Dubrillion, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Dubrillion, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Dubrillion, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Dubrillion, Strike_Cruiser  </Starting_Forces>
@@ -3084,7 +3084,7 @@
 		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
 
   <!-- Nirauan Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Chiss_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
@@ -3099,7 +3099,7 @@
 		<Starting_Forces> Underworld, Nirauan, EotH_MMT_Brigade</Starting_Forces>	
 	
 	 	<!-- Syca Space Forces -->
-		<Starting_Forces> Underworld, Syca, Underworld_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Underworld, Syca, EotH_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Phalanx_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
@@ -3116,7 +3116,7 @@
 		<Starting_Forces> Underworld, Syca, EotH_MMT_Brigade</Starting_Forces>	
 
 		<!-- Kariek Space Forces -->
-		<Starting_Forces> Underworld, Kariek, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Dreadnaught_EotH </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
@@ -3129,7 +3129,7 @@
 		<Starting_Forces> Underworld, Kariek, EotH_Kirov_Brigade</Starting_Forces>
 		
 		<!-- Sarvchi Space Forces -->
-		<Starting_Forces> Underworld, Sarvchi, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Sarvchi, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
@@ -3142,7 +3142,7 @@
 		<Starting_Forces> Underworld, Sarvchi, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Rhigar Space Forces -->
-		<Starting_Forces> Underworld, Rhigar, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Rhigar, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
@@ -3155,7 +3155,7 @@
 		<Starting_Forces> Underworld, Rhigar, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Amrac Space Forces -->
-		<Starting_Forces> Underworld, Amrac, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Amrac, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
@@ -3169,7 +3169,7 @@
 		<Starting_Forces> Underworld, Amrac, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Oristrom Space Forces -->
-		<Starting_Forces> Underworld, Oristrom, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
@@ -3183,7 +3183,7 @@
 		<Starting_Forces> Underworld, Oristrom, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Crustai Space Forces -->
-		<Starting_Forces> Underworld, Crustai, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Crustai, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
@@ -3196,7 +3196,7 @@
 		<Starting_Forces> Underworld, Crustai, EotH_ATCW_Brigade</Starting_Forces>	
 
 		<!-- Quethold Space Forces -->
-		<Starting_Forces> Underworld, Quethold, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
@@ -3209,7 +3209,7 @@
 		<Starting_Forces> Underworld, Quethold, EotH_ATCW_Brigade</Starting_Forces>
 
 		<!-- Riette Space Forces -->
-		<Starting_Forces> Underworld, Riette, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Riette, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Auriette_Carrier </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>

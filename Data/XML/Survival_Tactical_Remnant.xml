@@ -90,9 +90,9 @@
 
 
 
-<Event Name="STORY_TACTICAL_DESTROY_Skirmish_Empire_Star_Base_5">
+<Event Name="STORY_TACTICAL_DESTROY_Skirmish_Remnant_Star_Base_5">
 	<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Skirmish_Empire_Star_Base_5</Event_Param1>
+		<Event_Param1>Skirmish_Remnant_Star_Base_5</Event_Param1>
 		<Event_Param3>1</Event_Param3>
 	<Reward_Type>INCREMENT_FLAG</Reward_Type>
 		<Reward_Param1>BATTLE_OVER</Reward_Param1>
@@ -105,7 +105,7 @@
 	<Event_Type>STORY_TRIGGER</Event_Type>
 	<Reward_Type>VICTORY</Reward_Type>
 		<Reward_Param1>Rebel</Reward_Param1>	
-	<Prereq>STORY_TACTICAL_DESTROY_Skirmish_Empire_Star_Base_5</Prereq>
+	<Prereq>STORY_TACTICAL_DESTROY_Skirmish_Remnant_Star_Base_5</Prereq>
 </Event>
 
 

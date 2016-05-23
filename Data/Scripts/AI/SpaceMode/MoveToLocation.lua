@@ -48,13 +48,13 @@ function Definitions()
 	TaskForce = 
 	{
 		{
-			"MainForce"
-			,"Fighter | Corvette | Frigate | Capital = 1, 5"
+			""
+			,""
 		}
 	}
 
 	-- Needed for fighters to return to base, because they're frequently given anti-idle orders to attack nearest
-	AllowEngagedUnits = true
+	AllowEngagedUnits = false
 
 end
 

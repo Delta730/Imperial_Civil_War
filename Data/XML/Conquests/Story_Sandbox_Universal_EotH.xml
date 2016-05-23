@@ -412,7 +412,7 @@
 		<Event_Type>STORY_CONQUER</Event_Type>
 		<Event_Param1>Kuat</Event_Param1>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
-		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param1>EotH_Star_Base_2</Reward_Param1>
 		<Reward_Param2>Kuat</Reward_Param2>
 		<Prereq>Background_Start</Prereq>
 	</Event>
@@ -430,7 +430,7 @@
 		<Event_Type>STORY_CONQUER</Event_Type>
 		<Event_Param1>Syca</Event_Param1>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
-		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param1>EotH_Star_Base_2</Reward_Param1>
 		<Reward_Param2>Syca</Reward_Param2>
 		<Prereq>Background_Start</Prereq>
 	</Event>
@@ -448,7 +448,7 @@
 		<Event_Type>STORY_CONQUER</Event_Type>
 		<Event_Param1>Fondor</Event_Param1>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
-		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param1>EotH_Star_Base_2</Reward_Param1>
 		<Reward_Param2>Fondor</Reward_Param2>
 		<Prereq>Background_Start</Prereq>
 	</Event>
@@ -466,7 +466,7 @@
 		<Event_Type>STORY_CONQUER</Event_Type>
 		<Event_Param1>Moncalimari</Event_Param1>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
-		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param1>EotH_Star_Base_2</Reward_Param1>
 		<Reward_Param2>Moncalimari</Reward_Param2>
 		<Prereq>Background_Start</Prereq>
 	</Event>
@@ -484,7 +484,7 @@
 		<Event_Type>STORY_CONQUER</Event_Type>
 		<Event_Param1>Byss</Event_Param1>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
-		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param1>EotH_Star_Base_2</Reward_Param1>
 		<Reward_Param2>Byss</Reward_Param2>
 		<Prereq>Background_Start</Prereq>
 	</Event>
@@ -502,7 +502,7 @@
 		<Event_Type>STORY_CONQUER</Event_Type>
 		<Event_Param1>Trasi</Event_Param1>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
-		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Reward_Param1>EotH_Star_Base_2</Reward_Param1>
 		<Reward_Param2>Trasi</Reward_Param2>
 		<Prereq>Background_Start</Prereq>
 	</Event>
@@ -520,7 +520,7 @@
 		<Event_Type>STORY_CONQUER</Event_Type>
 		<Event_Param1>Sluis_Van</Event_Param1>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
-		<Reward_Param1>Underworld_Star_base_3</Reward_Param1>
+		<Reward_Param1>EotH_Star_Base_3</Reward_Param1>
 		<Reward_Param2>Sluis_Van</Reward_Param2>
 		<Prereq>Background_Start</Prereq>
 	</Event>
@@ -538,7 +538,7 @@
 		<Event_Type>STORY_CONQUER</Event_Type>
 		<Event_Param1>Corellia</Event_Param1>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
-		<Reward_Param1>Underworld_Star_Base_1</Reward_Param1>
+		<Reward_Param1>EotH_Star_Base_1</Reward_Param1>
 		<Reward_Param2>Corellia</Reward_Param2>
 		<Prereq>Background_Start</Prereq>
 	</Event>

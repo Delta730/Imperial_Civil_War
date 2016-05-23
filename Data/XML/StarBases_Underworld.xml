@@ -4,7 +4,7 @@
 
 
 
-	<StarBase Name="Underworld_Star_Base_1">
+	<StarBase Name="EotH_Star_Base_1">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
@@ -28,7 +28,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Prev_Level_Base />
-		<Next_Level_Base>Underworld_Star_Base_2</Next_Level_Base>
+		<Next_Level_Base>EotH_Star_Base_2</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -130,7 +130,7 @@
 
 
 
-	<StarBase Name="Underworld_Star_Base_2">
+	<StarBase Name="EotH_Star_Base_2">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2 TEXT_TOOLTIP_GARRISON_US_02</Encyclopedia_Text>
@@ -153,8 +153,8 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Underworld_Star_Base_1</Prev_Level_Base>
-		<Next_Level_Base>Underworld_Star_Base_3</Next_Level_Base>
+		<Prev_Level_Base>EotH_Star_Base_1</Prev_Level_Base>
+		<Next_Level_Base>EotH_Star_Base_3</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -269,7 +269,7 @@
 
 
 
-	<StarBase Name="Underworld_Star_Base_3">
+	<StarBase Name="EotH_Star_Base_3">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3 TEXT_TOOLTIP_GARRISON_US_03</Encyclopedia_Text>
@@ -292,8 +292,8 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Underworld_Star_Base_2</Prev_Level_Base>
-		<Next_Level_Base>Underworld_Star_Base_4</Next_Level_Base>
+		<Prev_Level_Base>EotH_Star_Base_2</Prev_Level_Base>
+		<Next_Level_Base>EotH_Star_Base_4</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -408,9 +408,9 @@
 
 
 
-	<StarBase Name="Underworld_Star_Base_4">
+	<StarBase Name="EotH_Star_Base_4">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_4</Text_ID>
+		<Text_ID>TEXT_Remnant_Star_Base_4</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION4 TEXT_TOOLTIP_GARRISON_ES_04</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -431,8 +431,8 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Underworld_Star_Base_3</Prev_Level_Base>
-		<Next_Level_Base>Underworld_Star_Base_5</Next_Level_Base>
+		<Prev_Level_Base>EotH_Star_Base_3</Prev_Level_Base>
+		<Next_Level_Base>EotH_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -544,7 +544,7 @@
 		
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_4_Empire</Retreat_Self_Destruct_Explosion>
 
-		<Death_Clone>Damage_Normal, Empire_Star_Base_4_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Remnant_Star_Base_4_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>16</Additional_Population_Capacity>
 	</StarBase>
 
@@ -553,9 +553,9 @@
 
 
 
-	<StarBase Name="Underworld_Star_Base_5">
+	<StarBase Name="EotH_Star_Base_5">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_5</Text_ID>
+		<Text_ID>TEXT_Remnant_Star_Base_5</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_ES_05</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -576,7 +576,7 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Underworld_Star_Base_4</Prev_Level_Base>
+		<Prev_Level_Base>EotH_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -706,7 +706,7 @@
 		<Score_Cost_Credits> 24000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Empire</Retreat_Self_Destruct_Explosion>
 
-		<Death_Clone>Damage_Normal, Empire_Star_Base_5_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Remnant_Star_Base_5_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>17</Additional_Population_Capacity>
 	</StarBase>
 	
@@ -716,8 +716,8 @@
 	
 	
 	<!-- Underworld Skirmish Starbases -->
-	<StarBase Name="Skirmish_Underworld_Star_Base_1">
-		<Variant_Of_Existing_Type>Underworld_Star_Base_3</Variant_Of_Existing_Type>
+	<StarBase Name="Skirmish_EotH_Star_Base_1">
+		<Variant_Of_Existing_Type>EotH_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<HardPoints>
@@ -772,7 +772,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 
 		<!-- Base upgrade sequence -->
-		<Prev_Level_Base>Skirmish_Underworld_Star_Base_4</Prev_Level_Base>
+		<Prev_Level_Base>Skirmish_EotH_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
 		
 		<!-- Special Abilities unique to Skirmish mode -->
@@ -793,7 +793,7 @@
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Underworld_Star_Base_5</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_EotH_Star_Base_5</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>

@@ -542,7 +542,7 @@
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_Remnant_Star_Base_5</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>

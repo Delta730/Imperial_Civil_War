@@ -204,7 +204,7 @@
 		
 		
 		<!-- Garos_IV Space Forces -->
-		<Starting_Forces> Empire, Garos_IV, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Garos_IV, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Garos_IV, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Garos_IV, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Garos_IV, Carrack_Cruiser </Starting_Forces>
@@ -215,14 +215,14 @@
 		<Starting_Forces> Empire, Garos_IV, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Pesitiin Space Forces -->
-		<Starting_Forces> Empire, Pesitiin, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pesitiin, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Carrack_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Lancer_Frigate </Starting_Forces>
 		
 		<!-- Myrkr Space Forces -->
-		<Starting_Forces> Empire, Myrkr, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Myrkr, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Myrkr, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Myrkr, Lancer_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Myrkr, Carrack_Cruiser </Starting_Forces>
@@ -235,7 +235,7 @@
 		<Starting_Forces> Empire, Myrkr, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Chandrila Space Forces -->
-		<Starting_Forces> Empire, Chandrila, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Chandrila, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Chandrila, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Chandrila, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Chandrila, Carrack_Cruiser </Starting_Forces>
@@ -247,7 +247,7 @@
 		<Starting_Forces> Empire, Chandrila, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Carida Space Forces -->
-		<Starting_Forces> Empire, Carida, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Strike_Cruiser  </Starting_Forces>
 		<!-- Carida Land Forces -->
@@ -257,7 +257,7 @@
 		<Starting_Forces> Empire, Carida, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Garqi Space Forces -->
-		<Starting_Forces> Empire, Garqi, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Garqi, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Garqi, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Garqi, Strike_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Garqi, Lancer_Frigate </Starting_Forces>
@@ -268,7 +268,7 @@
 		<Starting_Forces> Empire, Garqi, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Borleais Space Forces -->
-		<Starting_Forces> Empire, Borleais, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Borleais, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Borleais, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Borleais, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Borleais, Lancer_Frigate </Starting_Forces>
@@ -279,7 +279,7 @@
 		<Starting_Forces> Empire, Borleais, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Pakrik_Minor Space Forces -->
-		<Starting_Forces> Empire, Pakrik_Minor, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pakrik_Minor, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Lancer_Frigate </Starting_Forces>
 		<!-- Pakrik_Minor Land Forces -->
@@ -290,7 +290,7 @@
 		<Starting_Forces> Empire, Pakrik_Minor, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Wayland Space Forces -->
-		<Starting_Forces> Empire, Wayland, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Wayland, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Wayland, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Wayland, Carrack_Cruiser </Starting_Forces>
@@ -302,7 +302,7 @@
 		<Starting_Forces> Empire, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Corulag Space Forces -->
-		<Starting_Forces> Empire, Corulag, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Corulag, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Carrack_Cruiser </Starting_Forces>
@@ -369,7 +369,7 @@
 		<Starting_Forces> Empire, Ciutric, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Kuat Space Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Tector_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Star_Destroyer_Two </Starting_Forces>
@@ -393,7 +393,7 @@
 		<Starting_Forces> Empire, Kuat, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Coruscant Space Forces -->
-		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Victory_Destroyer_Mark_2 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Carrack_Cruiser </Starting_Forces>
@@ -410,7 +410,7 @@
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Mantell Space Forces -->
-		<Starting_Forces> Empire, Mantell, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Mantell, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Mantell, Victory_Destroyer_Mark_2 </Starting_Forces>
 		<Starting_Forces> Empire, Mantell, Carrack_Cruiser </Starting_Forces>
@@ -425,7 +425,7 @@
 		<Starting_Forces> Empire, Mantell, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Poderis Space Forces -->
-		<Starting_Forces> Empire, Poderis, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Poderis, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Poderis, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Poderis, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Poderis, Strike_Cruiser </Starting_Forces>
@@ -442,7 +442,7 @@
 		<Starting_Forces> Empire, Poderis, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Empire, Bilbringi, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Bilbringi, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Victory_Destroyer_Mark_2 </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Carrack_Cruiser </Starting_Forces>
@@ -467,7 +467,7 @@
 		<Max_Tech_Level> Underworld, 1 </Max_Tech_Level>
 
 		<!-- Nirauan Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Chiss_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
@@ -482,7 +482,7 @@
 		<Starting_Forces> Underworld, Nirauan, EotH_MMT_Brigade</Starting_Forces>	
 	
 	 	<!-- Syca Space Forces -->
-		<Starting_Forces> Underworld, Syca, Underworld_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Underworld, Syca, EotH_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Phalanx_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
@@ -497,7 +497,7 @@
 		<Starting_Forces> Underworld, Syca, EotH_MMT_Brigade</Starting_Forces>	
 
 		<!-- Kariek Space Forces -->
-		<Starting_Forces> Underworld, Kariek, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
@@ -510,7 +510,7 @@
 		<Starting_Forces> Underworld, Kariek, EotH_Kirov_Brigade</Starting_Forces>
 		
 		<!-- Sarvchi Space Forces -->
-		<Starting_Forces> Underworld, Sarvchi, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Sarvchi, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
@@ -523,7 +523,7 @@
 		<Starting_Forces> Underworld, Sarvchi, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Rhigar Space Forces -->
-		<Starting_Forces> Underworld, Rhigar, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Rhigar, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
@@ -536,7 +536,7 @@
 		<Starting_Forces> Underworld, Rhigar, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Amrac Space Forces -->
-		<Starting_Forces> Underworld, Amrac, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Amrac, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
@@ -550,7 +550,7 @@
 		<Starting_Forces> Underworld, Amrac, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Quethold Space Forces -->
-		<Starting_Forces> Underworld, Quethold, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
@@ -564,7 +564,7 @@
 		<Starting_Forces> Underworld, Quethold, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Crustai Space Forces -->
-		<Starting_Forces> Underworld, Crustai, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Crustai, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
@@ -577,7 +577,7 @@
 		<Starting_Forces> Underworld, Crustai, EotH_ATCW_Brigade</Starting_Forces>	
 
 		<!-- Oristrom Space Forces -->
-		<Starting_Forces> Underworld, Oristrom, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
@@ -590,7 +590,7 @@
 		<Starting_Forces> Underworld, Oristrom, EotH_ATCW_Brigade</Starting_Forces>
 
 		<!-- Riette Space Forces -->
-		<Starting_Forces> Underworld, Riette, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Riette, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Auriette_Carrier </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
@@ -1271,7 +1271,7 @@
 		
 		
 			<!-- Garos_IV Space Forces -->
-		<Starting_Forces> Empire, Garos_IV, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Garos_IV, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Garos_IV, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Garos_IV, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Garos_IV, Carrack_Cruiser </Starting_Forces>
@@ -1282,14 +1282,14 @@
 		<Starting_Forces> Empire, Garos_IV, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Pesitiin Space Forces -->
-		<Starting_Forces> Empire, Pesitiin, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pesitiin, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Carrack_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Lancer_Frigate </Starting_Forces>
 		
 		<!-- Myrkr Space Forces -->
-		<Starting_Forces> Empire, Myrkr, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Myrkr, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Myrkr, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Myrkr, Lancer_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Myrkr, Carrack_Cruiser </Starting_Forces>
@@ -1302,7 +1302,7 @@
 		<Starting_Forces> Empire, Myrkr, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Chandrila Space Forces -->
-		<Starting_Forces> Empire, Chandrila, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Chandrila, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Chandrila, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Chandrila, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Chandrila, Carrack_Cruiser </Starting_Forces>
@@ -1314,7 +1314,7 @@
 		<Starting_Forces> Empire, Chandrila, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Carida Space Forces -->
-		<Starting_Forces> Empire, Carida, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Strike_Cruiser  </Starting_Forces>
 		<!-- Carida Land Forces -->
@@ -1324,7 +1324,7 @@
 		<Starting_Forces> Empire, Carida, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Garqi Space Forces -->
-		<Starting_Forces> Empire, Garqi, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Garqi, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Garqi, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Garqi, Strike_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Garqi, Lancer_Frigate </Starting_Forces>
@@ -1335,7 +1335,7 @@
 		<Starting_Forces> Empire, Garqi, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Borleais Space Forces -->
-		<Starting_Forces> Empire, Borleais, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Borleais, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Borleais, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Borleais, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Borleais, Lancer_Frigate </Starting_Forces>
@@ -1346,7 +1346,7 @@
 		<Starting_Forces> Empire, Borleais, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Pakrik_Minor Space Forces -->
-		<Starting_Forces> Empire, Pakrik_Minor, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pakrik_Minor, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Lancer_Frigate </Starting_Forces>
 		<!-- Pakrik_Minor Land Forces -->
@@ -1357,7 +1357,7 @@
 		<Starting_Forces> Empire, Pakrik_Minor, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Wayland Space Forces -->
-		<Starting_Forces> Empire, Wayland, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Wayland, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Wayland, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Wayland, Carrack_Cruiser </Starting_Forces>
@@ -1369,7 +1369,7 @@
 		<Starting_Forces> Empire, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Corulag Space Forces -->
-		<Starting_Forces> Empire, Corulag, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Corulag, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Carrack_Cruiser </Starting_Forces>
@@ -1436,7 +1436,7 @@
 		<Starting_Forces> Empire, Ciutric, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Kuat Space Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Tector_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Star_Destroyer_Two </Starting_Forces>
@@ -1460,7 +1460,7 @@
 		<Starting_Forces> Empire, Kuat, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Coruscant Space Forces -->
-		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Victory_Destroyer_Mark_2 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Carrack_Cruiser </Starting_Forces>
@@ -1477,7 +1477,7 @@
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Mantell Space Forces -->
-		<Starting_Forces> Empire, Mantell, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Mantell, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Mantell, Victory_Destroyer_Mark_2 </Starting_Forces>
 		<Starting_Forces> Empire, Mantell, Carrack_Cruiser </Starting_Forces>
@@ -1492,7 +1492,7 @@
 		<Starting_Forces> Empire, Mantell, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Poderis Space Forces -->
-		<Starting_Forces> Empire, Poderis, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Poderis, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Poderis, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Poderis, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Poderis, Strike_Cruiser </Starting_Forces>
@@ -1509,7 +1509,7 @@
 		<Starting_Forces> Empire, Poderis, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Empire, Bilbringi, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Bilbringi, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Victory_Destroyer_Mark_2 </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Carrack_Cruiser </Starting_Forces>
@@ -1534,7 +1534,7 @@
 		<Max_Tech_Level> Underworld, 1 </Max_Tech_Level>
 
 		<!-- Nirauan Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Chiss_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
@@ -1549,7 +1549,7 @@
 		<Starting_Forces> Underworld, Nirauan, EotH_MMT_Brigade</Starting_Forces>	
 	
 	 	<!-- Syca Space Forces -->
-		<Starting_Forces> Underworld, Syca, Underworld_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Underworld, Syca, EotH_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Phalanx_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
@@ -1564,7 +1564,7 @@
 		<Starting_Forces> Underworld, Syca, EotH_MMT_Brigade</Starting_Forces>	
 
 		<!-- Kariek Space Forces -->
-		<Starting_Forces> Underworld, Kariek, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
@@ -1577,7 +1577,7 @@
 		<Starting_Forces> Underworld, Kariek, EotH_Kirov_Brigade</Starting_Forces>
 		
 		<!-- Sarvchi Space Forces -->
-		<Starting_Forces> Underworld, Sarvchi, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Sarvchi, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
@@ -1590,7 +1590,7 @@
 		<Starting_Forces> Underworld, Sarvchi, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Rhigar Space Forces -->
-		<Starting_Forces> Underworld, Rhigar, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Rhigar, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
@@ -1603,7 +1603,7 @@
 		<Starting_Forces> Underworld, Rhigar, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Amrac Space Forces -->
-		<Starting_Forces> Underworld, Amrac, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Amrac, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
@@ -1617,7 +1617,7 @@
 		<Starting_Forces> Underworld, Amrac, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Quethold Space Forces -->
-		<Starting_Forces> Underworld, Quethold, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
@@ -1631,7 +1631,7 @@
 		<Starting_Forces> Underworld, Quethold, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Crustai Space Forces -->
-		<Starting_Forces> Underworld, Crustai, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Crustai, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
@@ -1644,7 +1644,7 @@
 		<Starting_Forces> Underworld, Crustai, EotH_ATCW_Brigade</Starting_Forces>	
 
 		<!-- Oristrom Space Forces -->
-		<Starting_Forces> Underworld, Oristrom, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
@@ -1657,7 +1657,7 @@
 		<Starting_Forces> Underworld, Oristrom, EotH_ATCW_Brigade</Starting_Forces>
 
 		<!-- Riette Space Forces -->
-		<Starting_Forces> Underworld, Riette, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Riette, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Auriette_Carrier </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
@@ -2336,7 +2336,7 @@
 		
 		
 		<!-- Garos_IV Space Forces -->
-		<Starting_Forces> Empire, Garos_IV, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Garos_IV, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Garos_IV, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Garos_IV, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Garos_IV, Carrack_Cruiser </Starting_Forces>
@@ -2347,14 +2347,14 @@
 		<Starting_Forces> Empire, Garos_IV, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Pesitiin Space Forces -->
-		<Starting_Forces> Empire, Pesitiin, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pesitiin, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Carrack_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Pesitiin, Lancer_Frigate </Starting_Forces>
 		
 		<!-- Myrkr Space Forces -->
-		<Starting_Forces> Empire, Myrkr, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Myrkr, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Myrkr, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Myrkr, Lancer_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Myrkr, Carrack_Cruiser </Starting_Forces>
@@ -2367,7 +2367,7 @@
 		<Starting_Forces> Empire, Myrkr, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Chandrila Space Forces -->
-		<Starting_Forces> Empire, Chandrila, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Chandrila, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Chandrila, Empire_Golan_Three </Starting_Forces>
 		<Starting_Forces> Empire, Chandrila, Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Chandrila, Carrack_Cruiser </Starting_Forces>
@@ -2379,7 +2379,7 @@
 		<Starting_Forces> Empire, Chandrila, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Carida Space Forces -->
-		<Starting_Forces> Empire, Carida, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Strike_Cruiser  </Starting_Forces>
 		<!-- Carida Land Forces -->
@@ -2389,7 +2389,7 @@
 		<Starting_Forces> Empire, Carida, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Garqi Space Forces -->
-		<Starting_Forces> Empire, Garqi, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Garqi, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Garqi, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Garqi, Strike_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Garqi, Lancer_Frigate </Starting_Forces>
@@ -2400,7 +2400,7 @@
 		<Starting_Forces> Empire, Garqi, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Borleais Space Forces -->
-		<Starting_Forces> Empire, Borleais, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Borleais, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Borleais, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Borleais, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Borleais, Lancer_Frigate </Starting_Forces>
@@ -2411,7 +2411,7 @@
 		<Starting_Forces> Empire, Borleais, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Pakrik_Minor Space Forces -->
-		<Starting_Forces> Empire, Pakrik_Minor, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Pakrik_Minor, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Pakrik_Minor, Lancer_Frigate </Starting_Forces>
 		<!-- Pakrik_Minor Land Forces -->
@@ -2422,7 +2422,7 @@
 		<Starting_Forces> Empire, Pakrik_Minor, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Wayland Space Forces -->
-		<Starting_Forces> Empire, Wayland, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Wayland, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Wayland, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Wayland, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Wayland, Carrack_Cruiser </Starting_Forces>
@@ -2434,7 +2434,7 @@
 		<Starting_Forces> Empire, Wayland, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Corulag Space Forces -->
-		<Starting_Forces> Empire, Corulag, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Corulag, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Strike_Cruiser  </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Carrack_Cruiser </Starting_Forces>
@@ -2501,7 +2501,7 @@
 		<Starting_Forces> Empire, Ciutric, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Kuat Space Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Tector_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Star_Destroyer_Two </Starting_Forces>
@@ -2525,7 +2525,7 @@
 		<Starting_Forces> Empire, Kuat, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Coruscant Space Forces -->
-		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Victory_Destroyer_Mark_2 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Carrack_Cruiser </Starting_Forces>
@@ -2542,7 +2542,7 @@
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Mantell Space Forces -->
-		<Starting_Forces> Empire, Mantell, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Mantell, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Mantell, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Mantell, Victory_Destroyer_Mark_2 </Starting_Forces>
 		<Starting_Forces> Empire, Mantell, Carrack_Cruiser </Starting_Forces>
@@ -2557,7 +2557,7 @@
 		<Starting_Forces> Empire, Mantell, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Poderis Space Forces -->
-		<Starting_Forces> Empire, Poderis, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Poderis, Remnant_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Poderis, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Poderis, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Poderis, Strike_Cruiser </Starting_Forces>
@@ -2574,7 +2574,7 @@
 		<Starting_Forces> Empire, Poderis, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Empire, Bilbringi, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Bilbringi, Remnant_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Victory_Destroyer_Mark_2 </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Carrack_Cruiser </Starting_Forces>
@@ -2600,7 +2600,7 @@
 		<Max_Tech_Level> Underworld, 1 </Max_Tech_Level>
 
 		<!-- Nirauan Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Chiss_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
@@ -2615,7 +2615,7 @@
 		<Starting_Forces> Underworld, Nirauan, EotH_MMT_Brigade</Starting_Forces>	
 	
 	 	<!-- Syca Space Forces -->
-		<Starting_Forces> Underworld, Syca, Underworld_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Underworld, Syca, EotH_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Phalanx_Destroyer </Starting_Forces>
 		<Starting_Forces> Underworld, Syca, Clawcraft_Squadron </Starting_Forces>
@@ -2630,7 +2630,7 @@
 		<Starting_Forces> Underworld, Syca, EotH_MMT_Brigade</Starting_Forces>	
 
 		<!-- Kariek Space Forces -->
-		<Starting_Forces> Underworld, Kariek, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Kariek, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Dreadnaught_Empire </Starting_Forces>
 		<Starting_Forces> Underworld, Kariek, Clawcraft_Squadron </Starting_Forces>
@@ -2643,7 +2643,7 @@
 		<Starting_Forces> Underworld, Kariek, EotH_Kirov_Brigade</Starting_Forces>
 		
 		<!-- Sarvchi Space Forces -->
-		<Starting_Forces> Underworld, Sarvchi, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Sarvchi, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Sarvchi, Clawcraft_Squadron </Starting_Forces>
@@ -2656,7 +2656,7 @@
 		<Starting_Forces> Underworld, Sarvchi, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Rhigar Space Forces -->
-		<Starting_Forces> Underworld, Rhigar, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Rhigar, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Rhigar, Clawcraft_Squadron </Starting_Forces>
@@ -2669,7 +2669,7 @@
 		<Starting_Forces> Underworld, Rhigar, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Amrac Space Forces -->
-		<Starting_Forces> Underworld, Amrac, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Amrac, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Amrac, Clawcraft_Squadron </Starting_Forces>
@@ -2683,7 +2683,7 @@
 		<Starting_Forces> Underworld, Amrac, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Quethold Space Forces -->
-		<Starting_Forces> Underworld, Quethold, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Quethold, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Quethold, Clawcraft_Squadron </Starting_Forces>
@@ -2697,7 +2697,7 @@
 		<Starting_Forces> Underworld, Quethold, EotH_Kirov_Brigade</Starting_Forces>
 
 		<!-- Crustai Space Forces -->
-		<Starting_Forces> Underworld, Crustai, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Crustai, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Crustai, Clawcraft_Squadron </Starting_Forces>
@@ -2710,7 +2710,7 @@
 		<Starting_Forces> Underworld, Crustai, EotH_ATCW_Brigade</Starting_Forces>	
 
 		<!-- Oristrom Space Forces -->
-		<Starting_Forces> Underworld, Oristrom, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Oristrom, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Kariek_Shieldship </Starting_Forces>
 		<Starting_Forces> Underworld, Oristrom, Clawcraft_Squadron </Starting_Forces>
@@ -2723,7 +2723,7 @@
 		<Starting_Forces> Underworld, Oristrom, EotH_ATCW_Brigade</Starting_Forces>
 
 		<!-- Riette Space Forces -->
-		<Starting_Forces> Underworld, Riette, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Riette, EotH_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Auriette_Carrier </Starting_Forces>
 		<Starting_Forces> Underworld, Riette, Clawcraft_Squadron </Starting_Forces>
