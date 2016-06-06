@@ -1518,6 +1518,7 @@
 		<Starting_Forces> Pentastar, Bastion, Oriflamme </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Reaper_Kaine </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Jerec_Team </Starting_Forces>
+			<Starting_Forces> Pentastar, Bastion, Vengeance_Jerec </Starting_Forces>
 		<!-- Dolomar Land Forces -->
 		<Starting_Forces> Pentastar, Bastion, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
@@ -3159,6 +3160,8 @@
 		<Starting_Forces> Pentastar, Bastion, Oriflamme </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Reaper_Kaine </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Jerec_Team </Starting_Forces>
+			<Starting_Forces> Pentastar, Bastion, Vengeance_Jerec </Starting_Forces>
+
 		<!-- Dolomar Land Forces -->
 		<Starting_Forces> Pentastar, Bastion, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
@@ -4803,6 +4806,9 @@
 		<Starting_Forces> Pentastar, Bastion, Oriflamme </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Reaper_Kaine </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Jerec_Team </Starting_Forces>
+			<Starting_Forces> Pentastar, Bastion, Vengeance_Jerec </Starting_Forces>
+
+
 		<!-- Dolomar Land Forces -->
 		<Starting_Forces> Pentastar, Bastion, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>
@@ -6445,6 +6451,9 @@
 		<Starting_Forces> Pentastar, Bastion, Oriflamme </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Reaper_Kaine </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Jerec_Team </Starting_Forces>
+			<Starting_Forces> Pentastar, Bastion, Vengeance_Jerec </Starting_Forces>
+
+
 		<!-- Dolomar Land Forces -->
 		<Starting_Forces> Pentastar, Bastion, P_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Pentastar, Bastion, Pentastar_trooper_Squad </Starting_Forces>

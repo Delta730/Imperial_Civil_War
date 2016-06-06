@@ -54,8 +54,8 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce"						
-		,"MinimumTotalSize = 30"
-		,"MinimumTotalForce = 8000"					
+		,"MinimumTotalSize = 60"
+		,"MinimumTotalForce = 10000"					
 		, "LandHero | SpaceHero | Infantry | Vehicle | Air | Fighter | Bomber | Corvette | Frigate | Super | Capital = 100%"
 	}
 	}
