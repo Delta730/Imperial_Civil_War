@@ -3,6 +3,7 @@
 <Game_Object_Files>
 
 	
+	
 	<File>TransportUnits.xml</File>
 
 	<File>TechBuilding.xml</File>	<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
@@ -51,6 +52,8 @@
 	<File>SpaceProps.xml</File>
 	<File>EotH_Space_Units.xml</File>
 	<File>EotH_Heroes.xml</File>
+
+	<File>Diplomacy_Units.xml</File> <!-- before all other space units, so diplomats show first on the build bar -->
 
 	<File>SpaceUnitsCorvettes.xml</File>
 	

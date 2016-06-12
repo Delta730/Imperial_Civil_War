@@ -23,99 +23,99 @@ require("PGStateMachine")
 
 function Definitions()
 
-	DebugMessage("%s -- In Definitions", tostring(Script))
+  DebugMessage("%s -- In Definitions", tostring(Script))
 
 
-	--ServiceRate = 1
-	
-	StoryModeEvents = {
+  --ServiceRate = 1
 
-				Battle_Start = Begin_Battle
+  StoryModeEvents = {
 
-				}
+    Battle_Start = Begin_Battle
 
-	prison_count = 0
-	setup_complete = false
+  }
+
+  prison_count = 0
+  setup_complete = false
 
 end
 
 function Begin_Battle(message)
-	if message == OnEnter then
-		
-		rebel = Find_Player("Rebel")
+  if message == OnEnter then
 
-		--In case you have different prison structures...
+    rebel = Find_Player("Rebel")
 
-		prisons = Find_All_Objects_Of_Type("Prison")
-		prisons2 = Find_All_Objects_Of_Type("Secondary_Prison_E")
+    --In case you have different prison structures...
 
-		for j, obj in pairs(prisons2) do
-			table.insert(prisons, obj)
-		end
+    prisons = Find_All_Objects_Of_Type("Prison")
+    prisons2 = Find_All_Objects_Of_Type("Secondary_Prison_E")
 
-
-
-		-- all possible spawn structures in this table
-		spawn_structures = {"Wookiee_Spawn_House", "Ewok_Spawn_House", "MonCalamari_Spawn_House", "Sullust_Cave_Complex_Entry", "Bothan_Spawn_House", "Sullust_Cave_Complex_Entry", "Duros_Spawn_House"}
-
-		for j, spawner in pairs(spawn_structures) do
-			list = Find_All_Objects_Of_Type(spawner)
-			for h, obj in pairs(list) do
-	       			obj.Set_Garrison_Spawn(true)	
-			end			
-
-		end
-
-		if table.getn(prisons) > 0 then
-			
-			for i, obj in pairs(prisons) do
-				if TestValid(obj) then	
-					if obj.Get_Hull() > 0 then
-
-						prison_count = prison_count + 1
-
-			        	end
-				end
-
-		        end
+    for j, obj in pairs(prisons2) do
+      table.insert(prisons, obj)
+    end
 
 
 
-      			if prison_count > 0 then
-				for k, spawner in pairs(spawn_structures) do
-					list = Find_All_Objects_Of_Type(spawner)
-					for h, obj in pairs(list) do
-		        			obj.Set_Garrison_Spawn(false)	
-					end			
-				end
-      			end
+    -- all possible spawn structures in this table
+    spawn_structures = {"Wookiee_Spawn_House", "Ewok_Spawn_House", "MonCalamari_Spawn_House", "Sullust_Cave_Complex_Entry", "Bothan_Spawn_House", "Sullust_Cave_Complex_Entry", "Duros_Spawn_House"}
 
-    		end
+    for j, spawner in pairs(spawn_structures) do
+      list = Find_All_Objects_Of_Type(spawner)
+      for h, obj in pairs(list) do
+        obj.Set_Garrison_Spawn(true)	
+      end			
+
+    end
+
+    if table.getn(prisons) > 0 then
+
+      for i, obj in pairs(prisons) do
+        if TestValid(obj) then	
+          if obj.Get_Hull() > 0 then
+
+            prison_count = prison_count + 1
+
+          end
+        end
+
+      end
 
 
 
-	elseif message == OnUpdate then
-		
-			
-			if Check_Story_Flag(rebel, "PRISON_DESTROYED", nil, true) then
-				
-				prison_count = prison_count - 1
-			end
+      if prison_count > 0 then
+        for k, spawner in pairs(spawn_structures) do
+          list = Find_All_Objects_Of_Type(spawner)
+          for h, obj in pairs(list) do
+            obj.Set_Garrison_Spawn(false)	
+          end			
+        end
+      end
 
-			if prison_count == 0 then
-				for k, spawner in pairs(spawn_structures) do
-					list = Find_All_Objects_Of_Type(spawner)
-					for h, obj in pairs(list) do
-		        			obj.Set_Garrison_Spawn(true)	
-					end			
-				end
-				
-			
-      				ScriptExit()
-			end
-		
-		
-	end
+    end
+
+
+
+  elseif message == OnUpdate then
+
+
+    if Check_Story_Flag(rebel, "PRISON_DESTROYED", nil, true) then
+
+      prison_count = prison_count - 1
+    end
+
+    if prison_count == 0 then
+      for k, spawner in pairs(spawn_structures) do
+        list = Find_All_Objects_Of_Type(spawner)
+        for h, obj in pairs(list) do
+          obj.Set_Garrison_Spawn(true)	
+        end			
+      end
+
+
+      ScriptExit()
+    end
+
+
+  end
 end
 
 
