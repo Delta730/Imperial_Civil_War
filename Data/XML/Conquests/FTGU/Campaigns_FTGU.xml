@@ -148,7 +148,7 @@
 		
         <Home_Location> Rebel, Bothawui </Home_Location>
         <Home_Location> Underworld, Nirauan </Home_Location>
-		 <Home_Location> Underworld, Empire </Home_Location>
+		 <Home_Location> Empire, Carida </Home_Location>
 		 <Home_Location> Yevetha, Jtptan </Home_Location>
 
         <Starting_Active_Player> Rebel </Starting_Active_Player>
@@ -226,7 +226,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, NR_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, B-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette</Starting_Forces>
@@ -246,7 +246,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Syca_Bomber_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
@@ -264,7 +264,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Empire, Carida, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, EotH_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Lancer_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Vindicator_Cruiser </Starting_Forces>
@@ -1117,7 +1117,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, NR_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, B-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette</Starting_Forces>
@@ -1137,7 +1137,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Syca_Bomber_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
@@ -1155,7 +1155,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Empire, Carida, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, EotH_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Lancer_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Vindicator_Cruiser </Starting_Forces>
@@ -2007,7 +2007,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, NR_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, B-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette</Starting_Forces>
@@ -2027,7 +2027,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Syca_Bomber_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
@@ -2045,7 +2045,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Empire, Carida, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, EotH_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Lancer_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Vindicator_Cruiser </Starting_Forces>
@@ -2944,7 +2944,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Underworld, Nirauan, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Nirauan, EotH_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Syca_Bomber_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Clawcraft_Squadron </Starting_Forces>
 		<Starting_Forces> Underworld, Nirauan, Asdoni </Starting_Forces>
@@ -2962,7 +2962,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Empire, Carida, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Carida, EotH_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Escort_Carrier </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Lancer_Frigate </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Vindicator_Cruiser </Starting_Forces>

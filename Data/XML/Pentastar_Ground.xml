@@ -2331,7 +2331,7 @@
 	</SpecialStructure>
 	
 	<SpecialStructure Name="Pentastar_Commercial_Entity">
-		<Variant_Of_Existing_Type>Empire_Tax_Collection</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Empire_Ground_Mining_Facility</Variant_Of_Existing_Type>
 		<Affiliation>Pentastar, Hutts, Pirates, Teradoc</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <StarBases>
 
-	<StarBase Name="Rebel_Star_Base_1">
+	<StarBase Name="NR_Star_Base_1">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION1 TEXT_TOOLTIP_GARRISON_RS_01</Encyclopedia_Text>
@@ -22,7 +22,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>1</Base_Level>
 		<Prev_Level_Base />
-		<Next_Level_Base>Rebel_Star_Base_2</Next_Level_Base>
+		<Next_Level_Base>NR_Star_Base_2</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -133,8 +133,8 @@
 		
 	</StarBase>
 
-	<StarBase Name="Rebel_Star_Base_1_Death_Clone">
-		<Text_ID>TEXT_REBEL_STAR_BASE_1</Text_ID>
+	<StarBase Name="NR_Star_Base_1_Death_Clone">
+		<Text_ID>TEXT_NR_Star_Base_1</Text_ID>
 		<Space_Model_Name>RB_station_01_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -147,7 +147,7 @@
 
 
 
-	<StarBase Name="Rebel_Star_Base_2">
+	<StarBase Name="NR_Star_Base_2">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2 TEXT_TOOLTIP_GARRISON_RS_02</Encyclopedia_Text>
@@ -167,8 +167,8 @@
 		<Size_Value>20</Size_Value>
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>2</Base_Level>
-		<Prev_Level_Base>Rebel_Star_Base_1</Prev_Level_Base>
-		<Next_Level_Base>Rebel_Star_Base_3</Next_Level_Base>
+		<Prev_Level_Base>NR_Star_Base_1</Prev_Level_Base>
+		<Next_Level_Base>NR_Star_Base_3</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -281,8 +281,8 @@
 		
 	</StarBase>
 
-	<StarBase Name="Rebel_Star_Base_2_Death_Clone">
-		<Text_ID>TEXT_REBEL_STAR_BASE_2</Text_ID>
+	<StarBase Name="NR_Star_Base_2_Death_Clone">
+		<Text_ID>TEXT_NR_Star_Base_2</Text_ID>
 		<Space_Model_Name>RB_station_02_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -295,7 +295,7 @@
 
 
 
-	<StarBase Name="Rebel_Star_Base_3">
+	<StarBase Name="NR_Star_Base_3">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3 TEXT_TOOLTIP_GARRISON_RS_03</Encyclopedia_Text>
@@ -315,8 +315,8 @@
 		<Size_Value>30</Size_Value>
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>3</Base_Level>
-		<Prev_Level_Base>Rebel_Star_Base_2</Prev_Level_Base>
-		<Next_Level_Base>Rebel_Star_Base_4</Next_Level_Base>
+		<Prev_Level_Base>NR_Star_Base_2</Prev_Level_Base>
+		<Next_Level_Base>NR_Star_Base_4</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -439,8 +439,8 @@
 		
 	</StarBase>
 
-	<StarBase Name="Rebel_Star_Base_3_Death_Clone">
-		<Text_ID>TEXT_REBEL_STAR_BASE_3</Text_ID>
+	<StarBase Name="NR_Star_Base_3_Death_Clone">
+		<Text_ID>TEXT_NR_Star_Base_3</Text_ID>
 		<Space_Model_Name>RB_station_03_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -453,9 +453,9 @@
 
 
 
-	<StarBase Name="Rebel_Star_Base_4">
+	<StarBase Name="NR_Star_Base_4">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
-		<Text_ID>TEXT_REBEL_STAR_BASE_4</Text_ID>
+		<Text_ID>TEXT_NR_Star_Base_4</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION4 TEXT_TOOLTIP_GARRISON_RS_04</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -473,8 +473,8 @@
 		<Size_Value>40</Size_Value>
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>4</Base_Level>
-		<Prev_Level_Base>Rebel_Star_Base_3</Prev_Level_Base>
-		<Next_Level_Base>Rebel_Star_Base_5</Next_Level_Base>
+		<Prev_Level_Base>NR_Star_Base_3</Prev_Level_Base>
+		<Next_Level_Base>NR_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -608,12 +608,12 @@
 
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_4_Rebel</Retreat_Self_Destruct_Explosion>
 		
-		<Death_Clone>Damage_Normal, Rebel_Star_Base_4_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, NR_Star_Base_4_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>16</Additional_Population_Capacity>
 	</StarBase>
 
-	<StarBase Name="Rebel_Star_Base_4_Death_Clone">
-		<Text_ID>TEXT_REBEL_STAR_BASE_4</Text_ID>
+	<StarBase Name="NR_Star_Base_4_Death_Clone">
+		<Text_ID>TEXT_NR_Star_Base_4</Text_ID>
 		<Space_Model_Name>RB_station_04_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -627,9 +627,9 @@
 
 
 
-	<StarBase Name="Rebel_Star_Base_5">
+	<StarBase Name="NR_Star_Base_5">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
-		<Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
+		<Text_ID>TEXT_NR_Star_Base_5</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_RS_05</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -647,7 +647,7 @@
 		<Size_Value>50</Size_Value>
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>5</Base_Level>
-		<Prev_Level_Base>Rebel_Star_Base_4</Prev_Level_Base>
+		<Prev_Level_Base>NR_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -785,12 +785,12 @@
 		
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Rebel</Retreat_Self_Destruct_Explosion>
 		
-		<Death_Clone>Damage_Normal, Rebel_Star_Base_5_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, NR_Star_Base_5_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>17</Additional_Population_Capacity>
 	</StarBase>
 
-	<StarBase Name="Rebel_Star_Base_5_Death_Clone">
-		<Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
+	<StarBase Name="NR_Star_Base_5_Death_Clone">
+		<Text_ID>TEXT_NR_Star_Base_5</Text_ID>
 		<Space_Model_Name>RB_station_05_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -803,9 +803,9 @@
 
 
 
-	<StarBase Name="Empire_Star_Base_1">
+	<StarBase Name="Remnant_Star_Base_1">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_1</Text_ID>
+		<Text_ID>TEXT_Remnant_Star_Base_1</Text_ID>
 		<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -828,7 +828,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Prev_Level_Base />
-		<Next_Level_Base>Empire_Star_Base_2</Next_Level_Base>
+		<Next_Level_Base>Remnant_Star_Base_2</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -927,8 +927,8 @@
 		
 	</StarBase>
 
-	<StarBase Name="Empire_Star_Base_1_Death_Clone">
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_2</Text_ID>
+	<StarBase Name="Remnant_Star_Base_1_Death_Clone">
+		<Text_ID>TEXT_Remnant_Star_Base_2</Text_ID>
 		<Space_Model_Name>EB_station_break_break_01.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -940,7 +940,7 @@
 
 
 
-	<StarBase Name="Empire_Star_Base_2">
+	<StarBase Name="Remnant_Star_Base_2">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2 TEXT_TOOLTIP_GARRISON_ES_02</Encyclopedia_Text>
@@ -963,8 +963,8 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Empire_Star_Base_1</Prev_Level_Base>
-		<Next_Level_Base>Empire_Star_Base_3</Next_Level_Base>
+		<Prev_Level_Base>Remnant_Star_Base_1</Prev_Level_Base>
+		<Next_Level_Base>Remnant_Star_Base_3</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -1067,8 +1067,8 @@
 		
 	</StarBase>
 
-	<StarBase Name="Empire_Star_Base_2_Death_Clone">
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_2</Text_ID>
+	<StarBase Name="Remnant_Star_Base_2_Death_Clone">
+		<Text_ID>TEXT_Remnant_Star_Base_2</Text_ID>
 		<Space_Model_Name>EB_station_break_break_02.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -1080,7 +1080,7 @@
 
 
 
-	<StarBase Name="Empire_Star_Base_3">
+	<StarBase Name="Remnant_Star_Base_3">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3 TEXT_TOOLTIP_GARRISON_ES_03</Encyclopedia_Text>
@@ -1103,8 +1103,8 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Empire_Star_Base_2</Prev_Level_Base>
-		<Next_Level_Base>Empire_Star_Base_4</Next_Level_Base>
+		<Prev_Level_Base>Remnant_Star_Base_2</Prev_Level_Base>
+		<Next_Level_Base>Remnant_Star_Base_4</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -1218,8 +1218,8 @@
 		
 	</StarBase>
 
-	<StarBase Name="Empire_Star_Base_3_Death_Clone">
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_3</Text_ID>
+	<StarBase Name="Remnant_Star_Base_3_Death_Clone">
+		<Text_ID>TEXT_Remnant_Star_Base_3</Text_ID>
 		<Space_Model_Name>EB_station_break_break_03.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -1231,9 +1231,9 @@
 
 
 
-	<StarBase Name="Empire_Star_Base_4">
+	<StarBase Name="Remnant_Star_Base_4">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_4</Text_ID>
+		<Text_ID>TEXT_Remnant_Star_Base_4</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION4 TEXT_TOOLTIP_GARRISON_ES_04</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -1254,8 +1254,8 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Empire_Star_Base_3</Prev_Level_Base>
-		<Next_Level_Base>Empire_Star_Base_5</Next_Level_Base>
+		<Prev_Level_Base>Remnant_Star_Base_3</Prev_Level_Base>
+		<Next_Level_Base>Remnant_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -1367,12 +1367,12 @@
 		
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_4_Empire</Retreat_Self_Destruct_Explosion>
 
-		<Death_Clone>Damage_Normal, Empire_Star_Base_4_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Remnant_Star_Base_4_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>16</Additional_Population_Capacity>
 	</StarBase>
 
-	<StarBase Name="Empire_Star_Base_4_Death_Clone">
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_4</Text_ID>
+	<StarBase Name="Remnant_Star_Base_4_Death_Clone">
+		<Text_ID>TEXT_Remnant_Star_Base_4</Text_ID>
 		<Space_Model_Name>EB_station_break_break_04.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -1385,9 +1385,9 @@
 
 
 
-	<StarBase Name="Empire_Star_Base_5">
+	<StarBase Name="Remnant_Star_Base_5">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_5</Text_ID>
+		<Text_ID>TEXT_Remnant_Star_Base_5</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_ES_05</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -1408,7 +1408,7 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Empire_Star_Base_4</Prev_Level_Base>
+		<Prev_Level_Base>Remnant_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -1538,12 +1538,12 @@
 		<Score_Cost_Credits> 24000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Empire</Retreat_Self_Destruct_Explosion>
 
-		<Death_Clone>Damage_Normal, Empire_Star_Base_5_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Remnant_Star_Base_5_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>17</Additional_Population_Capacity>
 	</StarBase>
 
-	<StarBase Name="Empire_Star_Base_5_Death_Clone">
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_5</Text_ID>
+	<StarBase Name="Remnant_Star_Base_5_Death_Clone">
+		<Text_ID>TEXT_Remnant_Star_Base_5</Text_ID>
 		<Space_Model_Name>EB_station_break_break_05.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
@@ -1559,7 +1559,7 @@
 
 
 	<StarBase Name="Empire_Training_Station">
-		<Text_ID>TEXT_EMPIRE_STAR_BASE_TRAINING</Text_ID>
+		<Text_ID>TEXT_Remnant_Star_Base_TRAINING</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
@@ -1732,8 +1732,8 @@
 		</HardPoints>
 	</StarBase>
 
-	<Starbase Name="Rebel_Star_Base_Tutorial">
-		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
+	<Starbase Name="NR_Star_Base_Tutorial">
+		<Variant_Of_Existing_Type>NR_Star_Base_1</Variant_Of_Existing_Type>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE, HIDE_WHEN_FOGGED</Behavior>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1760,8 +1760,8 @@
 	<!-- SKIRMISH SPECIFIC STARBASES DEFINED BELOW -->
 
 	<!-- Rebel Skirmish Starbases -->
-	<StarBase Name="Skirmish_Rebel_Star_Base_1">
-		<Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
+	<StarBase Name="Skirmish_NR_Star_Base_1">
+		<Variant_Of_Existing_Type>NR_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 	
@@ -1818,7 +1818,7 @@
 		
 
 		<!-- Base upgrade sequence -->
-		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4</Prev_Level_Base>
+		<Prev_Level_Base>Skirmish_NR_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
 		
 		<!-- Special Abilities unique to Skirmish mode -->
@@ -1839,7 +1839,7 @@
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_NR_Star_Base_5</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -1855,8 +1855,8 @@
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
 
-	<StarBase Name="Skirmish_Rebel_Star_Base_5">
-		<Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
+	<StarBase Name="Skirmish_NR_Star_Base_5">
+		<Variant_Of_Existing_Type>NR_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
@@ -1926,7 +1926,7 @@
 		
 
 		<!-- Base upgrade sequence -->
-		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4</Prev_Level_Base>
+		<Prev_Level_Base>Skirmish_NR_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
 		
 		<!-- Special Abilities unique to Skirmish mode -->
@@ -1947,7 +1947,7 @@
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_NR_Star_Base_5</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -1963,8 +1963,8 @@
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
 	<!-- Empire Skirmish Starbases -->
-	<StarBase Name="Skirmish_Empire_Star_Base_1">
-		<Variant_Of_Existing_Type>Empire_Star_Base_3</Variant_Of_Existing_Type>
+	<StarBase Name="Skirmish_Remnant_Star_Base_1">
+		<Variant_Of_Existing_Type>Remnant_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		
@@ -2017,7 +2017,7 @@
 		
 
 		<!-- Base upgrade sequence -->
-		<Prev_Level_Base>Skirmish_Empire_Star_Base_4</Prev_Level_Base>
+		<Prev_Level_Base>Skirmish_Remnant_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
 		
 		<!-- Special Abilities unique to Skirmish mode -->
@@ -2038,7 +2038,7 @@
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_Remnant_Star_Base_5</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -2054,8 +2054,8 @@
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
 	
-	<StarBase Name="Skirmish_Empire_Star_Base_5">
-		<Variant_Of_Existing_Type>Empire_Star_Base_3</Variant_Of_Existing_Type>
+	<StarBase Name="Skirmish_Remnant_Star_Base_5">
+		<Variant_Of_Existing_Type>Remnant_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
@@ -2123,7 +2123,7 @@
 		
 
 		<!-- Base upgrade sequence -->
-		<Prev_Level_Base>Skirmish_Empire_Star_Base_4</Prev_Level_Base>
+		<Prev_Level_Base>Skirmish_Remnant_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
 		
 		<!-- Special Abilities unique to Skirmish mode -->
@@ -2144,7 +2144,7 @@
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_Remnant_Star_Base_5</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -2160,8 +2160,8 @@
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
 	
-	<StarBase Name="Skirmish_Underworld_Star_Base_5">
-		<Variant_Of_Existing_Type>Underworld_Star_Base_3</Variant_Of_Existing_Type>
+	<StarBase Name="Skirmish_EotH_Star_Base_5">
+		<Variant_Of_Existing_Type>EotH_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<Starting_Spawned_Units_Tech_0>Clawcraft_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
@@ -2227,7 +2227,7 @@
 		
 
 		<!-- Base upgrade sequence -->
-		<Prev_Level_Base>Skirmish_Underworld_Star_Base_4</Prev_Level_Base>
+		<Prev_Level_Base>Skirmish_EotH_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
 		
 		<!-- Special Abilities unique to Skirmish mode -->
@@ -2248,7 +2248,7 @@
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_Remnant_Star_Base_5</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -2354,7 +2354,7 @@
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_Remnant_Star_Base_5</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>

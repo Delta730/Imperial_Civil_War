@@ -57,8 +57,8 @@ function Definitions()
 	-- First Task Force
 	{
 		"SpaceForce"	
-		,"MinimumTotalSize = 30"
-		,"MinimumTotalForce = 4000"					
+		,"MinimumTotalSize = 60"
+		,"MinimumTotalForce = 8000"					
 		,"SpaceHero | Frigate | Capital | Corvette | Bomber | Fighter = 100%"
 	},
 	{
@@ -70,7 +70,7 @@ function Definitions()
 	}
 	RequiredCategories = { "Infantry", "Corvette | Frigate | Capital | Super" }		--Must have at least one ground unit, also make sure space force is reasonable
 
-	PerFailureContrastAdjust = 0.5
+	PerFailureContrastAdjust = 1.0
 	
 	SpaceSecured = true
 	LandSecured = false

@@ -2745,6 +2745,14 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
+		<TradeRoute Name="Jomark_Phindar">
+		<Point_A>Jomark</Point_A>
+		<Point_B>Phind</Point_B>
+		<HS_Speed_Factor>0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="Jomark_Myrkr">
 		<Point_A>Jomark</Point_A>
 		<Point_B>Myrkr</Point_B>

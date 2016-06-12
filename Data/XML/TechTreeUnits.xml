@@ -1262,7 +1262,7 @@
 	<Tech_Level>99</Tech_Level>
 	</Squadron>
 	<Squadron Name="Empire_Tax_CollectionA">
-	<Variant_Of_Existing_Type>Empire_Tax_Collection</Variant_Of_Existing_Type>
+	<Variant_Of_Existing_Type>Empire_Ground_Mining_Facility</Variant_Of_Existing_Type>
 	<Tech_Level>99</Tech_Level>
 	</Squadron>
 	<Squadron Name="E_Ground_Base_ShieldA">

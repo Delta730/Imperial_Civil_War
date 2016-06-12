@@ -134,7 +134,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Rebel, Bilbringi, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Corona </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Sacheen</Starting_Forces>
@@ -151,7 +151,7 @@
 
 
 		<!-- Coruscant Space Forces -->
-		<Starting_Forces> Rebel, Coruscant, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Corona </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Corona </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, A-Wing_Squadron </Starting_Forces>
@@ -168,7 +168,7 @@
 
 		
 		<!-- Mrisst Space Forces -->
-		<Starting_Forces> Rebel, Mrisst, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -182,7 +182,7 @@
 		<Starting_Forces> Rebel, Mrisst, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Noquivzor Space Forces -->
-		<Starting_Forces> Rebel, Noquivzor, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -198,7 +198,7 @@
 		
 
 		<!-- Galantos Space Forces -->
-		<Starting_Forces> Rebel, Galantos, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -211,7 +211,7 @@
 		<Starting_Forces> Rebel, Galantos, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Borleais Space Forces -->
-		<Starting_Forces> Rebel, Borleais, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -225,7 +225,7 @@
 
 	
 		<!-- Pantolomin Space Forces -->
-		<Starting_Forces> Rebel, Pantolomin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Sacheen </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Sacheen </Starting_Forces>
@@ -459,7 +459,7 @@
 		
 		
 		<!-- Bilbringi Space Forces -->
-		<Starting_Forces> Rebel, Bilbringi, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bilbringi, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, E-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Corona </Starting_Forces>
 		<Starting_Forces> Rebel, Bilbringi, Sacheen</Starting_Forces>
@@ -476,7 +476,7 @@
 
 
 		<!-- Coruscant Space Forces -->
-		<Starting_Forces> Rebel, Coruscant, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Coruscant, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Corona </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, Corona </Starting_Forces>
 		<Starting_Forces> Rebel, Coruscant, A-Wing_Squadron </Starting_Forces>
@@ -493,7 +493,7 @@
 
 		
 		<!-- Mrisst Space Forces -->
-		<Starting_Forces> Rebel, Mrisst, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Mrisst, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Mrisst, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -507,7 +507,7 @@
 		<Starting_Forces> Rebel, Mrisst, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Noquivzor Space Forces -->
-		<Starting_Forces> Rebel, Noquivzor, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Noquivzor, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Noquivzor, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -523,7 +523,7 @@
 		
 
 		<!-- Galantos Space Forces -->
-		<Starting_Forces> Rebel, Galantos, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Galantos, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Galantos, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -536,7 +536,7 @@
 		<Starting_Forces> Rebel, Galantos, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Borleais Space Forces -->
-		<Starting_Forces> Rebel, Borleais, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Borleais, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Borleais, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -550,7 +550,7 @@
 
 	
 		<!-- Pantolomin Space Forces -->
-		<Starting_Forces> Rebel, Pantolomin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Pantolomin, NR_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Sacheen </Starting_Forces>
 		<Starting_Forces> Rebel, Pantolomin, Sacheen </Starting_Forces>

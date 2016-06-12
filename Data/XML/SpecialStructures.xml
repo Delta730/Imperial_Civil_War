@@ -2446,25 +2446,25 @@
 	
 	<SpecialStructure Name="Empire_Ground_Mining_Facility">
 		<Select_Box_Scale>200</Select_Box_Scale>
-		<Text_ID>TEXT_GROUND_MINING_FACILITY</Text_ID>
+		<Text_ID>TEXT_GROUND_TAX_AGENCY</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
-		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
+		<Land_Model_Name> EB_CommandCenter.alo </Land_Model_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>0.60</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
+		<Build_Max_Instances_Per_Planet> 5 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -2478,7 +2478,7 @@
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
-		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
+		<Icon_Name>i_button_eb_commandcenter.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2530,7 +2530,7 @@
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
-				<Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies>
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
 			<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
@@ -2560,8 +2560,8 @@
 			</Force_Healing_Ability>
 		</Abilities>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_MINING_00  </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_MINING_00, MP_TEXT_ENCYCLOPEDIA_MINING_01  </MP_Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TAX_COLLECTION, TEXT_ENCYCLOPEDIA_TAX_COLLECTION_01  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TAX_COLLECTION  </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<!-- The ground structures have this data which looks like it's space only because the
