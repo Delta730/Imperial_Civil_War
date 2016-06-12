@@ -1940,7 +1940,13 @@
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
 		
     </SpaceUnit>	
+	
+	<SpaceUnit Name="Remnant_Crusader">
+		<Variant_Of_Existing_Type>Crusader_Gunship</Variant_Of_Existing_Type>
+		<Tech_Level>4</Tech_Level>
+		<Affiliation>Empire</Affiliation>       
 		
+    </SpaceUnit>
 	
 	<SpaceUnit Name="Vindicator_Cruiser">
 		<Text_ID>TEXT_UNIT_VINDICATOR_CRUISER</Text_ID>
