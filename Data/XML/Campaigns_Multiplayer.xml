@@ -347,8 +347,8 @@
 		<Starting_Forces> Empire, Muunilinst, Imperial_Star_Destroyer_Two </Starting_Forces>
 		<!-- Muunilinst Land Forces -->
 		<Starting_Forces> Empire, Muunilinst, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Muunilinst, Empire_Tax_Collection </Starting_Forces>
-		<Starting_Forces> Empire, Muunilinst, Empire_Tax_Collection </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Empire_Ground_Mining_Facility </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Empire_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Bilbringi Space Forces -->
@@ -1066,8 +1066,8 @@
 		<Starting_Forces> Empire, Muunilinst, Strike_Cruiser  </Starting_Forces>
 		<!-- Muunilinst Land Forces -->
 		<Starting_Forces> Empire, Muunilinst, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Muunilinst, Empire_Tax_Collection </Starting_Forces>
-		<Starting_Forces> Empire, Muunilinst, Empire_Tax_Collection </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Empire_Ground_Mining_Facility </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Empire_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -1946,8 +1946,8 @@
 		<Starting_Forces> Empire, Muunilinst, Lancer_Frigate </Starting_Forces>
 		<!-- Muunilinst Land Forces -->
 		<Starting_Forces> Empire, Muunilinst, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Muunilinst, Empire_Tax_Collection </Starting_Forces>
-		<Starting_Forces> Empire, Muunilinst, Empire_Tax_Collection </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Empire_Ground_Mining_Facility </Starting_Forces>
+		<Starting_Forces> Empire, Muunilinst, Empire_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Muunilinst, Imperial_Stormtrooper_Squad </Starting_Forces>
