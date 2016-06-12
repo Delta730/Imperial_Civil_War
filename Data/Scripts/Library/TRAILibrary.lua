@@ -77,7 +77,7 @@ end
 
 
 function AI.SleepTimeHandler()
-  for _, faction in pairs(GC.factions) do
+  for _, faction in pairs(AI.factions) do
       if AI.SleepTime[faction] > 0 then
         AI.SleepTime[faction] = AI.SleepTime[faction] - 1
       end

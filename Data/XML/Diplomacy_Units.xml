@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<SpaceUnits>
+
+	<SpaceUnit Name="Diplomat_Empire">
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Text_ID>TEXT_ID_EMPIRE_DIPLOMAT</Text_ID>
+		<!--<Icon_Name>I_BUTTON_F_LancerUpgrade.tga</Icon_Name>-->
+		<Icon_Name>i_button_carrack_cruiser.tga</Icon_Name>
+		<Encyclopedia_Text>TEXT_UPGRADE_TARTAN_LANCER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_UNIT_UPGRADE</Encyclopedia_Unit_Class>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<Population_Value>0</Population_Value>
+		<GUI_Row>0</GUI_Row>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		<Neutralization_Cost>50.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<CategoryMask> NonCombatHero </CategoryMask>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Smuggler_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			
+
+			<System_Spy_Ability Name="Probe_Droid_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>60.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+      
+		</Abilities>
+	</SpaceUnit>
+
+
+
+	<SpaceUnit Name="Diplomat_Rebel">
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Text_ID>TEXT_ID_REBEL_DIPLOMAT</Text_ID>
+		<!--<Icon_Name>I_BUTTON_F_LancerUpgrade.tga</Icon_Name>-->
+		<Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
+		<Encyclopedia_Text>TEXT_UPGRADE_TARTAN_LANCER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_UNIT_UPGRADE</Encyclopedia_Unit_Class>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<Population_Value>0</Population_Value>
+		<GUI_Row>0</GUI_Row>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		<Neutralization_Cost>50.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<CategoryMask> NonCombatHero </CategoryMask>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Smuggler_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+
+			<System_Spy_Ability Name="Probe_Droid_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>60.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+		</Abilities>
+	</SpaceUnit>
+
+
+
+
+	<SpaceUnit Name="Diplomat_Underworld">
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Text_ID>TEXT_ID_UNDERWORLD_DIPLOMAT</Text_ID>
+		<!--<Icon_Name>I_BUTTON_F_LancerUpgrade.tga</Icon_Name>-->
+		<Icon_Name>i_button_carrack_cruiser.tga</Icon_Name>
+		<Encyclopedia_Text>TEXT_UPGRADE_TARTAN_LANCER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_UNIT_UPGRADE</Encyclopedia_Unit_Class>
+		<Affiliation>Underworld</Affiliation>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<Population_Value>0</Population_Value>
+		<GUI_Row>0</GUI_Row>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		<Neutralization_Cost>50.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<CategoryMask> NonCombatHero </CategoryMask>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Smuggler_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+
+
+			<System_Spy_Ability Name="Probe_Droid_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>60.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+		</Abilities>
+	</SpaceUnit>
+
+</SpaceUnits>

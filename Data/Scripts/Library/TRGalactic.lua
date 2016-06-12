@@ -7,17 +7,33 @@ local GC = {
   planets = {},
   fleets = {},
   faction_fleets = {},
-  fleet_type = Find_Object_Type("Galactic_Fleet")
+  fleet_type = Find_Object_Type("Galactic_Fleet"),
+  influence_dialog_event = nil
 }
 
 
 
-function GC.new(factions, planets, numSectors)
+function GC.new(factions, planets, numSectors, plot)
+  
+  influence_dialog = "Dialog_Diplomacy"
+  GC.influence_dialog_event = plot.Get_Event("Show_Dialog")
+  GC.influence_dialog_event.Set_Dialog(influence_dialog)
+  
   GC.factions = factions
   GC.AIDiplomats = {}
+  
+  local display_event = plot.Get_Event("STORY_CLICK_GUI_Diplomacy")
+  local deployed_ability_event = plot.Get_Event("Detect_Deployed_Ability")
+  local construct_event = plot.Get_Event("STORY_CONSTRUCT_Diplomat")
+  
   for _, player in pairs(factions) do
     if Find_Player(player).Is_Human() then
       GC.HumanPlayer = player
+      display_event.Set_Reward_Parameter(1, player)
+      deployed_ability_event.Set_Reward_Parameter(1, player)
+      construct_event.Set_Event_Parameter(0, TRLib.DiplomatTypes[player])
+      construct_event.Set_Reward_Parameter(1, player)
+      break
     end
   end
   
@@ -59,11 +75,12 @@ function GCUpdate()
   local spawned = false
   while true do
     if Check_Story_Flag(Find_Player(GC.HumanPlayer), "SHOW_INFLUENCE", nil, true) then
-      influence_dialog_event.Clear_Dialog_Text()
+      GC.influence_dialog_event.Clear_Dialog_Text()
       local planetWithDiplomat = nil
       for _, planet in pairs(GC.planets) do
         if planet.GameObject.Get_Owner().Is_Human() then --have to use Get_Owner here, since planet.Owner is only updated once every day
-          influence_dialog_event.Add_Dialog_Text("DUMMY_TEXT", planet.Text, planet.Influence)
+          
+          GC.influence_dialog_event.Add_Dialog_Text("DUMMY_TEXT", planet.Text, planet.Influence)
         end
         if GC.HumanDiplomat.OnMission and planet.DiplomatObject then    
           if planet.DiplomatObject == GC.HumanDiplomat then
@@ -72,8 +89,8 @@ function GCUpdate()
         end
       end
       if planetWithDiplomat then --giving info about diplomat location
-        influence_dialog_event.Add_Dialog_Text("TEXT_SEPERATOR")
-        influence_dialog_event.Add_Dialog_Text("TEXT_DIPLOMAT_LOCATION", planetWithDiplomat.Text)
+        GC.influence_dialog_event.Add_Dialog_Text("TEXT_SEPERATOR")
+        GC.influence_dialog_event.Add_Dialog_Text("TEXT_DIPLOMAT_LOCATION", planetWithDiplomat.Text)
       end
       Story_Event("DIALOG")
 		end
