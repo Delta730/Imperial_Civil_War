@@ -5844,6 +5844,46 @@
 		<Starting_Forces> Hutts, Odik, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Hutts, Odik, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Hutts, Odik, Imperial_Stormtrooper_Squad </Starting_Forces>
+	
+		<!-- Mrisst Space Forces -->
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Star_Destroyer_two </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Lancer_Frigate </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Carrack_Cruiser </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Victory_destroyer_Mark_One </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, TIE_Raptor_Squadron </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, TIE_Raptor_Squadron </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, TIE_Raptor_Squadron </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, TIE_Raptor_Squadron </Starting_Forces>	
+		<Starting_Forces> Hostile, Mrisst, TIE_Raptor_Squadron </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, TIE_Raptor_Squadron </Starting_Forces>
+		<!-- Mrisst Land Forces -->
+		<Starting_Forces> Hostile, Mrisst, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Hostile, Mrisst, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ilum Space Forces -->
+		<Starting_Forces> Hostile, Ilum, Zsinj_Star_Destroyer_two </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, Zsinj_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, Zsinj_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, Zsinj_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, TIE_Raptor_Squadron </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, TIE_Raptor_Squadron </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, TIE_Raptor_Squadron </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, TIE_Raptor_Squadron </Starting_Forces>	
+		<Starting_Forces> Hostile, Ilum, TIE_Raptor_Squadron </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, TIE_Raptor_Squadron </Starting_Forces>
+		<!-- Ilum Land Forces -->
+		<Starting_Forces> Hostile, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Hostile, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
 
 		
 	</Campaign>	
